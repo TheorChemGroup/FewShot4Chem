@@ -1,0 +1,12 @@
+type: molformer-hf
+name: molformer-xl
+version: 1.0.0
+hyperparams:
+  mode: embedding
+  pretrained_model_name_or_path: ibm/MoLFormer-XL-both-10pct
+  trust_remote_code: true
+  deterministic_eval: true
+  normalize: false
+  # Pin the model revision: newer remote code requires a newer transformers version.
+  revision: 7b12d946c181a37f6012b9dc3b002275de070314
+batch_size: 64

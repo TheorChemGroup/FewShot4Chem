@@ -1,0 +1,78 @@
+{
+  "id": "gen-1792945845-v0KbLdscRPyFFZlflRyn",
+  "object": "chat.completion",
+  "created": 1792945845,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-3.4},{\"id\":\"Q0001\",\"value\":-3.2},{\"id\":\"Q0002\",\"value\":-2.6},{\"id\":\"Q0003\",\"value\":-6.2},{\"id\":\"Q0004\",\"value\":-5.5},{\"id\":\"Q0005\",\"value\":-3.8},{\"id\":\"Q0006\",\"value\":-3.7},{\"id\":\"Q0007\",\"value\":-5.8},{\"id\":\"Q0008\",\"value\":-3.4},{\"id\":\"Q0009\",\"value\":-4.4},{\"id\":\"Q0010\",\"value\":-4.6},{\"id\":\"Q0011\",\"value\":-4.4},{\"id\":\"Q0012\",\"value\":-4.3},{\"id\":\"Q0013\",\"value\":-4.3},{\"id\":\"Q0014\",\"value\":-4.5},{\"id\":\"Q0015\",\"value\":-4.6},{\"id\":\"Q0016\",\"value\":-3.6},{\"id\":\"Q0017\",\"value\":-3.7},{\"id\":\"Q0018\",\"value\":-4.6},{\"id\":\"Q0019\",\"value\":-3.9},{\"id\":\"Q0020\",\"value\":-2.8},{\"id\":\"Q0021\",\"value\":-3.2},{\"id\":\"Q0022\",\"value\":-2.0},{\"id\":\"Q0023\",\"value\":-2.6},{\"id\":\"Q0024\",\"value\":-1.3},{\"id\":\"Q0025\",\"value\":-4.4},{\"id\":\"Q0026\",\"value\":-1.7},{\"id\":\"Q0027\",\"value\":-3.0},{\"id\":\"Q0028\",\"value\":-4.1},{\"id\":\"Q0029\",\"value\":-1.8},{\"id\":\"Q0030\",\"value\":-2.6},{\"id\":\"Q0031\",\"value\":-4.7},{\"id\":\"Q0032\",\"value\":-4.4},{\"id\":\"Q0033\",\"value\":-2.7},{\"id\":\"Q0034\",\"value\":-3.3},{\"id\":\"Q0035\",\"value\":-6.0},{\"id\":\"Q0036\",\"value\":-5.4},{\"id\":\"Q0037\",\"value\":-3.5},{\"id\":\"Q0038\",\"value\":-3.1},{\"id\":\"Q0039\",\"value\":-3.0}]}",
+        "refusal": null,
+        "reasoning": "**Assessing noisy data**\n\nI need to estimate a poorly labeled table, sifting through noisy observations and using chemistry principles. I have enough time, but a lot of values seem randomized. For instance, there are hydration values like -13 for alkene and +2.51 for cyclohexanone, which likely have shuffled labels. I should determine if the predictions reflect corrupted labels, focusing on actual data for each mismatch. It looks like I’ll need to prioritize strong anomalies to clean up this dataset.**Analyzing potential label issues**\n\nI suspect the property values might be shuffled, so I should focus on the statistical mean while considering physical relationships. It's important to remember not all means are valid because they could represent intended outputs in the property model. My previous data suggests labels could have been shuffled, which affects local expectations. I can estimate correlations from training data: alkanes around -1.985 on average, and alkenes at -9.2. It seems possible that permutations of labels occurred rather than just noise in the data.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Assessing noisy data**\n\nI need to estimate a poorly labeled table, sifting through noisy observations and using chemistry principles. I have enough time, but a lot of values seem randomized. For instance, there are hydration values like -13 for alkene and +2.51 for cyclohexanone, which likely have shuffled labels. I should determine if the predictions reflect corrupted labels, focusing on actual data for each mismatch. It looks like I’ll need to prioritize strong anomalies to clean up this dataset.**Analyzing potential label issues**\n\nI suspect the property values might be shuffled, so I should focus on the statistical mean while considering physical relationships. It's important to remember not all means are valid because they could represent intended outputs in the property model. My previous data suggests labels could have been shuffled, which affects local expectations. I can estimate correlations from training data: alkanes around -1.985 on average, and alkenes at -9.2. It seems possible that permutations of labels occurred rather than just noise in the data.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0784bef88900ca60016ade2eb61fc887d1bb3db2dbf0d9556b",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0784bef88900ca60016ade2ec2729c87d19c8ebb2b16fc5d4d",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0784bef88900ca60016ade2eca36f087d1803d30b1bd300980",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0784bef88900ca60016ade2ed372d487d18a1fe89e80627f8e",
+            "index": 4
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1671,
+    "completion_tokens": 2188,
+    "total_tokens": 3859,
+    "cost": 0.13028,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 1668,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.13028,
+      "upstream_inference_prompt_cost": 0.02088,
+      "upstream_inference_completions_cost": 0.1094
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1652,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

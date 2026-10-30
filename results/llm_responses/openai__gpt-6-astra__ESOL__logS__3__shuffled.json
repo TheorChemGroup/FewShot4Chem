@@ -1,0 +1,84 @@
+{
+  "id": "gen-1792946050-iunTF0f8dZ3r3XniOneH",
+  "object": "chat.completion",
+  "created": 1792946050,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-3.05},{\"id\":\"Q0001\",\"value\":-1.9},{\"id\":\"Q0002\",\"value\":-2.45},{\"id\":\"Q0003\",\"value\":-1.85},{\"id\":\"Q0004\",\"value\":-3.5},{\"id\":\"Q0005\",\"value\":-1.95},{\"id\":\"Q0006\",\"value\":-3.55},{\"id\":\"Q0007\",\"value\":-1.65},{\"id\":\"Q0008\",\"value\":-3.15},{\"id\":\"Q0009\",\"value\":-3.55},{\"id\":\"Q0010\",\"value\":-3.35},{\"id\":\"Q0011\",\"value\":-3.2},{\"id\":\"Q0012\",\"value\":-2.65},{\"id\":\"Q0013\",\"value\":-1.8},{\"id\":\"Q0014\",\"value\":-1.9},{\"id\":\"Q0015\",\"value\":-1.1},{\"id\":\"Q0016\",\"value\":-2.35},{\"id\":\"Q0017\",\"value\":-1.65},{\"id\":\"Q0018\",\"value\":-1.95},{\"id\":\"Q0019\",\"value\":-1.95},{\"id\":\"Q0020\",\"value\":-4.6},{\"id\":\"Q0021\",\"value\":-1.85},{\"id\":\"Q0022\",\"value\":-2.1},{\"id\":\"Q0023\",\"value\":-2.5},{\"id\":\"Q0024\",\"value\":-3.2},{\"id\":\"Q0025\",\"value\":-2.75},{\"id\":\"Q0026\",\"value\":-2.05},{\"id\":\"Q0027\",\"value\":-1.8},{\"id\":\"Q0028\",\"value\":-2.15},{\"id\":\"Q0029\",\"value\":-3.85},{\"id\":\"Q0030\",\"value\":-3.45},{\"id\":\"Q0031\",\"value\":-2.95},{\"id\":\"Q0032\",\"value\":-1.7},{\"id\":\"Q0033\",\"value\":-3.4},{\"id\":\"Q0034\",\"value\":-1.9},{\"id\":\"Q0035\",\"value\":-2.4},{\"id\":\"Q0036\",\"value\":-2.7},{\"id\":\"Q0037\",\"value\":-2.5},{\"id\":\"Q0038\",\"value\":-1.85},{\"id\":\"Q0039\",\"value\":-3.7}]}",
+        "refusal": null,
+        "reasoning": "**Evaluating corrupted dataset**\n\nI need to predict a corrupted dataset where there's ample time, but the labels seem random and inconsistent. It looks like the dataset is shuffled, with values like ethylbenzene at +1.1 and aniline at -1.6, while actual values vary. I should use local analogues for training but reduce noise. The labels appear permuted as well, making the evaluation likely noisy. I need to quantify reliable labels compared to noise for a robust response, which suggests the dataset involves a lot of randomness.**Analyzing recognizable labels**\n\nI have a list of actual labels, some recognizable from ESOL. For example, propyl formate is -0.410, and nitrobenzene is around -1.96, but its exact value might be -1.74. It seems like the data could be a random shuffle of many versus an intact fraction. I need to preserve correct log labels if they make sense and shrink others. The molecule family of barbiturates shows consistent values, while steroids vary significantly. I should accurately predict and adjust these Q-values based on their properties.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating corrupted dataset**\n\nI need to predict a corrupted dataset where there's ample time, but the labels seem random and inconsistent. It looks like the dataset is shuffled, with values like ethylbenzene at +1.1 and aniline at -1.6, while actual values vary. I should use local analogues for training but reduce noise. The labels appear permuted as well, making the evaluation likely noisy. I need to quantify reliable labels compared to noise for a robust response, which suggests the dataset involves a lot of randomness.**Analyzing recognizable labels**\n\nI have a list of actual labels, some recognizable from ESOL. For example, propyl formate is -0.410, and nitrobenzene is around -1.96, but its exact value might be -1.74. It seems like the data could be a random shuffle of many versus an intact fraction. I need to preserve correct log labels if they make sense and shrink others. The molecule family of barbiturates shows consistent values, while steroids vary significantly. I should accurately predict and adjust these Q-values based on their properties.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0af49861f22b5b2b016ade2f83731887d185b1a639a655297d",
+            "index": 1
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Estimating correlations**\n\nI’m thinking about what the estimates show about the correlation between true values and the provided ones. It looks like many larger molecules have varying correlations, like testosterone at -.22 and others like dibutylsebacate at -.41. Then I see the patterns in hydrophobic substances, with chlorobiphenyl not being significant except for certain compounds. Overall, it seems like there's a weak correlation around .1, but strong shrinkage seems necessary, with means around -2.6.",
+            "format": "openai-responses-v1",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0af49861f22b5b2b016ade2f8f054487d18abd95356f83b3c4",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0af49861f22b5b2b016ade2f995f4087d19ff8f067c0a174aa",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0af49861f22b5b2b016ade2f9f66a487d1a8eb3f2e44c7fc89",
+            "index": 5
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2153,
+    "completion_tokens": 2343,
+    "total_tokens": 4496,
+    "cost": 0.144055,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2150,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.144055,
+      "upstream_inference_prompt_cost": 0.026905,
+      "upstream_inference_completions_cost": 0.11715
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1807,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792955571-pMuo39AarCwOosW6wZMb",
+  "object": "chat.completion",
+  "created": 1792955571,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11350},{\"id\":\"Q0001\",\"value\":-11350},{\"id\":\"Q0002\",\"value\":-11350},{\"id\":\"Q0003\",\"value\":-11350},{\"id\":\"Q0004\",\"value\":-11350},{\"id\":\"Q0005\",\"value\":-11350},{\"id\":\"Q0006\",\"value\":-11350},{\"id\":\"Q0007\",\"value\":-11350},{\"id\":\"Q0008\",\"value\":-11350},{\"id\":\"Q0009\",\"value\":-11350},{\"id\":\"Q0010\",\"value\":-11350},{\"id\":\"Q0011\",\"value\":-11350},{\"id\":\"Q0012\",\"value\":-11350},{\"id\":\"Q0013\",\"value\":-11350},{\"id\":\"Q0014\",\"value\":-11350},{\"id\":\"Q0015\",\"value\":-11350},{\"id\":\"Q0016\",\"value\":-11350},{\"id\":\"Q0017\",\"value\":-11350},{\"id\":\"Q0018\",\"value\":-11350},{\"id\":\"Q0019\",\"value\":-11350},{\"id\":\"Q0020\",\"value\":-11350},{\"id\":\"Q0021\",\"value\":-11350},{\"id\":\"Q0022\",\"value\":-11350},{\"id\":\"Q0023\",\"value\":-11350},{\"id\":\"Q0024\",\"value\":-11350},{\"id\":\"Q0025\",\"value\":-11350},{\"id\":\"Q0026\",\"value\":-11350},{\"id\":\"Q0027\",\"value\":-11350},{\"id\":\"Q0028\",\"value\":-11350},{\"id\":\"Q0029\",\"value\":-11350},{\"id\":\"Q0030\",\"value\":-11350},{\"id\":\"Q0031\",\"value\":-11350},{\"id\":\"Q0032\",\"value\":-11350},{\"id\":\"Q0033\",\"value\":-11350},{\"id\":\"Q0034\",\"value\":-11350},{\"id\":\"Q0035\",\"value\":-11350},{\"id\":\"Q0036\",\"value\":-11350},{\"id\":\"Q0037\",\"value\":-11350},{\"id\":\"Q0038\",\"value\":-11350},{\"id\":\"Q0039\",\"value\":-11350}]}",
+        "refusal": null,
+        "reasoning": "I'm checking whether the given training energy values actually correspond to the molecular formulas, comparing rough Hartree-to-eV conversions against expected ranges and noticing some mismatches.\n\nSince the values don't seem to track cleanly with composition, I'm leaning toward predicting close to the training mean (~-11350) rather than trying to compute precise physics-based estimates, possibly with a slight blend toward atom-count-based approximations.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm checking whether the given training energy values actually correspond to the molecular formulas, comparing rough Hartree-to-eV conversions against expected ranges and noticing some mismatches.\n\nSince the values don't seem to track cleanly with composition, I'm leaning toward predicting close to the training mean (~-11350) rather than trying to compute precise physics-based estimates, possibly with a slight blend toward atom-count-based approximations.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 1207,
+    "total_tokens": 4521,
+    "cost": 0.037396,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.037396,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.02414
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 556,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

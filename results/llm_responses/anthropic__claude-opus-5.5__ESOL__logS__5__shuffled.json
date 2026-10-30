@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792951442-fCnSRNY6UNxgLnDfECFp",
+  "object": "chat.completion",
+  "created": 1792951442,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "content_filter",
+      "native_finish_reason": "refusal",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": "API integrators: you can reduce refusals for your users by configuring a fallback model — see https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback",
+        "reasoning": "The training labels look randomized or shuffled, so I don't think I can learn anything reliable from them—better to rely on actual chemical knowledge of solubility instead. I'll go compound by compound using known logS values, starting with pyracarbolid at roughly -2.6 based on its reported solubility and molecular weight.\n\nContinuing down the list, I'm estimating ethylbenzene around -2.77, 1-pentyne near -1.64, 1-hexyne about -2.36, fenchlorphos (ronnel) at roughly -5.72, and now moving on to hydroxy ethisterone.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "The training labels look randomized or shuffled, so I don't think I can learn anything reliable from them—better to rely on actual chemical knowledge of solubility instead. I'll go compound by compound using known logS values, starting with pyracarbolid at roughly -2.6 based on its reported solubility and molecular weight.\n\nContinuing down the list, I'm estimating ethylbenzene around -2.77, 1-pentyne near -1.64, 1-hexyne about -2.36, fenchlorphos (ronnel) at roughly -5.72, and now moving on to hydroxy ethisterone.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3224,
+    "completion_tokens": 234,
+    "total_tokens": 3458,
+    "cost": 0.017576,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.017576,
+      "upstream_inference_prompt_cost": 0.012896,
+      "upstream_inference_completions_cost": 0.00468
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 234,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

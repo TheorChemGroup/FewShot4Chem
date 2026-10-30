@@ -1,0 +1,78 @@
+{
+  "id": "gen-1792975914-pELnooQGBPUTi4lVr0fi",
+  "object": "chat.completion",
+  "created": 1792975914,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-3.1},{\"id\":\"Q0001\",\"value\":0.8},{\"id\":\"Q0002\",\"value\":-3.6},{\"id\":\"Q0003\",\"value\":-2.7},{\"id\":\"Q0004\",\"value\":-3.15},{\"id\":\"Q0005\",\"value\":-3.2},{\"id\":\"Q0006\",\"value\":-3.45},{\"id\":\"Q0007\",\"value\":-4.5},{\"id\":\"Q0008\",\"value\":-2.25},{\"id\":\"Q0009\",\"value\":-5.0},{\"id\":\"Q0010\",\"value\":-1.2},{\"id\":\"Q0011\",\"value\":-4.35},{\"id\":\"Q0012\",\"value\":-3.05},{\"id\":\"Q0013\",\"value\":-0.65},{\"id\":\"Q0014\",\"value\":-2.35},{\"id\":\"Q0015\",\"value\":-2.65},{\"id\":\"Q0016\",\"value\":-3.5},{\"id\":\"Q0017\",\"value\":-1.2},{\"id\":\"Q0018\",\"value\":-4.8},{\"id\":\"Q0019\",\"value\":-0.65},{\"id\":\"Q0020\",\"value\":-2.45},{\"id\":\"Q0021\",\"value\":-0.75},{\"id\":\"Q0022\",\"value\":-4.9},{\"id\":\"Q0023\",\"value\":-0.65},{\"id\":\"Q0024\",\"value\":-1.05},{\"id\":\"Q0025\",\"value\":-2.65},{\"id\":\"Q0026\",\"value\":-1.4},{\"id\":\"Q0027\",\"value\":-2.4},{\"id\":\"Q0028\",\"value\":-3.1},{\"id\":\"Q0029\",\"value\":-3.9},{\"id\":\"Q0030\",\"value\":-3.1},{\"id\":\"Q0031\",\"value\":-3.85},{\"id\":\"Q0032\",\"value\":-0.45},{\"id\":\"Q0033\",\"value\":-1.9},{\"id\":\"Q0034\",\"value\":-2.85},{\"id\":\"Q0035\",\"value\":-2.15},{\"id\":\"Q0036\",\"value\":-6.5},{\"id\":\"Q0037\",\"value\":-3.9},{\"id\":\"Q0038\",\"value\":0.05},{\"id\":\"Q0039\",\"value\":-4.45}]}",
+        "refusal": null,
+        "reasoning": "**Assessing training labels**\n\nI need to evaluate these corrupted training labels, as many seem nonsensical. I have around 5,000 tokens, which should be enough time to assess the data. It’s clear that the data is randomly shuffled with a mix of true and incorrect labels. Most are inconsistent, so I need to identify the true patterns, such as in cases like aniline or nitromethane. It seems likely that the labeling might have been intentionally corrupted.**Evaluating shuffled labels**\n\nI'm comparing various training labels, and it seems like they’re largely shuffled with some coincidence. I need to use averages and identify patterns, even if the derivatives I'm querying could be invalid. My goal is to produce meaningful chemistry predictions that align with the data table.\n\nTo strategize, I should consider past tasks, which often had mutated labels, usually around 50%. I'll calculate sensible predictions based on nearest benchmarks and my findings. For example, secobarbital has a logS range, and I can leverage the closest analogs for accurate predictions.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Assessing training labels**\n\nI need to evaluate these corrupted training labels, as many seem nonsensical. I have around 5,000 tokens, which should be enough time to assess the data. It’s clear that the data is randomly shuffled with a mix of true and incorrect labels. Most are inconsistent, so I need to identify the true patterns, such as in cases like aniline or nitromethane. It seems likely that the labeling might have been intentionally corrupted.**Evaluating shuffled labels**\n\nI'm comparing various training labels, and it seems like they’re largely shuffled with some coincidence. I need to use averages and identify patterns, even if the derivatives I'm querying could be invalid. My goal is to produce meaningful chemistry predictions that align with the data table.\n\nTo strategize, I should consider past tasks, which often had mutated labels, usually around 50%. I'll calculate sensible predictions based on nearest benchmarks and my findings. For example, secobarbital has a logS range, and I can leverage the closest analogs for accurate predictions.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0dff73bda04851bf016adea42b1c2087d1ba14453a88998069",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0dff73bda04851bf016adea43ad0e887d189892558dd45cfbf",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0dff73bda04851bf016adea44310cc87d1923996772d476b3b",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0dff73bda04851bf016adea44f185487d1be0b3b14f88aad77",
+            "index": 4
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2153,
+    "completion_tokens": 2469,
+    "total_tokens": 4622,
+    "cost": 0.150355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2150,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.150355,
+      "upstream_inference_prompt_cost": 0.026905,
+      "upstream_inference_completions_cost": 0.12345
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1935,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

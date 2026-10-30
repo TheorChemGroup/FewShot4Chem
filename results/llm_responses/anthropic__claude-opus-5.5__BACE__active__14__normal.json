@@ -1,0 +1,23 @@
+{
+  "id": "gen-1792975798-UJ0NxTxeVMAzpPmjOnHz",
+  "object": "chat.completion",
+  "created": 1792975798,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "content_filter",
+      "native_finish_reason": "refusal",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": "API integrators: you can reduce refusals for your users by configuring a fallback model — see https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback",
+        "reasoning": null
+      }
+    }
+  ]
+}

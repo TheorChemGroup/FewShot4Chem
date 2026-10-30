@@ -1,0 +1,102 @@
+{
+  "id": "gen-1792946173-zTLvSIWREuAwV1WYKrlR",
+  "object": "chat.completion",
+  "created": 1792946173,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":1.95},{\"id\":\"Q0001\",\"value\":2.15},{\"id\":\"Q0002\",\"value\":2.35},{\"id\":\"Q0003\",\"value\":3.35},{\"id\":\"Q0004\",\"value\":4.4},{\"id\":\"Q0005\",\"value\":1.65},{\"id\":\"Q0006\",\"value\":1.15},{\"id\":\"Q0007\",\"value\":2.55},{\"id\":\"Q0008\",\"value\":1.95},{\"id\":\"Q0009\",\"value\":2.15},{\"id\":\"Q0010\",\"value\":0.15},{\"id\":\"Q0011\",\"value\":3.75},{\"id\":\"Q0012\",\"value\":1.1},{\"id\":\"Q0013\",\"value\":0.65},{\"id\":\"Q0014\",\"value\":2.25},{\"id\":\"Q0015\",\"value\":3.15},{\"id\":\"Q0016\",\"value\":0.05},{\"id\":\"Q0017\",\"value\":1.65},{\"id\":\"Q0018\",\"value\":2.8},{\"id\":\"Q0019\",\"value\":1.65},{\"id\":\"Q0020\",\"value\":0.55},{\"id\":\"Q0021\",\"value\":1.5},{\"id\":\"Q0022\",\"value\":4.0},{\"id\":\"Q0023\",\"value\":2.3},{\"id\":\"Q0024\",\"value\":1.85},{\"id\":\"Q0025\",\"value\":1.55},{\"id\":\"Q0026\",\"value\":2.35},{\"id\":\"Q0027\",\"value\":2.1},{\"id\":\"Q0028\",\"value\":1.35},{\"id\":\"Q0029\",\"value\":1.3},{\"id\":\"Q0030\",\"value\":2.95},{\"id\":\"Q0031\",\"value\":2.25},{\"id\":\"Q0032\",\"value\":2.6},{\"id\":\"Q0033\",\"value\":1.15},{\"id\":\"Q0034\",\"value\":2.85},{\"id\":\"Q0035\",\"value\":0.85},{\"id\":\"Q0036\",\"value\":2.55},{\"id\":\"Q0037\",\"value\":1.9},{\"id\":\"Q0038\",\"value\":2.8},{\"id\":\"Q0039\",\"value\":1.65}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade300208e487d1b1b0f257f738509a",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade300d83e887d1afb5334ecb74f66f",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade3018bec487d1b021fc0949c138e5",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade302386fc87d196c688b2685f73ac",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade302eb3a087d1b16670618671cce2",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade3039161c87d19b51c4fb385e91af",
+            "index": 5
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating Gefitinib properties**\n\nI’m looking at Gefitinib's logP and logD values, along with its pKa. Pyrrolidine and morpholine are strongly basic, while benzodioxole against fluorochlorophenyl introduces a weak polar character. The neutral logP calculation gives me a result of 4.6, and factoring in the other values leads me to a final net value of 2.4. Based on this analysis, it seems like the adjusted choice would land close to 2.55.",
+            "format": "openai-responses-v1",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade3043460887d19a457c01e9d08a6a",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03e4f0ae126d2b33016ade304e927087d1af19c22bec9da016",
+            "index": 8
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3843,
+    "completion_tokens": 4524,
+    "total_tokens": 8367,
+    "cost": 0.27423,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 3840,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.27423,
+      "upstream_inference_prompt_cost": 0.04803,
+      "upstream_inference_completions_cost": 0.2262
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4028,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

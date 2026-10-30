@@ -1,0 +1,8 @@
+path: null
+bpe_params: {}
+trainer_params:
+  vocab_size: 1000
+  max_token_length: 6
+  special_tokens: ["[PAD]", "[MASK]"]
+padding_params:
+  pad_token: "[PAD]"

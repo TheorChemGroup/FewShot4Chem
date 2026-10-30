@@ -1,0 +1,8 @@
+type: selformer
+name: selformer
+version: 1.0.0
+hyperparams:
+  mode: embedding
+  pretrained_model_name_or_path: HUBioDataLab/SELFormer
+  normalize: false
+batch_size: 64

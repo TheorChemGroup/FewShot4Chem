@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792945633-S4CxQJfPmr76Os0caPln",
+  "object": "chat.completion",
+  "created": 1792945633,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11980.6},{\"id\":\"Q0001\",\"value\":-11302.3},{\"id\":\"Q0002\",\"value\":-10937.5},{\"id\":\"Q0003\",\"value\":-12454.5},{\"id\":\"Q0004\",\"value\":-11978.9},{\"id\":\"Q0005\",\"value\":-11314.1},{\"id\":\"Q0006\",\"value\":-9326.8},{\"id\":\"Q0007\",\"value\":-9358.7},{\"id\":\"Q0008\",\"value\":-11980.0},{\"id\":\"Q0009\",\"value\":-9556.2},{\"id\":\"Q0010\",\"value\":-10864.7},{\"id\":\"Q0011\",\"value\":-11980.3},{\"id\":\"Q0012\",\"value\":-12455.5},{\"id\":\"Q0013\",\"value\":-11717.5},{\"id\":\"Q0014\",\"value\":-12350.4},{\"id\":\"Q0015\",\"value\":-12455.4},{\"id\":\"Q0016\",\"value\":-10330.0},{\"id\":\"Q0017\",\"value\":-10500.0},{\"id\":\"Q0018\",\"value\":-10533.4},{\"id\":\"Q0019\",\"value\":-11477.0},{\"id\":\"Q0020\",\"value\":-10970.5},{\"id\":\"Q0021\",\"value\":-12612.3},{\"id\":\"Q0022\",\"value\":-10530.8},{\"id\":\"Q0023\",\"value\":-11576.8},{\"id\":\"Q0024\",\"value\":-11373.0},{\"id\":\"Q0025\",\"value\":-9704.0},{\"id\":\"Q0026\",\"value\":-13498.3},{\"id\":\"Q0027\",\"value\":-12679.5},{\"id\":\"Q0028\",\"value\":-11543.6},{\"id\":\"Q0029\",\"value\":-10992.5},{\"id\":\"Q0030\",\"value\":-11609.4},{\"id\":\"Q0031\",\"value\":-11445.2},{\"id\":\"Q0032\",\"value\":-12753.5},{\"id\":\"Q0033\",\"value\":-11978.6},{\"id\":\"Q0034\",\"value\":-11904.5},{\"id\":\"Q0035\",\"value\":-10799.3},{\"id\":\"Q0036\",\"value\":-11542.8},{\"id\":\"Q0037\",\"value\":-10934.8},{\"id\":\"Q0038\",\"value\":-11373.4},{\"id\":\"Q0039\",\"value\":-11543.5}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 by summing approximate atomic energy contributions for each element, recalling rough per-atom effective values like hydrogen around -16 eV and working out carbon's equivalent.\n\nThen I calibrate against known training molecules to solve for H, C, O, and N contributions, cross-checking each estimate against similar compounds in the training set before applying the same atom-counting formula to predict U0 for the target queries.\n\nFor Q4 I get -11996.2 with the protonated formula. Checking against a cation training example, the sum formula seems to run about 17 units less negative than expected, which suggests cations need a small positive correction added relative to the neutral calculation—something like accounting for the extra proton's smaller energy contribution compared to a full hydrogen atom.\n\nMoving to the other questions: for the hydroxylated dimethylpyrazole I sum carbon, hydrogen, and nitrogen/oxygen contributions to land around -11314.1. For the aminopentynenitrile compound I get roughly -9326.8 from the carbon, hydrogen, and nitrogen totals. Now I'm starting the calculation for the next cyclobutane-based cation.\n\nContinuing through Q13-Q17, I'm computing formula energies for each structure: C3H3N3O2 lands around -11717.5, the oxadiazole-oxetane compound comes to -12350.4, the alkyne-cyclohexanone gives -12455.6, the bicyclic nitrile structure sums to -10330.3, and the diyne alcohol totals roughly -10500.75.\n\nFor Q17-Q19, I'm cross-checking my formula-based estimates against training data values, adjusting for ring strain effects, settling on -10500.0 for the diyne alcohol, -10533.3 for the cyclopentene ketone, and -11477.0 for the bicyclic aldehyde after comparing with similar training examples.\n\nNow for Q20, I'm computing the nitrile ketone C7H11NO, getting -10969.75 from the formula and adjusting to -10970.5 based on the close training match at -10970.15. Moving to Q21, I'm checking the C8H14O2 estimate against a similar C7H14O2 training compound to validate the formula, then working through a bicyclic diol structure to calibrate for additional ring strain.\n\nContinuing through the list, I compute Q22 as a highly strained C8H12O bicyclic system around -10533.55, adjusted down for strain to -10530.5. Q23 is a cyclopropane diol ether C7H14O2 near -11576.4-11576.8. Q24 is a bicyclic amide-imine C6H8N2O landing around -11373.0 after formula calculation. Q25 is an aminopyrazolone C3H5N3O computing to -9703.95, and I'm starting on Q26 next.\n\nCounting up the ring hydrogens, I get C9H12N+, giving an energy around -10995.1.\n\nMoving through more candidates: Q30's diether gives -11609.2, Q31's furan-alkyne compound comes to -11445.2, Q32's triazole-oxadiazole fused ring scores much lower at -12753.8, and Q33's strained bicyclic amino alcohol sits near -11978.5. I'm now working through Q34's strained polycyclic structure with the bridged nitrogen.\n\nFor Q34, counting hydrogens carefully across the fused ring system gives C8H8NO+ with an energy around -11906.7, adjusted for strain to -11904. Q35's pyrazole-alkyne compound comes out to -10799.3, and I'm starting Q36's cyclobutane-containing ether at -11543.6.\n\nMoving to Q37, I tally the hydrogens across the bicyclic amine system to get C7H10NO+, landing around -10936.0 before adjusting to -10934.5 for strain. Q38's aromatic imidazole derivative settles near -11373.5, while Q39's cyclobutanone with hydroxyl and methyl substituents comes out matching Q36 at -11543.6.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 by summing approximate atomic energy contributions for each element, recalling rough per-atom effective values like hydrogen around -16 eV and working out carbon's equivalent.\n\nThen I calibrate against known training molecules to solve for H, C, O, and N contributions, cross-checking each estimate against similar compounds in the training set before applying the same atom-counting formula to predict U0 for the target queries.\n\nFor Q4 I get -11996.2 with the protonated formula. Checking against a cation training example, the sum formula seems to run about 17 units less negative than expected, which suggests cations need a small positive correction added relative to the neutral calculation—something like accounting for the extra proton's smaller energy contribution compared to a full hydrogen atom.\n\nMoving to the other questions: for the hydroxylated dimethylpyrazole I sum carbon, hydrogen, and nitrogen/oxygen contributions to land around -11314.1. For the aminopentynenitrile compound I get roughly -9326.8 from the carbon, hydrogen, and nitrogen totals. Now I'm starting the calculation for the next cyclobutane-based cation.\n\nContinuing through Q13-Q17, I'm computing formula energies for each structure: C3H3N3O2 lands around -11717.5, the oxadiazole-oxetane compound comes to -12350.4, the alkyne-cyclohexanone gives -12455.6, the bicyclic nitrile structure sums to -10330.3, and the diyne alcohol totals roughly -10500.75.\n\nFor Q17-Q19, I'm cross-checking my formula-based estimates against training data values, adjusting for ring strain effects, settling on -10500.0 for the diyne alcohol, -10533.3 for the cyclopentene ketone, and -11477.0 for the bicyclic aldehyde after comparing with similar training examples.\n\nNow for Q20, I'm computing the nitrile ketone C7H11NO, getting -10969.75 from the formula and adjusting to -10970.5 based on the close training match at -10970.15. Moving to Q21, I'm checking the C8H14O2 estimate against a similar C7H14O2 training compound to validate the formula, then working through a bicyclic diol structure to calibrate for additional ring strain.\n\nContinuing through the list, I compute Q22 as a highly strained C8H12O bicyclic system around -10533.55, adjusted down for strain to -10530.5. Q23 is a cyclopropane diol ether C7H14O2 near -11576.4-11576.8. Q24 is a bicyclic amide-imine C6H8N2O landing around -11373.0 after formula calculation. Q25 is an aminopyrazolone C3H5N3O computing to -9703.95, and I'm starting on Q26 next.\n\nCounting up the ring hydrogens, I get C9H12N+, giving an energy around -10995.1.\n\nMoving through more candidates: Q30's diether gives -11609.2, Q31's furan-alkyne compound comes to -11445.2, Q32's triazole-oxadiazole fused ring scores much lower at -12753.8, and Q33's strained bicyclic amino alcohol sits near -11978.5. I'm now working through Q34's strained polycyclic structure with the bridged nitrogen.\n\nFor Q34, counting hydrogens carefully across the fused ring system gives C8H8NO+ with an energy around -11906.7, adjusted for strain to -11904. Q35's pyrazole-alkyne compound comes out to -10799.3, and I'm starting Q36's cyclobutane-containing ether at -11543.6.\n\nMoving to Q37, I tally the hydrogens across the bicyclic amine system to get C7H10NO+, landing around -10936.0 before adjusting to -10934.5 for strain. Q38's aromatic imidazole derivative settles near -11373.5, while Q39's cyclobutanone with hydroxyl and methyl substituents comes out matching Q36 at -11543.6.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 4625,
+    "total_tokens": 7939,
+    "cost": 0.105756,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.105756,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.0925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3894,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

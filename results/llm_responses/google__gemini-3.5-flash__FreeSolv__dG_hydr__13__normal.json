@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792971478-8kvn4nZ6kq9W5i8HRToV",
+  "object": "chat.completion",
+  "created": 1792971478,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -9.4\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -4.4\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -6.5\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -0.1\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": 1.3\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": 0.1\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -2.6\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -14.5\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -19.5\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": -2.5\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -10.0\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -0.8\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -6.5\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": -2.5\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": -9.5\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -0.8\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -8.5\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -8.5\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -0.5\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -9.3\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -11.0\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -7.5\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -4.8\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -5.2\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": -4.6\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": 1.3\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": 2.5\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -1.9\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": -5.2\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -0.9\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": 1.5\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -3.2\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -5.8\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Exploring Molecular Similarity Approaches**\n\nI'm currently investigating methods to estimate hydration free energy for the query molecules, focusing on techniques like molecular similarity and feature-based estimations, utilizing the provided training set of 60 molecules to inform predictions for the 40 query molecules.\n\n**Analyzing Molecular Structures**\n\nI'm focusing on identifying functional groups and structural similarities between query and training molecules to estimate hydration free energies. This involves looking at amides, nitriles, and alkyl halides to find comparable data points.\n\n**Estimating Hydration Energies**\n\nI'm refining hydration free energy predictions by analyzing specific functional groups. For alkenes like ethylene, I'm comparing it to longer chains. I'm also assessing aldehydes and di-esters based on training data, and noting the significant hydrophilicity of glycerol and 5-fluorouracil.\n\n**Predicting Hydration Energies**\n\nI'm now applying my refined estimations to specific query molecules, considering their functional groups and comparing them to known values. For instance, I'm predicting the energy for Trifluralin at -2.5 kcal/mol, and for 4-Cyanophenol, I anticipate around -10.0 kcal/mol.\n\n**Refining Hydration Energy Predictions**\n\nI'm continuing to refine my hydration free energy estimations for the query molecules by carefully considering their functional groups and comparing them to similar structures in the training data. I've made progress on several new molecules, including 1-Methylimidazole, 2-Ethylpyridine, and Butylparaben, assigning estimated values based on these comparisons.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine hydration free energy predictions by examining specific query molecules and their functional groups. For N-methylaniline, I estimate -4.8 kcal/mol, and for 2-naphthylamine, around -5.2 kcal/mol. I've also assigned estimations for Vernolate at -3.5 kcal/mol and 1-Hexanol at -4.2 kcal/mol.\n\n**Refining Molecule Energy Estimates**\n\nI'm continuing to refine hydration free energy predictions for query molecules based on functional groups. I've estimated Ethoxyethyl acetate at -5.2 kcal/mol, Toluene around -0.9 kcal/mol, 2-Pentene around 1.5 kcal/mol, Chrysene near -4.0 kcal/mol, Pentylamine around -4.2 kcal/mol, Isobutyraldehyde at -3.2 kcal/mol, and 3-Phenyl-1-propanol approximately -5.8 kcal/mol.\n\n**Finalizing Hydration Energy Estimates**\n\nI've now finalized the hydration free energy estimations for all query molecules. I've cross-referenced my functional group analysis with published standard values where possible, ensuring consistency and accuracy across the dataset.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Exploring Molecular Similarity Approaches**\n\nI'm currently investigating methods to estimate hydration free energy for the query molecules, focusing on techniques like molecular similarity and feature-based estimations, utilizing the provided training set of 60 molecules to inform predictions for the 40 query molecules.\n\n**Analyzing Molecular Structures**\n\nI'm focusing on identifying functional groups and structural similarities between query and training molecules to estimate hydration free energies. This involves looking at amides, nitriles, and alkyl halides to find comparable data points.\n\n**Estimating Hydration Energies**\n\nI'm refining hydration free energy predictions by analyzing specific functional groups. For alkenes like ethylene, I'm comparing it to longer chains. I'm also assessing aldehydes and di-esters based on training data, and noting the significant hydrophilicity of glycerol and 5-fluorouracil.\n\n**Predicting Hydration Energies**\n\nI'm now applying my refined estimations to specific query molecules, considering their functional groups and comparing them to known values. For instance, I'm predicting the energy for Trifluralin at -2.5 kcal/mol, and for 4-Cyanophenol, I anticipate around -10.0 kcal/mol.\n\n**Refining Hydration Energy Predictions**\n\nI'm continuing to refine my hydration free energy estimations for the query molecules by carefully considering their functional groups and comparing them to similar structures in the training data. I've made progress on several new molecules, including 1-Methylimidazole, 2-Ethylpyridine, and Butylparaben, assigning estimated values based on these comparisons.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine hydration free energy predictions by examining specific query molecules and their functional groups. For N-methylaniline, I estimate -4.8 kcal/mol, and for 2-naphthylamine, around -5.2 kcal/mol. I've also assigned estimations for Vernolate at -3.5 kcal/mol and 1-Hexanol at -4.2 kcal/mol.\n\n**Refining Molecule Energy Estimates**\n\nI'm continuing to refine hydration free energy predictions for query molecules based on functional groups. I've estimated Ethoxyethyl acetate at -5.2 kcal/mol, Toluene around -0.9 kcal/mol, 2-Pentene around 1.5 kcal/mol, Chrysene near -4.0 kcal/mol, Pentylamine around -4.2 kcal/mol, Isobutyraldehyde at -3.2 kcal/mol, and 3-Phenyl-1-propanol approximately -5.8 kcal/mol.\n\n**Finalizing Hydration Energy Estimates**\n\nI've now finalized the hydration free energy estimations for all query molecules. I've cross-referenced my functional group analysis with published standard values where possible, ensuring consistency and accuracy across the dataset.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1949,
+    "completion_tokens": 4362,
+    "total_tokens": 6311,
+    "cost": 0.0421815,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0421815,
+      "upstream_inference_prompt_cost": 0.0029235,
+      "upstream_inference_completions_cost": 0.039258
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3266,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

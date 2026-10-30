@@ -1,0 +1,78 @@
+{
+  "id": "gen-1792969885-vFH1dZNn5I7MzbF56vIm",
+  "object": "chat.completion",
+  "created": 1792969885,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-5.3},{\"id\":\"Q0001\",\"value\":0.2},{\"id\":\"Q0002\",\"value\":-2.59},{\"id\":\"Q0003\",\"value\":0.78},{\"id\":\"Q0004\",\"value\":-4.66},{\"id\":\"Q0005\",\"value\":-3.35},{\"id\":\"Q0006\",\"value\":-2.85},{\"id\":\"Q0007\",\"value\":-1.72},{\"id\":\"Q0008\",\"value\":-2.85},{\"id\":\"Q0009\",\"value\":-0.62},{\"id\":\"Q0010\",\"value\":-2.25},{\"id\":\"Q0011\",\"value\":-2.9},{\"id\":\"Q0012\",\"value\":-3.79},{\"id\":\"Q0013\",\"value\":0.15},{\"id\":\"Q0014\",\"value\":-3.35},{\"id\":\"Q0015\",\"value\":0.07},{\"id\":\"Q0016\",\"value\":-0.86},{\"id\":\"Q0017\",\"value\":-4.45},{\"id\":\"Q0018\",\"value\":-3.72},{\"id\":\"Q0019\",\"value\":-3.65},{\"id\":\"Q0020\",\"value\":-3.52},{\"id\":\"Q0021\",\"value\":-5.45},{\"id\":\"Q0022\",\"value\":-1.7},{\"id\":\"Q0023\",\"value\":-2.25},{\"id\":\"Q0024\",\"value\":-2.15},{\"id\":\"Q0025\",\"value\":-1.95},{\"id\":\"Q0026\",\"value\":-3.65},{\"id\":\"Q0027\",\"value\":-4.3},{\"id\":\"Q0028\",\"value\":-7.6},{\"id\":\"Q0029\",\"value\":-4.0},{\"id\":\"Q0030\",\"value\":-1.62},{\"id\":\"Q0031\",\"value\":-2.03},{\"id\":\"Q0032\",\"value\":-3.2},{\"id\":\"Q0033\",\"value\":-2.95},{\"id\":\"Q0034\",\"value\":-1.55},{\"id\":\"Q0035\",\"value\":-2.64},{\"id\":\"Q0036\",\"value\":0.26},{\"id\":\"Q0037\",\"value\":-3.65},{\"id\":\"Q0038\",\"value\":-3.2},{\"id\":\"Q0039\",\"value\":0.12}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a2c13f5605ef353016ade8c9e098087d1a5cd027c522cd6db",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a2c13f5605ef353016ade8caa0bbc87d1b7783b0e5ec31636",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a2c13f5605ef353016ade8cb46e2887d1af0afc93c60e5430",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a2c13f5605ef353016ade8cc069b487d1b0e5fafa250e7a36",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a2c13f5605ef353016ade8ccbc99887d1a8addd431337a5ce",
+            "index": 4
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2156,
+    "completion_tokens": 2783,
+    "total_tokens": 4939,
+    "cost": 0.1660925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2153,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1660925,
+      "upstream_inference_prompt_cost": 0.0269425,
+      "upstream_inference_completions_cost": 0.13915
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2253,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

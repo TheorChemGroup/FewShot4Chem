@@ -1,0 +1,72 @@
+{
+  "id": "gen-1792970541-vqLyMKKZW6PK1Hb8FxCy",
+  "object": "chat.completion",
+  "created": 1792970541,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-1.35},{\"id\":\"Q0001\",\"value\":-8.6},{\"id\":\"Q0002\",\"value\":-4.65},{\"id\":\"Q0003\",\"value\":1.35},{\"id\":\"Q0004\",\"value\":-2.15},{\"id\":\"Q0005\",\"value\":-4.6},{\"id\":\"Q0006\",\"value\":-4.8},{\"id\":\"Q0007\",\"value\":-4.45},{\"id\":\"Q0008\",\"value\":-4.25},{\"id\":\"Q0009\",\"value\":-4.05},{\"id\":\"Q0010\",\"value\":-3.55},{\"id\":\"Q0011\",\"value\":-2.7},{\"id\":\"Q0012\",\"value\":-7.4},{\"id\":\"Q0013\",\"value\":-1.85},{\"id\":\"Q0014\",\"value\":-2.0},{\"id\":\"Q0015\",\"value\":-2.65},{\"id\":\"Q0016\",\"value\":-4.1},{\"id\":\"Q0017\",\"value\":-6.15},{\"id\":\"Q0018\",\"value\":-6.0},{\"id\":\"Q0019\",\"value\":-1.25},{\"id\":\"Q0020\",\"value\":-6.55},{\"id\":\"Q0021\",\"value\":-4.1},{\"id\":\"Q0022\",\"value\":-3.25},{\"id\":\"Q0023\",\"value\":-6.8},{\"id\":\"Q0024\",\"value\":-5.8},{\"id\":\"Q0025\",\"value\":-6.25},{\"id\":\"Q0026\",\"value\":-7.05},{\"id\":\"Q0027\",\"value\":-3.75},{\"id\":\"Q0028\",\"value\":-5.45},{\"id\":\"Q0029\",\"value\":-5.45},{\"id\":\"Q0030\",\"value\":-8.4},{\"id\":\"Q0031\",\"value\":-2.85},{\"id\":\"Q0032\",\"value\":-4.75},{\"id\":\"Q0033\",\"value\":-7.8},{\"id\":\"Q0034\",\"value\":-3.2},{\"id\":\"Q0035\",\"value\":-7.65},{\"id\":\"Q0036\",\"value\":-5.65},{\"id\":\"Q0037\",\"value\":-6.8},{\"id\":\"Q0038\",\"value\":-3.2},{\"id\":\"Q0039\",\"value\":-3.95}]}",
+        "refusal": null,
+        "reasoning": "**Calculating observations**\n\nI'm analyzing some queries, trying to infer patterns. It seems like all labels might be shuffled, leading to a mean of -4.3. I'd like to slightly shrink the nearest neighbors. Next, I'm calculating broad observations: I see small ethers with values of -2.49 and -3.64, while DME is -2.2. There are alkanes with values of -7.62, -5.51, and -4.33. Neopentane shows -5.5, and linear alkenes are at -3.12 and -3.13, but styrene is -.48, and ethene is -2.0, butene is -3.0.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Calculating observations**\n\nI'm analyzing some queries, trying to infer patterns. It seems like all labels might be shuffled, leading to a mean of -4.3. I'd like to slightly shrink the nearest neighbors. Next, I'm calculating broad observations: I see small ethers with values of -2.49 and -3.64, while DME is -2.2. There are alkanes with values of -7.62, -5.51, and -4.33. Neopentane shows -5.5, and linear alkenes are at -3.12 and -3.13, but styrene is -.48, and ethene is -2.0, butene is -3.0.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a5799e4ac525c53016ade8f2ef50487d18393c4d1125f8b2b",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a5799e4ac525c53016ade8f3cbf5c87d1a78301130d638f4d",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a5799e4ac525c53016ade8f44733c87d1a4f61e34f6977ebd",
+            "index": 3
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1672,
+    "completion_tokens": 2045,
+    "total_tokens": 3717,
+    "cost": 0.1231425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 1669,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1231425,
+      "upstream_inference_prompt_cost": 0.0208925,
+      "upstream_inference_completions_cost": 0.10225
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1510,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

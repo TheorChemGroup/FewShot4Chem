@@ -1,0 +1,126 @@
+{
+  "id": "gen-1792971524-UVLE7nbzl9xVYOxhYRr5",
+  "object": "chat.completion",
+  "created": 1792971524,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-13496.0},{\"id\":\"Q0001\",\"value\":-11315.5},{\"id\":\"Q0002\",\"value\":-12684.0},{\"id\":\"Q0003\",\"value\":-10870.0},{\"id\":\"Q0004\",\"value\":-10499.2},{\"id\":\"Q0005\",\"value\":-11947.0},{\"id\":\"Q0006\",\"value\":-12455.0},{\"id\":\"Q0007\",\"value\":-9554.9},{\"id\":\"Q0008\",\"value\":-11510.0},{\"id\":\"Q0009\",\"value\":-10565.0},{\"id\":\"Q0010\",\"value\":-10566.5},{\"id\":\"Q0011\",\"value\":-12451.5},{\"id\":\"Q0012\",\"value\":-10913.0},{\"id\":\"Q0013\",\"value\":-11375.5},{\"id\":\"Q0014\",\"value\":-11376.0},{\"id\":\"Q0015\",\"value\":-11544.0},{\"id\":\"Q0016\",\"value\":-12350.0},{\"id\":\"Q0017\",\"value\":-11846.0},{\"id\":\"Q0018\",\"value\":-9708.5},{\"id\":\"Q0019\",\"value\":-9960.0},{\"id\":\"Q0020\",\"value\":-9623.7},{\"id\":\"Q0021\",\"value\":-11442.5},{\"id\":\"Q0022\",\"value\":-10927.3},{\"id\":\"Q0023\",\"value\":-11829.0},{\"id\":\"Q0024\",\"value\":-11544.0},{\"id\":\"Q0025\",\"value\":-10497.2},{\"id\":\"Q0026\",\"value\":-12387.0},{\"id\":\"Q0027\",\"value\":-9462.2},{\"id\":\"Q0028\",\"value\":-11913.5},{\"id\":\"Q0029\",\"value\":-10969.3},{\"id\":\"Q0030\",\"value\":-11576.6},{\"id\":\"Q0031\",\"value\":-11306.5},{\"id\":\"Q0032\",\"value\":-11977.8},{\"id\":\"Q0033\",\"value\":-11001.6},{\"id\":\"Q0034\",\"value\":-11542.5},{\"id\":\"Q0035\",\"value\":-10968.7},{\"id\":\"Q0036\",\"value\":-10331.5},{\"id\":\"Q0037\",\"value\":-11946.5},{\"id\":\"Q0038\",\"value\":-10564.0},{\"id\":\"Q0039\",\"value\":-12520.0}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade93052d1487d1aa216111a0ed7285",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade930e513487d1ba7d81413cb337b0",
+            "index": 1
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Reviewing chemical formulas**\n\nI’m checking the values for ON C5H9NO2. The expected should be -10913.5, but it's actually -10876.91, which gives a difference of +36.6. I wonder if I confused it with C4H9NO2, but that doesn’t seem right. I’m thinking maybe ON is indeed C5H9NO2; the formula looks familiar. I should double-check my assumptions about the compounds and their properties to ensure accuracy!",
+            "format": "openai-responses-v1",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade9317756087d1a04d2ff9c8379757",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade93209dd887d1af4b3bba3923801e",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade9328b42c87d1808ff146316e5ae2",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade932ffbd087d19c4750f775802a22",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade933773b887d1bde1692f3429cbd4",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade933f65e487d18c05efa7b97a8dc9",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade9346ad5087d18227d1c04cc319d9",
+            "index": 9
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade934e54ec87d1864dc5a1b83a21a6",
+            "index": 10
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade93552f0c87d1ac6bd6cc53fbd60d",
+            "index": 11
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07ad99238ff910f9016ade935bcf8487d1818c2592bf818a5c",
+            "index": 12
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2417,
+    "completion_tokens": 6790,
+    "total_tokens": 9207,
+    "cost": 0.369705,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2414,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.369705,
+      "upstream_inference_prompt_cost": 0.030205,
+      "upstream_inference_completions_cost": 0.3395
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6214,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

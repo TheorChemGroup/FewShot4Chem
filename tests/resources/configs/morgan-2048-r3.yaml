@@ -1,0 +1,7 @@
+type: fingerprints
+name: morgan-2048-r3
+version: 1.0.0
+hyperparams:
+  radius: 3
+  fpSize: 2048
+batch_size: 1024

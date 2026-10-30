@@ -1,0 +1,13 @@
+# Embeddings are produced OFF-cluster through the OpenRouter API
+# (tools/textembed/embed_openrouter.py) and placed at datasets/<ds>/embeddings_gemini-embedding-2.npy.
+# The validator reads that cache and never constructs a model. On a cache miss, load_model() would
+# try to fetch "google/gemini-embedding-2" from Hugging Face, which does not exist there, so a miss
+# fails loudly instead of silently embedding with something else.
+type: text_embedding
+name: gemini-embedding-2
+version: 1.0.0
+hyperparams:
+  model_name_or_path: google/gemini-embedding-2
+  trust_remote_code: false
+  task: null
+batch_size: 100

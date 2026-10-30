@@ -1,0 +1,5 @@
+head_type: tabpfn
+objective_type: regression
+path: models/weights/tabpfn/{model_name}-{dataset_name}.pt
+device: cuda
+seed: 42

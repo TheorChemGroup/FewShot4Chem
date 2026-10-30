@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792945266-WIc6DzybV7Qo1IZDTJsR",
+  "object": "chat.completion",
+  "created": 1792945266,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": 2.2}, {\"id\": \"Q0001\", \"value\": 2.5}, {\"id\": \"Q0002\", \"value\": 1.3}, {\"id\": \"Q0003\", \"value\": 0.5}, {\"id\": \"Q0004\", \"value\": 1.1}, {\"id\": \"Q0005\", \"value\": 2.4}, {\"id\": \"Q0006\", \"value\": 0.8}, {\"id\": \"Q0007\", \"value\": 2.6}, {\"id\": \"Q0008\", \"value\": 1.8}, {\"id\": \"Q0009\", \"value\": 0.6}, {\"id\": \"Q0010\", \"value\": 3.1}, {\"id\": \"Q0011\", \"value\": 1.9}, {\"id\": \"Q0012\", \"value\": 1.1}, {\"id\": \"Q0013\", \"value\": 0.05}, {\"id\": \"Q0014\", \"value\": 1.6}, {\"id\": \"Q0015\", \"value\": 1.4}, {\"id\": \"Q0016\", \"value\": 2.8}, {\"id\": \"Q0017\", \"value\": 2.7}, {\"id\": \"Q0018\", \"value\": 2.1}, {\"id\": \"Q0019\", \"value\": 1.6}, {\"id\": \"Q0020\", \"value\": 1.9}, {\"id\": \"Q0021\", \"value\": 1.5}, {\"id\": \"Q0022\", \"value\": 2.3}, {\"id\": \"Q0023\", \"value\": 1.8}, {\"id\": \"Q0024\", \"value\": 3.0}, {\"id\": \"Q0025\", \"value\": 1.1}, {\"id\": \"Q0026\", \"value\": 0.9}, {\"id\": \"Q0027\", \"value\": 2.3}, {\"id\": \"Q0028\", \"value\": 0.9}, {\"id\": \"Q0029\", \"value\": 1.4}, {\"id\": \"Q0030\", \"value\": 1.4}, {\"id\": \"Q0031\", \"value\": 3.6}, {\"id\": \"Q0032\", \"value\": 1.6}, {\"id\": \"Q0033\", \"value\": 0.6}, {\"id\": \"Q0034\", \"value\": 1.9}, {\"id\": \"Q0035\", \"value\": 2.3}, {\"id\": \"Q0036\", \"value\": 4.1}, {\"id\": \"Q0037\", \"value\": 1.1}, {\"id\": \"Q0038\", \"value\": 3.2}, {\"id\": \"Q0039\", \"value\": 0.4}]}",
+        "refusal": null,
+        "reasoning": "**Exploring Training Data**\n\nI'm currently examining the initial training set of 60 molecules and their associated `logD` values. My focus is on understanding the structural features that correlate with these values, aiming to build a predictive model for the 40 query molecules.\n\n**Analyzing Molecule Properties**\n\nI've begun dissecting the initial training set, noting structural trends. For instance, the presence of carboxylic acids seems to lower `logD`, while phenols and oxygen heterocycles appear to increase it. I'm also investigating the behavior of nitroaniline.\n\n**Investigating Discrepancies**\n\nI'm reviewing the provided `logD` values and molecular structures. There seem to be some inconsistencies, particularly with Q0036, where the provided training data structure differs from the query molecule, suggesting a higher lipophilicity for Q0036 than initially indicated. This necessitates re-evaluation.\n\n**Refining Predictions**\n\nI've been refining my logD predictions by considering specific functional groups and their ionization states. For instance, the amine in one molecule suggests a lower logD, and I've estimated a pKa-based value. Another molecule's structure points to a logP around 2.0-3.0. I'm also evaluating a naphthoquinone derivative and venlafaxine, accounting for their known properties.\n\n**Adjusting Predictions Based on Structure**\n\nI'm now refining my estimations for Q0005 by comparing it to a similar training molecule. Replacing a protonated dimethylamino group with a neutral methoxypropyl moiety suggests a significant increase in logD. I'm predicting a value of 1.1, a slight decrease from my initial 1.2 estimate, accounting for subtle structural influences.\n\n**Estimating Q0006 LogD**\n\nI've compared Q0006 to a structurally similar training molecule with a logD of 1.20. Replacing the phenyl group with a trifluoroethyl group is expected to decrease lipophilicity. Considering the ionized sulfonamide group, I predict Q0006's logD to be approximately 0.8.\n\n**Adjusting LogD Predictions**\n\nI've refined my estimations for several query molecules. For Q0008, I predict a logD of 1.8, considering its weak basicity. Q0009's logD is estimated at 0.6, factoring in its protonated amine and polar groups. For Q0010, I predict 3.1, and for Q0011, the carboxylic acid's ionization significantly impacts the predicted logD.\n\n**Calculating Zwitterionic LogD**\n\nI'm now analyzing Q0011's zwitterionic nature and lipophilic contributions. The neutral logP appears high, around 5.5. Considering its zwitterionic form at pH 7.4, I'm estimating the logD to be 1.9, reflecting the reduced lipophilicity due to charge.\n\n**Estimating LogD Values**\n\nI'm continuing to estimate logD values for the query molecules based on structural analysis and comparisons to known compounds. I've arrived at predictions for Q0013 (0.05), Q0014 (1.6), Q0015 (1.4), Q0016 (2.8), and Q0017 (2.7), considering acidity, basicity, lipophilicity, and ionization states.\n\n**Estimating Final Molecules**\n\nI'm now focusing on the final set of query molecules. For Q0018, I've predicted a logD of 2.1 based on its neutral nature. Q0019's carboxylic acid leads to an estimated logD of 1.6. Q0020's basicity suggests a logD around 1.9, and Q0021, being amphoteric, is predicted at 1.5. Finally, Q0022 is estimated at 2.1 due to its neutral properties.\n\n**Refining LogD Predictions**\n\nI am continuing to refine logD estimates for the remaining query molecules. Based on structural features and ionization at pH 7.4, I've derived preliminary predictions for Q0023 through Q0029, aiming for accuracy by considering the interplay of functional groups and basicity.\n\n**Finalizing LogD Calculations**\n\nI've completed estimations for Q0030 through Q0032, considering their unique functional groups and ionization states at pH 7.4. For Q0031, I've adjusted based on the subtle polarity difference from its training analog. I'm now assessing the stereochemistry and functional groups of Q0033.\n\n**Finalizing Remaining Estimates**\n\nI've now focused on the final query molecules, completing estimations for Q0032 through Q0036. For Q0033, the ribose derivative's hydrophilic nature led to a prediction of 0.6. Q0034, similar to Ondansetron, is estimated at 1.9. Q0035, with its lipophilic core and basic piperidine, is predicted at 2.3, and Q0036, a neutral and highly lipophilic amide, is predicted at 4.1. I am now analyzing Q0037.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Exploring Training Data**\n\nI'm currently examining the initial training set of 60 molecules and their associated `logD` values. My focus is on understanding the structural features that correlate with these values, aiming to build a predictive model for the 40 query molecules.\n\n**Analyzing Molecule Properties**\n\nI've begun dissecting the initial training set, noting structural trends. For instance, the presence of carboxylic acids seems to lower `logD`, while phenols and oxygen heterocycles appear to increase it. I'm also investigating the behavior of nitroaniline.\n\n**Investigating Discrepancies**\n\nI'm reviewing the provided `logD` values and molecular structures. There seem to be some inconsistencies, particularly with Q0036, where the provided training data structure differs from the query molecule, suggesting a higher lipophilicity for Q0036 than initially indicated. This necessitates re-evaluation.\n\n**Refining Predictions**\n\nI've been refining my logD predictions by considering specific functional groups and their ionization states. For instance, the amine in one molecule suggests a lower logD, and I've estimated a pKa-based value. Another molecule's structure points to a logP around 2.0-3.0. I'm also evaluating a naphthoquinone derivative and venlafaxine, accounting for their known properties.\n\n**Adjusting Predictions Based on Structure**\n\nI'm now refining my estimations for Q0005 by comparing it to a similar training molecule. Replacing a protonated dimethylamino group with a neutral methoxypropyl moiety suggests a significant increase in logD. I'm predicting a value of 1.1, a slight decrease from my initial 1.2 estimate, accounting for subtle structural influences.\n\n**Estimating Q0006 LogD**\n\nI've compared Q0006 to a structurally similar training molecule with a logD of 1.20. Replacing the phenyl group with a trifluoroethyl group is expected to decrease lipophilicity. Considering the ionized sulfonamide group, I predict Q0006's logD to be approximately 0.8.\n\n**Adjusting LogD Predictions**\n\nI've refined my estimations for several query molecules. For Q0008, I predict a logD of 1.8, considering its weak basicity. Q0009's logD is estimated at 0.6, factoring in its protonated amine and polar groups. For Q0010, I predict 3.1, and for Q0011, the carboxylic acid's ionization significantly impacts the predicted logD.\n\n**Calculating Zwitterionic LogD**\n\nI'm now analyzing Q0011's zwitterionic nature and lipophilic contributions. The neutral logP appears high, around 5.5. Considering its zwitterionic form at pH 7.4, I'm estimating the logD to be 1.9, reflecting the reduced lipophilicity due to charge.\n\n**Estimating LogD Values**\n\nI'm continuing to estimate logD values for the query molecules based on structural analysis and comparisons to known compounds. I've arrived at predictions for Q0013 (0.05), Q0014 (1.6), Q0015 (1.4), Q0016 (2.8), and Q0017 (2.7), considering acidity, basicity, lipophilicity, and ionization states.\n\n**Estimating Final Molecules**\n\nI'm now focusing on the final set of query molecules. For Q0018, I've predicted a logD of 2.1 based on its neutral nature. Q0019's carboxylic acid leads to an estimated logD of 1.6. Q0020's basicity suggests a logD around 1.9, and Q0021, being amphoteric, is predicted at 1.5. Finally, Q0022 is estimated at 2.1 due to its neutral properties.\n\n**Refining LogD Predictions**\n\nI am continuing to refine logD estimates for the remaining query molecules. Based on structural features and ionization at pH 7.4, I've derived preliminary predictions for Q0023 through Q0029, aiming for accuracy by considering the interplay of functional groups and basicity.\n\n**Finalizing LogD Calculations**\n\nI've completed estimations for Q0030 through Q0032, considering their unique functional groups and ionization states at pH 7.4. For Q0031, I've adjusted based on the subtle polarity difference from its training analog. I'm now assessing the stereochemistry and functional groups of Q0033.\n\n**Finalizing Remaining Estimates**\n\nI've now focused on the final query molecules, completing estimations for Q0032 through Q0036. For Q0033, the ribose derivative's hydrophilic nature led to a prediction of 0.6. Q0034, similar to Ondansetron, is estimated at 1.9. Q0035, with its lipophilic core and basic piperidine, is predicted at 2.3, and Q0036, a neutral and highly lipophilic amide, is predicted at 4.1. I am now analyzing Q0037.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4207,
+    "completion_tokens": 6754,
+    "total_tokens": 10961,
+    "cost": 0.0670965,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0670965,
+      "upstream_inference_prompt_cost": 0.0063105,
+      "upstream_inference_completions_cost": 0.060786
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6030,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

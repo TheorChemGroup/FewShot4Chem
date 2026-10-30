@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792969704-oiqTHofdy65AyB1fAvKM",
+  "object": "chat.completion",
+  "created": 1792969704,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -0.80\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -1.80\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -0.40\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -13.50\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -0.50\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -2.40\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -2.40\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -4.50\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -4.50\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -11.00\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": -9.00\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -1.50\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -4.00\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -4.00\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": -3.50\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": -2.50\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -2.50\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -6.50\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": 1.70\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -5.00\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -7.50\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -0.70\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -4.50\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -5.00\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -1.50\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -3.80\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -10.00\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -0.30\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -3.50\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": -2.60\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": -4.60\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": 2.60\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -4.50\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": 1.20\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -4.00\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -1.50\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": -5.50\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": 2.50\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -3.90\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -4.80\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Exploring Molecular Hydration**\n\nMy current focus is on analyzing the training data, specifically examining classes like alkanes and alkenes. I'm beginning to dissect their structural characteristics to understand their impact on hydration free energy predictions.\n\n**Analyzing Hydration Trends**\n\nI'm observing a clear trend: while alkanes and alkenes lean hydrophobic with positive free energies, alkyl halides and aromatics show more varied behavior, often exhibiting negative free energies. Oxygenated compounds, particularly phenols and esters, display significantly negative values, suggesting strong hydrophilic interactions. Nitrogen-containing heterocycles also present highly negative free energies.\n\n**Estimating Hydration Energies**\n\nI'm now working on estimating hydration free energies for new molecules. Based on existing trends, I'm predicting values for p-xylene, butyl nitrate, and isobutylbenzene by considering structural modifications. Next, I'll tackle glycerol.\n\n**Refining Hydration Estimates**\n\nI'm refining my estimates for new molecules. Ethylene glycol's value helps me predict glycerol's strongly negative energy. I'm also assessing ethers, esters, aldehydes, naphthylamines, and amines, adjusting predictions based on structural variations like branching and chain length to capture their varying hydrophilic/hydrophobic characteristics.\n\n**Predicting Hydration Energy**\n\nI'm now predicting hydration free energies for several new molecules. Based on structural analysis and comparisons to known compounds, I've estimated values for Ametryn, hydrazine, thioanisole, isobutylpyrazine, 1,1,1-trifluoro-2-propanol, and 1-methylpiperidine. My next step involves tackling polycyclic aromatic hydrocarbons like anthracene and phenanthrene.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration free energies by comparing structures to known values. I've estimated chrysene, a PCB analog, and 2-propoxyethanol, with further predictions for 1-heptene, phorate, butylparaben, and mesitylene based on substituent effects.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration free energies based on structural similarities. My latest estimations include cyclohexylamine, acetonitrile, 1-methylnaphthalene, isobutyraldehyde, 4-cyanophenol, tert-butylbenzene, tetrahydropyran, and isopropyl acetate. I'm now working on the dinitro compound butane-1,3-diol dinitrate.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration free energies based on structural similarities. My latest estimations include cyclohexylamine, acetonitrile, 1-methylnaphthalene, isobutyraldehyde, 4-cyanophenol, tert-butylbenzene, tetrahydropyran, and isopropyl acetate. I'm now working on the dinitro compound butane-1,3-diol dinitrate.\n\n**Assessing Hydration Trends**\n\nI'm now evaluating new structures: propane-1,2-diol dinitrate is predicted around -4.60. 2,4-dimethylpentane, a branched alkane, is estimated at 2.60. 3-phenyl-1-propanol is around -4.5, and ethylene at 1.20. 2-ethylpyridine is estimated at -4.00. Benzyl bromide is approximately -1.50, and 3,3,3-trimethoxypropanenitrile is around -5.5.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Exploring Molecular Hydration**\n\nMy current focus is on analyzing the training data, specifically examining classes like alkanes and alkenes. I'm beginning to dissect their structural characteristics to understand their impact on hydration free energy predictions.\n\n**Analyzing Hydration Trends**\n\nI'm observing a clear trend: while alkanes and alkenes lean hydrophobic with positive free energies, alkyl halides and aromatics show more varied behavior, often exhibiting negative free energies. Oxygenated compounds, particularly phenols and esters, display significantly negative values, suggesting strong hydrophilic interactions. Nitrogen-containing heterocycles also present highly negative free energies.\n\n**Estimating Hydration Energies**\n\nI'm now working on estimating hydration free energies for new molecules. Based on existing trends, I'm predicting values for p-xylene, butyl nitrate, and isobutylbenzene by considering structural modifications. Next, I'll tackle glycerol.\n\n**Refining Hydration Estimates**\n\nI'm refining my estimates for new molecules. Ethylene glycol's value helps me predict glycerol's strongly negative energy. I'm also assessing ethers, esters, aldehydes, naphthylamines, and amines, adjusting predictions based on structural variations like branching and chain length to capture their varying hydrophilic/hydrophobic characteristics.\n\n**Predicting Hydration Energy**\n\nI'm now predicting hydration free energies for several new molecules. Based on structural analysis and comparisons to known compounds, I've estimated values for Ametryn, hydrazine, thioanisole, isobutylpyrazine, 1,1,1-trifluoro-2-propanol, and 1-methylpiperidine. My next step involves tackling polycyclic aromatic hydrocarbons like anthracene and phenanthrene.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration free energies by comparing structures to known values. I've estimated chrysene, a PCB analog, and 2-propoxyethanol, with further predictions for 1-heptene, phorate, butylparaben, and mesitylene based on substituent effects.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration free energies based on structural similarities. My latest estimations include cyclohexylamine, acetonitrile, 1-methylnaphthalene, isobutyraldehyde, 4-cyanophenol, tert-butylbenzene, tetrahydropyran, and isopropyl acetate. I'm now working on the dinitro compound butane-1,3-diol dinitrate.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration free energies based on structural similarities. My latest estimations include cyclohexylamine, acetonitrile, 1-methylnaphthalene, isobutyraldehyde, 4-cyanophenol, tert-butylbenzene, tetrahydropyran, and isopropyl acetate. I'm now working on the dinitro compound butane-1,3-diol dinitrate.\n\n**Assessing Hydration Trends**\n\nI'm now evaluating new structures: propane-1,2-diol dinitrate is predicted around -4.60. 2,4-dimethylpentane, a branched alkane, is estimated at 2.60. 3-phenyl-1-propanol is around -4.5, and ethylene at 1.20. 2-ethylpyridine is estimated at -4.00. Benzyl bromide is approximately -1.50, and 3,3,3-trimethoxypropanenitrile is around -5.5.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1950,
+    "completion_tokens": 5106,
+    "total_tokens": 7056,
+    "cost": 0.048879,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.048879,
+      "upstream_inference_prompt_cost": 0.002925,
+      "upstream_inference_completions_cost": 0.045954
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3971,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

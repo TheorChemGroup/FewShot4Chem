@@ -1,0 +1,84 @@
+{
+  "id": "gen-1792975841-t8et4DBsm7yVwFfsBuiw",
+  "object": "chat.completion",
+  "created": 1792975841,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":1.75},{\"id\":\"Q0001\",\"value\":2.65},{\"id\":\"Q0002\",\"value\":2.2},{\"id\":\"Q0003\",\"value\":2.1},{\"id\":\"Q0004\",\"value\":3.55},{\"id\":\"Q0005\",\"value\":2.45},{\"id\":\"Q0006\",\"value\":2.0},{\"id\":\"Q0007\",\"value\":2.05},{\"id\":\"Q0008\",\"value\":2.15},{\"id\":\"Q0009\",\"value\":1.4},{\"id\":\"Q0010\",\"value\":1.85},{\"id\":\"Q0011\",\"value\":2.4},{\"id\":\"Q0012\",\"value\":1.0},{\"id\":\"Q0013\",\"value\":3.6},{\"id\":\"Q0014\",\"value\":2.65},{\"id\":\"Q0015\",\"value\":1.25},{\"id\":\"Q0016\",\"value\":3.05},{\"id\":\"Q0017\",\"value\":1.4},{\"id\":\"Q0018\",\"value\":3.25},{\"id\":\"Q0019\",\"value\":3.05},{\"id\":\"Q0020\",\"value\":0.35},{\"id\":\"Q0021\",\"value\":0.3},{\"id\":\"Q0022\",\"value\":1.75},{\"id\":\"Q0023\",\"value\":2.55},{\"id\":\"Q0024\",\"value\":0.9},{\"id\":\"Q0025\",\"value\":1.45},{\"id\":\"Q0026\",\"value\":2.25},{\"id\":\"Q0027\",\"value\":2.25},{\"id\":\"Q0028\",\"value\":1.65},{\"id\":\"Q0029\",\"value\":1.85},{\"id\":\"Q0030\",\"value\":1.55},{\"id\":\"Q0031\",\"value\":0.65},{\"id\":\"Q0032\",\"value\":1.0},{\"id\":\"Q0033\",\"value\":1.0},{\"id\":\"Q0034\",\"value\":3.65},{\"id\":\"Q0035\",\"value\":2.05},{\"id\":\"Q0036\",\"value\":1.0},{\"id\":\"Q0037\",\"value\":2.6},{\"id\":\"Q0038\",\"value\":2.35},{\"id\":\"Q0039\",\"value\":1.5}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0669310b7d16bb75016adea3e30c3487d1a43893b06b3b9cd5",
+            "index": 0
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Estimating logP values**\n\nI’m working on estimating the logP values for phenyl imidazopyridine, which is 2.8. It seems related to a train benzimidazole pyridine that's at 2.5. The main change is replacing pyridine with phenyl, which adds 0.7. There’s also the bridging of N versus NH, which gives it an additional +0.1. Altogether, I’m estimating the final logP around 3.3, but it might be more accurately about 3.05. Let's see how this pans out!",
+            "format": "openai-responses-v1",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0669310b7d16bb75016adea3ee5e6c87d1a1fc6818890b3510",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0669310b7d16bb75016adea3fb48a087d1a47f16248dda1f04",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0669310b7d16bb75016adea4073a4c87d19708afc1b8221332",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0669310b7d16bb75016adea412da3c87d18bb7cdb66a20b73d",
+            "index": 5
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3842,
+    "completion_tokens": 2599,
+    "total_tokens": 6441,
+    "cost": 0.1779675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 3839,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1779675,
+      "upstream_inference_prompt_cost": 0.0480175,
+      "upstream_inference_completions_cost": 0.12995
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2103,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

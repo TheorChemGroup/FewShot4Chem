@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792955347-50yirpxGq7dyADLPWuJO",
+  "object": "chat.completion",
+  "created": 1792955347,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": 1.8}, {\"id\": \"Q0001\", \"value\": 2.5}, {\"id\": \"Q0002\", \"value\": 3.3}, {\"id\": \"Q0003\", \"value\": 0.8}, {\"id\": \"Q0004\", \"value\": 1.5}, {\"id\": \"Q0005\", \"value\": 3.5}, {\"id\": \"Q0006\", \"value\": 1.1}, {\"id\": \"Q0007\", \"value\": 0.4}, {\"id\": \"Q0008\", \"value\": 1.2}, {\"id\": \"Q0009\", \"value\": 2.1}, {\"id\": \"Q0010\", \"value\": 2.4}, {\"id\": \"Q0011\", \"value\": 1.6}, {\"id\": \"Q0012\", \"value\": 1.8}, {\"id\": \"Q0013\", \"value\": 2.3}, {\"id\": \"Q0014\", \"value\": 0.5}, {\"id\": \"Q0015\", \"value\": 0.2}, {\"id\": \"Q0016\", \"value\": 1.3}, {\"id\": \"Q0017\", \"value\": 2.2}, {\"id\": \"Q0018\", \"value\": 2.5}, {\"id\": \"Q0019\", \"value\": 1.9}, {\"id\": \"Q0020\", \"value\": 2.0}, {\"id\": \"Q0021\", \"value\": 2.3}, {\"id\": \"Q0022\", \"value\": 1.6}, {\"id\": \"Q0023\", \"value\": 3.8}, {\"id\": \"Q0024\", \"value\": 1.0}, {\"id\": \"Q0025\", \"value\": 2.1}, {\"id\": \"Q0026\", \"value\": 2.3}, {\"id\": \"Q0027\", \"value\": 1.2}, {\"id\": \"Q0028\", \"value\": 2.1}, {\"id\": \"Q0029\", \"value\": 1.8}, {\"id\": \"Q0030\", \"value\": 1.5}, {\"id\": \"Q0031\", \"value\": 2.2}, {\"id\": \"Q0032\", \"value\": 2.9}, {\"id\": \"Q0033\", \"value\": 2.8}, {\"id\": \"Q0034\", \"value\": 0.5}, {\"id\": \"Q0035\", \"value\": 1.3}, {\"id\": \"Q0036\", \"value\": 3.8}, {\"id\": \"Q0037\", \"value\": 0.2}, {\"id\": \"Q0038\", \"value\": 2.7}, {\"id\": \"Q0039\", \"value\": 2.9}]}",
+        "refusal": null,
+        "reasoning": "**Analyzing Training Data**\n\nI'm currently examining the initial training examples to identify any discernible patterns or correlations. My focus is on understanding how molecular features in these 60 compounds might relate to their logD values, setting the stage for predicting the coefficients for the 40 query molecules.\n\n**Refining Predictions**\n\nI'm now concentrating on the query molecules, specifically Q0000. I'm analyzing its structural features, like the 1,2-diketone and bromine substituents, to better predict its logD value. My goal is to integrate this information with the patterns I've observed in the training set.\n\n**Estimating Compound Properties**\n\nI'm now delving into the specific query molecules. For Q0000, I'm evaluating the impact of potential deprotonation of its phenolic OH on its lipophilicity and estimating its logD. For Q0001, I'm assessing the contribution of its multiple aromatic rings and basic nitrogens.\n\n**Comparing Molecular Structures**\n\nI'm continuing my analysis by comparing Q0002 to a known training molecule, number 34. I'm pinpointing how the substitution of a methoxy group with a 2-methoxyethoxy group might influence the logD, and then I will proceed to Q0003.\n\n**Estimating More Properties**\n\nI'm now assessing Q0004, noting its basic piperazine and phenylpyrazole moieties that will influence lipophilicity. For Q0005, I'm considering the sulfoxide and fluorophenyl groups to estimate its logD. Then, I'll tackle Q0006 and Q0007, paying close attention to the carboxylic acid in Q0007.\n\n**Estimating Coefficients**\n\nI've now estimated the logD values for Q0007 through Q0013, considering factors like carboxylic acid ionization for Q0007, basic nitrogen protonation in Q0008, and the presence of various aromatic and heterocyclic systems in the remaining compounds. I'm refining these estimates based on structural similarities and substituent effects.\n\n**Estimating Final Coefficients**\n\nI'm now calculating the logD for the remaining query molecules, Q0014 through Q0019, accounting for ionization states of acidic/basic groups and the influence of substituents. For Q0020, I'm evaluating the deprotonation of its phenolic OH group.\n\n**Estimating Remaining LogD**\n\nI'm now focusing on Q0021 through Q0024. I'm accounting for basicity in Q0021, the carboxylic acid ionization in mefenamic acid (Q0022), the phenyl substitution and potential sulfonamide acidity in Q0023, and the aniline group in Q0024.\n\n**Processing Remaining Molecules**\n\nI am now processing the final query molecules, from Q0025 to Q0031. For each, I am considering ionization states, functional group impacts like the carboxylic acid in Q0025 or basic nitrogens in Q0026 and Q0028, and the electronic effects of substituents to estimate their respective logD values.\n\n**Estimating Final Molecules**\n\nI am now processing the remaining query molecules. For each, I am carefully considering their ionization states, the specific impacts of their functional groups like acidic sulfonamides or basic amines, and the electronic contributions of substituents to arrive at their estimated logD values.\n\n**Estimating Final Compounds**\n\nI am now finalizing the logD estimations for the last few compounds. For Q0036, I've accounted for its secondary/tertiary amine and lipophilic groups. Q0037's potential zwitterionic nature is considered. Q0038's nitro, ester, and amide functionalities are factored in, and Q0039's phenolic hydroxyls are evaluated. I'm also rechecking Q0002 and Q0023 against training data.\n\n**Refining Predictions**\n\nI am now refining my predictions by re-examining Q0023, considering the impact of a phenyl versus a trifluoroethyl group, and re-evaluating the sulfonamide acidity at pH 7.4. For Q0031, I am comparing its structure to training compound 42 to estimate its highly lipophilic nature, despite potential zwitterionic character.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Training Data**\n\nI'm currently examining the initial training examples to identify any discernible patterns or correlations. My focus is on understanding how molecular features in these 60 compounds might relate to their logD values, setting the stage for predicting the coefficients for the 40 query molecules.\n\n**Refining Predictions**\n\nI'm now concentrating on the query molecules, specifically Q0000. I'm analyzing its structural features, like the 1,2-diketone and bromine substituents, to better predict its logD value. My goal is to integrate this information with the patterns I've observed in the training set.\n\n**Estimating Compound Properties**\n\nI'm now delving into the specific query molecules. For Q0000, I'm evaluating the impact of potential deprotonation of its phenolic OH on its lipophilicity and estimating its logD. For Q0001, I'm assessing the contribution of its multiple aromatic rings and basic nitrogens.\n\n**Comparing Molecular Structures**\n\nI'm continuing my analysis by comparing Q0002 to a known training molecule, number 34. I'm pinpointing how the substitution of a methoxy group with a 2-methoxyethoxy group might influence the logD, and then I will proceed to Q0003.\n\n**Estimating More Properties**\n\nI'm now assessing Q0004, noting its basic piperazine and phenylpyrazole moieties that will influence lipophilicity. For Q0005, I'm considering the sulfoxide and fluorophenyl groups to estimate its logD. Then, I'll tackle Q0006 and Q0007, paying close attention to the carboxylic acid in Q0007.\n\n**Estimating Coefficients**\n\nI've now estimated the logD values for Q0007 through Q0013, considering factors like carboxylic acid ionization for Q0007, basic nitrogen protonation in Q0008, and the presence of various aromatic and heterocyclic systems in the remaining compounds. I'm refining these estimates based on structural similarities and substituent effects.\n\n**Estimating Final Coefficients**\n\nI'm now calculating the logD for the remaining query molecules, Q0014 through Q0019, accounting for ionization states of acidic/basic groups and the influence of substituents. For Q0020, I'm evaluating the deprotonation of its phenolic OH group.\n\n**Estimating Remaining LogD**\n\nI'm now focusing on Q0021 through Q0024. I'm accounting for basicity in Q0021, the carboxylic acid ionization in mefenamic acid (Q0022), the phenyl substitution and potential sulfonamide acidity in Q0023, and the aniline group in Q0024.\n\n**Processing Remaining Molecules**\n\nI am now processing the final query molecules, from Q0025 to Q0031. For each, I am considering ionization states, functional group impacts like the carboxylic acid in Q0025 or basic nitrogens in Q0026 and Q0028, and the electronic effects of substituents to estimate their respective logD values.\n\n**Estimating Final Molecules**\n\nI am now processing the remaining query molecules. For each, I am carefully considering their ionization states, the specific impacts of their functional groups like acidic sulfonamides or basic amines, and the electronic contributions of substituents to arrive at their estimated logD values.\n\n**Estimating Final Compounds**\n\nI am now finalizing the logD estimations for the last few compounds. For Q0036, I've accounted for its secondary/tertiary amine and lipophilic groups. Q0037's potential zwitterionic nature is considered. Q0038's nitro, ester, and amide functionalities are factored in, and Q0039's phenolic hydroxyls are evaluated. I'm also rechecking Q0002 and Q0023 against training data.\n\n**Refining Predictions**\n\nI am now refining my predictions by re-examining Q0023, considering the impact of a phenyl versus a trifluoroethyl group, and re-evaluating the sulfonamide acidity at pH 7.4. For Q0031, I am comparing its structure to training compound 42 to estimate its highly lipophilic nature, despite potential zwitterionic character.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4208,
+    "completion_tokens": 5775,
+    "total_tokens": 9983,
+    "cost": 0.058287,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.058287,
+      "upstream_inference_prompt_cost": 0.006312,
+      "upstream_inference_completions_cost": 0.051975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5052,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

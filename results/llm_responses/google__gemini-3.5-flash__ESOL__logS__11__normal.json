@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792970226-DyWyDVcB7F3Ftjess1o4",
+  "object": "chat.completion",
+  "created": 1792970226,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -0.5\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -4.3\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -2.3\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -3.1\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -0.9\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -6.8\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -2.0\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": 0.5\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": 0.2\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -5.7\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -3.1\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -4.8\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -3.8\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -6.0\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -3.0\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -2.3\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -4.1\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -1.3\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -2.9\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": 0.1\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": -1.9\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": -3.8\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -0.3\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -2.2\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": 1.0\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -2.0\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -2.3\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Training Data**\n\nI'm currently examining the provided training molecules and their associated `logS` values. My objective is to use this information to build a predictive model for the aqueous solubility of 40 new molecules.\n\n**Exploring Molecular Data**\n\nI am currently processing the provided molecular structures and their corresponding logS values, aiming to discern patterns for predictive modeling. The initial set includes diverse compounds like isopropylbenzene and nitrobenzene, offering a broad spectrum of solubility characteristics.\n\n**Reviewing Solubility Data**\n\nI am now reviewing the specific `logS` values for a range of training molecules, noting the variety in their chemical structures and solubility properties. This detailed examination helps refine my understanding of the input data.\n\n**Evaluating Solubility Data**\n\nI've been meticulously reviewing the specific `logS` values for a diverse set of training molecules, noting the varying chemical structures and solubility properties. This detailed examination is crucial for refining my understanding and preparing for model development.\n\n**Estimating Solubility Values**\n\nI am now proceeding to estimate the `logS` values for the query molecules, drawing comparisons with known solubilities of structurally similar compounds from the training set. This iterative comparison and refinement is key to my predictive approach.\n\n**Refining Solubility Predictions**\n\nI am now refining my `logS` estimations for the query molecules by cross-referencing with structurally similar compounds, adjusting based on hydrophobicity and functional groups, like comparing 2-ethylhexanol to cyclohexanol and estimating 1-heptanol. I've also generated initial estimates for 1,2-diphenylhydrazine and 2-nonanol.\n\n**Estimating Solubility Values**\n\nI am now actively estimating `logS` for new molecules, drawing parallels to the training set. For 1,4-pentadiene, I'm considering isoprene's value. Tetramethylurea's miscibility suggests a positive estimate. I'm also analyzing tertiary alcohols versus primary ones and referencing known data for diuron and dichlorophenols.\n\n**Estimating Solubility Values**\n\nI am now providing solubility estimations for new molecules, Q0015-Q0018. I've estimated ethisterone at -4.0, diflubenzuron at -5.7, a nevilapine analog at -3.1, and ethiofencarb at -2.0, referencing known values and structural similarities.\n\n**Estimating Remaining Solubilities**\n\nI am now estimating solubilities for the final set of molecules. For Q0019, I've adjusted for increased hydrophobicity compared to a similar structure, estimating -2.8. For Q0020, drawing from organophosphate comparisons, I estimate -4.8. Q0021's herbicide class suggests -2.8. Q0022 and Q0023, noting their structures, are estimated at -3.8 and -6.0 respectively.\n\n**Estimating Final Solubilities**\n\nI'm now completing the solubility estimations. For sulfisoxazole acetyl, I estimate -3.0. 2-octanol is -2.3, and 2-methylpentane is -4.1. Diisopropyl ketone comes in at -1.3, and naphthalene at -2.9. Thiourea is estimated at 0.1, and dibutyl sebacate at -5.5.\n\n**Estimating Additional Solubilities**\n\nI'm continuing to estimate logS values for new molecules. Comparing thiophenol to phenol, I estimate -1.9. Ethyl decanoate's longer chain suggests -4.5. Diphenyl ether's aromaticity points to -3.8. Propyl formate is estimated at -0.3, 1-bromo-3-fluorobenzene at -2.2, and pyrimidine at 1.0.\n\n**Finalizing Solubility Estimates**\n\nI am now completing the solubility estimations for the remaining molecules, focusing on metolazone, trichloroethylene, and 2-thiouracil. I'm cross-referencing these with known data and structurally similar compounds, adjusting my predictions accordingly.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Training Data**\n\nI'm currently examining the provided training molecules and their associated `logS` values. My objective is to use this information to build a predictive model for the aqueous solubility of 40 new molecules.\n\n**Exploring Molecular Data**\n\nI am currently processing the provided molecular structures and their corresponding logS values, aiming to discern patterns for predictive modeling. The initial set includes diverse compounds like isopropylbenzene and nitrobenzene, offering a broad spectrum of solubility characteristics.\n\n**Reviewing Solubility Data**\n\nI am now reviewing the specific `logS` values for a range of training molecules, noting the variety in their chemical structures and solubility properties. This detailed examination helps refine my understanding of the input data.\n\n**Evaluating Solubility Data**\n\nI've been meticulously reviewing the specific `logS` values for a diverse set of training molecules, noting the varying chemical structures and solubility properties. This detailed examination is crucial for refining my understanding and preparing for model development.\n\n**Estimating Solubility Values**\n\nI am now proceeding to estimate the `logS` values for the query molecules, drawing comparisons with known solubilities of structurally similar compounds from the training set. This iterative comparison and refinement is key to my predictive approach.\n\n**Refining Solubility Predictions**\n\nI am now refining my `logS` estimations for the query molecules by cross-referencing with structurally similar compounds, adjusting based on hydrophobicity and functional groups, like comparing 2-ethylhexanol to cyclohexanol and estimating 1-heptanol. I've also generated initial estimates for 1,2-diphenylhydrazine and 2-nonanol.\n\n**Estimating Solubility Values**\n\nI am now actively estimating `logS` for new molecules, drawing parallels to the training set. For 1,4-pentadiene, I'm considering isoprene's value. Tetramethylurea's miscibility suggests a positive estimate. I'm also analyzing tertiary alcohols versus primary ones and referencing known data for diuron and dichlorophenols.\n\n**Estimating Solubility Values**\n\nI am now providing solubility estimations for new molecules, Q0015-Q0018. I've estimated ethisterone at -4.0, diflubenzuron at -5.7, a nevilapine analog at -3.1, and ethiofencarb at -2.0, referencing known values and structural similarities.\n\n**Estimating Remaining Solubilities**\n\nI am now estimating solubilities for the final set of molecules. For Q0019, I've adjusted for increased hydrophobicity compared to a similar structure, estimating -2.8. For Q0020, drawing from organophosphate comparisons, I estimate -4.8. Q0021's herbicide class suggests -2.8. Q0022 and Q0023, noting their structures, are estimated at -3.8 and -6.0 respectively.\n\n**Estimating Final Solubilities**\n\nI'm now completing the solubility estimations. For sulfisoxazole acetyl, I estimate -3.0. 2-octanol is -2.3, and 2-methylpentane is -4.1. Diisopropyl ketone comes in at -1.3, and naphthalene at -2.9. Thiourea is estimated at 0.1, and dibutyl sebacate at -5.5.\n\n**Estimating Additional Solubilities**\n\nI'm continuing to estimate logS values for new molecules. Comparing thiophenol to phenol, I estimate -1.9. Ethyl decanoate's longer chain suggests -4.5. Diphenyl ether's aromaticity points to -3.8. Propyl formate is estimated at -0.3, 1-bromo-3-fluorobenzene at -2.2, and pyrimidine at 1.0.\n\n**Finalizing Solubility Estimates**\n\nI am now completing the solubility estimations for the remaining molecules, focusing on metolazone, trichloroethylene, and 2-thiouracil. I'm cross-referencing these with known data and structurally similar compounds, adjusting my predictions accordingly.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2458,
+    "completion_tokens": 7087,
+    "total_tokens": 9545,
+    "cost": 0.06747,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.06747,
+      "upstream_inference_prompt_cost": 0.003687,
+      "upstream_inference_completions_cost": 0.063783
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5995,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

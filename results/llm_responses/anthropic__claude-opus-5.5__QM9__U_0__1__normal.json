@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792945341-Hm1YnYO6ibxSJKFbBmr4",
+  "object": "chat.completion",
+  "created": 1792945341,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11846.0},{\"id\":\"Q0001\",\"value\":-12350.5},{\"id\":\"Q0002\",\"value\":-11981.0},{\"id\":\"Q0003\",\"value\":-11542.5},{\"id\":\"Q0004\",\"value\":-10439.7},{\"id\":\"Q0005\",\"value\":-10531.8},{\"id\":\"Q0006\",\"value\":-11317.0},{\"id\":\"Q0007\",\"value\":-11444.0},{\"id\":\"Q0008\",\"value\":-12520.3},{\"id\":\"Q0009\",\"value\":-10936.2},{\"id\":\"Q0010\",\"value\":-12519.7},{\"id\":\"Q0011\",\"value\":-11303.5},{\"id\":\"Q0012\",\"value\":-9522.0},{\"id\":\"Q0013\",\"value\":-11509.8},{\"id\":\"Q0014\",\"value\":-12891.5},{\"id\":\"Q0015\",\"value\":-11375.0},{\"id\":\"Q0016\",\"value\":-11843.5},{\"id\":\"Q0017\",\"value\":-12755.7},{\"id\":\"Q0018\",\"value\":-11543.0},{\"id\":\"Q0019\",\"value\":-9360.1},{\"id\":\"Q0020\",\"value\":-10912.0},{\"id\":\"Q0021\",\"value\":-11476.8},{\"id\":\"Q0022\",\"value\":-11542.3},{\"id\":\"Q0023\",\"value\":-9708.0},{\"id\":\"Q0024\",\"value\":-9430.4},{\"id\":\"Q0025\",\"value\":-11576.0},{\"id\":\"Q0026\",\"value\":-11002.2},{\"id\":\"Q0027\",\"value\":-10970.0},{\"id\":\"Q0028\",\"value\":-11981.0},{\"id\":\"Q0029\",\"value\":-11947.5},{\"id\":\"Q0030\",\"value\":-11374.0},{\"id\":\"Q0031\",\"value\":-9462.5},{\"id\":\"Q0032\",\"value\":-11915.6},{\"id\":\"Q0033\",\"value\":-9621.0},{\"id\":\"Q0034\",\"value\":-10566.3},{\"id\":\"Q0035\",\"value\":-10330.6},{\"id\":\"Q0036\",\"value\":-11913.5},{\"id\":\"Q0037\",\"value\":-12384.4},{\"id\":\"Q0038\",\"value\":-9555.0},{\"id\":\"Q0039\",\"value\":-9966.2}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 by summing rough per-atom energy contributions, recalling approximate atomic reference energies in Hartree for H, C, N, and O used in QM9-style calculations.\n\nNow I'm working through actual molecule examples to back out these atomic contributions algebraically—comparing energies between similar molecules like C8H16O, C7H14O2, C7H13NO, and C8H14O to isolate the per-atom values for O, N, and C relative to H, solving the resulting system of equations.\n\nI get C ≈ -1036.0, H ≈ -16.5, O ≈ -2046.4, N ≈ -1489.8, and I verify these against the C7H14O2 and C6H8N2 examples, which check out closely. Now I'm applying this fitted model to compute the energy for the first query molecule, starting with its molecular formula.\n\nWorking through the calculations, Q0 lands around -11846 after accounting for an aromatic correction. Then I compute Q1's furazan-like structure near -12350, Q2 matches well against a training compound at about -11981, and I'm midway through estimating Q3's value from its formula.\n\nContinuing, Q3 settles around -11542.5, Q4's strained bicyclic structure comes to roughly -10439.5, and Q5's strained system lands near -10531.5. I'm now calculating Q6's formula components for its pyrazole-diol structure.\n\nQ7's structure gives around -11444, and Q8's oxetane-diol computes to about -12520.3. For Q9 I'm working through the protonated bicyclic amine's formula, estimating around -10953.2 and comparing against a similar training example.\n\nNow I'm trying another candidate for this same compound, recounting the carbon atoms in the alkyne-fused ring system carefully since my formula gives a value far off from the actual training number.\n\nCounting through the remaining H totals, I'm finding the +17 offset consistent across the charged cation formulas, so I'm applying that correction factor to Q9's formula calculation and moving on to work out Q10.\n\nFor Q10 through Q13, I'm computing molecular formulas and summing their known atomic energy contributions, checking against training examples where available (like the C5H10N4 triazole case) to calibrate small corrections, then settling on final energy estimates for each. Now I'm moving into Q14's structure with an alkyne amide group.\n\nQ19: C6H11N2 cation: -9377.1, adjusted to -9360.1. Q20: C5H9NO2: -10911.1 → -10912. Q21: C7H8O2: -11476.8. Q22: C7H12O2: -11542.3. Q23: starting the calculation for C3H5N3O.\n\nFinishing Q23 at -9708, then working through Q24 (C7H8O: -9430.4), Q25 (C7H14O2: -11576), Q26 (C7H14NO cation: -11002.2), and Q27 (C7H11NO: -10969.7).\n\nContinuing through Q28 (C6H11NO2: -11981), Q29 (C6H9NO2: calculating -11947.1 vs training -11947.5), Q30 (C6H8N2O: -11374), and Q31 (C7H10O: -9463.4, comparing against a training value of -9462.06 for a similar structure).\n\nMoving to Q32, I'm recomputing hydrogen counts for a cyano-oxolane structure against a related training compound with formula C7H12NO2, but my formula-based estimate (-12999.6) is way off from the actual value (-11948.41), so I'm going back to recount atoms carefully.\n\nRecounting carbons gives C6H10NO2, which brings the estimate to -11963.6, close to -11948.41 with about a +15 anion correction. I'm cross-checking with a zwitterion structure where the correction holds up, then applying the same +15 adjustment to Q32 for a final estimate of -11915.6. Moving on to Q33, I'm now looking at a bicyclic C9H18 alkane structure.\n\nWorking through Q34 through Q37, I'm computing formulas and enthalpy estimates for each: an alcohol C8H14O, a nitrogen-containing bicyclic C7H6N2, a lactam-ether C6H7NO2 with its anion correction applied, and an aminonitrile-epoxide C5H8N2O2, landing on values around -10566, -10330.6, -11913.5, and -12384.4 respectively.\n\nContinuing on, Q38 gives an alkyne-cyclopropane C9H14 at -9555, then Q39's protonated amino alcohol C6H14NO works out after counting 14 hydrogens to -9966.2.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 by summing rough per-atom energy contributions, recalling approximate atomic reference energies in Hartree for H, C, N, and O used in QM9-style calculations.\n\nNow I'm working through actual molecule examples to back out these atomic contributions algebraically—comparing energies between similar molecules like C8H16O, C7H14O2, C7H13NO, and C8H14O to isolate the per-atom values for O, N, and C relative to H, solving the resulting system of equations.\n\nI get C ≈ -1036.0, H ≈ -16.5, O ≈ -2046.4, N ≈ -1489.8, and I verify these against the C7H14O2 and C6H8N2 examples, which check out closely. Now I'm applying this fitted model to compute the energy for the first query molecule, starting with its molecular formula.\n\nWorking through the calculations, Q0 lands around -11846 after accounting for an aromatic correction. Then I compute Q1's furazan-like structure near -12350, Q2 matches well against a training compound at about -11981, and I'm midway through estimating Q3's value from its formula.\n\nContinuing, Q3 settles around -11542.5, Q4's strained bicyclic structure comes to roughly -10439.5, and Q5's strained system lands near -10531.5. I'm now calculating Q6's formula components for its pyrazole-diol structure.\n\nQ7's structure gives around -11444, and Q8's oxetane-diol computes to about -12520.3. For Q9 I'm working through the protonated bicyclic amine's formula, estimating around -10953.2 and comparing against a similar training example.\n\nNow I'm trying another candidate for this same compound, recounting the carbon atoms in the alkyne-fused ring system carefully since my formula gives a value far off from the actual training number.\n\nCounting through the remaining H totals, I'm finding the +17 offset consistent across the charged cation formulas, so I'm applying that correction factor to Q9's formula calculation and moving on to work out Q10.\n\nFor Q10 through Q13, I'm computing molecular formulas and summing their known atomic energy contributions, checking against training examples where available (like the C5H10N4 triazole case) to calibrate small corrections, then settling on final energy estimates for each. Now I'm moving into Q14's structure with an alkyne amide group.\n\nQ19: C6H11N2 cation: -9377.1, adjusted to -9360.1. Q20: C5H9NO2: -10911.1 → -10912. Q21: C7H8O2: -11476.8. Q22: C7H12O2: -11542.3. Q23: starting the calculation for C3H5N3O.\n\nFinishing Q23 at -9708, then working through Q24 (C7H8O: -9430.4), Q25 (C7H14O2: -11576), Q26 (C7H14NO cation: -11002.2), and Q27 (C7H11NO: -10969.7).\n\nContinuing through Q28 (C6H11NO2: -11981), Q29 (C6H9NO2: calculating -11947.1 vs training -11947.5), Q30 (C6H8N2O: -11374), and Q31 (C7H10O: -9463.4, comparing against a training value of -9462.06 for a similar structure).\n\nMoving to Q32, I'm recomputing hydrogen counts for a cyano-oxolane structure against a related training compound with formula C7H12NO2, but my formula-based estimate (-12999.6) is way off from the actual value (-11948.41), so I'm going back to recount atoms carefully.\n\nRecounting carbons gives C6H10NO2, which brings the estimate to -11963.6, close to -11948.41 with about a +15 anion correction. I'm cross-checking with a zwitterion structure where the correction holds up, then applying the same +15 adjustment to Q32 for a final estimate of -11915.6. Moving on to Q33, I'm now looking at a bicyclic C9H18 alkane structure.\n\nWorking through Q34 through Q37, I'm computing formulas and enthalpy estimates for each: an alcohol C8H14O, a nitrogen-containing bicyclic C7H6N2, a lactam-ether C6H7NO2 with its anion correction applied, and an aminonitrile-epoxide C5H8N2O2, landing on values around -10566, -10330.6, -11913.5, and -12384.4 respectively.\n\nContinuing on, Q38 gives an alkyne-cyclopropane C9H14 at -9555, then Q39's protonated amino alcohol C6H14NO works out after counting 14 hydrogens to -9966.2.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 5252,
+    "total_tokens": 8566,
+    "cost": 0.118296,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.118296,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.10504
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4521,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

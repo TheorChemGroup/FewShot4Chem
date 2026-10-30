@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792971015-oPApPsBjzp9wRgFnDHwB",
+  "object": "chat.completion",
+  "created": 1792971015,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-0.3},{\"id\":\"Q0001\",\"value\":-0.1},{\"id\":\"Q0002\",\"value\":1.2},{\"id\":\"Q0003\",\"value\":0.8},{\"id\":\"Q0004\",\"value\":0.6},{\"id\":\"Q0005\",\"value\":1.0},{\"id\":\"Q0006\",\"value\":0.7},{\"id\":\"Q0007\",\"value\":0.9},{\"id\":\"Q0008\",\"value\":0.2},{\"id\":\"Q0009\",\"value\":0.5},{\"id\":\"Q0010\",\"value\":0.6},{\"id\":\"Q0011\",\"value\":1.3},{\"id\":\"Q0012\",\"value\":-0.2},{\"id\":\"Q0013\",\"value\":-0.4},{\"id\":\"Q0014\",\"value\":-1.2},{\"id\":\"Q0015\",\"value\":0.7},{\"id\":\"Q0016\",\"value\":-1.5},{\"id\":\"Q0017\",\"value\":-0.6},{\"id\":\"Q0018\",\"value\":1.3},{\"id\":\"Q0019\",\"value\":0.1},{\"id\":\"Q0020\",\"value\":0.6},{\"id\":\"Q0021\",\"value\":0.7},{\"id\":\"Q0022\",\"value\":-0.3},{\"id\":\"Q0023\",\"value\":0.6},{\"id\":\"Q0024\",\"value\":0.6},{\"id\":\"Q0025\",\"value\":-0.3},{\"id\":\"Q0026\",\"value\":0.5},{\"id\":\"Q0027\",\"value\":-0.2},{\"id\":\"Q0028\",\"value\":0.4},{\"id\":\"Q0029\",\"value\":0.6},{\"id\":\"Q0030\",\"value\":0.3},{\"id\":\"Q0031\",\"value\":0.5},{\"id\":\"Q0032\",\"value\":-0.4},{\"id\":\"Q0033\",\"value\":0.5},{\"id\":\"Q0034\",\"value\":1.2},{\"id\":\"Q0035\",\"value\":0.6},{\"id\":\"Q0036\",\"value\":-0.5},{\"id\":\"Q0037\",\"value\":-0.6},{\"id\":\"Q0038\",\"value\":1.1},{\"id\":\"Q0039\",\"value\":1.3}]}",
+        "refusal": null,
+        "reasoning": "These training LUMO values seem off compared to typical QM9 ranges — carbonyls usually sit around -0.5 to 0 eV and saturated alkanes closer to 2.5-3 eV, so I'm trying to reconcile the discrepancy with what's actually listed.\n\nGiven the data looks noisy or shuffled, I'll lean on chemistry intuition but pull my estimates toward the training mean of roughly 0.4-0.5, giving lower values to carbonyls and nitriles and higher ones to saturated structures, while keeping everything compressed toward that central tendency.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "These training LUMO values seem off compared to typical QM9 ranges — carbonyls usually sit around -0.5 to 0 eV and saturated alkanes closer to 2.5-3 eV, so I'm trying to reconcile the discrepancy with what's actually listed.\n\nGiven the data looks noisy or shuffled, I'll lean on chemistry intuition but pull my estimates toward the training mean of roughly 0.4-0.5, giving lower values to carbonyls and nitriles and higher ones to saturated structures, while keeping everything compressed toward that central tendency.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3276,
+    "completion_tokens": 951,
+    "total_tokens": 4227,
+    "cost": 0.032124,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.032124,
+      "upstream_inference_prompt_cost": 0.013104,
+      "upstream_inference_completions_cost": 0.01902
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 287,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

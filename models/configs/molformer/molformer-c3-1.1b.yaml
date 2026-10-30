@@ -1,0 +1,18 @@
+type: molformer-hf
+name: MoLFormer-c3-1.1B
+version: 1.0.0
+hyperparams:
+  mode: embedding
+  pretrained_model_name_or_path: DeepChem/MoLFormer-c3-1.1B
+  trust_remote_code: true
+  deterministic_eval: false
+  normalize: false
+  # Pin model weights for reproducibility.
+  revision: 9f1b9ea3590833bd0ea1a70e789c5d3da11ba7ed
+  # This repo delegates ALL SIX of its auto_map class references to
+  # ibm/MoLFormer-XL-both-10pct, and `revision` above does not bind a delegated repo --
+  # see nn/molformer/hf_wrapper.py for the one line of transformers that decides it.
+  # Upstream tags this SHA `compat-v4`; its successor 361063d0 deleted the tokenizer
+  # classes this config still names, and needs a transformers newer than the pinned one.
+  code_revision: 7b12d946c181a37f6012b9dc3b002275de070314
+batch_size: 32

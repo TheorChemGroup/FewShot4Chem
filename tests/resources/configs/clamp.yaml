@@ -1,0 +1,4 @@
+type: clamp
+name: clamp
+hyperparams: {}
+batch_size: 64

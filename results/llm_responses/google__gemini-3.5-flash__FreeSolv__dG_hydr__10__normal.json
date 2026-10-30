@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792969939-5FHlRSUplHJ5rMCyGEhh",
+  "object": "chat.completion",
+  "created": 1792969939,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": -0.5}, {\"id\": \"Q0001\", \"value\": -6.5}, {\"id\": \"Q0002\", \"value\": -9.7}, {\"id\": \"Q0003\", \"value\": -6.2}, {\"id\": \"Q0004\", \"value\": -2.5}, {\"id\": \"Q0005\", \"value\": -1.8}, {\"id\": \"Q0006\", \"value\": -1.25}, {\"id\": \"Q0007\", \"value\": -3.5}, {\"id\": \"Q0008\", \"value\": -4.8}, {\"id\": \"Q0009\", \"value\": -12.5}, {\"id\": \"Q0010\", \"value\": -3.3}, {\"id\": \"Q0011\", \"value\": 0.2}, {\"id\": \"Q0012\", \"value\": -12.0}, {\"id\": \"Q0013\", \"value\": -7.1}, {\"id\": \"Q0014\", \"value\": -4.8}, {\"id\": \"Q0015\", \"value\": -0.75}, {\"id\": \"Q0016\", \"value\": -0.3}, {\"id\": \"Q0017\", \"value\": -4.3}, {\"id\": \"Q0018\", \"value\": -4.5}, {\"id\": \"Q0019\", \"value\": 2.5}, {\"id\": \"Q0020\", \"value\": -2.2}, {\"id\": \"Q0021\", \"value\": -2.0}, {\"id\": \"Q0022\", \"value\": -3.5}, {\"id\": \"Q0023\", \"value\": -7.2}, {\"id\": \"Q0024\", \"value\": -4.6}, {\"id\": \"Q0025\", \"value\": -0.8}, {\"id\": \"Q0026\", \"value\": -4.8}, {\"id\": \"Q0027\", \"value\": -5.5}, {\"id\": \"Q0028\", \"value\": 1.45}, {\"id\": \"Q0029\", \"value\": -1.8}, {\"id\": \"Q0030\", \"value\": -4.1}, {\"id\": \"Q0031\", \"value\": -7.5}, {\"id\": \"Q0032\", \"value\": 1.8}, {\"id\": \"Q0033\", \"value\": -9.3}, {\"id\": \"Q0034\", \"value\": -6.8}, {\"id\": \"Q0035\", \"value\": -3.2}, {\"id\": \"Q0036\", \"value\": -2.3}, {\"id\": \"Q0037\", \"value\": -2.5}, {\"id\": \"Q0038\", \"value\": -4.7}, {\"id\": \"Q0039\", \"value\": -3.9}]}",
+        "refusal": null,
+        "reasoning": "**Analyzing Molecular Data**\n\nI'm currently examining the training set, looking for any discernible patterns or correlations that might inform the hydration free energy predictions. My focus is on understanding the relationship between molecular structure and the provided energy values.\n\n**Refining Hydration Predictions**\n\nI'm now focusing on individual query molecules, comparing them to relevant training set entries. For Q0000, iodomethane, I'm estimating a hydration free energy around -0.5 based on comparisons with other halogenated compounds.\n\n**Estimating Hydration Energies**\n\nI'm now refining my estimations by comparing each query molecule to similar compounds in the training set. For propionamide (Q0002), I anticipate a highly negative value around -9.7 due to its amide functional group. For 4-chloro-3-methylphenol (Q0003), a value near -6.2 seems plausible, considering the phenol core and substituent effects. Octanal (Q0004) is estimated at -2.50, extrapolating from heptanal. Highly chlorinated compounds like Q0005 appear very hydrophobic, with energies around -2.33.\n\n**Estimating New Energies**\n\nI'm now incorporating polarizability and extrapolating for the remaining query molecules. For diisopropyl ether (Q0006), I predict -1.25. TCDD (Q0007) is estimated at -3.5. Cyclohexylamine (Q0008) is around -4.8. Azinphos-methyl (Q0009) is expected to be significantly negative at -12.5, and dibutylamine (Q0010) around -3.3.\n\n**Extrapolating More Values**\n\nI'm now comparing new molecules to similar training set entries and applying functional group knowledge. For 1-bromohexane (Q0011), I expect a slight positive value around +0.2, indicating hydrophobicity. Trichlorfon (Q0012) is predicted to be highly negative at -12.0 due to its multiple polar groups. Isonicotinaldehyde (Q0013) is estimated at -7.1, and N-methylaniline (Q0014) at -4.8. Mesitylene (Q0015) is expected to be -0.75, 2-chlorobutane (Q0016) around -0.3, acetonitrile (Q0017) at -4.3, and 2-ethylpyridine (Q0018) around -4.5.\n\n**Estimating Remaining Values**\n\nI am now focusing on the final set of molecules, estimating their hydration free energies. For neopentane (Q0019), I predict 2.5. Methyl pivalate (Q0020) is expected to be -2.2. Thioanisole (Q0021) is estimated at -2.0. 2-Nitrotoluene (Q0022) is around -3.5. For 1-methylpiperazine (Q0023), I anticipate -7.2. 1,3-Butanediol dinitrate (Q0024) is estimated at -4.6. Bromoethane (Q0025) is projected to be -0.8. Finally, 4-tert-butylphenol (Q0026) is predicted to be -4.6.\n\n**Calculating Final Energies**\n\nI am now completing the estimations, comparing structures and noting functional group contributions. For 2-propoxyethanol (Q0027), I anticipate -5.5. 1-Butene (Q0028) is estimated at 1.45, and butyl nitrate (Q0029) at -1.8. Pentylamine (Q0030) is around -4.1, and 2,6-dimethoxy-3,5-dichlorophenol (Q0031) at -7.5. Cis-2-pentene (Q0032) is expected to be 1.8, while ethylene glycol (Q0033) is -9.3. 3,4-Dichlorophenol (Q0034) is around -6.8, and anthracene (Q0035) at -3.88.\n\n**Refining Remaining Predictions**\n\nI'm now finalizing predictions for the last few molecules, cross-referencing with known similar structures and re-evaluating my earlier estimations to ensure consistency and accuracy in the hydration free energy values.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Molecular Data**\n\nI'm currently examining the training set, looking for any discernible patterns or correlations that might inform the hydration free energy predictions. My focus is on understanding the relationship between molecular structure and the provided energy values.\n\n**Refining Hydration Predictions**\n\nI'm now focusing on individual query molecules, comparing them to relevant training set entries. For Q0000, iodomethane, I'm estimating a hydration free energy around -0.5 based on comparisons with other halogenated compounds.\n\n**Estimating Hydration Energies**\n\nI'm now refining my estimations by comparing each query molecule to similar compounds in the training set. For propionamide (Q0002), I anticipate a highly negative value around -9.7 due to its amide functional group. For 4-chloro-3-methylphenol (Q0003), a value near -6.2 seems plausible, considering the phenol core and substituent effects. Octanal (Q0004) is estimated at -2.50, extrapolating from heptanal. Highly chlorinated compounds like Q0005 appear very hydrophobic, with energies around -2.33.\n\n**Estimating New Energies**\n\nI'm now incorporating polarizability and extrapolating for the remaining query molecules. For diisopropyl ether (Q0006), I predict -1.25. TCDD (Q0007) is estimated at -3.5. Cyclohexylamine (Q0008) is around -4.8. Azinphos-methyl (Q0009) is expected to be significantly negative at -12.5, and dibutylamine (Q0010) around -3.3.\n\n**Extrapolating More Values**\n\nI'm now comparing new molecules to similar training set entries and applying functional group knowledge. For 1-bromohexane (Q0011), I expect a slight positive value around +0.2, indicating hydrophobicity. Trichlorfon (Q0012) is predicted to be highly negative at -12.0 due to its multiple polar groups. Isonicotinaldehyde (Q0013) is estimated at -7.1, and N-methylaniline (Q0014) at -4.8. Mesitylene (Q0015) is expected to be -0.75, 2-chlorobutane (Q0016) around -0.3, acetonitrile (Q0017) at -4.3, and 2-ethylpyridine (Q0018) around -4.5.\n\n**Estimating Remaining Values**\n\nI am now focusing on the final set of molecules, estimating their hydration free energies. For neopentane (Q0019), I predict 2.5. Methyl pivalate (Q0020) is expected to be -2.2. Thioanisole (Q0021) is estimated at -2.0. 2-Nitrotoluene (Q0022) is around -3.5. For 1-methylpiperazine (Q0023), I anticipate -7.2. 1,3-Butanediol dinitrate (Q0024) is estimated at -4.6. Bromoethane (Q0025) is projected to be -0.8. Finally, 4-tert-butylphenol (Q0026) is predicted to be -4.6.\n\n**Calculating Final Energies**\n\nI am now completing the estimations, comparing structures and noting functional group contributions. For 2-propoxyethanol (Q0027), I anticipate -5.5. 1-Butene (Q0028) is estimated at 1.45, and butyl nitrate (Q0029) at -1.8. Pentylamine (Q0030) is around -4.1, and 2,6-dimethoxy-3,5-dichlorophenol (Q0031) at -7.5. Cis-2-pentene (Q0032) is expected to be 1.8, while ethylene glycol (Q0033) is -9.3. 3,4-Dichlorophenol (Q0034) is around -6.8, and anthracene (Q0035) at -3.88.\n\n**Refining Remaining Predictions**\n\nI'm now finalizing predictions for the last few molecules, cross-referencing with known similar structures and re-evaluating my earlier estimations to ensure consistency and accuracy in the hydration free energy values.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1950,
+    "completion_tokens": 4929,
+    "total_tokens": 6879,
+    "cost": 0.047286,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.047286,
+      "upstream_inference_prompt_cost": 0.002925,
+      "upstream_inference_completions_cost": 0.044361
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4201,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

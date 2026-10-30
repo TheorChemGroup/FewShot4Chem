@@ -1,0 +1,5 @@
+head_type: linear
+objective_type: regression
+path: models/weights/linear/{model_name}-{dataset_name}-regression.joblib
+alphas: [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+cv: 5

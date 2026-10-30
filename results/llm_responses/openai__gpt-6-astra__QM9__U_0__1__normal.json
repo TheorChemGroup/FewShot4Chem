@@ -1,0 +1,138 @@
+{
+  "id": "gen-1792945521-tKjxgDV6O0MmmnKmj8PP",
+  "object": "chat.completion",
+  "created": 1792945521,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11847.0},{\"id\":\"Q0001\",\"value\":-12351.8},{\"id\":\"Q0002\",\"value\":-11981.4},{\"id\":\"Q0003\",\"value\":-11542.4},{\"id\":\"Q0004\",\"value\":-10442.1},{\"id\":\"Q0005\",\"value\":-10532.8},{\"id\":\"Q0006\",\"value\":-11317.2},{\"id\":\"Q0007\",\"value\":-11445.6},{\"id\":\"Q0008\",\"value\":-12520.5},{\"id\":\"Q0009\",\"value\":-10936.7},{\"id\":\"Q0010\",\"value\":-12520.9},{\"id\":\"Q0011\",\"value\":-11302.7},{\"id\":\"Q0012\",\"value\":-9523.4},{\"id\":\"Q0013\",\"value\":-11510.5},{\"id\":\"Q0014\",\"value\":-12895.8},{\"id\":\"Q0015\",\"value\":-11375.5},{\"id\":\"Q0016\",\"value\":-11847.0},{\"id\":\"Q0017\",\"value\":-12757.1},{\"id\":\"Q0018\",\"value\":-11544.0},{\"id\":\"Q0019\",\"value\":-9358.9},{\"id\":\"Q0020\",\"value\":-10911.9},{\"id\":\"Q0021\",\"value\":-11477.8},{\"id\":\"Q0022\",\"value\":-11542.6},{\"id\":\"Q0023\",\"value\":-9708.1},{\"id\":\"Q0024\",\"value\":-10499.1},{\"id\":\"Q0025\",\"value\":-11576.9},{\"id\":\"Q0026\",\"value\":-11002.1},{\"id\":\"Q0027\",\"value\":-10972.4},{\"id\":\"Q0028\",\"value\":-11982.4},{\"id\":\"Q0029\",\"value\":-11947.6},{\"id\":\"Q0030\",\"value\":-11375.5},{\"id\":\"Q0031\",\"value\":-9462.1},{\"id\":\"Q0032\",\"value\":-11915.4},{\"id\":\"Q0033\",\"value\":-9621.7},{\"id\":\"Q0034\",\"value\":-10566.2},{\"id\":\"Q0035\",\"value\":-10330.6},{\"id\":\"Q0036\",\"value\":-11914.4},{\"id\":\"Q0037\",\"value\":-12383.7},{\"id\":\"Q0038\",\"value\":-9556.3},{\"id\":\"Q0039\",\"value\":-9965.8}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2d7223b087d1aa3fcbbb0b14f280",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2d7e0b0c87d1a6851207143c6e87",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2d873aac87d1aedea820729e72b3",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2d90709487d1a4ba4aae43817652",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2d9b368087d1af43183cba7f7873",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2da4c7b087d1a1284350965f8d3b",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2dac354487d1aba2fa8d0d09e436",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2db4cfa087d1a7dba869e397bbf1",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2dbb27e887d1aa20e3159788cedb",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2dc32e8c87d188bedd5347e73dd1",
+            "index": 9
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2dc9ba4c87d1b4e4188116d94707",
+            "index": 10
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating electron counts**\n\nI'm thinking about the units for electron counts. I need to choose an anion, -11915, for Q32 while applying the same formula I learned from training, using the H diff2, which results in +33: -11915.4. Also, I’m comparing that with C6H8NO2- against C6H10NO2-, and it seems valid based on what I've trained. This process is a bit tricky, but I'm working through it!",
+            "format": "openai-responses-v1",
+            "index": 11
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2dd0e36887d19b5b721bc563dcbe",
+            "index": 12
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2ddb3f7087d1a163c3ebcab61235",
+            "index": 13
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f27548db55ec5b5016ade2de1355c87d18bb3ad3d59354030",
+            "index": 14
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2416,
+    "completion_tokens": 7729,
+    "total_tokens": 10145,
+    "cost": 0.4166425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2413,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.4166425,
+      "upstream_inference_prompt_cost": 0.0301925,
+      "upstream_inference_completions_cost": 0.38645
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7153,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

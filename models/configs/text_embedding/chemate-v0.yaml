@@ -1,0 +1,17 @@
+# CheMatE-v0 (Segura et al., arXiv 2608.03855, EPFL): a chemistry-oriented TEXT embedder, not a
+# molecular encoder. Its MLM corpus is ~14.4M scientific documents with SMILES injected into the
+# prose (NER -> OPSIN IUPAC->SMILES -> PubChem fallback -> RDKit canonicalisation), so unlike a
+# general text model it has read SMILES strings in context. ModernBERT backbone, 149M params, 768-d.
+#
+# ⚠ Its contrastive stage mines positives/negatives by Tanimoto similarity over Morgan fingerprints
+# (radius 2, 2048 bits) -- verified in the paper's Algorithm 1 -- so it has been taught fingerprint
+# geometry directly. Any comparison of this model against Morgan carries that circularity and must
+# say so.
+type: text_embedding
+name: chemate-v0
+version: 1.0.0
+hyperparams:
+  model_name_or_path: SchwallerGroup/CheMatE-v0
+  trust_remote_code: false
+  task: null
+batch_size: 64

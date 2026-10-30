@@ -1,0 +1,66 @@
+{
+  "id": "gen-1792969869-5g5Irp18Z2JWIpVBobj0",
+  "object": "chat.completion",
+  "created": 1792969869,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":0.8},{\"id\":\"Q0001\",\"value\":0.88},{\"id\":\"Q0002\",\"value\":0.42},{\"id\":\"Q0003\",\"value\":0.38},{\"id\":\"Q0004\",\"value\":0.17},{\"id\":\"Q0005\",\"value\":0.79},{\"id\":\"Q0006\",\"value\":0.73},{\"id\":\"Q0007\",\"value\":0.32},{\"id\":\"Q0008\",\"value\":0.23},{\"id\":\"Q0009\",\"value\":0.85},{\"id\":\"Q0010\",\"value\":0.4},{\"id\":\"Q0011\",\"value\":0.86},{\"id\":\"Q0012\",\"value\":0.88},{\"id\":\"Q0013\",\"value\":0.4},{\"id\":\"Q0014\",\"value\":0.83},{\"id\":\"Q0015\",\"value\":0.94},{\"id\":\"Q0016\",\"value\":0.83},{\"id\":\"Q0017\",\"value\":0.69},{\"id\":\"Q0018\",\"value\":0.28},{\"id\":\"Q0019\",\"value\":0.16},{\"id\":\"Q0020\",\"value\":0.77},{\"id\":\"Q0021\",\"value\":0.1},{\"id\":\"Q0022\",\"value\":0.12},{\"id\":\"Q0023\",\"value\":0.24},{\"id\":\"Q0024\",\"value\":0.09},{\"id\":\"Q0025\",\"value\":0.95},{\"id\":\"Q0026\",\"value\":0.35},{\"id\":\"Q0027\",\"value\":0.39},{\"id\":\"Q0028\",\"value\":0.33},{\"id\":\"Q0029\",\"value\":0.15},{\"id\":\"Q0030\",\"value\":0.18},{\"id\":\"Q0031\",\"value\":0.75},{\"id\":\"Q0032\",\"value\":0.91},{\"id\":\"Q0033\",\"value\":0.9},{\"id\":\"Q0034\",\"value\":0.87},{\"id\":\"Q0035\",\"value\":0.35},{\"id\":\"Q0036\",\"value\":0.16},{\"id\":\"Q0037\",\"value\":0.36},{\"id\":\"Q0038\",\"value\":0.9},{\"id\":\"Q0039\",\"value\":0.12}]}",
+        "refusal": null,
+        "reasoning": "**Weighing calibration needs**\n\nI need to predict analogs that are calibrated. There's some time left, but unfortunately, I don’t have the necessary tools. I should consider the specifics carefully. The positive scaffolds of hydantoin and diaryl seem strong, while quinoline is positive too. However, I'm seeing mixed results with bicyclic amidine. I’ll also think about the comparison of amino alcohol acetyl cyclohexyl phenyl with tertbutyl versus several zero modifications I need to infer.**Mapping scaffold data**\n\nI’m mapping different scaffolds and their properties. For example, I have a close match with a spiro chroman amino alcohol at 0.8 and an exact difluoro pyridine to trifluoro missing F at 0.88. There’s a known sulfone hydroxy bromophenyl isopropoxybenzyl carbamate at 0.49, alongside various analogues with differing positives and negatives. Some interesting observations include fused tricyclic sulfonamide with positive terminal propyl at 0.79, and other compounds with specific behaviors that could guide my next steps.**Evaluating compound properties**\n\nI’m analyzing some compounds and their properties. The hydantoin scaffold shows a strong positive performance at 0.94. Then there's the fused aminoindane, which has a positive score of 2 and 9, but is negative compared to 28. It’s interesting to weigh these variables; the data indicates some promising results while also highlighting where I need to exercise caution with the negative comparisons. I need to think through how these findings impact my next steps!",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Weighing calibration needs**\n\nI need to predict analogs that are calibrated. There's some time left, but unfortunately, I don’t have the necessary tools. I should consider the specifics carefully. The positive scaffolds of hydantoin and diaryl seem strong, while quinoline is positive too. However, I'm seeing mixed results with bicyclic amidine. I’ll also think about the comparison of amino alcohol acetyl cyclohexyl phenyl with tertbutyl versus several zero modifications I need to infer.**Mapping scaffold data**\n\nI’m mapping different scaffolds and their properties. For example, I have a close match with a spiro chroman amino alcohol at 0.8 and an exact difluoro pyridine to trifluoro missing F at 0.88. There’s a known sulfone hydroxy bromophenyl isopropoxybenzyl carbamate at 0.49, alongside various analogues with differing positives and negatives. Some interesting observations include fused tricyclic sulfonamide with positive terminal propyl at 0.79, and other compounds with specific behaviors that could guide my next steps.**Evaluating compound properties**\n\nI’m analyzing some compounds and their properties. The hydantoin scaffold shows a strong positive performance at 0.94. Then there's the fused aminoindane, which has a positive score of 2 and 9, but is negative compared to 28. It’s interesting to weigh these variables; the data indicates some promising results while also highlighting where I need to exercise caution with the negative comparisons. I need to think through how these findings impact my next steps!",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0341d2fc45cdb00d016ade8c8ee82c87d1aeb699b427fc29ae",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0341d2fc45cdb00d016ade8c9bc08887d187ed84b48201cafa",
+            "index": 2
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4710,
+    "completion_tokens": 1327,
+    "total_tokens": 6037,
+    "cost": 0.1252175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 4707,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1252175,
+      "upstream_inference_prompt_cost": 0.0588675,
+      "upstream_inference_completions_cost": 0.06635
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 831,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

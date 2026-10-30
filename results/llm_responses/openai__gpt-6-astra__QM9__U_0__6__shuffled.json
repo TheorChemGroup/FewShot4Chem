@@ -1,0 +1,144 @@
+{
+  "id": "gen-1792955350-5xBHDhrhpKg4RBQ8ICLo",
+  "object": "chat.completion",
+  "created": 1792955350,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":11219.6},{\"id\":\"Q0001\",\"value\":11736.8},{\"id\":\"Q0002\",\"value\":11071.4},{\"id\":\"Q0003\",\"value\":11408.2},{\"id\":\"Q0004\",\"value\":11224.7},{\"id\":\"Q0005\",\"value\":11063.9},{\"id\":\"Q0006\",\"value\":11196.5},{\"id\":\"Q0007\",\"value\":11257.3},{\"id\":\"Q0008\",\"value\":11423.6},{\"id\":\"Q0009\",\"value\":11497.1},{\"id\":\"Q0010\",\"value\":11051.8},{\"id\":\"Q0011\",\"value\":11403.5},{\"id\":\"Q0012\",\"value\":11752.4},{\"id\":\"Q0013\",\"value\":11251.9},{\"id\":\"Q0014\",\"value\":11411.6},{\"id\":\"Q0015\",\"value\":11402.8},{\"id\":\"Q0016\",\"value\":11243.5},{\"id\":\"Q0017\",\"value\":11386.4},{\"id\":\"Q0018\",\"value\":11579.2},{\"id\":\"Q0019\",\"value\":10864.7},{\"id\":\"Q0020\",\"value\":10861.5},{\"id\":\"Q0021\",\"value\":11694.3},{\"id\":\"Q0022\",\"value\":11356.1},{\"id\":\"Q0023\",\"value\":11729.6},{\"id\":\"Q0024\",\"value\":11315.7},{\"id\":\"Q0025\",\"value\":10871.9},{\"id\":\"Q0026\",\"value\":11601.4},{\"id\":\"Q0027\",\"value\":11532.8},{\"id\":\"Q0028\",\"value\":10870.3},{\"id\":\"Q0029\",\"value\":11195.2},{\"id\":\"Q0030\",\"value\":11505.8},{\"id\":\"Q0031\",\"value\":11157.6},{\"id\":\"Q0032\",\"value\":11402.1},{\"id\":\"Q0033\",\"value\":11432.7},{\"id\":\"Q0034\",\"value\":10934.8},{\"id\":\"Q0035\",\"value\":10973.4},{\"id\":\"Q0036\",\"value\":11481.3},{\"id\":\"Q0037\",\"value\":11409.6},{\"id\":\"Q0038\",\"value\":11266.2},{\"id\":\"Q0039\",\"value\":11042.7}]}",
+        "refusal": null,
+        "reasoning": "**Evaluating energy predictions**\n\nI’m wondering if it could be the energy per heavy atom switches? I think I might need to identify if the training has corrupted random energies. I need to use statistics to predict near -11250 with a mild structure. So, I’ll inspect Nc1cc(O)[nH]n1 C3 N3 O H5 and check the expected value of 3*1030 + 3*1485 + 2045 + 70, which equals 9660. The actual outcome is -10870, which gives me a +1210 discrepancy.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating energy predictions**\n\nI’m wondering if it could be the energy per heavy atom switches? I think I might need to identify if the training has corrupted random energies. I need to use statistics to predict near -11250 with a mild structure. So, I’ll inspect Nc1cc(O)[nH]n1 C3 N3 O H5 and check the expected value of 3*1030 + 3*1485 + 2045 + 70, which equals 9660. The actual outcome is -10870, which gives me a +1210 discrepancy.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade53d88be487d1962376f72659225c",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade53e5860087d1b8189af6f5523183",
+            "index": 2
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating enthalpies**\n\nI need to clarify whether the targets we're discussing are enthalpies scaled. Some known QM9 energy values I have are: for methane, it's -40.47893, leading to -1101.51; for water, it's -76.4224, giving -2079.56; and for ethanol, it's -154.08, which results in -4192.7. Additionally, I’ve noted effective increments for carbon CH2 as -39.30Ha=-1069.4, the oxygen insertion as -75.2Ha=-2046.2, and nitrogen insertion NH as -55.3Ha=-1505.",
+            "format": "openai-responses-v1",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade53f0d93887d1b773e485c77f88fd",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade53ff013087d1ac1dc1974d0654e7",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade5407130c87d1b0582a10d89e7267",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade540ec1d087d180c4d10c587a5c11",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade5416272087d1a27b1e2ff08b5426",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade541ca65087d1adc81c4deb163ba5",
+            "index": 9
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade5424c09487d1b7b16d1ca02cd331",
+            "index": 10
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade542be3dc87d1821d87ee7e7c168e",
+            "index": 11
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade5437887087d1828cc39781adbf8f",
+            "index": 12
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade543fbf0087d19c7c106b77199ee8",
+            "index": 13
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade5447592887d18710eede62c63e48",
+            "index": 14
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d2227917dc78ab4016ade544f48a087d1bce5fba57e66c0ef",
+            "index": 15
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2419,
+    "completion_tokens": 7434,
+    "total_tokens": 9853,
+    "cost": 0.40193,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2416,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.40193,
+      "upstream_inference_prompt_cost": 0.03023,
+      "upstream_inference_completions_cost": 0.3717
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6898,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

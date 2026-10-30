@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792945582-T7SBaeHxgElKoT2zXBW0",
+  "object": "chat.completion",
+  "created": 1792945582,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-13489.7},{\"id\":\"Q0001\",\"value\":-11973.6},{\"id\":\"Q0002\",\"value\":-11941.6},{\"id\":\"Q0003\",\"value\":-11881.4},{\"id\":\"Q0004\",\"value\":-12679.3},{\"id\":\"Q0005\",\"value\":-9925},{\"id\":\"Q0006\",\"value\":-11925.6},{\"id\":\"Q0007\",\"value\":-10528.8},{\"id\":\"Q0008\",\"value\":-10798},{\"id\":\"Q0009\",\"value\":-11473.1},{\"id\":\"Q0010\",\"value\":-9701.3},{\"id\":\"Q0011\",\"value\":-11973.6},{\"id\":\"Q0012\",\"value\":-10592.8},{\"id\":\"Q0013\",\"value\":-10496.8},{\"id\":\"Q0014\",\"value\":-10560.8},{\"id\":\"Q0015\",\"value\":-11298.5},{\"id\":\"Q0016\",\"value\":-10933.3},{\"id\":\"Q0017\",\"value\":-12481.4},{\"id\":\"Q0018\",\"value\":-10560.8},{\"id\":\"Q0019\",\"value\":-10496.8},{\"id\":\"Q0020\",\"value\":-10905.1},{\"id\":\"Q0021\",\"value\":-10329.5},{\"id\":\"Q0022\",\"value\":-12513.4},{\"id\":\"Q0023\",\"value\":-11369.8},{\"id\":\"Q0024\",\"value\":-9957},{\"id\":\"Q0025\",\"value\":-10528.8},{\"id\":\"Q0026\",\"value\":-12346.1},{\"id\":\"Q0027\",\"value\":-13026.1},{\"id\":\"Q0028\",\"value\":-11973.6},{\"id\":\"Q0029\",\"value\":-11309.6},{\"id\":\"Q0030\",\"value\":-10528.8},{\"id\":\"Q0031\",\"value\":-11298.5},{\"id\":\"Q0032\",\"value\":-11973.6},{\"id\":\"Q0033\",\"value\":-12513.4},{\"id\":\"Q0034\",\"value\":-11822.3},{\"id\":\"Q0035\",\"value\":-11401.8},{\"id\":\"Q0036\",\"value\":-10560.8},{\"id\":\"Q0037\",\"value\":-11537.1},{\"id\":\"Q0038\",\"value\":-11806.3},{\"id\":\"Q0039\",\"value\":-12449.4}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 using typical atomic reference energies from B3LYP calculations for H, C, N, and O, thinking through how to sum per-atom contributions to approximate the molecular energy.\n\nTesting this against a few sample molecules, though, my calibration isn't working -- the predicted totals don't line up with the given eV values at all, off by tens of Hartree in some cases. The mismatches seem inconsistent across different structures, suggesting the dataset values might not correspond straightforwardly to simple atomic counting.\n\nTesting those increments against Oc1cnc2oncn12 gets close but not exact, and trying the same formula on C#CC(=O)NC(=O)CO comes out off by a few hundred eV, suggesting the per-atom increments need further tuning or there's inherent noise in the dataset.\n\nWorking through the next several molecules, I'm breaking each into atom counts and plugging them into my per-element energy increments to estimate total energies — the glycerol-like ester, the methyl-oxetane amide, the cyano-oxetane, and the morpholinone ring.\n\nWorking out Q5's formula gives C8H9N with a mass around 9925. Then I move to Q6, counting atoms for the NH-containing ring structure to get C6H8NO2- at roughly 11925.6, followed by Q7's ethoxy bicyclic compound C8H12O near 10528.8, and I'm starting on Q8's alkyne-substituted imidazole fragment.\n\nContinuing through the molecular weight calculations, I work out Q9 as C7H8O2 near 11473.1, Q10 as C3H5N3O around 9701.3, Q11 as C6H11NO2 at 11973.6, Q12 as C8H16O near 10592.8, and Q13 as C8H10O at 10496.8, then move on to Q14.\n\nContinuing through the molecular formula calculations for Q20 through Q24, computing mass contributions for each structure.\n\nMoving on to Q25 through Q29, I'm working out the molecular weights for each structure by summing atomic contributions for carbon, hydrogen, nitrogen, and oxygen counts.\n\nContinuing through Q30 to Q35, I'm calculating molecular weights for each remaining structure, adding up the weighted atomic contributions to get final totals.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 using typical atomic reference energies from B3LYP calculations for H, C, N, and O, thinking through how to sum per-atom contributions to approximate the molecular energy.\n\nTesting this against a few sample molecules, though, my calibration isn't working -- the predicted totals don't line up with the given eV values at all, off by tens of Hartree in some cases. The mismatches seem inconsistent across different structures, suggesting the dataset values might not correspond straightforwardly to simple atomic counting.\n\nTesting those increments against Oc1cnc2oncn12 gets close but not exact, and trying the same formula on C#CC(=O)NC(=O)CO comes out off by a few hundred eV, suggesting the per-atom increments need further tuning or there's inherent noise in the dataset.\n\nWorking through the next several molecules, I'm breaking each into atom counts and plugging them into my per-element energy increments to estimate total energies — the glycerol-like ester, the methyl-oxetane amide, the cyano-oxetane, and the morpholinone ring.\n\nWorking out Q5's formula gives C8H9N with a mass around 9925. Then I move to Q6, counting atoms for the NH-containing ring structure to get C6H8NO2- at roughly 11925.6, followed by Q7's ethoxy bicyclic compound C8H12O near 10528.8, and I'm starting on Q8's alkyne-substituted imidazole fragment.\n\nContinuing through the molecular weight calculations, I work out Q9 as C7H8O2 near 11473.1, Q10 as C3H5N3O around 9701.3, Q11 as C6H11NO2 at 11973.6, Q12 as C8H16O near 10592.8, and Q13 as C8H10O at 10496.8, then move on to Q14.\n\nContinuing through the molecular formula calculations for Q20 through Q24, computing mass contributions for each structure.\n\nMoving on to Q25 through Q29, I'm working out the molecular weights for each structure by summing atomic contributions for carbon, hydrogen, nitrogen, and oxygen counts.\n\nContinuing through Q30 to Q35, I'm calculating molecular weights for each remaining structure, adding up the weighted atomic contributions to get final totals.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 4351,
+    "total_tokens": 7665,
+    "cost": 0.100276,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.100276,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.08702
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3626,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

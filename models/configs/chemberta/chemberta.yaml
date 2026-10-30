@@ -1,0 +1,5 @@
+type: chemberta
+name: chemberta
+hyperparams: {}
+batch_size: 1024
+n_params: 83450880

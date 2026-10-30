@@ -1,0 +1,20 @@
+type: chemeleon
+name: chemeleon
+version: 1.0.0
+hyperparams: {}
+batch_size: 128
+
+# CheMeleon requires chemprop>=2.2.0 and Python>=3.11, so it uses a
+# separate environment. Its embedding cache format matches the other models.
+provenance:
+  pixi_environment: chemeleon
+  python_version: "3.11"
+  reason: "chemprop>=2.2.0 requires Python>=3.11; the other environments use Python 3.10"
+  output_dim_verified: 2048  # read off the loaded checkpoint (mp.output_dim), not assumed
+  # RDKit 2024.3.2 matches the other representations. Version 2026.3.6
+  # rejects 416 QM9 SMILES accepted by 2024.3.2; missing rows would break
+  # positional alignment of embeddings and targets. This pin may differ from
+  # the RDKit version used to pretrain the original CheMeleon model.
+  rdkit_pinned: "2024.3.2"
+  rdkit_pin_reason: "match the SMILES sanitization of the other environments; chemprop alone would resolve RDKit 2026.3.6"
+  rdkit_departs_from_published_pretraining: true

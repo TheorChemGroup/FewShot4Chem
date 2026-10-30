@@ -1,0 +1,5 @@
+head_type: tabicl
+objective_type: classification
+path: models/weights/tabicl/{model_name}-{dataset_name}-classification.pt
+device: cuda
+seed: 42

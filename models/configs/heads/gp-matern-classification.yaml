@@ -1,0 +1,9 @@
+head_type: gp-matern
+objective_type: classification
+path: models/weights/gp/{model_name}-{dataset_name}-matern-classification.pt
+num_inducing_cap: 1024
+n_iter: 200
+lr: 1.0e-2
+batch_size: 1024
+nu: 2.5
+seed: 42

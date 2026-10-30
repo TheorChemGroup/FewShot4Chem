@@ -1,0 +1,11 @@
+head_type: xgboost
+objective_type: classification
+path: models/weights/xgboost/{model_name}-{dataset_name}-classification-basic.json
+num_boost_round: 60
+params:
+  objective: binary:logistic
+  max_depth: 3
+  eta: 0.3
+  subsample: 0.7
+  tree_method: hist
+  lambda: 0.01

@@ -1,0 +1,84 @@
+{
+  "id": "gen-1792969648-CumfocHoUkl607EimDIe",
+  "object": "chat.completion",
+  "created": 1792969648,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-0.83},{\"id\":\"Q0001\",\"value\":-2.02},{\"id\":\"Q0002\",\"value\":-0.35},{\"id\":\"Q0003\",\"value\":-13.4},{\"id\":\"Q0004\",\"value\":-1.2},{\"id\":\"Q0005\",\"value\":-2.45},{\"id\":\"Q0006\",\"value\":-2.48},{\"id\":\"Q0007\",\"value\":-7.47},{\"id\":\"Q0008\",\"value\":-4.2},{\"id\":\"Q0009\",\"value\":-9.3},{\"id\":\"Q0010\",\"value\":-9.3},{\"id\":\"Q0011\",\"value\":-2.7},{\"id\":\"Q0012\",\"value\":-4.9},{\"id\":\"Q0013\",\"value\":-4.15},{\"id\":\"Q0014\",\"value\":-3.85},{\"id\":\"Q0015\",\"value\":-3.95},{\"id\":\"Q0016\",\"value\":-2.6},{\"id\":\"Q0017\",\"value\":-6.0},{\"id\":\"Q0018\",\"value\":1.78},{\"id\":\"Q0019\",\"value\":-5.1},{\"id\":\"Q0020\",\"value\":-8.9},{\"id\":\"Q0021\",\"value\":-0.9},{\"id\":\"Q0022\",\"value\":-4.6},{\"id\":\"Q0023\",\"value\":-3.88},{\"id\":\"Q0024\",\"value\":-2.4},{\"id\":\"Q0025\",\"value\":-2.65},{\"id\":\"Q0026\",\"value\":-9.7},{\"id\":\"Q0027\",\"value\":-0.4},{\"id\":\"Q0028\",\"value\":-3.15},{\"id\":\"Q0029\",\"value\":-2.43},{\"id\":\"Q0030\",\"value\":-4.72},{\"id\":\"Q0031\",\"value\":2.65},{\"id\":\"Q0032\",\"value\":-5.6},{\"id\":\"Q0033\",\"value\":1.28},{\"id\":\"Q0034\",\"value\":-4.4},{\"id\":\"Q0035\",\"value\":-2.2},{\"id\":\"Q0036\",\"value\":-6.9},{\"id\":\"Q0037\",\"value\":2.35},{\"id\":\"Q0038\",\"value\":-4.13},{\"id\":\"Q0039\",\"value\":-4.7}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_064163045afddcc3016ade8bb1d26887d18ecdac9e75bcc9ba",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_064163045afddcc3016ade8bbaab1487d1bc08addafa34dfae",
+            "index": 1
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Analyzing ametryn data**\n\nI’m looking at the data for ametryn and comparing it to atrazine, focusing on how adding thio methyl and chlorine might impact acceptor 1. There's a variation in the values, with ametryn being at -6.7 and atrazine being around -5 to -6.4. I need to further analyze how these factors influence their performance. It feels a bit complex, but I think breaking down the details will help me make sense of it all!",
+            "format": "openai-responses-v1",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_064163045afddcc3016ade8bc3ddac87d1bee281a872c70cf7",
+            "index": 3
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating chemical properties**\n\nI'm comparing butyl and methyl in terms of their properties. The data shows that butyl raises the value to -8.5, while methylparaben shows a hydration of -10. I also have an experimental solubility of 2.5g/L, which converts to 16mol/m3, but the vapor pressure of .0003Pa leads to an unreliable -11.1. Then, FreeSolv ethylparaben might be noted at -9.5, but I should select the value of -8.8 based on my findings.",
+            "format": "openai-responses-v1",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_064163045afddcc3016ade8bcef7a087d1ad817c5d7f70d6d0",
+            "index": 5
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1669,
+    "completion_tokens": 2602,
+    "total_tokens": 4271,
+    "cost": 0.150955,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 1666,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.150955,
+      "upstream_inference_prompt_cost": 0.020855,
+      "upstream_inference_completions_cost": 0.1301
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2070,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

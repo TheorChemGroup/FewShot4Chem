@@ -1,0 +1,90 @@
+{
+  "id": "gen-1792945446-VqDKt8BJabFxVAxWqyN6",
+  "object": "chat.completion",
+  "created": 1792945446,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-3.62},{\"id\":\"Q0001\",\"value\":-2.12},{\"id\":\"Q0002\",\"value\":-1.9},{\"id\":\"Q0003\",\"value\":-2.12},{\"id\":\"Q0004\",\"value\":-2.09},{\"id\":\"Q0005\",\"value\":0.1},{\"id\":\"Q0006\",\"value\":-4.45},{\"id\":\"Q0007\",\"value\":-2.9},{\"id\":\"Q0008\",\"value\":-1.9},{\"id\":\"Q0009\",\"value\":-4.05},{\"id\":\"Q0010\",\"value\":-2.85},{\"id\":\"Q0011\",\"value\":0.8},{\"id\":\"Q0012\",\"value\":-0.41},{\"id\":\"Q0013\",\"value\":-1.1},{\"id\":\"Q0014\",\"value\":-3.0},{\"id\":\"Q0015\",\"value\":-3.4},{\"id\":\"Q0016\",\"value\":-2.4},{\"id\":\"Q0017\",\"value\":-1.24},{\"id\":\"Q0018\",\"value\":-5.55},{\"id\":\"Q0019\",\"value\":-2.15},{\"id\":\"Q0020\",\"value\":-7.35},{\"id\":\"Q0021\",\"value\":-3.5},{\"id\":\"Q0022\",\"value\":-0.85},{\"id\":\"Q0023\",\"value\":-3.72},{\"id\":\"Q0024\",\"value\":-3.65},{\"id\":\"Q0025\",\"value\":-1.72},{\"id\":\"Q0026\",\"value\":-3.3},{\"id\":\"Q0027\",\"value\":-2.8},{\"id\":\"Q0028\",\"value\":-3.9},{\"id\":\"Q0029\",\"value\":-1.62},{\"id\":\"Q0030\",\"value\":-1.55},{\"id\":\"Q0031\",\"value\":-3.55},{\"id\":\"Q0032\",\"value\":-6.55},{\"id\":\"Q0033\",\"value\":-4.2},{\"id\":\"Q0034\",\"value\":-5.55},{\"id\":\"Q0035\",\"value\":-2.5},{\"id\":\"Q0036\",\"value\":0.85},{\"id\":\"Q0037\",\"value\":-1.9},{\"id\":\"Q0038\",\"value\":-2.55},{\"id\":\"Q0039\",\"value\":0.26}]}",
+        "refusal": null,
+        "reasoning": "**Estimating chemical values**\n\nI need to estimate typical ESOL values for a chemical dataset, using known solubilities. I've got around 40 to examine. For instance, naphthalene has a Q0 value of -3.6, while 2-ethylhexanol might be around -2.75 to -2.16. For 1-pentyne, solubility estimates vary between -1.90 and -2.05. I'm also analyzing barbiturates and ethiofencarb with values near -2.09. Lastly, dyphylline's solubility points to a potential log value of 0.1 for Q5.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Estimating chemical values**\n\nI need to estimate typical ESOL values for a chemical dataset, using known solubilities. I've got around 40 to examine. For instance, naphthalene has a Q0 value of -3.6, while 2-ethylhexanol might be around -2.75 to -2.16. For 1-pentyne, solubility estimates vary between -1.90 and -2.05. I'm also analyzing barbiturates and ethiofencarb with values near -2.09. Lastly, dyphylline's solubility points to a potential log value of 0.1 for Q5.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0b5cee4b9ecd5e6b016ade2d2723d087d1bc2e5e1b8fce2610",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0b5cee4b9ecd5e6b016ade2d3225e087d1b0317ad66dc27185",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0b5cee4b9ecd5e6b016ade2d3d879087d18a30c2a47a211df5",
+            "index": 3
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating logP values**\n\nI'm considering the logP values here. The GSE logP4.7 for mp204 is -5.99, while anthracene predicts -5.89, but the actual value is around -6.5, which might also suggest -6.6 is plausible. Then there's Q32 for Cc1ccc2cc3ccccc3cc2c1 with methyl at the outer ring position 2. My best option seems to be choosing -6 for this evaluation. It’s all about getting the details right!",
+            "format": "openai-responses-v1",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0b5cee4b9ecd5e6b016ade2d47655087d1944951c4f761fd44",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0b5cee4b9ecd5e6b016ade2d515eb087d1a1eaa5eec4c5c590",
+            "index": 6
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2152,
+    "completion_tokens": 2957,
+    "total_tokens": 5109,
+    "cost": 0.1747425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2149,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1747425,
+      "upstream_inference_prompt_cost": 0.0268925,
+      "upstream_inference_completions_cost": 0.14785
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2425,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

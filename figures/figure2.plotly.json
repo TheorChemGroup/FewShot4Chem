@@ -1,0 +1,3024 @@
+{
+  "data": [
+    {
+      "legendgroup": "gin-pretrained",
+      "line": {
+        "color": "#a6cee3",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#a6cee3",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "gin-pretrained",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GIN",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.31738808545886693,
+        0.49441795302025393,
+        0.6873908519744873,
+        0.8300706234517304
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "grover-base",
+      "line": {
+        "color": "#1f78b4",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#1f78b4",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "grover-base",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GROVER",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.41740244436333834,
+        0.47256517738156845,
+        0.7331164956092835,
+        0.9559932436524253
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "molformer",
+      "line": {
+        "color": "#b2df8a",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#b2df8a",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "molformer",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.47907018724493644,
+        0.6352464437484742,
+        0.8209966897964478,
+        0.9351832223575842
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "molformer-xl",
+      "line": {
+        "color": "#33a02c",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#33a02c",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "molformer-xl",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer-XL",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.47999280964450897,
+        0.7249867880508561,
+        0.8485762357711792,
+        0.9507730006975955
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "ChemBERTa-2-77M-MTR",
+      "line": {
+        "color": "#fb9a99",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#fb9a99",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "ChemBERTa-2-77M-MTR",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemBERTa-2",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.4886796465958311,
+        0.6204204978424513,
+        0.8594754695892334,
+        0.9426698448417681
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "selformer",
+      "line": {
+        "color": "#e31a1c",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#e31a1c",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "selformer",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "SELFormer",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.39930960155187784,
+        0.5454861760139466,
+        0.7786949157714844,
+        0.9304199271605943
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "clamp",
+      "line": {
+        "color": "#fdbf6f",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#fdbf6f",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "clamp",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "CLAMP",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.35373114079797874,
+        0.4823792099952698,
+        0.6853330850601196,
+        0.8810687582668684
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "chemfm-1b",
+      "line": {
+        "color": "#ff7f00",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#ff7f00",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "chemfm-1b",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemFM-1B",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.3785210285812391,
+        0.6603530632176932,
+        0.7986151695251464,
+        0.9403556040102162
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "MoLFormer-c3-1.1B",
+      "line": {
+        "color": "#6a3d9a",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#6a3d9a",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "MoLFormer-c3-1.1B",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer-c3",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.4518067823724062,
+        0.5718844895163475,
+        0.7903403997421264,
+        0.9240428748178243
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "ChemBERTa-3-100M-MLM",
+      "line": {
+        "color": "#b15928",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#b15928",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "frozen",
+        "model": "ChemBERTa-3-100M-MLM",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemBERTa-3",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.3184011350969736,
+        0.5453772257831918,
+        0.7210201263427735,
+        0.8714316216016923
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "rdkit",
+      "line": {
+        "color": "#111111",
+        "width": 3.6
+      },
+      "marker": {
+        "color": "#111111",
+        "line": {
+          "color": "white",
+          "width": 1.5
+        },
+        "size": 12,
+        "symbol": "pentagon"
+      },
+      "meta": {
+        "role": "rdkit",
+        "arm": "frozen"
+      },
+      "mode": "lines+markers",
+      "name": "RDKit",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.714185426794747,
+        0.8287425518042401,
+        0.8913521766662598,
+        0.9560882310048077
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y"
+    },
+    {
+      "legendgroup": "embedding",
+      "line": {
+        "color": "#c9a9e6",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#c9a9e6",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 9,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "embedding",
+        "arm": "frozen",
+        "n_fit": 900,
+        "n_val": 100
+      },
+      "mode": "lines+markers",
+      "name": "gemini-embedding-2",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.5125870251724725,
+        null,
+        0.8591993420110408,
+        0.9285884003849908
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y",
+      "connectgaps": true
+    },
+    {
+      "legendgroup": "astra_normal",
+      "line": {
+        "color": "#8e1a6b",
+        "dash": "solid",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#8e1a6b",
+        "line": {
+          "width": 1
+        },
+        "size": 9,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "astra",
+        "arm": "frozen",
+        "mode": "normal",
+        "repeat_counts": [
+          5,
+          5
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GPT-6 astra",
+      "showlegend": true,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.8460154054527963,
+        null,
+        0.9334833558485746,
+        null
+      ],
+      "type": "scatter",
+      "xaxis": "x",
+      "yaxis": "y",
+      "connectgaps": true
+    },
+    {
+      "legendgroup": "gin-pretrained",
+      "line": {
+        "color": "#a6cee3",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#a6cee3",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "gin-pretrained",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GIN",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        -0.11742945373309843,
+        -0.10254759658543708,
+        0.12154817581176758,
+        0.6961866553752337
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "grover-base",
+      "line": {
+        "color": "#1f78b4",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#1f78b4",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "grover-base",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GROVER",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.07948156023850632,
+        0.15966015365739128,
+        0.6842381596565247,
+        0.9171481714848159
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "molformer",
+      "line": {
+        "color": "#b2df8a",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#b2df8a",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "molformer",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.25416477049545544,
+        0.33552095443195523,
+        0.862373697757721,
+        0.9527081623106213
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "molformer-xl",
+      "line": {
+        "color": "#33a02c",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#33a02c",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "molformer-xl",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer-XL",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.259029721653112,
+        0.3150868160961551,
+        0.8589690089225769,
+        0.955466807156482
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "ChemBERTa-2-77M-MTR",
+      "line": {
+        "color": "#fb9a99",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#fb9a99",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "ChemBERTa-2-77M-MTR",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemBERTa-2",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        -0.07859687279880481,
+        -0.061091921300343556,
+        0.6827889204025268,
+        0.8919579241441291
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "selformer",
+      "line": {
+        "color": "#e31a1c",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#e31a1c",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "selformer",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "SELFormer",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.2133403575282534,
+        0.2974007168675006,
+        0.8986090302467347,
+        0.9597378189581799
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "clamp",
+      "line": {
+        "color": "#fdbf6f",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#fdbf6f",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "clamp",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "CLAMP",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        -0.04012039749428118,
+        -0.028626931980360572,
+        0.6389233946800232,
+        0.8831786637691614
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "MoLFormer-c3-1.1B",
+      "line": {
+        "color": "#6a3d9a",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#6a3d9a",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "MoLFormer-c3-1.1B",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer-c3",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.4082370921383164,
+        0.40583521824410757,
+        0.8896230816841125,
+        0.9569669135552555
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "ChemBERTa-3-100M-MLM",
+      "line": {
+        "color": "#b15928",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#b15928",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "ChemBERTa-3-100M-MLM",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemBERTa-3",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.30641128496834275,
+        0.4143608175343127,
+        0.8360847949981689,
+        0.9501907265254692
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "rdkit",
+      "line": {
+        "color": "#111111",
+        "width": 3.6
+      },
+      "marker": {
+        "color": "#111111",
+        "line": {
+          "color": "white",
+          "width": 1.5
+        },
+        "size": 12,
+        "symbol": "pentagon"
+      },
+      "meta": {
+        "role": "rdkit",
+        "arm": "fullft"
+      },
+      "mode": "lines+markers",
+      "name": "RDKit",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.714185426794747,
+        0.8287425518042401,
+        0.8913521766662598,
+        0.9560882310048077
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "legendgroup": "embedding",
+      "line": {
+        "color": "#c9a9e6",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#c9a9e6",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 9,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "embedding",
+        "arm": "fullft",
+        "n_fit": 900,
+        "n_val": 100
+      },
+      "mode": "lines+markers",
+      "name": "gemini-embedding-2",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.5125870251724725,
+        null,
+        0.8591993420110408,
+        0.9285884003849908
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "connectgaps": true
+    },
+    {
+      "legendgroup": "astra_normal",
+      "line": {
+        "color": "#8e1a6b",
+        "dash": "solid",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#8e1a6b",
+        "line": {
+          "width": 1
+        },
+        "size": 9,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "astra",
+        "arm": "fullft",
+        "mode": "normal",
+        "repeat_counts": [
+          5,
+          5
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GPT-6 astra",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.8460154054527963,
+        null,
+        0.9334833558485746,
+        null
+      ],
+      "type": "scatter",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "connectgaps": true
+    },
+    {
+      "legendgroup": "gin-pretrained",
+      "line": {
+        "color": "#a6cee3",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#a6cee3",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "gin-pretrained",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GIN",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.11530230268908404,
+        0.30710726747972694,
+        0.8389343489002082,
+        0.8959567410561703
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "grover-base",
+      "line": {
+        "color": "#1f78b4",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#1f78b4",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "grover-base",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GROVER",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.09197374575914388,
+        0.25957190539895525,
+        0.7158560009879138,
+        0.8731687944729214
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "molformer",
+      "line": {
+        "color": "#b2df8a",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#b2df8a",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "molformer",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.37859542987707007,
+        0.4968695239052571,
+        0.9007386088371276,
+        0.9569779361278156
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "molformer-xl",
+      "line": {
+        "color": "#33a02c",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#33a02c",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "molformer-xl",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer-XL",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.49103192013192887,
+        0.5946192261429756,
+        0.9079044938087464,
+        0.960184576208534
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "ChemBERTa-2-77M-MTR",
+      "line": {
+        "color": "#fb9a99",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#fb9a99",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "ChemBERTa-2-77M-MTR",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemBERTa-2",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.40650949842515194,
+        0.36725683893983174,
+        0.8766249060630799,
+        0.9547276513974498
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "selformer",
+      "line": {
+        "color": "#e31a1c",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#e31a1c",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "selformer",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "SELFormer",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.46052351173399425,
+        0.54981511720803,
+        0.9099933266639709,
+        0.9629858658180567
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "clamp",
+      "line": {
+        "color": "#fdbf6f",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#fdbf6f",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "clamp",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "CLAMP",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.4249046363297689,
+        0.4112887616005471,
+        0.826921159640933,
+        0.9491345975296965
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "chemfm-1b",
+      "line": {
+        "color": "#ff7f00",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#ff7f00",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "chemfm-1b",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemFM-1B",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.2533342501643788,
+        0.5147828018885282,
+        0.8825420379638672,
+        0.9711043043695577
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "MoLFormer-c3-1.1B",
+      "line": {
+        "color": "#6a3d9a",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#6a3d9a",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "MoLFormer-c3-1.1B",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "MoLFormer-c3",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.4700439925815264,
+        0.5508699472371473,
+        0.8984592080116272,
+        0.9599118172975781
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "ChemBERTa-3-100M-MLM",
+      "line": {
+        "color": "#b15928",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#b15928",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 8,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "lora",
+        "model": "ChemBERTa-3-100M-MLM",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "ChemBERTa-3",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.2241807936174176,
+        0.4318632247371538,
+        0.8739179968833923,
+        0.9489942379992913
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "rdkit",
+      "line": {
+        "color": "#111111",
+        "width": 3.6
+      },
+      "marker": {
+        "color": "#111111",
+        "line": {
+          "color": "white",
+          "width": 1.5
+        },
+        "size": 12,
+        "symbol": "pentagon"
+      },
+      "meta": {
+        "role": "rdkit",
+        "arm": "lora"
+      },
+      "mode": "lines+markers",
+      "name": "RDKit",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.714185426794747,
+        0.8287425518042401,
+        0.8913521766662598,
+        0.9560882310048077
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3"
+    },
+    {
+      "legendgroup": "embedding",
+      "line": {
+        "color": "#c9a9e6",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#c9a9e6",
+        "line": {
+          "color": "white",
+          "width": 1
+        },
+        "size": 9,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "embedding",
+        "arm": "lora",
+        "n_fit": 900,
+        "n_val": 100
+      },
+      "mode": "lines+markers",
+      "name": "gemini-embedding-2",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.5125870251724725,
+        null,
+        0.8591993420110408,
+        0.9285884003849908
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "connectgaps": true
+    },
+    {
+      "legendgroup": "astra_normal",
+      "line": {
+        "color": "#8e1a6b",
+        "dash": "solid",
+        "width": 2.2
+      },
+      "marker": {
+        "color": "#8e1a6b",
+        "line": {
+          "width": 1
+        },
+        "size": 9,
+        "symbol": "hexagon"
+      },
+      "meta": {
+        "role": "astra",
+        "arm": "lora",
+        "mode": "normal",
+        "repeat_counts": [
+          5,
+          5
+        ]
+      },
+      "mode": "lines+markers",
+      "name": "GPT-6 astra",
+      "showlegend": false,
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.8460154054527963,
+        null,
+        0.9334833558485746,
+        null
+      ],
+      "type": "scatter",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "connectgaps": true
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "y": [
+        0.08281072188060275,
+        null,
+        null,
+        null
+      ],
+      "name": "ChemFM-1B",
+      "legendgroup": "chemfm-1b",
+      "showlegend": false,
+      "mode": "lines+markers",
+      "line": {
+        "color": "#ff7f00",
+        "width": 2.2
+      },
+      "marker": {
+        "symbol": "hexagon",
+        "size": 8,
+        "color": "#ff7f00",
+        "line": {
+          "color": "white",
+          "width": 1
+        }
+      },
+      "meta": {
+        "role": "chemical",
+        "arm": "fullft",
+        "model": "chemfm-1b",
+        "original_fit_sizes": [
+          80,
+          900,
+          9000
+        ]
+      },
+      "xaxis": "x2",
+      "yaxis": "y2"
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60,
+        100,
+        1000
+      ],
+      "y": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "mode": "markers",
+      "showlegend": false,
+      "marker": {
+        "symbol": "triangle-down",
+        "size": 9,
+        "color": "#a6cee3",
+        "line": {
+          "color": "white",
+          "width": 0.7
+        }
+      },
+      "cliponaxis": false,
+      "hoverinfo": "skip",
+      "meta": {
+        "role": "boundary_indicator",
+        "model": "gin-pretrained",
+        "arm": "fullft",
+        "raw_values": [
+          [
+            60,
+            -0.11742945373309843
+          ],
+          [
+            100,
+            -0.10254759658543708
+          ],
+          [
+            1000,
+            0.12154817581176758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60,
+        100
+      ],
+      "y": [
+        0.2,
+        0.2
+      ],
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "mode": "markers",
+      "showlegend": false,
+      "marker": {
+        "symbol": "triangle-down",
+        "size": 9,
+        "color": "#1f78b4",
+        "line": {
+          "color": "white",
+          "width": 0.7
+        }
+      },
+      "cliponaxis": false,
+      "hoverinfo": "skip",
+      "meta": {
+        "role": "boundary_indicator",
+        "model": "grover-base",
+        "arm": "fullft",
+        "raw_values": [
+          [
+            60,
+            0.07948156023850632
+          ],
+          [
+            100,
+            0.15966015365739128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60,
+        100
+      ],
+      "y": [
+        0.2,
+        0.2
+      ],
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "mode": "markers",
+      "showlegend": false,
+      "marker": {
+        "symbol": "triangle-down",
+        "size": 9,
+        "color": "#fb9a99",
+        "line": {
+          "color": "white",
+          "width": 0.7
+        }
+      },
+      "cliponaxis": false,
+      "hoverinfo": "skip",
+      "meta": {
+        "role": "boundary_indicator",
+        "model": "ChemBERTa-2-77M-MTR",
+        "arm": "fullft",
+        "raw_values": [
+          [
+            60,
+            -0.07859687279880481
+          ],
+          [
+            100,
+            -0.061091921300343556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60,
+        100
+      ],
+      "y": [
+        0.2,
+        0.2
+      ],
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "mode": "markers",
+      "showlegend": false,
+      "marker": {
+        "symbol": "triangle-down",
+        "size": 9,
+        "color": "#fdbf6f",
+        "line": {
+          "color": "white",
+          "width": 0.7
+        }
+      },
+      "cliponaxis": false,
+      "hoverinfo": "skip",
+      "meta": {
+        "role": "boundary_indicator",
+        "model": "clamp",
+        "arm": "fullft",
+        "raw_values": [
+          [
+            60,
+            -0.04012039749428118
+          ],
+          [
+            100,
+            -0.028626931980360572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60
+      ],
+      "y": [
+        0.2
+      ],
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "mode": "markers",
+      "showlegend": false,
+      "marker": {
+        "symbol": "triangle-down",
+        "size": 9,
+        "color": "#a6cee3",
+        "line": {
+          "color": "white",
+          "width": 0.7
+        }
+      },
+      "cliponaxis": false,
+      "hoverinfo": "skip",
+      "meta": {
+        "role": "boundary_indicator",
+        "model": "gin-pretrained",
+        "arm": "lora",
+        "raw_values": [
+          [
+            60,
+            0.11530230268908404
+          ]
+        ]
+      }
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60
+      ],
+      "y": [
+        0.2
+      ],
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "mode": "markers",
+      "showlegend": false,
+      "marker": {
+        "symbol": "triangle-down",
+        "size": 9,
+        "color": "#1f78b4",
+        "line": {
+          "color": "white",
+          "width": 0.7
+        }
+      },
+      "cliponaxis": false,
+      "hoverinfo": "skip",
+      "meta": {
+        "role": "boundary_indicator",
+        "model": "grover-base",
+        "arm": "lora",
+        "raw_values": [
+          [
+            60,
+            0.09197374575914388
+          ]
+        ]
+      }
+    },
+    {
+      "type": "scatter",
+      "x": [
+        60
+      ],
+      "y": [
+        0.2
+      ],
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "mode": "markers",
+      "showlegend": false,
+      "marker": {
+        "symbol": "triangle-down",
+        "size": 9,
+        "color": "#ff7f00",
+        "line": {
+          "color": "white",
+          "width": 0.7
+        }
+      },
+      "cliponaxis": false,
+      "hoverinfo": "skip",
+      "meta": {
+        "role": "boundary_indicator",
+        "model": "chemfm-1b",
+        "arm": "fullft",
+        "raw_values": [
+          [
+            60,
+            0.08281072188060275
+          ]
+        ]
+      }
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "white",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "white",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "#C8D4E3",
+              "linecolor": "#C8D4E3",
+              "minorgridcolor": "#C8D4E3",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "#C8D4E3",
+              "linecolor": "#C8D4E3",
+              "minorgridcolor": "#C8D4E3",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "choropleth": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "type": "choropleth"
+          }
+        ],
+        "contourcarpet": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "type": "contourcarpet"
+          }
+        ],
+        "contour": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "contour"
+          }
+        ],
+        "heatmap": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "heatmap"
+          }
+        ],
+        "histogram2dcontour": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "histogram2dcontour"
+          }
+        ],
+        "histogram2d": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "histogram2d"
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "mesh3d": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "type": "mesh3d"
+          }
+        ],
+        "parcoords": [
+          {
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "parcoords"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ],
+        "scatter3d": [
+          {
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatter3d"
+          }
+        ],
+        "scattercarpet": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattercarpet"
+          }
+        ],
+        "scattergeo": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattergeo"
+          }
+        ],
+        "scattergl": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattergl"
+          }
+        ],
+        "scattermapbox": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattermapbox"
+          }
+        ],
+        "scattermap": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattermap"
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatterpolargl"
+          }
+        ],
+        "scatterpolar": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatterpolar"
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "scatterternary": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatterternary"
+          }
+        ],
+        "surface": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "surface"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ]
+      },
+      "layout": {
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "autotypenumbers": "strict",
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ],
+          "sequential": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ]
+        },
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "geo": {
+          "bgcolor": "white",
+          "lakecolor": "white",
+          "landcolor": "white",
+          "showlakes": true,
+          "showland": true,
+          "subunitcolor": "#C8D4E3"
+        },
+        "hoverlabel": {
+          "align": "left"
+        },
+        "hovermode": "closest",
+        "mapbox": {
+          "style": "light"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "white",
+        "polar": {
+          "angularaxis": {
+            "gridcolor": "#EBF0F8",
+            "linecolor": "#EBF0F8",
+            "ticks": ""
+          },
+          "bgcolor": "white",
+          "radialaxis": {
+            "gridcolor": "#EBF0F8",
+            "linecolor": "#EBF0F8",
+            "ticks": ""
+          }
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "white",
+            "gridcolor": "#DFE8F3",
+            "gridwidth": 2,
+            "linecolor": "#EBF0F8",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "#EBF0F8"
+          },
+          "yaxis": {
+            "backgroundcolor": "white",
+            "gridcolor": "#DFE8F3",
+            "gridwidth": 2,
+            "linecolor": "#EBF0F8",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "#EBF0F8"
+          },
+          "zaxis": {
+            "backgroundcolor": "white",
+            "gridcolor": "#DFE8F3",
+            "gridwidth": 2,
+            "linecolor": "#EBF0F8",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "#EBF0F8"
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "ternary": {
+          "aaxis": {
+            "gridcolor": "#DFE8F3",
+            "linecolor": "#A2B1C6",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "#DFE8F3",
+            "linecolor": "#A2B1C6",
+            "ticks": ""
+          },
+          "bgcolor": "white",
+          "caxis": {
+            "gridcolor": "#DFE8F3",
+            "linecolor": "#A2B1C6",
+            "ticks": ""
+          }
+        },
+        "title": {
+          "x": 0.05
+        },
+        "xaxis": {
+          "automargin": true,
+          "gridcolor": "#EBF0F8",
+          "linecolor": "#EBF0F8",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "#EBF0F8",
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "automargin": true,
+          "gridcolor": "#EBF0F8",
+          "linecolor": "#EBF0F8",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "#EBF0F8",
+          "zerolinewidth": 2
+        }
+      }
+    },
+    "xaxis": {
+      "anchor": "y",
+      "domain": [
+        0.0,
+        0.31
+      ],
+      "tickfont": {
+        "size": 15
+      },
+      "title": {
+        "standoff": 2
+      },
+      "type": "log",
+      "tickmode": "array",
+      "tickvals": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "ticktext": [
+        "60",
+        "100",
+        "1,000",
+        "10,000"
+      ],
+      "range": [
+        1.6812412373755872,
+        4.096910013008056
+      ],
+      "showgrid": false,
+      "showline": true,
+      "linecolor": "#8a9098",
+      "ticks": "outside",
+      "tickcolor": "#8a9098"
+    },
+    "yaxis": {
+      "anchor": "x",
+      "domain": [
+        0.0,
+        1.0
+      ],
+      "tickfont": {
+        "size": 15
+      },
+      "range": [
+        0.2,
+        1.03
+      ],
+      "showgrid": true,
+      "gridcolor": "#eeeeee",
+      "zeroline": false,
+      "showline": true,
+      "linecolor": "#8a9098",
+      "tickmode": "array",
+      "tickvals": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ],
+      "title": {
+        "font": {
+          "size": 17
+        },
+        "text": "Performance on \u03b5<sub>LUMO</sub> (R\u00b2)",
+        "standoff": 4
+      }
+    },
+    "xaxis2": {
+      "anchor": "y2",
+      "domain": [
+        0.345,
+        0.655
+      ],
+      "tickfont": {
+        "size": 15
+      },
+      "title": {
+        "standoff": 2,
+        "font": {
+          "size": 17
+        },
+        "text": "Training + validation molecules"
+      },
+      "type": "log",
+      "tickmode": "array",
+      "tickvals": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "ticktext": [
+        "60",
+        "100",
+        "1,000",
+        "10,000"
+      ],
+      "range": [
+        1.6812412373755872,
+        4.096910013008056
+      ],
+      "showgrid": false,
+      "showline": true,
+      "linecolor": "#8a9098",
+      "ticks": "outside",
+      "tickcolor": "#8a9098"
+    },
+    "yaxis2": {
+      "anchor": "x2",
+      "domain": [
+        0.0,
+        1.0
+      ],
+      "matches": "y",
+      "showticklabels": false,
+      "tickfont": {
+        "size": 15
+      },
+      "range": [
+        0.2,
+        1.03
+      ],
+      "showgrid": true,
+      "gridcolor": "#eeeeee",
+      "zeroline": false,
+      "showline": true,
+      "linecolor": "#8a9098",
+      "tickmode": "array",
+      "tickvals": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ]
+    },
+    "xaxis3": {
+      "anchor": "y3",
+      "domain": [
+        0.69,
+        1.0
+      ],
+      "tickfont": {
+        "size": 15
+      },
+      "title": {
+        "standoff": 2
+      },
+      "type": "log",
+      "tickmode": "array",
+      "tickvals": [
+        60,
+        100,
+        1000,
+        10000
+      ],
+      "ticktext": [
+        "60",
+        "100",
+        "1,000",
+        "10,000"
+      ],
+      "range": [
+        1.6812412373755872,
+        4.096910013008056
+      ],
+      "showgrid": false,
+      "showline": true,
+      "linecolor": "#8a9098",
+      "ticks": "outside",
+      "tickcolor": "#8a9098"
+    },
+    "yaxis3": {
+      "anchor": "x3",
+      "domain": [
+        0.0,
+        1.0
+      ],
+      "matches": "y",
+      "showticklabels": false,
+      "tickfont": {
+        "size": 15
+      },
+      "range": [
+        0.2,
+        1.03
+      ],
+      "showgrid": true,
+      "gridcolor": "#eeeeee",
+      "zeroline": false,
+      "showline": true,
+      "linecolor": "#8a9098",
+      "tickmode": "array",
+      "tickvals": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ]
+    },
+    "annotations": [
+      {
+        "font": {
+          "family": "Nimbus Sans, Helvetica, sans-serif",
+          "size": 17
+        },
+        "showarrow": false,
+        "text": "frozen",
+        "x": 0.155,
+        "xanchor": "center",
+        "xref": "paper",
+        "y": 1.0,
+        "yanchor": "bottom",
+        "yref": "paper"
+      },
+      {
+        "font": {
+          "family": "Nimbus Sans, Helvetica, sans-serif",
+          "size": 17
+        },
+        "showarrow": false,
+        "text": "full fine-tune",
+        "x": 0.5,
+        "xanchor": "center",
+        "xref": "paper",
+        "y": 1.0,
+        "yanchor": "bottom",
+        "yref": "paper"
+      },
+      {
+        "font": {
+          "family": "Nimbus Sans, Helvetica, sans-serif",
+          "size": 17
+        },
+        "showarrow": false,
+        "text": "LoRA",
+        "x": 0.845,
+        "xanchor": "center",
+        "xref": "paper",
+        "y": 1.0,
+        "yanchor": "bottom",
+        "yref": "paper"
+      }
+    ],
+    "margin": {
+      "l": 56,
+      "r": 8,
+      "t": 34,
+      "b": 158
+    },
+    "font": {
+      "family": "Nimbus Sans, Helvetica, sans-serif",
+      "size": 15,
+      "color": "#222222"
+    },
+    "legend": {
+      "font": {
+        "size": 15
+      },
+      "orientation": "h",
+      "x": 0.5,
+      "xanchor": "center",
+      "y": -0.14358974358974358,
+      "yanchor": "top",
+      "traceorder": "normal",
+      "itemwidth": 30,
+      "entrywidth": 0.25,
+      "entrywidthmode": "fraction",
+      "tracegroupgap": 0
+    },
+    "width": 1020,
+    "height": 582,
+    "paper_bgcolor": "white",
+    "plot_bgcolor": "white"
+  }
+}

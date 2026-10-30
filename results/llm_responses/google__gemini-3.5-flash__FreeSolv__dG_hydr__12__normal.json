@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792970594-Zd743CgaOEJGVfkfUpSq",
+  "object": "chat.completion",
+  "created": 1792970594,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -0.9\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -3.0\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -3.7\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -0.7\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -0.2\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -3.4\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -2.3\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": -5.2\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -4.7\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -0.2\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": -1.9\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": 1.3\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -2.5\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -14.0\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -2.5\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -6.6\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -8.0\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -0.5\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -2.9\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": 2.5\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": -2.2\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": -2.2\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": -2.4\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -1.6\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": 1.5\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -2.9\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": -9.1\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -1.6\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": 1.7\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -4.0\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Molecular Properties**\n\nI'm currently examining the training data, comparing query molecule structures to known examples like toluene, to identify analogous relationships. This helps me infer hydration free energies by leveraging established data points.\n\n**Estimating Hydration Energies**\n\nI'm refining my estimations for the hydration free energies. For instance, mesitylene seems to be around -0.7, and cyclohexanone close to -4.5. I'm also analyzing complex molecules like TCDD derivatives and trifluralin-like structures, predicting their hydrophobic contributions.\n\n**Predicting Solvation Values**\n\nI'm continuing to estimate hydration free energies, making educated guesses based on structural similarities. For instance, I've approximated values for various alcohols, aldehydes, and chlorinated alkanes, considering the impact of functional groups like CF3 and ring structures.\n\n**Refining Hydration Estimates**\n\nI'm continuing to refine hydration free energy predictions, assigning values based on structural comparisons. For instance, I've estimated ethylene at 1.31, octanal near -1.8, and methyl pivalate around -2.5, also considering highly polar molecules like 5-fluorouracil at -14.0.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine hydration free energy predictions by analyzing specific molecules like Dinoseb, isobutylbenzene, methyl butyrate, thioanisole, neopentane, isobutyl nitrate, PCBs, dimethyl ether, and 2-nonanone. I'm assigning values based on structural similarities and the impact of their functional groups and ring structures.\n\n**Assigning Hydration Values**\n\nI'm continuing to assign hydration free energy values for various molecules. Recent estimations include propanamide around -9.3, hexachlorobenzene near -1.5, and 2-nitrotoluene at -4.0, referencing similar structures.\n\n**Assigning Hydration Values**\n\nI'm continuing to assign hydration free energy values for diverse molecules, recently estimating 1-bromohexane at -0.2 and 1,1,1-trifluoropropan-2-ol at -3.4. I'm also evaluating pyridine at -4.7 and cyclohexylamine at -4.5.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Molecular Properties**\n\nI'm currently examining the training data, comparing query molecule structures to known examples like toluene, to identify analogous relationships. This helps me infer hydration free energies by leveraging established data points.\n\n**Estimating Hydration Energies**\n\nI'm refining my estimations for the hydration free energies. For instance, mesitylene seems to be around -0.7, and cyclohexanone close to -4.5. I'm also analyzing complex molecules like TCDD derivatives and trifluralin-like structures, predicting their hydrophobic contributions.\n\n**Predicting Solvation Values**\n\nI'm continuing to estimate hydration free energies, making educated guesses based on structural similarities. For instance, I've approximated values for various alcohols, aldehydes, and chlorinated alkanes, considering the impact of functional groups like CF3 and ring structures.\n\n**Refining Hydration Estimates**\n\nI'm continuing to refine hydration free energy predictions, assigning values based on structural comparisons. For instance, I've estimated ethylene at 1.31, octanal near -1.8, and methyl pivalate around -2.5, also considering highly polar molecules like 5-fluorouracil at -14.0.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine hydration free energy predictions by analyzing specific molecules like Dinoseb, isobutylbenzene, methyl butyrate, thioanisole, neopentane, isobutyl nitrate, PCBs, dimethyl ether, and 2-nonanone. I'm assigning values based on structural similarities and the impact of their functional groups and ring structures.\n\n**Assigning Hydration Values**\n\nI'm continuing to assign hydration free energy values for various molecules. Recent estimations include propanamide around -9.3, hexachlorobenzene near -1.5, and 2-nitrotoluene at -4.0, referencing similar structures.\n\n**Assigning Hydration Values**\n\nI'm continuing to assign hydration free energy values for diverse molecules, recently estimating 1-bromohexane at -0.2 and 1,1,1-trifluoropropan-2-ol at -3.4. I'm also evaluating pyridine at -4.7 and cyclohexylamine at -4.5.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1952,
+    "completion_tokens": 4652,
+    "total_tokens": 6604,
+    "cost": 0.044796,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.044796,
+      "upstream_inference_prompt_cost": 0.002928,
+      "upstream_inference_completions_cost": 0.041868
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3559,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

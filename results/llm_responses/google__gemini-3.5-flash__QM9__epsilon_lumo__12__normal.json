@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792970640-5hyJPzEwztUioG7laq92",
+  "object": "chat.completion",
+  "created": 1792970640,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\"id\": \"Q0000\", \"value\": -0.6},\n    {\"id\": \"Q0001\", \"value\": -0.5},\n    {\"id\": \"Q0002\", \"value\": 2.1},\n    {\"id\": \"Q0003\", \"value\": 2.2},\n    {\"id\": \"Q0004\", \"value\": 1.1},\n    {\"id\": \"Q0005\", \"value\": 1.8},\n    {\"id\": \"Q0006\", \"value\": 0.5},\n    {\"id\": \"Q0007\", \"value\": 2.3},\n    {\"id\": \"Q0008\", \"value\": -0.2},\n    {\"id\": \"Q0009\", \"value\": 1.6},\n    {\"id\": \"Q0010\", \"value\": 0.3},\n    {\"id\": \"Q0011\", \"value\": 2.4},\n    {\"id\": \"Q0012\", \"value\": -0.7},\n    {\"id\": \"Q0013\", \"value\": -0.8},\n    {\"id\": \"Q0014\", \"value\": -1.2},\n    {\"id\": \"Q0015\", \"value\": 1.1},\n    {\"id\": \"Q0016\", \"value\": -1.5},\n    {\"id\": \"Q0017\", \"value\": -0.5},\n    {\"id\": \"Q0018\", \"value\": 2.2},\n    {\"id\": \"Q0019\", \"value\": -0.2},\n    {\"id\": \"Q0020\", \"value\": 0.4},\n    {\"id\": \"Q0021\", \"value\": 1.2},\n    {\"id\": \"Q0022\", \"value\": 0.4},\n    {\"id\": \"Q0023\", \"value\": 0.2},\n    {\"id\": \"Q0024\", \"value\": 0.8},\n    {\"id\": \"Q0025\", \"value\": -0.5},\n    {\"id\": \"Q0026\", \"value\": 0.8},\n    {\"id\": \"Q0027\", \"value\": -0.1},\n    {\"id\": \"Q0028\", \"value\": 0.5},\n    {\"id\": \"Q0029\", \"value\": -0.2},\n    {\"id\": \"Q0030\", \"value\": 0.3},\n    {\"id\": \"Q0031\", \"value\": 2.0},\n    {\"id\": \"Q0032\", \"value\": 0.1},\n    {\"id\": \"Q0033\", \"value\": 0.9},\n    {\"id\": \"Q0034\", \"value\": 2.4},\n    {\"id\": \"Q0035\", \"value\": 0.9},\n    {\"id\": \"Q0036\", \"value\": -1.1},\n    {\"id\": \"Q0037\", \"value\": -1.3},\n    {\"id\": \"Q0038\", \"value\": 1.5},\n    {\"id\": \"Q0039\", \"value\": 2.2}\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing LUMO Energy Correlations**\n\nI'm currently examining the training data, trying to pinpoint how molecular structures influence LUMO energy. My initial observations suggest a correlation, with some structures exhibiting notably high positive LUMO energy values.\n\n**Identifying LUMO Trends**\n\nMy analysis is now focusing on specific molecular features contributing to LUMO energy. I've noticed that compounds with saturated cyclic structures, ethers, and amines tend to yield higher positive LUMO values. Conversely, ketones, aldehydes, and those with electronegative groups are showing more negative LUMO energies.\n\n**Refining LUMO Correlations**\n\nI'm now detailing specific structural motifs associated with LUMO energy ranges. Alkynes, nitriles, and certain nitrogen-containing heterocycles are frequently appearing in the moderate LUMO energy bracket, generally between -0.5 and 1.5 eV.\n\n**Predicting LUMO Values**\n\nI'm now actively predicting LUMO energy values for specific molecules. For Q0000, an aldehyde near cyclopropane and ether, I anticipate around -0.6 eV. For Q0001, an 8-membered cyclic ketone with amine and ether, my prediction is approximately -0.5 eV. Finally, for Q0002, a saturated bicyclic ether/diol, I forecast a LUMO of roughly 2.1 eV.\n\n**Forecasting LUMO Values**\n\nI'm now predicting LUMO energy values for several molecules. For Q0003, a bicyclic ether, I foresee approximately 2.2 eV. Q0004, an oxetane with an amide, is estimated at 1.1 eV. Q0005, a cyclopentene alcohol, should be around 1.8 eV. Q0006, a saturated bicyclic urea, is predicted at 0.5 eV. Finally, Q0007, a polycyclic epoxide/alcohol, is estimated at 2.4 eV.\n\n**Updating LUMO Forecasts**\n\nMy latest predictions suggest Q0007 will be around 2.3 eV. For Q0008, I estimate -0.2 eV. Q0009 is projected at 1.6 eV, and Q0010 at 0.3 eV. Q0011 is forecasted at 2.4 eV, and Q0012, with its ketone and epoxide, is anticipated to have a lower LUMO, though a precise figure is still developing.\n\n**Refining LUMO Predictions**\n\nMy latest predictions are: Q0012 around -0.7 eV, Q0013 at -0.8 eV, and Q0014 near -1.2 eV. For Q0015, I foresee 1.1 eV, while Q0016 is projected at a very low -1.5 eV. Q0017 is estimated at -0.5 eV, Q0018 at 2.2 eV, and Q0019 around -0.7 eV.\n\n**Updating LUMO Forecasts**\n\nMy latest predictions are: Q0020 around 0.4 eV, Q0021 at 1.2 eV, and Q0022 near 0.4 eV. For Q0023, I foresee 0.2 eV, while Q0024 is projected at 0.8 eV. Q0025 is estimated at -0.5 eV, Q0026 at 0.8 eV, and Q0027 around -0.3 eV.\n\n**Updating LUMO Forecasts**\n\nMy latest predictions are: Q0028 around 0.5 eV, Q0029 at -0.2 eV, and Q0030 near 0.3 eV. For Q0031, I foresee 2.0 eV, while Q0032 is projected at 0.1 eV. Q0033 is estimated at 0.9 eV, Q0034 at 2.4 eV, and Q0035 around 0.9 eV.\n\n**Updating LUMO Forecasts**\n\nI'm continuing to refine predictions. For Q0036, I anticipate -1.1 eV, and for the electron-deficient Q0037, around -1.3 eV. Q0038 is projected at 1.5 eV, and Q0039 at 2.2 eV. I've performed a sanity check on my predictions for saturated cyclic ethers and alcohols, confirming they fall within the expected 2.0-2.5 eV range.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing LUMO Energy Correlations**\n\nI'm currently examining the training data, trying to pinpoint how molecular structures influence LUMO energy. My initial observations suggest a correlation, with some structures exhibiting notably high positive LUMO energy values.\n\n**Identifying LUMO Trends**\n\nMy analysis is now focusing on specific molecular features contributing to LUMO energy. I've noticed that compounds with saturated cyclic structures, ethers, and amines tend to yield higher positive LUMO values. Conversely, ketones, aldehydes, and those with electronegative groups are showing more negative LUMO energies.\n\n**Refining LUMO Correlations**\n\nI'm now detailing specific structural motifs associated with LUMO energy ranges. Alkynes, nitriles, and certain nitrogen-containing heterocycles are frequently appearing in the moderate LUMO energy bracket, generally between -0.5 and 1.5 eV.\n\n**Predicting LUMO Values**\n\nI'm now actively predicting LUMO energy values for specific molecules. For Q0000, an aldehyde near cyclopropane and ether, I anticipate around -0.6 eV. For Q0001, an 8-membered cyclic ketone with amine and ether, my prediction is approximately -0.5 eV. Finally, for Q0002, a saturated bicyclic ether/diol, I forecast a LUMO of roughly 2.1 eV.\n\n**Forecasting LUMO Values**\n\nI'm now predicting LUMO energy values for several molecules. For Q0003, a bicyclic ether, I foresee approximately 2.2 eV. Q0004, an oxetane with an amide, is estimated at 1.1 eV. Q0005, a cyclopentene alcohol, should be around 1.8 eV. Q0006, a saturated bicyclic urea, is predicted at 0.5 eV. Finally, Q0007, a polycyclic epoxide/alcohol, is estimated at 2.4 eV.\n\n**Updating LUMO Forecasts**\n\nMy latest predictions suggest Q0007 will be around 2.3 eV. For Q0008, I estimate -0.2 eV. Q0009 is projected at 1.6 eV, and Q0010 at 0.3 eV. Q0011 is forecasted at 2.4 eV, and Q0012, with its ketone and epoxide, is anticipated to have a lower LUMO, though a precise figure is still developing.\n\n**Refining LUMO Predictions**\n\nMy latest predictions are: Q0012 around -0.7 eV, Q0013 at -0.8 eV, and Q0014 near -1.2 eV. For Q0015, I foresee 1.1 eV, while Q0016 is projected at a very low -1.5 eV. Q0017 is estimated at -0.5 eV, Q0018 at 2.2 eV, and Q0019 around -0.7 eV.\n\n**Updating LUMO Forecasts**\n\nMy latest predictions are: Q0020 around 0.4 eV, Q0021 at 1.2 eV, and Q0022 near 0.4 eV. For Q0023, I foresee 0.2 eV, while Q0024 is projected at 0.8 eV. Q0025 is estimated at -0.5 eV, Q0026 at 0.8 eV, and Q0027 around -0.3 eV.\n\n**Updating LUMO Forecasts**\n\nMy latest predictions are: Q0028 around 0.5 eV, Q0029 at -0.2 eV, and Q0030 near 0.3 eV. For Q0031, I foresee 2.0 eV, while Q0032 is projected at 0.1 eV. Q0033 is estimated at 0.9 eV, Q0034 at 2.4 eV, and Q0035 around 0.9 eV.\n\n**Updating LUMO Forecasts**\n\nI'm continuing to refine predictions. For Q0036, I anticipate -1.1 eV, and for the electron-deficient Q0037, around -1.3 eV. Q0038 is projected at 1.5 eV, and Q0039 at 2.2 eV. I've performed a sanity check on my predictions for saturated cyclic ethers and alcohols, confirming they fall within the expected 2.0-2.5 eV range.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2832,
+    "completion_tokens": 6126,
+    "total_tokens": 8958,
+    "cost": 0.059382,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.059382,
+      "upstream_inference_prompt_cost": 0.004248,
+      "upstream_inference_completions_cost": 0.055134
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5314,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

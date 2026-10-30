@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792945882-rnUixsTbJ6i8wWxNCPXM",
+  "object": "chat.completion",
+  "created": 1792945882,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -3.3\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -11.0\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -15.0\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -2.4\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -9.5\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -2.5\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": 1.5\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -6.5\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -3.8\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": -7.0\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": -4.8\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -9.3\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -3.6\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -4.3\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -2.3\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": 2.7\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -0.8\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -4.6\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -0.3\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -0.2\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -6.0\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": 2.3\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": -0.4\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": 1.9\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": 1.2\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -7.0\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": -9.0\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -4.7\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -1.9\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -1.5\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Training Data**\n\nI'm now examining the provided training data. My focus is on identifying recurring patterns and correlations between molecular structures and their associated hydration free energies. This initial exploration aims to build a foundational understanding before I start developing predictive models.\n\n**Observing Structural Features**\n\nI'm now reviewing the provided molecular structures and their associated hydration free energy values. My attention is drawn to the varying magnitudes of these energies, suggesting a complex interplay between structural features and solvation properties.\n\n**Estimating Hydration Energies**\n\nI'm now using the provided data to estimate hydration free energies for new structures. By comparing Q0000 and Q0001 to similar compounds in the dataset, I'm applying additive principles to generate preliminary predictions.\n\n**Predicting Hydration Energies**\n\nI'm now predicting hydration free energies for Q0000 and Q0001 based on comparisons to similar structures and established trends. For Q0002, I'm estimating a value around -3.3. Q0003, an ametryn-like molecule, is predicted to have a significantly more negative value, around -11.0, due to its triazine core and polar substituents. Q0004, trichlorfon, is highly polar, and I'm considering values in the range of highly polar alcohols and esters.\n\n**Estimating Hydration Energies**\n\nI'm now refining my hydration free energy predictions for Q0004 (trichlorfon) and have settled on -15.0. For Q0005 (methyl pivalate), I'm estimating -2.40. Q0006 (2,4-dimethylpyridine) is predicted around -4.20, and Q0007 (4-cyanophenol) around -9.5.\n\n**Predicting Hydration Energies**\n\nI'm now continuing my predictions, estimating -2.5 for tetrahydropyran, -5.5 for 4-chloro-3-methylphenol, and 1.5 for 1-butene. For methyl cyanoacetate, I'm estimating -6.5, and for 1-methylpiperidine, -3.8. My next task is to evaluate 2-naphthylamine.\n\n**Estimating Hydration Energies**\n\nI'm now estimating the hydration energies for several new compounds. For 2-naphthylamine, I predict -4.5. Trimethyl ortho-cyanoacetate is estimated at -7.0, and N-methylaniline at -4.8. Ethylene glycol is predicted to be -9.3, and 1-hexanol around -3.8.\n\n**Estimating Hydration Energies**\n\nI'm now estimating the hydration free energies for several more compounds. Dibutylamine is predicted at -2.8. For 3-phenyl-1-propanol, I anticipate around -4.3. Ethanethiol is estimated at -1.2, and ethyl valerate at -2.3. 2,3-dimethylpentane is predicted to be 2.7, and styrene at -0.8. Isobutyl nitrate is estimated at -2.2.\n\n**Estimating Hydration Energies**\n\nI'm now estimating the hydration free energies for several more compounds. [N+](=O)[O-] is estimated around -2.10. Propylene glycol dinitrate is predicted at -4.6. For tert-butylbenzene, I anticipate around -0.3. 1-bromohexane is estimated at -0.2, and 3,4-dichlorophenol at -6.0.\n\n**Refining Hydration Predictions**\n\nI'm now refining predictions based on comparisons to similar molecules, noting the impact of branching and chain length on alkanes, halogen substitution on alkyl halides, and hydrophobic groups on phenols. For ethylene, I'm predicting 1.2.\n\n**Estimating Hydration Energies**\n\nI'm now continuing my hydration free energy estimations, predicting -1.5 for benzene, -7.0 for 1-methylpiperazine, -9.0 for propionamide, and -4.7 for acetonitrile. Dimethyl ether is estimated at -1.9, and benzyl bromide at -1.5.\n\n**Validating Hydration Estimates**\n\nI have now validated my hydration energy predictions against provided values, confirming the accuracy of my previous estimations for several compounds. I've also incorporated insights on how structural factors influence these energies, leading to refined predictions for molecules like ethylene.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Training Data**\n\nI'm now examining the provided training data. My focus is on identifying recurring patterns and correlations between molecular structures and their associated hydration free energies. This initial exploration aims to build a foundational understanding before I start developing predictive models.\n\n**Observing Structural Features**\n\nI'm now reviewing the provided molecular structures and their associated hydration free energy values. My attention is drawn to the varying magnitudes of these energies, suggesting a complex interplay between structural features and solvation properties.\n\n**Estimating Hydration Energies**\n\nI'm now using the provided data to estimate hydration free energies for new structures. By comparing Q0000 and Q0001 to similar compounds in the dataset, I'm applying additive principles to generate preliminary predictions.\n\n**Predicting Hydration Energies**\n\nI'm now predicting hydration free energies for Q0000 and Q0001 based on comparisons to similar structures and established trends. For Q0002, I'm estimating a value around -3.3. Q0003, an ametryn-like molecule, is predicted to have a significantly more negative value, around -11.0, due to its triazine core and polar substituents. Q0004, trichlorfon, is highly polar, and I'm considering values in the range of highly polar alcohols and esters.\n\n**Estimating Hydration Energies**\n\nI'm now refining my hydration free energy predictions for Q0004 (trichlorfon) and have settled on -15.0. For Q0005 (methyl pivalate), I'm estimating -2.40. Q0006 (2,4-dimethylpyridine) is predicted around -4.20, and Q0007 (4-cyanophenol) around -9.5.\n\n**Predicting Hydration Energies**\n\nI'm now continuing my predictions, estimating -2.5 for tetrahydropyran, -5.5 for 4-chloro-3-methylphenol, and 1.5 for 1-butene. For methyl cyanoacetate, I'm estimating -6.5, and for 1-methylpiperidine, -3.8. My next task is to evaluate 2-naphthylamine.\n\n**Estimating Hydration Energies**\n\nI'm now estimating the hydration energies for several new compounds. For 2-naphthylamine, I predict -4.5. Trimethyl ortho-cyanoacetate is estimated at -7.0, and N-methylaniline at -4.8. Ethylene glycol is predicted to be -9.3, and 1-hexanol around -3.8.\n\n**Estimating Hydration Energies**\n\nI'm now estimating the hydration free energies for several more compounds. Dibutylamine is predicted at -2.8. For 3-phenyl-1-propanol, I anticipate around -4.3. Ethanethiol is estimated at -1.2, and ethyl valerate at -2.3. 2,3-dimethylpentane is predicted to be 2.7, and styrene at -0.8. Isobutyl nitrate is estimated at -2.2.\n\n**Estimating Hydration Energies**\n\nI'm now estimating the hydration free energies for several more compounds. [N+](=O)[O-] is estimated around -2.10. Propylene glycol dinitrate is predicted at -4.6. For tert-butylbenzene, I anticipate around -0.3. 1-bromohexane is estimated at -0.2, and 3,4-dichlorophenol at -6.0.\n\n**Refining Hydration Predictions**\n\nI'm now refining predictions based on comparisons to similar molecules, noting the impact of branching and chain length on alkanes, halogen substitution on alkyl halides, and hydrophobic groups on phenols. For ethylene, I'm predicting 1.2.\n\n**Estimating Hydration Energies**\n\nI'm now continuing my hydration free energy estimations, predicting -1.5 for benzene, -7.0 for 1-methylpiperazine, -9.0 for propionamide, and -4.7 for acetonitrile. Dimethyl ether is estimated at -1.9, and benzyl bromide at -1.5.\n\n**Validating Hydration Estimates**\n\nI have now validated my hydration energy predictions against provided values, confirming the accuracy of my previous estimations for several compounds. I've also incorporated insights on how structural factors influence these energies, leading to refined predictions for molecules like ethylene.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1951,
+    "completion_tokens": 6783,
+    "total_tokens": 8734,
+    "cost": 0.0639735,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0639735,
+      "upstream_inference_prompt_cost": 0.0029265,
+      "upstream_inference_completions_cost": 0.061047
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5689,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

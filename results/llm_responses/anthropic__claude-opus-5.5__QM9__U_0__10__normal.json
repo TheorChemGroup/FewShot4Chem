@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792969935-GhacM7itpJBv3hoZBdGN",
+  "object": "chat.completion",
+  "created": 1792969935,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11813.0},{\"id\":\"Q0001\",\"value\":-13521.0},{\"id\":\"Q0002\",\"value\":-13498.3},{\"id\":\"Q0003\",\"value\":-11004.5},{\"id\":\"Q0004\",\"value\":-12455.5},{\"id\":\"Q0005\",\"value\":-11376.6},{\"id\":\"Q0006\",\"value\":-11543.5},{\"id\":\"Q0007\",\"value\":-11981.5},{\"id\":\"Q0008\",\"value\":-12521.0},{\"id\":\"Q0009\",\"value\":-10532.5},{\"id\":\"Q0010\",\"value\":-10869.5},{\"id\":\"Q0011\",\"value\":-11475.5},{\"id\":\"Q0012\",\"value\":-10533.6},{\"id\":\"Q0013\",\"value\":-10498.0},{\"id\":\"Q0014\",\"value\":-10498.5},{\"id\":\"Q0015\",\"value\":-11981.5},{\"id\":\"Q0016\",\"value\":-11543.5},{\"id\":\"Q0017\",\"value\":-11317.6},{\"id\":\"Q0018\",\"value\":-9709.1},{\"id\":\"Q0019\",\"value\":-11306.0},{\"id\":\"Q0020\",\"value\":-11478.0},{\"id\":\"Q0021\",\"value\":-11812.5},{\"id\":\"Q0022\",\"value\":-11576.3},{\"id\":\"Q0023\",\"value\":-9360.5},{\"id\":\"Q0024\",\"value\":-12520.5},{\"id\":\"Q0025\",\"value\":-10866.0},{\"id\":\"Q0026\",\"value\":-9462.5},{\"id\":\"Q0027\",\"value\":-10936.0},{\"id\":\"Q0028\",\"value\":-11576.5},{\"id\":\"Q0029\",\"value\":-11981.3},{\"id\":\"Q0030\",\"value\":-11947.8},{\"id\":\"Q0031\",\"value\":-11375.0},{\"id\":\"Q0032\",\"value\":-10969.0},{\"id\":\"Q0033\",\"value\":-11442.5},{\"id\":\"Q0034\",\"value\":-11376.0},{\"id\":\"Q0035\",\"value\":-12488.2},{\"id\":\"Q0036\",\"value\":-10970.5},{\"id\":\"Q0037\",\"value\":-9425.5},{\"id\":\"Q0038\",\"value\":-10599.2},{\"id\":\"Q0039\",\"value\":-10531.5}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 using per-atom energy contributions, looking at example molecules like C9H18 to back out approximate additive atomic energy values for carbon and hydrogen.\n\nUsing those estimated atom contributions, I derive oxygen and nitrogen values from molecules with those atoms, checking the fit against triple bonds and aromatic rings, then apply the same approach to predict U0 for the new query molecules.\n\nContinuing through Q0003: nitrile formula gives -11004.5. For Q0004, matching against a similar training compound confirms -12455.5. Q0005 computes out to -11376.6, and I'm starting Q0006's atom contribution sum.\n\nQ0010 CC(N)(C#N)C1(N)CC1: C6H11N3 totals to about -10870.0, giving -10869.5. For Q0011, I'm working out the formula by counting carbons and hydrogens in the fused ring structure with hydroxyl, landing on C7H8O2 and starting the energy calculation from -7254.1.\n\nFor Q0012, the ketone-cyclopentene gives C8H12O at -10533.6. Q0013's alkyne-fused oxetane system works out to C8H10O with strain correction, settling near -10498. Q0014's similar alkyne-oxetane cyclopropane variant also lands at -10498.5. Q0015's methyl-tetrahydrofuran acetamide gives C6H11NO2 at -11981.5, and I'm moving on to the next compound.\n\nQ0016's methyl-oxabicyclic structure comes out to C7H12O2 at -11543.7. Q0017's hydroxypyrazole derivative calculates to C4H6N2O2 at -11317.6, and Q0018's aminopyrazolone gives C3H5N3O at -9709.1. For Q0019's dimethylamino-methylpyrazole, I'm computing C5H10N4 at roughly -11307.9, cross-checking against a similar tetrazole training example that came out slightly different, which makes me reconsider the tetrazole ring contribution.\n\nMoving through the next set: Q0020's bicyclic aldehyde works out to C7H8O2 at -11478, matching nicely against a furan-cyclopropanol training compound. Q0021's imidazole-oxazole hybrid gives C5H7N3O around -11812.5. Q0022's cyclopropane-ether compound comes to C7H14O2 at about -11576.3 after adjusting for the ring closure and comparing to a diol training analog. Now I'm starting Q0023, a cyanopyrrolidinium salt, and working through its hydrogen count atom by atom.\n\nChecking two training cations against each other to establish that cationic species show a consistent +19 kcal/mol shift relative to neutral analogs, then applying that correction to Q0023's base estimate of -9379.4 to land around -9360.5. For Q0024, a trioxabicyclic compound with formula C6H10O3, I settle on roughly -12520.5. Now I'm starting to work out Q0025, an alkyne-substituted tricyclic ketone.\n\nFor Q26, computing C7H10O gives -9464.5, close to the training match at -9462.06, so I'll settle on -9462.5. Moving to Q27 with the bicyclic aziridinium ketone structure next.\n\nWorking through Q27's formula C7H10NO+, I sum the atom contributions to get -10936, matching the training reference closely. Then Q28's CC1CCOCOCC1 as C7H14O2 comes out to -11576.5, Q29's hydroxyethyl cyclopropanecarboxamide as C6H11NO2 lands at -11981, and Q30's cyanocyclopropane methanol derivative as C6H9NO2 totals -11948.8.\n\nChecking against a training analog, I refine Q30 to -11947.8. For Q31, the pyrrole zwitterion C6H8N2O gives -11376.6, but comparing to a similar zwitterion training example adjusts it down to -11375. Q32's bicyclic ammonium cation C7H12NO+ computes to -10969 after the plus-19 correction, and I'm now working through Q33's furan-alkyne-methoxy compound C7H6O2.\n\nQ0038 lands around -10599.2 for C8H16O.\nQ0039 CCO[C@@]12C[C@H]3C[C@@H]1[C@H]32: C8H12O, base -10533.6 but ring strain pushes it to about -10531.5.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 using per-atom energy contributions, looking at example molecules like C9H18 to back out approximate additive atomic energy values for carbon and hydrogen.\n\nUsing those estimated atom contributions, I derive oxygen and nitrogen values from molecules with those atoms, checking the fit against triple bonds and aromatic rings, then apply the same approach to predict U0 for the new query molecules.\n\nContinuing through Q0003: nitrile formula gives -11004.5. For Q0004, matching against a similar training compound confirms -12455.5. Q0005 computes out to -11376.6, and I'm starting Q0006's atom contribution sum.\n\nQ0010 CC(N)(C#N)C1(N)CC1: C6H11N3 totals to about -10870.0, giving -10869.5. For Q0011, I'm working out the formula by counting carbons and hydrogens in the fused ring structure with hydroxyl, landing on C7H8O2 and starting the energy calculation from -7254.1.\n\nFor Q0012, the ketone-cyclopentene gives C8H12O at -10533.6. Q0013's alkyne-fused oxetane system works out to C8H10O with strain correction, settling near -10498. Q0014's similar alkyne-oxetane cyclopropane variant also lands at -10498.5. Q0015's methyl-tetrahydrofuran acetamide gives C6H11NO2 at -11981.5, and I'm moving on to the next compound.\n\nQ0016's methyl-oxabicyclic structure comes out to C7H12O2 at -11543.7. Q0017's hydroxypyrazole derivative calculates to C4H6N2O2 at -11317.6, and Q0018's aminopyrazolone gives C3H5N3O at -9709.1. For Q0019's dimethylamino-methylpyrazole, I'm computing C5H10N4 at roughly -11307.9, cross-checking against a similar tetrazole training example that came out slightly different, which makes me reconsider the tetrazole ring contribution.\n\nMoving through the next set: Q0020's bicyclic aldehyde works out to C7H8O2 at -11478, matching nicely against a furan-cyclopropanol training compound. Q0021's imidazole-oxazole hybrid gives C5H7N3O around -11812.5. Q0022's cyclopropane-ether compound comes to C7H14O2 at about -11576.3 after adjusting for the ring closure and comparing to a diol training analog. Now I'm starting Q0023, a cyanopyrrolidinium salt, and working through its hydrogen count atom by atom.\n\nChecking two training cations against each other to establish that cationic species show a consistent +19 kcal/mol shift relative to neutral analogs, then applying that correction to Q0023's base estimate of -9379.4 to land around -9360.5. For Q0024, a trioxabicyclic compound with formula C6H10O3, I settle on roughly -12520.5. Now I'm starting to work out Q0025, an alkyne-substituted tricyclic ketone.\n\nFor Q26, computing C7H10O gives -9464.5, close to the training match at -9462.06, so I'll settle on -9462.5. Moving to Q27 with the bicyclic aziridinium ketone structure next.\n\nWorking through Q27's formula C7H10NO+, I sum the atom contributions to get -10936, matching the training reference closely. Then Q28's CC1CCOCOCC1 as C7H14O2 comes out to -11576.5, Q29's hydroxyethyl cyclopropanecarboxamide as C6H11NO2 lands at -11981, and Q30's cyanocyclopropane methanol derivative as C6H9NO2 totals -11948.8.\n\nChecking against a training analog, I refine Q30 to -11947.8. For Q31, the pyrrole zwitterion C6H8N2O gives -11376.6, but comparing to a similar zwitterion training example adjusts it down to -11375. Q32's bicyclic ammonium cation C7H12NO+ computes to -10969 after the plus-19 correction, and I'm now working through Q33's furan-alkyne-methoxy compound C7H6O2.\n\nQ0038 lands around -10599.2 for C8H16O.\nQ0039 CCO[C@@]12C[C@H]3C[C@@H]1[C@H]32: C8H12O, base -10533.6 but ring strain pushes it to about -10531.5.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 4751,
+    "total_tokens": 8065,
+    "cost": 0.108276,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.108276,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.09502
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4020,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

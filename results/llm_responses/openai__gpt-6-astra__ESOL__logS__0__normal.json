@@ -1,0 +1,96 @@
+{
+  "id": "gen-1792945225-UQnNtQKvhSkJujdyIp5z",
+  "object": "chat.completion",
+  "created": 1792945225,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-3.15},{\"id\":\"Q0001\",\"value\":-1.65},{\"id\":\"Q0002\",\"value\":-3.05},{\"id\":\"Q0003\",\"value\":-2.3},{\"id\":\"Q0004\",\"value\":-1.0},{\"id\":\"Q0005\",\"value\":-2.16},{\"id\":\"Q0006\",\"value\":-2.83},{\"id\":\"Q0007\",\"value\":-3.8},{\"id\":\"Q0008\",\"value\":-2.38},{\"id\":\"Q0009\",\"value\":-1.65},{\"id\":\"Q0010\",\"value\":-1.62},{\"id\":\"Q0011\",\"value\":0.18},{\"id\":\"Q0012\",\"value\":-2.56},{\"id\":\"Q0013\",\"value\":-2.85},{\"id\":\"Q0014\",\"value\":-7.3},{\"id\":\"Q0015\",\"value\":-2.32},{\"id\":\"Q0016\",\"value\":-1.05},{\"id\":\"Q0017\",\"value\":1.0},{\"id\":\"Q0018\",\"value\":-1.71},{\"id\":\"Q0019\",\"value\":-4.5},{\"id\":\"Q0020\",\"value\":-3.85},{\"id\":\"Q0021\",\"value\":0.27},{\"id\":\"Q0022\",\"value\":-0.4},{\"id\":\"Q0023\",\"value\":-1.27},{\"id\":\"Q0024\",\"value\":-0.44},{\"id\":\"Q0025\",\"value\":-7.65},{\"id\":\"Q0026\",\"value\":-3.72},{\"id\":\"Q0027\",\"value\":-1.99},{\"id\":\"Q0028\",\"value\":-2.76},{\"id\":\"Q0029\",\"value\":-0.4},{\"id\":\"Q0030\",\"value\":0.0},{\"id\":\"Q0031\",\"value\":-3.98},{\"id\":\"Q0032\",\"value\":-2.58},{\"id\":\"Q0033\",\"value\":-2.0},{\"id\":\"Q0034\",\"value\":-0.3},{\"id\":\"Q0035\",\"value\":-1.65},{\"id\":\"Q0036\",\"value\":-3.26},{\"id\":\"Q0037\",\"value\":-4.9},{\"id\":\"Q0038\",\"value\":0.28},{\"id\":\"Q0039\",\"value\":-1.8}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_090aaa663a2182ef016ade2c4b0de887d1b43efb88921f6172",
+            "index": 0
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Considering bromadiolone properties**\n\nI’m looking into the properties of bromadiolone, specifically its molecular weight, logP, and solubility. With a logP of 7.5 and a water solubility of just 0.002 g/100 mL, the dataset likely shows some interesting values, like an intrinsic solubility of around -7.92. The pH level also seems important in these calculations, especially regarding the effect of hydroxyl acid. I'll take a closer look at these properties to get a clearer picture.",
+            "format": "openai-responses-v1",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_090aaa663a2182ef016ade2c5786cc87d1a04b27c59942d952",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_090aaa663a2182ef016ade2c63b7b887d184ad4eafaee4a747",
+            "index": 3
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating solubility corrections**\n\nI'm looking at some ESOL propane logS data, and I've seen a measured value of -1.460 for the \"CCC\" dataset. There are benchmarks for methane at -1.34, ethane at -1.36, and butane at -2.89. I'm questioning the solubility corrections for normal boiling points and can’t quite remember if -2.76 is appropriate. It’s all a bit fuzzy in my memory, but I want to make sure I have the facts straight!",
+            "format": "openai-responses-v1",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_090aaa663a2182ef016ade2c6e671487d19be97c224585b666",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_090aaa663a2182ef016ade2c79af4c87d18dcbef29acbd18c6",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_090aaa663a2182ef016ade2c81731087d19f35a03375beb1de",
+            "index": 7
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2154,
+    "completion_tokens": 3331,
+    "total_tokens": 5485,
+    "cost": 0.1934675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2151,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1934675,
+      "upstream_inference_prompt_cost": 0.0269175,
+      "upstream_inference_completions_cost": 0.16655
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2800,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

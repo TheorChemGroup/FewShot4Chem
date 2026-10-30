@@ -1,0 +1,6 @@
+type: grover
+name: grover-base
+version: 1.0.0
+hyperparams:
+  model_size: base
+batch_size: 32

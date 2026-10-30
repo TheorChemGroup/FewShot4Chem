@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792945424-fSuBLUF8PkAOV6YXaTQs",
+  "object": "chat.completion",
+  "created": 1792945424,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-9925.5},{\"id\":\"Q0001\",\"value\":-11812},{\"id\":\"Q0002\",\"value\":-10567},{\"id\":\"Q0003\",\"value\":-10966},{\"id\":\"Q0004\",\"value\":-10534.5},{\"id\":\"Q0005\",\"value\":-11478.5},{\"id\":\"Q0006\",\"value\":-12355},{\"id\":\"Q0007\",\"value\":-12457.5},{\"id\":\"Q0008\",\"value\":-11481},{\"id\":\"Q0009\",\"value\":-11003.5},{\"id\":\"Q0010\",\"value\":-11577},{\"id\":\"Q0011\",\"value\":-12680},{\"id\":\"Q0012\",\"value\":-10938},{\"id\":\"Q0013\",\"value\":-12385},{\"id\":\"Q0014\",\"value\":-12456},{\"id\":\"Q0015\",\"value\":-10500.5},{\"id\":\"Q0016\",\"value\":-11449},{\"id\":\"Q0017\",\"value\":-11913.5},{\"id\":\"Q0018\",\"value\":-10864},{\"id\":\"Q0019\",\"value\":-12522},{\"id\":\"Q0020\",\"value\":-12384},{\"id\":\"Q0021\",\"value\":-10911},{\"id\":\"Q0022\",\"value\":-10939},{\"id\":\"Q0023\",\"value\":-11301},{\"id\":\"Q0024\",\"value\":-11891},{\"id\":\"Q0025\",\"value\":-10971},{\"id\":\"Q0026\",\"value\":-9623},{\"id\":\"Q0027\",\"value\":-11475.5},{\"id\":\"Q0028\",\"value\":-11373},{\"id\":\"Q0029\",\"value\":-11302},{\"id\":\"Q0030\",\"value\":-11812},{\"id\":\"Q0031\",\"value\":-11611},{\"id\":\"Q0032\",\"value\":-9462.5},{\"id\":\"Q0033\",\"value\":-10499.5},{\"id\":\"Q0034\",\"value\":-9958.5},{\"id\":\"Q0035\",\"value\":-9358.5},{\"id\":\"Q0036\",\"value\":-13501},{\"id\":\"Q0037\",\"value\":-11318},{\"id\":\"Q0038\",\"value\":-13049.5},{\"id\":\"Q0039\",\"value\":-11720}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate the atomization energy U0 by assigning approximate per-atom contributions for carbon, hydrogen, and oxygen based on typical QM9 B3LYP values, then applying that to the molecular formula C7H10O2.\n\nI'm trying to isolate the per-atom contribution of nitrogen by comparing molecules that differ by N versus H, using the C8H13NO and C8H14O energy values to back out an approximate increment, then setting up a small system of equations to solve for consistent C, H, N, O contributions.\n\nMy estimate is off by about 9 units, so I'm refining the per-element coefficients using more data points—checking C8H16O, C7H12O2, C8H13NO, and two hydrocarbon examples to isolate the hydrogen contribution more precisely.\n\nChecking a 7-carbon nitrile ether molecule gives N≈-1488.6, which matches better. Testing against a diol compound confirms the formula roughly holds with a small unsaturation correction, so I'm settling on the coefficients: C≈-1036.6, H≈-16.2, N≈-1488.6, O≈-2047.15, with possible adjustments for saturation or strain.\n\nTesting more examples: an aromatic nitrile-amine triazole matches well with roughly a 5-unit aromatic correction, and an alkyne-nitrile amine compound fits closely without adjustment. Now I'm moving to the actual query molecules, starting by counting carbons and hydrogens in the first bicyclic nitrile structure.\n\nFor the coumarin-like heterocycle with an amidine group, I apply the formula with an aromatic correction of about -3. The alkyne-alcohol compound matches closely to a similar training example, needing little adjustment. The charged bicyclic zwitterion with NH2+ and CH+ groups is unusual, and I note the calculation feels uncertain given its odd charge distribution.\n\nWorking through more compounds now: the cyclopentene ketone lands around -10534, the bicyclic epoxide-aldehyde needs a small strain correction to about -11478, the pyrimidinone with a hydroxymethyl group gets the usual aromatic adjustment to about -12355, and the alkynyl tetrahydrofuranone comes out near -12457. I'm continuing to the next structure with a hydroxyl-substituted ring.\n\nActually that's a pentazole ring (5 N), giving C3H5N5O; calculating its formation energy I get roughly -12680. Moving to Q12, CC1=CCC(=O)NC=C1 as C7H9NO works out near -10938, and then I start on Q13 with O=C1NC=NC[C@@H]1CO as C5H8N2O2.\n\nFinishing that calculation gives around -12385 for Q13. For Q14, the strained bicyclic alkyne-epoxide C6H6O3 comes out near -12456 after adjusting for ring strain. Q15's cyclopropane-oxetane alkyne C8H10O lands around -10500.5, Q16's furan-methoxy alkyne C7H6O2 gives roughly -11449, and I'm now setting up the spirocyclic bicyclic structure for Q17.\n\nContinuing through Q22 to Q26, computing formation energies for each molecule by summing atomic contributions and strain corrections, landing on values like -10939, -11301, -11891, -10971, and -9329.4.\n\nFor Q27, I'm counting carbons and hydrogens in this strained polycyclic epoxide structure, arriving at C7H8O2 and a heavily strain-penalized value around -11475. I compute Q28's bicyclic lactam-imine as C6H8N2O at -11373, then move into Q29's pyrazole structure.\n\nWorking through Q30's imidazole carboxamide to get C5H7N3O at -11812, then Q31's diether chain giving C7H16O2 at -11611, and now I'm counting atoms in Q32's tricyclic methylated oxetane ring system to land on C7H10O.\n\nFor Q33, I calculate the propargyl-substituted bicyclic ether as C8H10O at -10499, then Q34's ethyl-nitrile bicycle comes out to C8H11N at -9958, and I'm starting to break down Q35's structure next.\n\nQ35's cationic pyrrolidine nitrile needs adjustment since cations run higher, landing around -9358.5 for the C6H11N2 formula. Then I'm computing Q36's methoxy-formyl ester as C5H8O4 at -13501, and beginning to work through Q37's hydroxylated pyrazole structure.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate the atomization energy U0 by assigning approximate per-atom contributions for carbon, hydrogen, and oxygen based on typical QM9 B3LYP values, then applying that to the molecular formula C7H10O2.\n\nI'm trying to isolate the per-atom contribution of nitrogen by comparing molecules that differ by N versus H, using the C8H13NO and C8H14O energy values to back out an approximate increment, then setting up a small system of equations to solve for consistent C, H, N, O contributions.\n\nMy estimate is off by about 9 units, so I'm refining the per-element coefficients using more data points—checking C8H16O, C7H12O2, C8H13NO, and two hydrocarbon examples to isolate the hydrogen contribution more precisely.\n\nChecking a 7-carbon nitrile ether molecule gives N≈-1488.6, which matches better. Testing against a diol compound confirms the formula roughly holds with a small unsaturation correction, so I'm settling on the coefficients: C≈-1036.6, H≈-16.2, N≈-1488.6, O≈-2047.15, with possible adjustments for saturation or strain.\n\nTesting more examples: an aromatic nitrile-amine triazole matches well with roughly a 5-unit aromatic correction, and an alkyne-nitrile amine compound fits closely without adjustment. Now I'm moving to the actual query molecules, starting by counting carbons and hydrogens in the first bicyclic nitrile structure.\n\nFor the coumarin-like heterocycle with an amidine group, I apply the formula with an aromatic correction of about -3. The alkyne-alcohol compound matches closely to a similar training example, needing little adjustment. The charged bicyclic zwitterion with NH2+ and CH+ groups is unusual, and I note the calculation feels uncertain given its odd charge distribution.\n\nWorking through more compounds now: the cyclopentene ketone lands around -10534, the bicyclic epoxide-aldehyde needs a small strain correction to about -11478, the pyrimidinone with a hydroxymethyl group gets the usual aromatic adjustment to about -12355, and the alkynyl tetrahydrofuranone comes out near -12457. I'm continuing to the next structure with a hydroxyl-substituted ring.\n\nActually that's a pentazole ring (5 N), giving C3H5N5O; calculating its formation energy I get roughly -12680. Moving to Q12, CC1=CCC(=O)NC=C1 as C7H9NO works out near -10938, and then I start on Q13 with O=C1NC=NC[C@@H]1CO as C5H8N2O2.\n\nFinishing that calculation gives around -12385 for Q13. For Q14, the strained bicyclic alkyne-epoxide C6H6O3 comes out near -12456 after adjusting for ring strain. Q15's cyclopropane-oxetane alkyne C8H10O lands around -10500.5, Q16's furan-methoxy alkyne C7H6O2 gives roughly -11449, and I'm now setting up the spirocyclic bicyclic structure for Q17.\n\nContinuing through Q22 to Q26, computing formation energies for each molecule by summing atomic contributions and strain corrections, landing on values like -10939, -11301, -11891, -10971, and -9329.4.\n\nFor Q27, I'm counting carbons and hydrogens in this strained polycyclic epoxide structure, arriving at C7H8O2 and a heavily strain-penalized value around -11475. I compute Q28's bicyclic lactam-imine as C6H8N2O at -11373, then move into Q29's pyrazole structure.\n\nWorking through Q30's imidazole carboxamide to get C5H7N3O at -11812, then Q31's diether chain giving C7H16O2 at -11611, and now I'm counting atoms in Q32's tricyclic methylated oxetane ring system to land on C7H10O.\n\nFor Q33, I calculate the propargyl-substituted bicyclic ether as C8H10O at -10499, then Q34's ethyl-nitrile bicycle comes out to C8H11N at -9958, and I'm starting to break down Q35's structure next.\n\nQ35's cationic pyrrolidine nitrile needs adjustment since cations run higher, landing around -9358.5 for the C6H11N2 formula. Then I'm computing Q36's methoxy-formyl ester as C5H8O4 at -13501, and beginning to work through Q37's hydroxylated pyrazole structure.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 5733,
+    "total_tokens": 9047,
+    "cost": 0.127916,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.127916,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.11466
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5056,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

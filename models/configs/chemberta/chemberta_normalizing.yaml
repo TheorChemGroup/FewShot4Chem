@@ -1,0 +1,5 @@
+type: chemberta
+name: chemberta_normalizing
+hyperparams: 
+  normalize: True
+batch_size: 1024

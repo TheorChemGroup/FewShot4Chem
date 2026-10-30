@@ -1,0 +1,144 @@
+{
+  "id": "gen-1792975976-VsQk3CvpMKmJESsMbLb0",
+  "object": "chat.completion",
+  "created": 1792975976,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11150.0},{\"id\":\"Q0001\",\"value\":-11230.0},{\"id\":\"Q0002\",\"value\":-11136.0},{\"id\":\"Q0003\",\"value\":-11210.0},{\"id\":\"Q0004\",\"value\":-11300.0},{\"id\":\"Q0005\",\"value\":-11125.0},{\"id\":\"Q0006\",\"value\":-11045.0},{\"id\":\"Q0007\",\"value\":-10975.0},{\"id\":\"Q0008\",\"value\":-11290.0},{\"id\":\"Q0009\",\"value\":-11350.0},{\"id\":\"Q0010\",\"value\":-11210.0},{\"id\":\"Q0011\",\"value\":-11345.0},{\"id\":\"Q0012\",\"value\":-11015.0},{\"id\":\"Q0013\",\"value\":-11350.0},{\"id\":\"Q0014\",\"value\":-11170.0},{\"id\":\"Q0015\",\"value\":-11240.0},{\"id\":\"Q0016\",\"value\":-11110.0},{\"id\":\"Q0017\",\"value\":-11420.0},{\"id\":\"Q0018\",\"value\":-11160.0},{\"id\":\"Q0019\",\"value\":-11105.0},{\"id\":\"Q0020\",\"value\":-11020.0},{\"id\":\"Q0021\",\"value\":-11170.0},{\"id\":\"Q0022\",\"value\":-11240.0},{\"id\":\"Q0023\",\"value\":-11440.0},{\"id\":\"Q0024\",\"value\":-11030.0},{\"id\":\"Q0025\",\"value\":-11345.0},{\"id\":\"Q0026\",\"value\":-11005.0},{\"id\":\"Q0027\",\"value\":-10945.0},{\"id\":\"Q0028\",\"value\":-11265.0},{\"id\":\"Q0029\",\"value\":-11345.0},{\"id\":\"Q0030\",\"value\":-11045.0},{\"id\":\"Q0031\",\"value\":-10975.0},{\"id\":\"Q0032\",\"value\":-11035.0},{\"id\":\"Q0033\",\"value\":-11060.0},{\"id\":\"Q0034\",\"value\":-11330.0},{\"id\":\"Q0035\",\"value\":-11260.0},{\"id\":\"Q0036\",\"value\":-10945.0},{\"id\":\"Q0037\",\"value\":-11045.0},{\"id\":\"Q0038\",\"value\":-11420.0},{\"id\":\"Q0039\",\"value\":-11280.0}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4696a4087d1866dffe97bfc68b6",
+            "index": 0
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating chemical associations**\n\nI'm looking into the target formula C8H14O and a potential assignment to C7O2. I think there might be an issue with the dataset, perhaps due to faulty SMILES mapping or some noise. I need to predict energies based on composition. The next step is to tally all the rows for formula weights and energy, then evaluate the associations. It feels a bit complex, but I’m curious how it turns out!",
+            "format": "openai-responses-v1",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4747f6087d1831eb8cd670ed84a",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea47f98a087d19e7e4e86c6bfa043",
+            "index": 3
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Analyzing molecule energies**\n\nI need to examine heavy atom counts for certain categories, as the energies from QM9 formulas seemed off. I’m focusing on nine heavy atoms, like C9 expected at around 9600 and C8O at about 10566. It looks like there are discrepancies, like C5NO3 being labeled as C7N2, which is confusing. Additionally, the table's extreme value of 13499 for C8O raises questions. I wonder if these energies are derived from unrelated molecules.",
+            "format": "openai-responses-v1",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea489ff9487d1964a13cfbfb05cd2",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea495ce1887d19b9677bf1959a757",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea49af64887d19bc9961950a5e1b8",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea49ef49487d185272c8570699bb3",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4a4ce7087d1a7f5e8f4041c6417",
+            "index": 9
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4ab8f3087d19c274ec5be3e4b24",
+            "index": 10
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4b5659487d18ebe87d396fa1927",
+            "index": 11
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4bd372087d1a06216f4907bc898",
+            "index": 12
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4c3618887d1a97fef0a4b99c4c2",
+            "index": 13
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4c9cab087d19d6c9f98eeeafd14",
+            "index": 14
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07bf36c90a276368016adea4d001dc87d19703a5f8baac80d0",
+            "index": 15
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2416,
+    "completion_tokens": 7734,
+    "total_tokens": 10150,
+    "cost": 0.4168925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2413,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.4168925,
+      "upstream_inference_prompt_cost": 0.0301925,
+      "upstream_inference_completions_cost": 0.3867
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7158,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

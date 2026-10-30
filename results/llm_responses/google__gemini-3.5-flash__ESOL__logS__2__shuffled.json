@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792946019-qqhMk5FFQH41I0qOuLhG",
+  "object": "chat.completion",
+  "created": 1792946019,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": -2.0}, {\"id\": \"Q0001\", \"value\": -4.5}, {\"id\": \"Q0002\", \"value\": -3.5}, {\"id\": \"Q0003\", \"value\": -3.2}, {\"id\": \"Q0004\", \"value\": -3.2}, {\"id\": \"Q0005\", \"value\": -2.8}, {\"id\": \"Q0006\", \"value\": -2.2}, {\"id\": \"Q0007\", \"value\": -2.1}, {\"id\": \"Q0008\", \"value\": -2.8}, {\"id\": \"Q0009\", \"value\": -0.5}, {\"id\": \"Q0010\", \"value\": -5.0}, {\"id\": \"Q0011\", \"value\": -4.2}, {\"id\": \"Q0012\", \"value\": -2.8}, {\"id\": \"Q0013\", \"value\": -1.8}, {\"id\": \"Q0014\", \"value\": -0.5}, {\"id\": \"Q0015\", \"value\": -2.5}, {\"id\": \"Q0016\", \"value\": -2.4}, {\"id\": \"Q0017\", \"value\": -0.5}, {\"id\": \"Q0018\", \"value\": -1.5}, {\"id\": \"Q0019\", \"value\": -3.5}, {\"id\": \"Q0020\", \"value\": -2.0}, {\"id\": \"Q0021\", \"value\": -2.1}, {\"id\": \"Q0022\", \"value\": -1.9}, {\"id\": \"Q0023\", \"value\": -0.1}, {\"id\": \"Q0024\", \"value\": -2.4}, {\"id\": \"Q0025\", \"value\": -2.1}, {\"id\": \"Q0026\", \"value\": -2.8}, {\"id\": \"Q0027\", \"value\": -2.2}, {\"id\": \"Q0028\", \"value\": -2.6}, {\"id\": \"Q0029\", \"value\": -3.2}, {\"id\": \"Q0030\", \"value\": -4.0}, {\"id\": \"Q0031\", \"value\": -1.0}, {\"id\": \"Q0032\", \"value\": -2.3}, {\"id\": \"Q0033\", \"value\": -3.4}, {\"id\": \"Q0034\", \"value\": -3.5}, {\"id\": \"Q0035\", \"value\": -1.9}, {\"id\": \"Q0036\", \"value\": -3.0}, {\"id\": \"Q0037\", \"value\": -3.5}, {\"id\": \"Q0038\", \"value\": -4.0}, {\"id\": \"Q0039\", \"value\": -1.5}]}",
+        "refusal": null,
+        "reasoning": "**Exploring Solubility Trends**\n\nI'm currently analyzing the training data, examining the logS values for the provided molecules. It seems there might be a slight discrepancy or outlier in the data I'm looking at, which requires further investigation before I proceed with modeling.\n\n**Refining Solubility Estimates**\n\nI'm digging deeper into the training data, specifically looking at logS values and comparing similar structures. There's some back-and-forth on specific molecule solubilities, but I'm honing in on accurate estimations based on structural analogies and established patterns for the compounds I'm analyzing.\n\n**Verifying Solubility Data**\n\nI'm encountering significant anomalies in the solubility data. For instance, aniline is listed with a logS of -4.16 and bromobenzene at 0.07, which contradict known values. This suggests a potential issue with the logS scale or units used in the training set. I'm proceeding with caution, prioritizing relative trends.\n\n**Investigating Solubility Inversions**\n\nI've identified a critical inconsistency: nonane's logS of 0.38 directly contradicts known values and reverses expected trends. This, alongside other inverted data points like aniline and bromobenzene, strongly suggests the dataset might be using log(1/S) or logKow, or that there are significant typos, especially with alkane solubilities. I'm now prioritizing relative solubility trends over absolute values while I continue to decode the data's true meaning.\n\n**Decoding Solubility Inconsistencies**\n\nI'm noticing a perplexing trend where longer alkane chains appear to increase solubility, which contradicts fundamental chemical principles. Furthermore, some alcohols exhibit this inverse correlation as well. This suggests that the provided logS values might not directly represent aqueous solubility as typically defined. I'm focusing on how to model these observed patterns, even if they deviate from standard expectations.\n\n**Addressing Data Anomalies**\n\nI'm continuing to analyze the training set, noting discrepancies like PCBs having significantly higher logS values than expected and similar structures showing wildly different solubilities. Given this noise, I'm leaning towards a QSAR approach, making adjustments based on observed trends rather than relying solely on absolute values.\n\n**Adjusting Solubility Predictions**\n\nI'm refining my solubility estimates by comparing structures and making informed guesses for outliers. For benzanthracene derivatives and chloroanilines, I'm inferring values based on similar compounds. For alkanes and barbiturates, I'm also projecting plausible solubilities, considering the impact of different substituents.\n\n**Estimating Solubility Ranges**\n\nI'm now actively assigning predicted logS values to new compounds. I'm comparing their structures to similar molecules in the training set and considering general trends, especially with the data's peculiar inversions, to make educated guesses for these estimations.\n\n**Applying Solubility Models**\n\nI am now applying the developed predictive models to estimate logS values for new compounds. I'm leveraging structural similarities and the observed trends, particularly the dataset's peculiar inversions, to generate these estimations.\n\n**Generating Solubility Estimates**\n\nI am now actively assigning predicted logS values to new compounds, comparing their structures to similar molecules in the training set and considering general trends to make educated guesses for these estimations, especially given the data's peculiar inversions.\n\n**Generating Solubility Predictions**\n\nI am now assigning predicted logS values for specific compounds, referencing similar structures and considering the dataset's unique trends. My estimations for iodomethane, chlorinated compounds, and various substituted benzenes are derived from these comparisons and adjusted for potential influences.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Exploring Solubility Trends**\n\nI'm currently analyzing the training data, examining the logS values for the provided molecules. It seems there might be a slight discrepancy or outlier in the data I'm looking at, which requires further investigation before I proceed with modeling.\n\n**Refining Solubility Estimates**\n\nI'm digging deeper into the training data, specifically looking at logS values and comparing similar structures. There's some back-and-forth on specific molecule solubilities, but I'm honing in on accurate estimations based on structural analogies and established patterns for the compounds I'm analyzing.\n\n**Verifying Solubility Data**\n\nI'm encountering significant anomalies in the solubility data. For instance, aniline is listed with a logS of -4.16 and bromobenzene at 0.07, which contradict known values. This suggests a potential issue with the logS scale or units used in the training set. I'm proceeding with caution, prioritizing relative trends.\n\n**Investigating Solubility Inversions**\n\nI've identified a critical inconsistency: nonane's logS of 0.38 directly contradicts known values and reverses expected trends. This, alongside other inverted data points like aniline and bromobenzene, strongly suggests the dataset might be using log(1/S) or logKow, or that there are significant typos, especially with alkane solubilities. I'm now prioritizing relative solubility trends over absolute values while I continue to decode the data's true meaning.\n\n**Decoding Solubility Inconsistencies**\n\nI'm noticing a perplexing trend where longer alkane chains appear to increase solubility, which contradicts fundamental chemical principles. Furthermore, some alcohols exhibit this inverse correlation as well. This suggests that the provided logS values might not directly represent aqueous solubility as typically defined. I'm focusing on how to model these observed patterns, even if they deviate from standard expectations.\n\n**Addressing Data Anomalies**\n\nI'm continuing to analyze the training set, noting discrepancies like PCBs having significantly higher logS values than expected and similar structures showing wildly different solubilities. Given this noise, I'm leaning towards a QSAR approach, making adjustments based on observed trends rather than relying solely on absolute values.\n\n**Adjusting Solubility Predictions**\n\nI'm refining my solubility estimates by comparing structures and making informed guesses for outliers. For benzanthracene derivatives and chloroanilines, I'm inferring values based on similar compounds. For alkanes and barbiturates, I'm also projecting plausible solubilities, considering the impact of different substituents.\n\n**Estimating Solubility Ranges**\n\nI'm now actively assigning predicted logS values to new compounds. I'm comparing their structures to similar molecules in the training set and considering general trends, especially with the data's peculiar inversions, to make educated guesses for these estimations.\n\n**Applying Solubility Models**\n\nI am now applying the developed predictive models to estimate logS values for new compounds. I'm leveraging structural similarities and the observed trends, particularly the dataset's peculiar inversions, to generate these estimations.\n\n**Generating Solubility Estimates**\n\nI am now actively assigning predicted logS values to new compounds, comparing their structures to similar molecules in the training set and considering general trends to make educated guesses for these estimations, especially given the data's peculiar inversions.\n\n**Generating Solubility Predictions**\n\nI am now assigning predicted logS values for specific compounds, referencing similar structures and considering the dataset's unique trends. My estimations for iodomethane, chlorinated compounds, and various substituted benzenes are derived from these comparisons and adjusted for potential influences.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2458,
+    "completion_tokens": 6193,
+    "total_tokens": 8651,
+    "cost": 0.059424,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.059424,
+      "upstream_inference_prompt_cost": 0.003687,
+      "upstream_inference_completions_cost": 0.055737
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5470,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

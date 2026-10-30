@@ -1,0 +1,8 @@
+head_type: gp-rbf
+objective_type: regression
+path: models/weights/gp/{model_name}-{dataset_name}-rbf.pt
+num_inducing_cap: 1024
+n_iter: 200
+lr: 1.0e-2
+batch_size: 1024
+seed: 42

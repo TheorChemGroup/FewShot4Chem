@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792969910-Nin8fgWLC6yKfWqlDNfF",
+  "object": "chat.completion",
+  "created": 1792969910,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": 0.4\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -2.5\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": 0.7\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -3.8\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -2.85\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -1.7\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -0.5\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": -1.3\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": 0.3\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": -3.3\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": -0.8\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -0.9\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -4.6\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -3.4\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -3.7\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -1.6\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -1.9\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -3.1\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -7.0\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": -3.9\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": -1.6\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -2.9\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": -3.0\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -2.4\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": 0.2\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -3.0\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -0.7\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Molecular Properties**\n\nI'm currently focused on understanding the training data. My initial exploration involves examining how properties like molecular weight and logP relate to `logS`, as these are often strong predictors of solubility. I'm gathering insights to inform feature engineering and model selection.\n\n**Estimating LogS Values**\n\nI'm now focused on estimating logS values for specific query molecules. I'm comparing their structures and physicochemical properties, like molecular weight and lipophilicity, to similar compounds in the training data to make informed predictions for Dibutyl sebacate, propionitrile, and 4-hexylresorcinol.\n\n**Refining Solubility Estimates**\n\nI'm now refining my logS estimates by incorporating specific structural insights. For sucrose, I've adjusted my prediction to 0.70, recognizing its high solubility. For Ronnel, I'm comparing it to trichlorobenzene to estimate a logS around -4.5. For the dipyrido-diazepinone, I'm noting its similarity to Nevirapine derivatives to gauge its solubility.\n\n**Estimating Solubility Further**\n\nI'm now refining my logS estimates by incorporating specific structural insights. For the dipyrido-diazepinone, I'm noting its similarity to Nevirapine derivatives to gauge its solubility. I've estimated a logS of -3.80 for the first compound, -2.85 for ethylbenzene, and -1.70 for 1-hexyne. Propane's logS is estimated around -2.1.\n\n**Estimating Ester Solubilities**\n\nI'm now analyzing ester solubilities. Ethyl butyrate and isobutyl acetate, both with six carbons, show logS values around -1.2. I'm estimating propyl formate, with four carbons, to have a higher solubility, approximately -0.5. I'm also exploring nitrobenzene's solubility (-1.80) to estimate Nifuroxime's as -1.3 due to its increased polarity. For 1-bromo-3-fluorobenzene, I'm estimating -2.8, and for 2-methylpentane, -3.5. Finally, I'm estimating 2,6-dimethylpyridine's logS at 0.3.\n\n**Estimating Additional Solubilities**\n\nI'm continuing to estimate logS values, now focusing on specific compounds. For `CCc1ccccc1C`, I predict -3.3. Phenylhydrazine is estimated at -0.8, guaiacol at -0.9, and 1,2,4,5-tetrachlorobenzene at -4.6. Phorate's solubility is around -3.4, 1,2-diphenylhydrazine is -4.0, and Diuron is -3.7.\n\n**Estimating Further Solubilities**\n\nI'm now analyzing the solubilities of several more compounds. Megestrol acetate is predicted around -5.5 due to its steroid structure. Thiophenol is estimated at -1.8, and Dimethirimol at -2.1. For 1,4-pentadiene, I predict -1.6, and for methyl hexanoate, -1.9. Triamcinolone is estimated at -3.1.\n\n**Estimating Diverse Solubilities**\n\nI'm continuing to estimate logS values, now focusing on a wider range of compounds. Metolazone is around -4.2, and Octadecanol is predicted at -7.0. Diphenyl ether's solubility is estimated at -3.9, while 1,2-dichloropropane is around -1.6. Isoprene is estimated at -1.8, Prednisolone at -2.9, and Monuron at -3.0.\n\n**Estimating Additional LogS**\n\nI'm now estimating solubilities for 3-chloroaniline at -1.37 and dichlorophenol at -2.1. For 2-nonanol, I predict -2.40. Nitromethane is highly soluble, around 0.2. I estimate the Nevirapine derivative at -3.5, Carboxin at -3.0, and Diprophylline at -0.7.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Molecular Properties**\n\nI'm currently focused on understanding the training data. My initial exploration involves examining how properties like molecular weight and logP relate to `logS`, as these are often strong predictors of solubility. I'm gathering insights to inform feature engineering and model selection.\n\n**Estimating LogS Values**\n\nI'm now focused on estimating logS values for specific query molecules. I'm comparing their structures and physicochemical properties, like molecular weight and lipophilicity, to similar compounds in the training data to make informed predictions for Dibutyl sebacate, propionitrile, and 4-hexylresorcinol.\n\n**Refining Solubility Estimates**\n\nI'm now refining my logS estimates by incorporating specific structural insights. For sucrose, I've adjusted my prediction to 0.70, recognizing its high solubility. For Ronnel, I'm comparing it to trichlorobenzene to estimate a logS around -4.5. For the dipyrido-diazepinone, I'm noting its similarity to Nevirapine derivatives to gauge its solubility.\n\n**Estimating Solubility Further**\n\nI'm now refining my logS estimates by incorporating specific structural insights. For the dipyrido-diazepinone, I'm noting its similarity to Nevirapine derivatives to gauge its solubility. I've estimated a logS of -3.80 for the first compound, -2.85 for ethylbenzene, and -1.70 for 1-hexyne. Propane's logS is estimated around -2.1.\n\n**Estimating Ester Solubilities**\n\nI'm now analyzing ester solubilities. Ethyl butyrate and isobutyl acetate, both with six carbons, show logS values around -1.2. I'm estimating propyl formate, with four carbons, to have a higher solubility, approximately -0.5. I'm also exploring nitrobenzene's solubility (-1.80) to estimate Nifuroxime's as -1.3 due to its increased polarity. For 1-bromo-3-fluorobenzene, I'm estimating -2.8, and for 2-methylpentane, -3.5. Finally, I'm estimating 2,6-dimethylpyridine's logS at 0.3.\n\n**Estimating Additional Solubilities**\n\nI'm continuing to estimate logS values, now focusing on specific compounds. For `CCc1ccccc1C`, I predict -3.3. Phenylhydrazine is estimated at -0.8, guaiacol at -0.9, and 1,2,4,5-tetrachlorobenzene at -4.6. Phorate's solubility is around -3.4, 1,2-diphenylhydrazine is -4.0, and Diuron is -3.7.\n\n**Estimating Further Solubilities**\n\nI'm now analyzing the solubilities of several more compounds. Megestrol acetate is predicted around -5.5 due to its steroid structure. Thiophenol is estimated at -1.8, and Dimethirimol at -2.1. For 1,4-pentadiene, I predict -1.6, and for methyl hexanoate, -1.9. Triamcinolone is estimated at -3.1.\n\n**Estimating Diverse Solubilities**\n\nI'm continuing to estimate logS values, now focusing on a wider range of compounds. Metolazone is around -4.2, and Octadecanol is predicted at -7.0. Diphenyl ether's solubility is estimated at -3.9, while 1,2-dichloropropane is around -1.6. Isoprene is estimated at -1.8, Prednisolone at -2.9, and Monuron at -3.0.\n\n**Estimating Additional LogS**\n\nI'm now estimating solubilities for 3-chloroaniline at -1.37 and dichlorophenol at -2.1. For 2-nonanol, I predict -2.40. Nitromethane is highly soluble, around 0.2. I estimate the Nevirapine derivative at -3.5, Carboxin at -3.0, and Diprophylline at -0.7.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2459,
+    "completion_tokens": 5593,
+    "total_tokens": 8052,
+    "cost": 0.0540255,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0540255,
+      "upstream_inference_prompt_cost": 0.0036885,
+      "upstream_inference_completions_cost": 0.050337
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4501,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

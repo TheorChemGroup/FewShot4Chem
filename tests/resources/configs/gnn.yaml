@@ -1,0 +1,21 @@
+type: gnn
+name: 11.09.2025-1M
+hyperparams:
+  vocab_size: 19
+  hidden_dim: 240
+  heads: 4
+  layers: 8
+  loss: nll
+  normalize: true
+  margin: 0.33
+  final_shift: true
+  gamma: 0.95
+  debug: false
+  edge_dim: 5
+  mode: mlm
+  dropout_prob: 0.2
+batch_size: 1024
+train_batch_size: 4500
+parent_config: null
+path: null
+training_dataset_name: GraphChem1K

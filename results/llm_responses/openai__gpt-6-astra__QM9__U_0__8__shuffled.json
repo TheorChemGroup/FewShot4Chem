@@ -1,0 +1,132 @@
+{
+  "id": "gen-1792969516-00YfKswo3bPBc9MXKOLf",
+  "object": "chat.completion",
+  "created": 1792969516,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11365.0},{\"id\":\"Q0001\",\"value\":-11750.0},{\"id\":\"Q0002\",\"value\":-11290.0},{\"id\":\"Q0003\",\"value\":-11610.0},{\"id\":\"Q0004\",\"value\":-11350.0},{\"id\":\"Q0005\",\"value\":-11370.0},{\"id\":\"Q0006\",\"value\":-10970.0},{\"id\":\"Q0007\",\"value\":-11340.0},{\"id\":\"Q0008\",\"value\":-11355.0},{\"id\":\"Q0009\",\"value\":-11370.0},{\"id\":\"Q0010\",\"value\":-11330.0},{\"id\":\"Q0011\",\"value\":-11500.0},{\"id\":\"Q0012\",\"value\":-11760.0},{\"id\":\"Q0013\",\"value\":-11500.0},{\"id\":\"Q0014\",\"value\":-11190.0},{\"id\":\"Q0015\",\"value\":-11550.0},{\"id\":\"Q0016\",\"value\":-11270.0},{\"id\":\"Q0017\",\"value\":-11600.0},{\"id\":\"Q0018\",\"value\":-11310.0},{\"id\":\"Q0019\",\"value\":-11160.0},{\"id\":\"Q0020\",\"value\":-11500.0},{\"id\":\"Q0021\",\"value\":-11090.0},{\"id\":\"Q0022\",\"value\":-11140.0},{\"id\":\"Q0023\",\"value\":-10780.0},{\"id\":\"Q0024\",\"value\":-11120.0},{\"id\":\"Q0025\",\"value\":-11115.0},{\"id\":\"Q0026\",\"value\":-10900.0},{\"id\":\"Q0027\",\"value\":-11750.0},{\"id\":\"Q0028\",\"value\":-11450.0},{\"id\":\"Q0029\",\"value\":-11100.0},{\"id\":\"Q0030\",\"value\":-11180.0},{\"id\":\"Q0031\",\"value\":-11220.0},{\"id\":\"Q0032\",\"value\":-11630.0},{\"id\":\"Q0033\",\"value\":-11420.0},{\"id\":\"Q0034\",\"value\":-11480.0},{\"id\":\"Q0035\",\"value\":-11560.0},{\"id\":\"Q0036\",\"value\":-10880.0},{\"id\":\"Q0037\",\"value\":-11490.0},{\"id\":\"Q0038\",\"value\":-11050.0},{\"id\":\"Q0039\",\"value\":-11380.0}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b2d77d887d1b9bae997b21bc231",
+            "index": 0
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Analyzing energy values**\n\nI'm comparing energy values and finding inconsistencies in my targets, with a strong need to predict around 11,400 based on composition patterns. I think I should inspect formulas and groupings to check for any encoded geometry errors. The range of values is from 9360 to 13499, with some suspicious values repeating. It could be that energy offsets are corrupting my models. I need to learn from weak patterns and consider training associations for better clarity in this area.**Examining atomic energies**\n\nI'm trying to determine if atomic numbers might be linked to some sort of character tokenizer for atoms. I shouldn’t overfit but rather analyze known formula energy pairs. For example, C[C@H]1CC[C@H]2C[C@H]2[C@H]1O should yield about -10531.68, and it closely matches calculations I’ve made. It's interesting that training examples show similar family patterns, but I see some discrepancies that might suggest corrupted data. I’ll need to investigate these relationships further, especially with those ring structures.",
+            "format": "openai-responses-v1",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b37c92487d1a7fce4baddb562f0",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b44bfd887d19edbc33befadae06",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b4b04d887d1ba49e621475a304c",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b5150a487d1935eb155634bcba9",
+            "index": 5
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Calculating atomic energies**\n\nI'm trying to calculate expected atomic energies, but it seems like I might have something wrong here. The ground state energy for N is -54.584 Hartree, which I verified as -1485.3. There's a sum I'm working with, but I'm seeing discrepancies in the calculations. Maybe the difference is about 90? I should consider using the QM9 effective N coefficient, which is around -1490, to see if that resolves things.",
+            "format": "openai-responses-v1",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b5bf7dc87d1a5a6e82f348123ed",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b6719e087d1b77474073969cf66",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b71c51087d1bce5c0d316494822",
+            "index": 9
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b7bb98887d1895dc3ce1d96d961",
+            "index": 10
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b86cfd487d1b6b0285e3859f1f7",
+            "index": 11
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b8f503887d19d63e399fe69777c",
+            "index": 12
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0f9836740ab49d0e016ade8b97a67487d1ae52463f2f9a7019",
+            "index": 13
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2417,
+    "completion_tokens": 6425,
+    "total_tokens": 8842,
+    "cost": 0.351455,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2414,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.351455,
+      "upstream_inference_prompt_cost": 0.030205,
+      "upstream_inference_completions_cost": 0.32125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5849,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

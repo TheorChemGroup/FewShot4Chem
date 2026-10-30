@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792946160-1QLO1CeTAmjuzPN22zkj",
+  "object": "chat.completion",
+  "created": 1792946160,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -0.6\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -3.2\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -3.4\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -6.5\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -3.3\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -6.3\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -0.8\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -2.6\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -3.9\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": -3.3\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -3.8\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -2.9\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -3.0\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": -1.1\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": 0.2\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -2.6\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -1.4\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -3.3\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -7.5\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -2.4\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -2.2\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": 0.1\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": -3.2\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": -3.3\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": -5.8\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -0.4\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -1.1\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": -2.4\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -2.6\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -4.8\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Training Data**\n\nI'm currently examining the structure of the provided training molecules, specifically focusing on the chemical features and functional groups present. This initial exploration aims to establish a baseline understanding of the data that will inform feature engineering and model selection for predicting logS.\n\n**Observing LogS Data**\n\nI'm reviewing the provided logS values associated with each molecule. It appears there's a wide range of solubility, from highly soluble to quite insoluble. I'm noting the outliers and the general distribution of values.\n\n**Evaluating Query Molecules**\n\nI am now focusing on the solubility predictions for the query molecule, C12H18O2. Preliminary analysis of its structure and similar compounds suggests a moderate logS value, though I am still refining this estimate.\n\n**Predicting Query Solubility**\n\nI'm now focused on estimating logS for the query molecules, drawing parallels with known compounds and structural characteristics. For instance, hexylresorcinol's logS is estimated around -2.8, phenylhydrazine near -0.6, and uric acid around -3.2. Cumene is projected at -3.4, and the complex aromatic 1-methylchrysene at roughly -6.\n\n**Estimating More Solubilities**\n\nI'm refining my logS estimations by comparing new query structures against known compounds. For instance, I've estimated ~-3.3 for Q0005, ~-6.3 for Q0006, ~-0.8 for Q0007, ~-2.6 for Q0008, ~-3.9 for Q0009, and ~-3.3 for Q0010. Diphenyl ether (Q0011) is projected around -3.6.\n\n**Estimating Query Solubilities**\n\nI'm continuing to estimate logS values for new query molecules, drawing comparisons with structurally similar compounds. My current estimations include -3.8 for Q0012 (Carboxin), -2.9 for Q0013, -1.1 for Q0014, 0.5 for Q0015 (Tetramethylurea), -1.2 for Q0016, -2.6 for Q0017, -1.4 for Q0018, -3.3 for Q0019, and a significantly low -7.5 for Q0020.\n\n**Estimating New Solubilities**\n\nI am continuing to estimate logS values by comparing new query structures against known compounds. My current estimations include ~-2.4 for 1-hexyne, ~-4.5 for dimethylnaphthalene, ~-1.8 for isoprene, ~-4.5 for ethyl decanoate, ~-2.1 for trichloroethylene, ~-2.2 for secobarbital, ~0.1 for 2-methyltetrahydrofuran, and ~-1.5 for 1-heptanol.\n\n**Estimating Remaining Solubilities**\n\nI'm continuing to estimate logS values for the remaining query molecules by comparing them to structurally similar compounds in the dataset. My current estimations include ~-4.5 for 1,2,3,4-tetrachlorobenzene, ~-3.2 for triamcinolone, ~-3.3 for hydrazobenzene, ~-1.8 for 1-pentyne, ~-5.8 for diflubenzuron, ~-0.4 for cyclohexanol, ~-1.1 for ethyl butyrate, and I am currently assessing propachlor.\n\n**Refining Solubility Estimates**\n\nI'm continuing to refine logS estimations by revisiting and cross-checking values against experimental data and structural analogues. For instance, my estimated -2.6 for 3-methylindole aligns with its indole nature, and I'm projecting -5.5 for megestrol acetate given its steroid structure, while ronnel is estimated at -4.8.\n\n**Comparing Current Estimates**\n\nI am now comparing my latest solubility estimations against available experimental data, noting discrepancies and areas for further refinement. My current estimates are largely in agreement, with minor adjustments being made for molecules like 1-heptanol, where a re-evaluation of analogous compounds suggests a slightly higher solubility.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Training Data**\n\nI'm currently examining the structure of the provided training molecules, specifically focusing on the chemical features and functional groups present. This initial exploration aims to establish a baseline understanding of the data that will inform feature engineering and model selection for predicting logS.\n\n**Observing LogS Data**\n\nI'm reviewing the provided logS values associated with each molecule. It appears there's a wide range of solubility, from highly soluble to quite insoluble. I'm noting the outliers and the general distribution of values.\n\n**Evaluating Query Molecules**\n\nI am now focusing on the solubility predictions for the query molecule, C12H18O2. Preliminary analysis of its structure and similar compounds suggests a moderate logS value, though I am still refining this estimate.\n\n**Predicting Query Solubility**\n\nI'm now focused on estimating logS for the query molecules, drawing parallels with known compounds and structural characteristics. For instance, hexylresorcinol's logS is estimated around -2.8, phenylhydrazine near -0.6, and uric acid around -3.2. Cumene is projected at -3.4, and the complex aromatic 1-methylchrysene at roughly -6.\n\n**Estimating More Solubilities**\n\nI'm refining my logS estimations by comparing new query structures against known compounds. For instance, I've estimated ~-3.3 for Q0005, ~-6.3 for Q0006, ~-0.8 for Q0007, ~-2.6 for Q0008, ~-3.9 for Q0009, and ~-3.3 for Q0010. Diphenyl ether (Q0011) is projected around -3.6.\n\n**Estimating Query Solubilities**\n\nI'm continuing to estimate logS values for new query molecules, drawing comparisons with structurally similar compounds. My current estimations include -3.8 for Q0012 (Carboxin), -2.9 for Q0013, -1.1 for Q0014, 0.5 for Q0015 (Tetramethylurea), -1.2 for Q0016, -2.6 for Q0017, -1.4 for Q0018, -3.3 for Q0019, and a significantly low -7.5 for Q0020.\n\n**Estimating New Solubilities**\n\nI am continuing to estimate logS values by comparing new query structures against known compounds. My current estimations include ~-2.4 for 1-hexyne, ~-4.5 for dimethylnaphthalene, ~-1.8 for isoprene, ~-4.5 for ethyl decanoate, ~-2.1 for trichloroethylene, ~-2.2 for secobarbital, ~0.1 for 2-methyltetrahydrofuran, and ~-1.5 for 1-heptanol.\n\n**Estimating Remaining Solubilities**\n\nI'm continuing to estimate logS values for the remaining query molecules by comparing them to structurally similar compounds in the dataset. My current estimations include ~-4.5 for 1,2,3,4-tetrachlorobenzene, ~-3.2 for triamcinolone, ~-3.3 for hydrazobenzene, ~-1.8 for 1-pentyne, ~-5.8 for diflubenzuron, ~-0.4 for cyclohexanol, ~-1.1 for ethyl butyrate, and I am currently assessing propachlor.\n\n**Refining Solubility Estimates**\n\nI'm continuing to refine logS estimations by revisiting and cross-checking values against experimental data and structural analogues. For instance, my estimated -2.6 for 3-methylindole aligns with its indole nature, and I'm projecting -5.5 for megestrol acetate given its steroid structure, while ronnel is estimated at -4.8.\n\n**Comparing Current Estimates**\n\nI am now comparing my latest solubility estimations against available experimental data, noting discrepancies and areas for further refinement. My current estimates are largely in agreement, with minor adjustments being made for molecules like 1-heptanol, where a re-evaluation of analogous compounds suggests a slightly higher solubility.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2457,
+    "completion_tokens": 6255,
+    "total_tokens": 8712,
+    "cost": 0.0599805,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0599805,
+      "upstream_inference_prompt_cost": 0.0036855,
+      "upstream_inference_completions_cost": 0.056295
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5163,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

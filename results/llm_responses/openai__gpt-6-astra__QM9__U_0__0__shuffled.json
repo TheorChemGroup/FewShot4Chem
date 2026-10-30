@@ -1,0 +1,102 @@
+{
+  "id": "gen-1792945403-LEc2H1RBFJ7e3ihM24nS",
+  "object": "chat.completion",
+  "created": 1792945403,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11323.3},{\"id\":\"Q0001\",\"value\":-11323.3},{\"id\":\"Q0002\",\"value\":-11323.3},{\"id\":\"Q0003\",\"value\":-11323.3},{\"id\":\"Q0004\",\"value\":-11323.3},{\"id\":\"Q0005\",\"value\":-11323.3},{\"id\":\"Q0006\",\"value\":-11323.3},{\"id\":\"Q0007\",\"value\":-11323.3},{\"id\":\"Q0008\",\"value\":-11323.3},{\"id\":\"Q0009\",\"value\":-11323.3},{\"id\":\"Q0010\",\"value\":-11323.3},{\"id\":\"Q0011\",\"value\":-11323.3},{\"id\":\"Q0012\",\"value\":-11323.3},{\"id\":\"Q0013\",\"value\":-11323.3},{\"id\":\"Q0014\",\"value\":-11323.3},{\"id\":\"Q0015\",\"value\":-11323.3},{\"id\":\"Q0016\",\"value\":-11323.3},{\"id\":\"Q0017\",\"value\":-11323.3},{\"id\":\"Q0018\",\"value\":-11323.3},{\"id\":\"Q0019\",\"value\":-11323.3},{\"id\":\"Q0020\",\"value\":-11323.3},{\"id\":\"Q0021\",\"value\":-11323.3},{\"id\":\"Q0022\",\"value\":-11323.3},{\"id\":\"Q0023\",\"value\":-11323.3},{\"id\":\"Q0024\",\"value\":-11323.3},{\"id\":\"Q0025\",\"value\":-11323.3},{\"id\":\"Q0026\",\"value\":-11323.3},{\"id\":\"Q0027\",\"value\":-11323.3},{\"id\":\"Q0028\",\"value\":-11323.3},{\"id\":\"Q0029\",\"value\":-11323.3},{\"id\":\"Q0030\",\"value\":-11323.3},{\"id\":\"Q0031\",\"value\":-11323.3},{\"id\":\"Q0032\",\"value\":-11323.3},{\"id\":\"Q0033\",\"value\":-11323.3},{\"id\":\"Q0034\",\"value\":-11323.3},{\"id\":\"Q0035\",\"value\":-11323.3},{\"id\":\"Q0036\",\"value\":-11323.3},{\"id\":\"Q0037\",\"value\":-11323.3},{\"id\":\"Q0038\",\"value\":-11323.3},{\"id\":\"Q0039\",\"value\":-11323.3}]}",
+        "refusal": null,
+        "reasoning": "**Analyzing energy composition**\n\nI need to assess the energy composition data because it seems wildly inconsistent. I'm looking into underlying properties, especially for typical QM9 values. There might be issues with training data — it feels like many training cases are weird. I need to analyze the composition carefully and check if I have enough tokens for this analysis. Data patterns seem permuted, and it appears there are significant mismatches in expected values. Overall, I’ll need to systematically figure out what's going on.**Calculating QM9 energies**\n\nI'm analyzing QM9 energy sums, looking at a value around -10937 for typical components like C6, N1, O2, H11, which equals about -11858. I want to calculate the true electronic totals for each atom. For example, C7H12O2 seems to yield a value close to -11460, while C6H10O2 is around -10404, which is about 90 off from my target of -10498. I need to refine my C contributions further to ensure my estimates are plausible.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Analyzing energy composition**\n\nI need to assess the energy composition data because it seems wildly inconsistent. I'm looking into underlying properties, especially for typical QM9 values. There might be issues with training data — it feels like many training cases are weird. I need to analyze the composition carefully and check if I have enough tokens for this analysis. Data patterns seem permuted, and it appears there are significant mismatches in expected values. Overall, I’ll need to systematically figure out what's going on.**Calculating QM9 energies**\n\nI'm analyzing QM9 energy sums, looking at a value around -10937 for typical components like C6, N1, O2, H11, which equals about -11858. I want to calculate the true electronic totals for each atom. For example, C7H12O2 seems to yield a value close to -11460, while C6H10O2 is around -10404, which is about 90 off from my target of -10498. I need to refine my C contributions further to ensure my estimates are plausible.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0451275e57638310016ade2cfc7f6487d1b232588c301ff1c6",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0451275e57638310016ade2d0b034087d18788d3aec1969d83",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0451275e57638310016ade2d13fde887d1bf010d75190190f2",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0451275e57638310016ade2d203bb487d1bb00979243e4b31c",
+            "index": 4
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Analyzing dataset effects**\n\nI’m looking into grouping types and their potential effects, especially for N and O. I’ve summed various datasets but find there's no systematic meaningful correlation. The averages from different groupings fall around 11,400 to 11,250, which isn't conclusive. Perhaps using mean values for each molecule might simplify things. I'm also considering how to handle labels without overfitting. The challenge is generalizing chemistry when the known energies are scrambled, but using a physical relation baseline could help despite inconsistencies.**Exploring energy correlations**\n\nI'm investigating the correlation of physical compositions to energies, particularly clustering around the number of heavy atoms. Most entries have nine heavy atoms, except for a rare one that has fewer. This particular value is -11,303. I've noted another structure that includes heavy atoms and has a distinct energy of -11,575. I wonder if I could sum the absolute energies to get a more accurate mean for the actual QM9 atoms, aiming for consistency in my findings.",
+            "format": "openai-responses-v1",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0451275e57638310016ade2d2963cc87d181b4d292b3a065bc",
+            "index": 6
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Clarifying numeric averages**\n\nI’m looking at a numeric average of around 10-14k, but noting that labels don't correlate. The average value I have, 11323.25, appears correct. I need to avoid excessive explanations due to formatting constraints. It's better to focus on the mean rather than speculation, even though that feels a bit insufficient for predictions. Since less than 0.1 seems irrelevant, I'll just return -11323.3 for all.",
+            "format": "openai-responses-v1",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0451275e57638310016ade2d353a5487d18f3c2fa1b43edb1f",
+            "index": 8
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2417,
+    "completion_tokens": 3278,
+    "total_tokens": 5695,
+    "cost": 0.194105,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2414,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.194105,
+      "upstream_inference_prompt_cost": 0.030205,
+      "upstream_inference_completions_cost": 0.1639
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2702,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

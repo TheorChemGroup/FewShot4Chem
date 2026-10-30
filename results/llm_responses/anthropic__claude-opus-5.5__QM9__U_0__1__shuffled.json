@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792945377-wXeEiMXsNCEHriKR2BG2",
+  "object": "chat.completion",
+  "created": 1792945377,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11530},{\"id\":\"Q0001\",\"value\":-11683},{\"id\":\"Q0002\",\"value\":-11571},{\"id\":\"Q0003\",\"value\":-11760},{\"id\":\"Q0004\",\"value\":-11110},{\"id\":\"Q0005\",\"value\":-11457},{\"id\":\"Q0006\",\"value\":-11372},{\"id\":\"Q0007\",\"value\":-11411},{\"id\":\"Q0008\",\"value\":-12054},{\"id\":\"Q0009\",\"value\":-11263},{\"id\":\"Q0010\",\"value\":-11734},{\"id\":\"Q0011\",\"value\":-11367},{\"id\":\"Q0012\",\"value\":-10833},{\"id\":\"Q0013\",\"value\":-11751},{\"id\":\"Q0014\",\"value\":-11846},{\"id\":\"Q0015\",\"value\":-11389},{\"id\":\"Q0016\",\"value\":-11530},{\"id\":\"Q0017\",\"value\":-11804},{\"id\":\"Q0018\",\"value\":-11440},{\"id\":\"Q0019\",\"value\":-11110},{\"id\":\"Q0020\",\"value\":-11251},{\"id\":\"Q0021\",\"value\":-11421},{\"id\":\"Q0022\",\"value\":-11751},{\"id\":\"Q0023\",\"value\":-10889},{\"id\":\"Q0024\",\"value\":-10807},{\"id\":\"Q0025\",\"value\":-11450},{\"id\":\"Q0026\",\"value\":-11282},{\"id\":\"Q0027\",\"value\":-11268},{\"id\":\"Q0028\",\"value\":-11571},{\"id\":\"Q0029\",\"value\":-11882},{\"id\":\"Q0030\",\"value\":-11710},{\"id\":\"Q0031\",\"value\":-11457},{\"id\":\"Q0032\",\"value\":-11557},{\"id\":\"Q0033\",\"value\":-10862},{\"id\":\"Q0034\",\"value\":-11466},{\"id\":\"Q0035\",\"value\":-11076},{\"id\":\"Q0036\",\"value\":-11552},{\"id\":\"Q0037\",\"value\":-11693},{\"id\":\"Q0038\",\"value\":-10843},{\"id\":\"Q0039\",\"value\":-11292}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 by summing typical per-atom energy contributions for QM9-style B3LYP calculations, recalling approximate atomic reference energies in eV for carbon, hydrogen, and nitrogen.\n\nNow I'm cross-checking those reference values against actual training examples, comparing total energies of similar molecular formulas like C8H16O and C7H14O2 to back out the effective contribution of oxygen versus CH2 units, and verifying atom counts by carefully parsing out each SMILES string atom by atom.\n\nTrying a few more formulas to estimate energies doesn't line up with the given labels either, so the data seems scrambled or not simply additive by atom composition.\n\nChecking another example confirms the inconsistency—formula-based estimates don't track well with given values, suggesting noisy or shuffled labels. I'm leaning toward blending the mean with a shrunk formula estimate rather than trusting the formula alone, then starting to work out quick formula-based energy estimates for each query molecule.\n\nContinuing through the remaining candidates, I compute molecular weights and derivative values for Q7 through Q14, covering formulas like C7H6O2, C7H12O3, C7H10NO+, C6H10O3, C5H10N4, C9H12, C8H12O2, and C5H5NO3, each yielding its own calculated total.\n\nContinuing through the mass/energy calculations for questions 23 through 29, computing molecular formulas and their corresponding energy values, and now moving into question 30 with formula C7H9N2O.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 by summing typical per-atom energy contributions for QM9-style B3LYP calculations, recalling approximate atomic reference energies in eV for carbon, hydrogen, and nitrogen.\n\nNow I'm cross-checking those reference values against actual training examples, comparing total energies of similar molecular formulas like C8H16O and C7H14O2 to back out the effective contribution of oxygen versus CH2 units, and verifying atom counts by carefully parsing out each SMILES string atom by atom.\n\nTrying a few more formulas to estimate energies doesn't line up with the given labels either, so the data seems scrambled or not simply additive by atom composition.\n\nChecking another example confirms the inconsistency—formula-based estimates don't track well with given values, suggesting noisy or shuffled labels. I'm leaning toward blending the mean with a shrunk formula estimate rather than trusting the formula alone, then starting to work out quick formula-based energy estimates for each query molecule.\n\nContinuing through the remaining candidates, I compute molecular weights and derivative values for Q7 through Q14, covering formulas like C7H6O2, C7H12O3, C7H10NO+, C6H10O3, C5H10N4, C9H12, C8H12O2, and C5H5NO3, each yielding its own calculated total.\n\nContinuing through the mass/energy calculations for questions 23 through 29, computing molecular formulas and their corresponding energy values, and now moving into question 30 with formula C7H9N2O.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 3658,
+    "total_tokens": 6972,
+    "cost": 0.086416,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.086416,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.07316
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3007,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

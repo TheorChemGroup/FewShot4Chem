@@ -1,0 +1,72 @@
+{
+  "id": "gen-1792945366-VQH31Xsr88t1puPeAb19",
+  "object": "chat.completion",
+  "created": 1792945366,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-2.5},{\"id\":\"Q0001\",\"value\":-3.5},{\"id\":\"Q0002\",\"value\":-1.65},{\"id\":\"Q0003\",\"value\":-4.0},{\"id\":\"Q0004\",\"value\":-1.8},{\"id\":\"Q0005\",\"value\":-2.0},{\"id\":\"Q0006\",\"value\":-2.2},{\"id\":\"Q0007\",\"value\":-2.6},{\"id\":\"Q0008\",\"value\":-4.5},{\"id\":\"Q0009\",\"value\":-4.5},{\"id\":\"Q0010\",\"value\":-3.5},{\"id\":\"Q0011\",\"value\":-2.0},{\"id\":\"Q0012\",\"value\":-4.8},{\"id\":\"Q0013\",\"value\":-3.1},{\"id\":\"Q0014\",\"value\":-4.6},{\"id\":\"Q0015\",\"value\":-1.5},{\"id\":\"Q0016\",\"value\":-1.9},{\"id\":\"Q0017\",\"value\":-3.2},{\"id\":\"Q0018\",\"value\":-4.8},{\"id\":\"Q0019\",\"value\":-3.8},{\"id\":\"Q0020\",\"value\":-0.9},{\"id\":\"Q0021\",\"value\":-4.2},{\"id\":\"Q0022\",\"value\":-2.9},{\"id\":\"Q0023\",\"value\":-4.8},{\"id\":\"Q0024\",\"value\":-1.3},{\"id\":\"Q0025\",\"value\":-1.15},{\"id\":\"Q0026\",\"value\":-1.4},{\"id\":\"Q0027\",\"value\":-1.9},{\"id\":\"Q0028\",\"value\":-3.5},{\"id\":\"Q0029\",\"value\":-3.0},{\"id\":\"Q0030\",\"value\":-2.6},{\"id\":\"Q0031\",\"value\":-1.6},{\"id\":\"Q0032\",\"value\":-3.8},{\"id\":\"Q0033\",\"value\":-2.2},{\"id\":\"Q0034\",\"value\":-1.25},{\"id\":\"Q0035\",\"value\":-1.4},{\"id\":\"Q0036\",\"value\":-3.0},{\"id\":\"Q0037\",\"value\":-2.1},{\"id\":\"Q0038\",\"value\":-2.25},{\"id\":\"Q0039\",\"value\":-3.3}]}",
+        "refusal": null,
+        "reasoning": "**Estimating averages**\n\nI'm trying to understand what the numbers mean, particularly a global mean of about -3.16. I need to calculate the sum of negative groups more accurately. For the first ten, I see -45.42, but I'm not sure about the next ten groups and how they would contribute to the average. There’s a lot going on here, and I want to keep everything clear and make sure I'm calculating it correctly! Let's see how this unfolds.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Estimating averages**\n\nI'm trying to understand what the numbers mean, particularly a global mean of about -3.16. I need to calculate the sum of negative groups more accurately. For the first ten, I see -45.42, but I'm not sure about the next ten groups and how they would contribute to the average. There’s a lot going on here, and I want to keep everything clear and make sure I'm calculating it correctly! Let's see how this unfolds.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_09df9ea2d0370769016ade2cd890f487d18d614968c1b49288",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_09df9ea2d0370769016ade2ce3d37087d1a26a01ab91b79dbe",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_09df9ea2d0370769016ade2cebd33c87d183b53fb5af862751",
+            "index": 3
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1668,
+    "completion_tokens": 2016,
+    "total_tokens": 3684,
+    "cost": 0.1216425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 1665,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1216425,
+      "upstream_inference_prompt_cost": 0.0208425,
+      "upstream_inference_completions_cost": 0.1008
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1480,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

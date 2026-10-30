@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792956176-4mcZFOS0vGhhik255xyV",
+  "object": "chat.completion",
+  "created": 1792956176,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\"id\": \"Q0000\", \"value\": 0.6},\n    {\"id\": \"Q0001\", \"value\": 0.8},\n    {\"id\": \"Q0002\", \"value\": 1.8},\n    {\"id\": \"Q0003\", \"value\": -1.1},\n    {\"id\": \"Q0004\", \"value\": 1.0},\n    {\"id\": \"Q0005\", \"value\": 1.8},\n    {\"id\": \"Q0006\", \"value\": -0.6},\n    {\"id\": \"Q0007\", \"value\": -0.1},\n    {\"id\": \"Q0008\", \"value\": 2.4},\n    {\"id\": \"Q0009\", \"value\": -0.2},\n    {\"id\": \"Q0010\", \"value\": 2.5},\n    {\"id\": \"Q0011\", \"value\": -0.3},\n    {\"id\": \"Q0012\", \"value\": 1.1},\n    {\"id\": \"Q0013\", \"value\": 1.2},\n    {\"id\": \"Q0014\", \"value\": -2.2},\n    {\"id\": \"Q0015\", \"value\": -0.6},\n    {\"id\": \"Q0016\", \"value\": -0.2},\n    {\"id\": \"Q0017\", \"value\": 2.6},\n    {\"id\": \"Q0018\", \"value\": 1.0},\n    {\"id\": \"Q0019\", \"value\": 0.8},\n    {\"id\": \"Q0020\", \"value\": -0.4},\n    {\"id\": \"Q0021\", \"value\": 1.3},\n    {\"id\": \"Q0022\", \"value\": -0.2},\n    {\"id\": \"Q0023\", \"value\": 0.5},\n    {\"id\": \"Q0024\", \"value\": 1.5},\n    {\"id\": \"Q0025\", \"value\": 1.6},\n    {\"id\": \"Q0026\", \"value\": 0.7},\n    {\"id\": \"Q0027\", \"value\": 0.8},\n    {\"id\": \"Q0028\", \"value\": 1.7},\n    {\"id\": \"Q0029\", \"value\": 0.4},\n    {\"id\": \"Q0030\", \"value\": -1.1},\n    {\"id\": \"Q0031\", \"value\": 0.7},\n    {\"id\": \"Q0032\", \"value\": -0.2},\n    {\"id\": \"Q0033\", \"value\": 2.4},\n    {\"id\": \"Q0034\", \"value\": -0.6},\n    {\"id\": \"Q0035\", \"value\": 1.3},\n    {\"id\": \"Q0036\", \"value\": 2.4},\n    {\"id\": \"Q0037\", \"value\": 0.3},\n    {\"id\": \"Q0038\", \"value\": -1.6},\n    {\"id\": \"Q0039\", \"value\": 2.1}\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Exploring LUMO Trends**\n\nI'm currently analyzing the training data, noticing a correlation where neutral hydrocarbons and ethers tend to exhibit higher LUMO energies, as exemplified by a specific cyclic ether molecule's value. My focus is on identifying further patterns to inform prediction.\n\n**Observing LUMO Correlations**\n\nMy analysis is progressing; I've noted that carbonyl-containing molecules consistently show significantly lower LUMO energies. I am now investigating nitriles and protonated nitrogen species to see if similar trends emerge or if interactions with other functional groups create unique patterns.\n\n**Predicting New Molecules**\n\nI'm now focused on predicting the LUMO energies for specific query molecules. For Q0000, which contains both a ketone and a protonated aziridine, I'm estimating a LUMO around 0.6, considering the opposing influences of these groups. I'm now analyzing Q0001, an amide/lactam fused with an epoxide, to determine its LUMO value.\n\n**Estimating LUMO Values**\n\nI'm now focusing on estimating LUMO values for new molecules. For Q0002, an alkyne with an alcohol, I anticipate a LUMO around 1.8. For Q0003, a bicyclic lactone-lactam, I predict a LUMO near -1.2 due to the carbonyl groups. For Q0004, a cyclic amide/carbamate, I'm estimating a LUMO of roughly 0.9. My current task is to determine the LUMO for Q0005, a hydroxylamine and epoxide bicyclic structure, and I'm considering its lack of strongly electron-withdrawing groups.\n\n**Predicting LUMO Values**\n\nI'm continuing to estimate LUMO values for new query molecules. For Q0005, a bicyclic structure with hydroxylamine and epoxide functionalities, I'm predicting a LUMO around 1.8. Next, I will analyze Q0006, an oxazole derivative with an amidine group, expecting a LUMO around -0.6 due to its conjugated system.\n\n**Refining LUMO Predictions**\n\nI'm now refining LUMO predictions based on recent comparisons. For Q0010, a spiro-epoxide on a bicyclic hydrocarbon, I anticipate a high LUMO around 2.5. For Q0011, a pyrrole derivative with charged groups, I'm predicting a LUMO near -0.2. For Q0012, a cyclopentene with an alcohol, I estimate 1.1. Q0013, an alkyne with multiple oxygen functionalities, is predicted around 1.2. Finally, for Q0014, a highly electron-deficient heteroaromatic, I'm estimating a LUMO of -2.0.\n\n**Estimating LUMO Values**\n\nI'm continuing to predict LUMO values for new query molecules. For Q0015, a methyl ketone with an epoxide and alcohol, I'm predicting a LUMO around -0.7. For Q0016, an alkyne conjugated to a bicyclic imidazole-like ring, I expect a LUMO of -0.2. Q0017, a saturated tricyclic ether, is anticipated to have a very high LUMO around 2.6. Q0018, an oxetane with an amide, is predicted at 1.0. Q0019, a bicyclic imidazole-like structure with an OH group, has an estimated LUMO of 0.8. Q0020, an aldehyde with an epoxide and cyclohexene, is predicted to have a LUMO of -0.5. Finally, for Q0021, a cyclopentenediol, I anticipate a LUMO of 1.3.\n\n**Predicting LUMO Values**\n\nI'm continuing to estimate LUMO values for new query molecules. For Q0022, a functionalized guanidine, I predict a LUMO of -0.3. For Q0023, an ethyl tetrazole, I estimate 0.5. Q0024, an alkyne with a cyclopropane, is predicted at 1.5. Q0025, a cyclopentenol, has an estimated LUMO of 1.6. For Q0026, an alkyne with a nitrile, I expect 0.6. Q0027, a molecule with nitrile, cyclopropane, alcohol, and ether, is predicted at 0.9. For Q0028, a bicyclic ether with an alkene and alcohol, I anticipate 1.7. Finally, for Q0029, a furan with a cyclopropanol, I predict 0.4.\n\n**Estimating LUMO Values**\n\nI'm continuing to predict LUMO values for new query molecules. For Q0030, a furazan with an oxetane, I anticipate a LUMO of -1.0. For Q0031, a bicyclic nitrile, I predict 0.7. Q0032, a dihydropyrimidone with an alcohol, has an estimated LUMO of -0.2. Q0033, a cyclooctane-like diether, is predicted at 2.4. Q0034, a conjugated amide/ketone, is expected to have a LUMO of -0.8. Q0035, an alkyne with an epoxide, I predict 1.3. Q0036, a bicyclic diol, is anticipated at 2.4. For Q0037, an alkyne with an amide/amine anion in a dioxolane, I predict 0.2. Q0038, an oxadiazolone, has an estimated LUMO of -1.8.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Exploring LUMO Trends**\n\nI'm currently analyzing the training data, noticing a correlation where neutral hydrocarbons and ethers tend to exhibit higher LUMO energies, as exemplified by a specific cyclic ether molecule's value. My focus is on identifying further patterns to inform prediction.\n\n**Observing LUMO Correlations**\n\nMy analysis is progressing; I've noted that carbonyl-containing molecules consistently show significantly lower LUMO energies. I am now investigating nitriles and protonated nitrogen species to see if similar trends emerge or if interactions with other functional groups create unique patterns.\n\n**Predicting New Molecules**\n\nI'm now focused on predicting the LUMO energies for specific query molecules. For Q0000, which contains both a ketone and a protonated aziridine, I'm estimating a LUMO around 0.6, considering the opposing influences of these groups. I'm now analyzing Q0001, an amide/lactam fused with an epoxide, to determine its LUMO value.\n\n**Estimating LUMO Values**\n\nI'm now focusing on estimating LUMO values for new molecules. For Q0002, an alkyne with an alcohol, I anticipate a LUMO around 1.8. For Q0003, a bicyclic lactone-lactam, I predict a LUMO near -1.2 due to the carbonyl groups. For Q0004, a cyclic amide/carbamate, I'm estimating a LUMO of roughly 0.9. My current task is to determine the LUMO for Q0005, a hydroxylamine and epoxide bicyclic structure, and I'm considering its lack of strongly electron-withdrawing groups.\n\n**Predicting LUMO Values**\n\nI'm continuing to estimate LUMO values for new query molecules. For Q0005, a bicyclic structure with hydroxylamine and epoxide functionalities, I'm predicting a LUMO around 1.8. Next, I will analyze Q0006, an oxazole derivative with an amidine group, expecting a LUMO around -0.6 due to its conjugated system.\n\n**Refining LUMO Predictions**\n\nI'm now refining LUMO predictions based on recent comparisons. For Q0010, a spiro-epoxide on a bicyclic hydrocarbon, I anticipate a high LUMO around 2.5. For Q0011, a pyrrole derivative with charged groups, I'm predicting a LUMO near -0.2. For Q0012, a cyclopentene with an alcohol, I estimate 1.1. Q0013, an alkyne with multiple oxygen functionalities, is predicted around 1.2. Finally, for Q0014, a highly electron-deficient heteroaromatic, I'm estimating a LUMO of -2.0.\n\n**Estimating LUMO Values**\n\nI'm continuing to predict LUMO values for new query molecules. For Q0015, a methyl ketone with an epoxide and alcohol, I'm predicting a LUMO around -0.7. For Q0016, an alkyne conjugated to a bicyclic imidazole-like ring, I expect a LUMO of -0.2. Q0017, a saturated tricyclic ether, is anticipated to have a very high LUMO around 2.6. Q0018, an oxetane with an amide, is predicted at 1.0. Q0019, a bicyclic imidazole-like structure with an OH group, has an estimated LUMO of 0.8. Q0020, an aldehyde with an epoxide and cyclohexene, is predicted to have a LUMO of -0.5. Finally, for Q0021, a cyclopentenediol, I anticipate a LUMO of 1.3.\n\n**Predicting LUMO Values**\n\nI'm continuing to estimate LUMO values for new query molecules. For Q0022, a functionalized guanidine, I predict a LUMO of -0.3. For Q0023, an ethyl tetrazole, I estimate 0.5. Q0024, an alkyne with a cyclopropane, is predicted at 1.5. Q0025, a cyclopentenol, has an estimated LUMO of 1.6. For Q0026, an alkyne with a nitrile, I expect 0.6. Q0027, a molecule with nitrile, cyclopropane, alcohol, and ether, is predicted at 0.9. For Q0028, a bicyclic ether with an alkene and alcohol, I anticipate 1.7. Finally, for Q0029, a furan with a cyclopropanol, I predict 0.4.\n\n**Estimating LUMO Values**\n\nI'm continuing to predict LUMO values for new query molecules. For Q0030, a furazan with an oxetane, I anticipate a LUMO of -1.0. For Q0031, a bicyclic nitrile, I predict 0.7. Q0032, a dihydropyrimidone with an alcohol, has an estimated LUMO of -0.2. Q0033, a cyclooctane-like diether, is predicted at 2.4. Q0034, a conjugated amide/ketone, is expected to have a LUMO of -0.8. Q0035, an alkyne with an epoxide, I predict 1.3. Q0036, a bicyclic diol, is anticipated at 2.4. For Q0037, an alkyne with an amide/amine anion in a dioxolane, I predict 0.2. Q0038, an oxadiazolone, has an estimated LUMO of -1.8.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2830,
+    "completion_tokens": 6061,
+    "total_tokens": 8891,
+    "cost": 0.058794,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.058794,
+      "upstream_inference_prompt_cost": 0.004245,
+      "upstream_inference_completions_cost": 0.054549
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5249,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

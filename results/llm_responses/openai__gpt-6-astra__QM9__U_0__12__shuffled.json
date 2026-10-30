@@ -1,0 +1,114 @@
+{
+  "id": "gen-1792970652-bMgDZoBhmz63PheLw67D",
+  "object": "chat.completion",
+  "created": 1792970652,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":11004.0},{\"id\":\"Q0001\",\"value\":-11024.0},{\"id\":\"Q0002\",\"value\":-11172.0},{\"id\":\"Q0003\",\"value\":-10954.0},{\"id\":\"Q0004\",\"value\":-10978.0},{\"id\":\"Q0005\",\"value\":-11316.0},{\"id\":\"Q0006\",\"value\":-11215.0},{\"id\":\"Q0007\",\"value\":-11053.0},{\"id\":\"Q0008\",\"value\":-11207.0},{\"id\":\"Q0009\",\"value\":-11416.0},{\"id\":\"Q0010\",\"value\":-10991.0},{\"id\":\"Q0011\",\"value\":-11322.0},{\"id\":\"Q0012\",\"value\":-11169.0},{\"id\":\"Q0013\",\"value\":-11464.0},{\"id\":\"Q0014\",\"value\":-11402.0},{\"id\":\"Q0015\",\"value\":-11348.0},{\"id\":\"Q0016\",\"value\":-11231.0},{\"id\":\"Q0017\",\"value\":-11047.0},{\"id\":\"Q0018\",\"value\":-11334.0},{\"id\":\"Q0019\",\"value\":-11292.0},{\"id\":\"Q0020\",\"value\":-11494.0},{\"id\":\"Q0021\",\"value\":-11462.0},{\"id\":\"Q0022\",\"value\":-11535.0},{\"id\":\"Q0023\",\"value\":-11043.0},{\"id\":\"Q0024\",\"value\":-10993.0},{\"id\":\"Q0025\",\"value\":-11329.0},{\"id\":\"Q0026\",\"value\":-10842.0},{\"id\":\"Q0027\",\"value\":-11531.0},{\"id\":\"Q0028\",\"value\":-11426.0},{\"id\":\"Q0029\",\"value\":-10916.0},{\"id\":\"Q0030\",\"value\":-11013.0},{\"id\":\"Q0031\",\"value\":-11068.0},{\"id\":\"Q0032\",\"value\":-11315.0},{\"id\":\"Q0033\",\"value\":-11026.0},{\"id\":\"Q0034\",\"value\":-11037.0},{\"id\":\"Q0035\",\"value\":-11381.0},{\"id\":\"Q0036\",\"value\":-11094.0},{\"id\":\"Q0037\",\"value\":-11378.0},{\"id\":\"Q0038\",\"value\":-11337.0},{\"id\":\"Q0039\",\"value\":-11018.0}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8f9d6d5c87d196e00d3cb137914f",
+            "index": 0
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Calculating training energy deviations**\n\nI’m calculating the mean of training energy magnitudes, using deviations from 11,200. I have a list with various values, both positive and negative. I’m wondering if I accurately captured all entries, as I thought I had 60, but I only see 59 in my enumeration. I need to figure out this discrepancy: did I miss a value, or is the count off? It's important to have accurate counts for my calculations.",
+            "format": "openai-responses-v1",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8faa13b087d18a07763cab766820",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fb5283087d18e23045ad2d2c3ca",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fba26f487d1bae579b2a00e1f7c",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fc2501887d19656d0d7e0cf808e",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fc8d74c87d1a0ee5eee9f86560d",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fcfd73087d19fb7d2fc009f2be0",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fd96df887d1b37198d097a50132",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fe0d43087d1adf4e3309411131e",
+            "index": 9
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0a53af47b2eb5cfa016ade8fe6bee887d190b11dc26f72ac2d",
+            "index": 10
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2418,
+    "completion_tokens": 5533,
+    "total_tokens": 7951,
+    "cost": 0.3068675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2415,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.3068675,
+      "upstream_inference_prompt_cost": 0.0302175,
+      "upstream_inference_completions_cost": 0.27665
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4958,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

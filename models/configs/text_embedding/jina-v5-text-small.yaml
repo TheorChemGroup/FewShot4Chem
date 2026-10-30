@@ -1,0 +1,8 @@
+type: text_embedding
+name: jina-v5-text-small
+version: 1.0.0
+hyperparams:
+  model_name_or_path: jinaai/jina-embeddings-v5-text-small
+  trust_remote_code: true
+  task: text-matching
+batch_size: 64

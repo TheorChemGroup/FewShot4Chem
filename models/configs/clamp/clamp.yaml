@@ -1,0 +1,6 @@
+type: clamp
+name: clamp
+version: 1.0.0
+hyperparams:
+  mode: embedding
+batch_size: 64

@@ -1,0 +1,6 @@
+type: descriptors
+name: rdkit-descriptors
+version: 1.0.0
+hyperparams:
+  mode: embedding
+batch_size: 512

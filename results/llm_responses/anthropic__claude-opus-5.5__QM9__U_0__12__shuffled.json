@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792970809-F54M6XEdf4QZ2m6K6Dt4",
+  "object": "chat.completion",
+  "created": 1792970809,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11411},{\"id\":\"Q0001\",\"value\":-11630},{\"id\":\"Q0002\",\"value\":-11900},{\"id\":\"Q0003\",\"value\":-10370},{\"id\":\"Q0004\",\"value\":-11630},{\"id\":\"Q0005\",\"value\":-10920},{\"id\":\"Q0006\",\"value\":-11340},{\"id\":\"Q0007\",\"value\":-11380},{\"id\":\"Q0008\",\"value\":-11360},{\"id\":\"Q0009\",\"value\":-10400},{\"id\":\"Q0010\",\"value\":-11610},{\"id\":\"Q0011\",\"value\":-10940},{\"id\":\"Q0012\",\"value\":-11900},{\"id\":\"Q0013\",\"value\":-12120},{\"id\":\"Q0014\",\"value\":-11460},{\"id\":\"Q0015\",\"value\":-10890},{\"id\":\"Q0016\",\"value\":-11870},{\"id\":\"Q0017\",\"value\":-11380},{\"id\":\"Q0018\",\"value\":-10920},{\"id\":\"Q0019\",\"value\":-10800},{\"id\":\"Q0020\",\"value\":-11120},{\"id\":\"Q0021\",\"value\":-11140},{\"id\":\"Q0022\",\"value\":-11540},{\"id\":\"Q0023\",\"value\":-11080},{\"id\":\"Q0024\",\"value\":-11410},{\"id\":\"Q0025\",\"value\":-11810},{\"id\":\"Q0026\",\"value\":-10300},{\"id\":\"Q0027\",\"value\":-11540},{\"id\":\"Q0028\",\"value\":-11290},{\"id\":\"Q0029\",\"value\":-11580},{\"id\":\"Q0030\",\"value\":-11040},{\"id\":\"Q0031\",\"value\":-11640},{\"id\":\"Q0032\",\"value\":-10890},{\"id\":\"Q0033\",\"value\":-11630},{\"id\":\"Q0034\",\"value\":-10890},{\"id\":\"Q0035\",\"value\":-11140},{\"id\":\"Q0036\",\"value\":-12390},{\"id\":\"Q0037\",\"value\":-12020},{\"id\":\"Q0038\",\"value\":-10920},{\"id\":\"Q0039\",\"value\":-11430}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 using rough per-atom energy contributions for each element to approximate the total molecular energy from atom counts.\n\nBut cross-checking against sample molecules like C9H18 and C8H12O, the numbers don't line up consistently, so my calibration isn't holding up well across different formulas.\n\nThe values don't track consistently with formula-based estimates at all, which makes me suspect the labels might be shuffled or noised. If that's the case, predicting closer to the overall mean (~11300) might be safer than trying to match structure-specific estimates, since my atom-based calculations keep landing far from the given numbers.\n\nTesting more molecules, I find mixed results - some match closely while others are way off, like the aminopyrazine oxide and the tetrazole-containing compound showing big discrepancies. It seems the atomization energy estimates don't consistently line up with the given values, suggesting the labeling might genuinely be scrambled rather than my calculation being systematically wrong.\n\nGiven this unreliability, I decide the safest approach is to blend a per-atom additive estimate with the overall training mean, roughly 50/50, rather than trusting either fully. I set up approximate per-atom energy contributions in eV for carbon, hydrogen, nitrogen, and oxygen, then start computing blended estimates for each molecule by averaging my additive prediction with the dataset mean around 11300.\n\nContinuing through the molecular formula calculations for Q0013 through Q0022, computing each mass value and converting to the target scale.\n\nContinuing through the molecular formula calculations for Q0032 through Q0039, computing mass values and converting each to the rounded retention index estimates.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 using rough per-atom energy contributions for each element to approximate the total molecular energy from atom counts.\n\nBut cross-checking against sample molecules like C9H18 and C8H12O, the numbers don't line up consistently, so my calibration isn't holding up well across different formulas.\n\nThe values don't track consistently with formula-based estimates at all, which makes me suspect the labels might be shuffled or noised. If that's the case, predicting closer to the overall mean (~11300) might be safer than trying to match structure-specific estimates, since my atom-based calculations keep landing far from the given numbers.\n\nTesting more molecules, I find mixed results - some match closely while others are way off, like the aminopyrazine oxide and the tetrazole-containing compound showing big discrepancies. It seems the atomization energy estimates don't consistently line up with the given values, suggesting the labeling might genuinely be scrambled rather than my calculation being systematically wrong.\n\nGiven this unreliability, I decide the safest approach is to blend a per-atom additive estimate with the overall training mean, roughly 50/50, rather than trusting either fully. I set up approximate per-atom energy contributions in eV for carbon, hydrogen, nitrogen, and oxygen, then start computing blended estimates for each molecule by averaging my additive prediction with the dataset mean around 11300.\n\nContinuing through the molecular formula calculations for Q0013 through Q0022, computing each mass value and converting to the target scale.\n\nContinuing through the molecular formula calculations for Q0032 through Q0039, computing mass values and converting each to the rounded retention index estimates.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 3509,
+    "total_tokens": 6823,
+    "cost": 0.083436,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.083436,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.07018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2858,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

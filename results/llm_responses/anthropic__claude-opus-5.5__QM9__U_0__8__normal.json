@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792955883-BjzHLhP7MItea1DRl3CJ",
+  "object": "chat.completion",
+  "created": 1792955883,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-10936.3},{\"id\":\"Q0001\",\"value\":-11915.6},{\"id\":\"Q0002\",\"value\":-10566.5},{\"id\":\"Q0003\",\"value\":-12892.8},{\"id\":\"Q0004\",\"value\":-11981.0},{\"id\":\"Q0005\",\"value\":-10911.6},{\"id\":\"Q0006\",\"value\":-11812.6},{\"id\":\"Q0007\",\"value\":-10501.0},{\"id\":\"Q0008\",\"value\":-9959.0},{\"id\":\"Q0009\",\"value\":-11813.3},{\"id\":\"Q0010\",\"value\":-10533.6},{\"id\":\"Q0011\",\"value\":-11374.5},{\"id\":\"Q0012\",\"value\":-10566.5},{\"id\":\"Q0013\",\"value\":-12455.0},{\"id\":\"Q0014\",\"value\":-12757.0},{\"id\":\"Q0015\",\"value\":-12521.0},{\"id\":\"Q0016\",\"value\":-10332.3},{\"id\":\"Q0017\",\"value\":-9463.5},{\"id\":\"Q0018\",\"value\":-11981.4},{\"id\":\"Q0019\",\"value\":-11375.5},{\"id\":\"Q0020\",\"value\":-11478.0},{\"id\":\"Q0021\",\"value\":-11544.0},{\"id\":\"Q0022\",\"value\":-11845.2},{\"id\":\"Q0023\",\"value\":-11304.2},{\"id\":\"Q0024\",\"value\":-9556.5},{\"id\":\"Q0025\",\"value\":-10566.6},{\"id\":\"Q0026\",\"value\":-9328.8},{\"id\":\"Q0027\",\"value\":-11948.0},{\"id\":\"Q0028\",\"value\":-11511.0},{\"id\":\"Q0029\",\"value\":-11478.3},{\"id\":\"Q0030\",\"value\":-12352.5},{\"id\":\"Q0031\",\"value\":-9960.6},{\"id\":\"Q0032\",\"value\":-12385.5},{\"id\":\"Q0033\",\"value\":-11576.6},{\"id\":\"Q0034\",\"value\":-10938.3},{\"id\":\"Q0035\",\"value\":-10500.5},{\"id\":\"Q0036\",\"value\":-11543.5},{\"id\":\"Q0037\",\"value\":-11915.6},{\"id\":\"Q0038\",\"value\":-11720.5},{\"id\":\"Q0039\",\"value\":-10969.0}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate per-atom energy contributions for carbon and hydrogen by comparing known molecule totals, like the C9H18 compound's energy value, to back out consistent atomic baselines.\n\nWorking through oxygen next, then nitrogen, cross-checking against several nitrogen-containing molecules to converge on a consistent per-atom value around 1489.8 despite some discrepancy in the charged species.\n\nRechecking the formula against the mass, I get roughly -0.5 off, close enough. Now I'm working through another candidate structure, counting its carbons to build the molecular formula for comparison.\n\nWorking through Q0001 gives C6H7NO2 with mass sum around 11915.1, so predicting roughly -11915.6 with a small training offset. For Q0002, CC#CC[C@@H](CC)CO comes out to C8H14O near 10566.35, comparing against a similar training compound to settle on about -10566.5. Now starting Q0003's formula breakdown for O=C1O[C@@H]2C(=O)NC[C@H]12 as C5H5NO3.\n\nContinuing through, Q0003 sums to roughly 12892.35, predicting around -12892.8. For Q0004, CN1CCCOCC1=O as C6H11NO2 totals about 11980.7, compared against a close training analog to land on -10981.0. Q0005's ON[C@H]1C[C@@]2(CO2)C1 as C5H9NO2 comes to about 10911.6, but after weighing it against a more stable amide training compound I settle closer to -10911.5. Now I'm starting to break down Q0006, Cc1coc(...), into its atomic formula.\n\nMoving to Q0007, I'm computing CC#CC#CC(C)(C)O as C8H10O, summing to roughly 10500.75 and predicting -10501. For Q0008, I'm working out the formula of the fused bicyclic ammonium structure as C8H12N+, summing to about 9977 plus an adjustment, landing near -9959. I'm now starting on Q0009.\n\nContinuing the formula calculations: Q0012 C8H14O comes to -10566.5, Q0013 C6H6O3 settles around -12455.0, and I'm starting Q0014 with C4H3N3O2.\n\nMoving through more: Q0015 C6H10O3 gives -12521, Q0016 C7H6N2 lands at -10332.3, and I'm working out Q0017's C7H10O structure around -9464.\n\nContinuing through the list: Q0018's C6H11NO2 comes out to -11981.5, Q0019's C6H8N2O to -11375.5, Q0020's C7H8O2 to -11478, and Q0021's C7H12O2 to -11544, now starting on Q0022's formula.\n\nContinuing through the mass calculations: -9328.8 for Q0026, then -11948 for Q0027, -11511 for Q0028, -11478.3 for Q0029, and -12352 for Q0030.\n\nMoving on, I'm computing Q0031 through Q0034: -9960.6, -12385.5, -11576.6, and -10938.3, before starting Q0035.\n\nFor Q0035-Q0037, I'm continuing to work out formation energy estimates from atom contributions, landing on -10500.5, -11543.5, and for the anionic species adjusting with a correction factor from training data to get -11915.6, then starting Q0038.\n\nNow I'm computing Q0038's energy from its atomic composition, arriving at -11720.5, then moving to Q0039 with a cationic species, summing contributions and adjusting for charge to get -10969.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate per-atom energy contributions for carbon and hydrogen by comparing known molecule totals, like the C9H18 compound's energy value, to back out consistent atomic baselines.\n\nWorking through oxygen next, then nitrogen, cross-checking against several nitrogen-containing molecules to converge on a consistent per-atom value around 1489.8 despite some discrepancy in the charged species.\n\nRechecking the formula against the mass, I get roughly -0.5 off, close enough. Now I'm working through another candidate structure, counting its carbons to build the molecular formula for comparison.\n\nWorking through Q0001 gives C6H7NO2 with mass sum around 11915.1, so predicting roughly -11915.6 with a small training offset. For Q0002, CC#CC[C@@H](CC)CO comes out to C8H14O near 10566.35, comparing against a similar training compound to settle on about -10566.5. Now starting Q0003's formula breakdown for O=C1O[C@@H]2C(=O)NC[C@H]12 as C5H5NO3.\n\nContinuing through, Q0003 sums to roughly 12892.35, predicting around -12892.8. For Q0004, CN1CCCOCC1=O as C6H11NO2 totals about 11980.7, compared against a close training analog to land on -10981.0. Q0005's ON[C@H]1C[C@@]2(CO2)C1 as C5H9NO2 comes to about 10911.6, but after weighing it against a more stable amide training compound I settle closer to -10911.5. Now I'm starting to break down Q0006, Cc1coc(...), into its atomic formula.\n\nMoving to Q0007, I'm computing CC#CC#CC(C)(C)O as C8H10O, summing to roughly 10500.75 and predicting -10501. For Q0008, I'm working out the formula of the fused bicyclic ammonium structure as C8H12N+, summing to about 9977 plus an adjustment, landing near -9959. I'm now starting on Q0009.\n\nContinuing the formula calculations: Q0012 C8H14O comes to -10566.5, Q0013 C6H6O3 settles around -12455.0, and I'm starting Q0014 with C4H3N3O2.\n\nMoving through more: Q0015 C6H10O3 gives -12521, Q0016 C7H6N2 lands at -10332.3, and I'm working out Q0017's C7H10O structure around -9464.\n\nContinuing through the list: Q0018's C6H11NO2 comes out to -11981.5, Q0019's C6H8N2O to -11375.5, Q0020's C7H8O2 to -11478, and Q0021's C7H12O2 to -11544, now starting on Q0022's formula.\n\nContinuing through the mass calculations: -9328.8 for Q0026, then -11948 for Q0027, -11511 for Q0028, -11478.3 for Q0029, and -12352 for Q0030.\n\nMoving on, I'm computing Q0031 through Q0034: -9960.6, -12385.5, -11576.6, and -10938.3, before starting Q0035.\n\nFor Q0035-Q0037, I'm continuing to work out formation energy estimates from atom contributions, landing on -10500.5, -11543.5, and for the anionic species adjusting with a correction factor from training data to get -11915.6, then starting Q0038.\n\nNow I'm computing Q0038's energy from its atomic composition, arriving at -11720.5, then moving to Q0039 with a cationic species, summing contributions and adjusting for charge to get -10969.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 5024,
+    "total_tokens": 8338,
+    "cost": 0.113736,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.113736,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.10048
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4293,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

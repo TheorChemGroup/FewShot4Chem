@@ -1,0 +1,15 @@
+type: chemberta
+name: chemberta_10M
+hyperparams:
+  mode: mlm
+roberta_config:
+  vocab_size: 1000
+  hidden_size: 432
+  num_hidden_layers: 8
+  num_attention_heads: 8
+  intermediate_size: 456
+pretrained: false
+tokenizer_name: basic_GraphChem10M_txt
+batch_size: 128
+train_batch_size: 400
+training_dataset_name: GraphChem10M_txt

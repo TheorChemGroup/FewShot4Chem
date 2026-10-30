@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792945647-UcBaQUrQaWuca2DrWRbD",
+  "object": "chat.completion",
+  "created": 1792945647,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": -0.3}, {\"id\": \"Q0001\", \"value\": -1.2}, {\"id\": \"Q0002\", \"value\": -0.4}, {\"id\": \"Q0003\", \"value\": 2.1}, {\"id\": \"Q0004\", \"value\": -0.5}, {\"id\": \"Q0005\", \"value\": 2.2}, {\"id\": \"Q0006\", \"value\": -0.65}, {\"id\": \"Q0007\", \"value\": -0.1}, {\"id\": \"Q0008\", \"value\": 1.8}, {\"id\": \"Q0009\", \"value\": -0.3}, {\"id\": \"Q0010\", \"value\": -0.5}, {\"id\": \"Q0011\", \"value\": -0.9}, {\"id\": \"Q0012\", \"value\": 1.1}, {\"id\": \"Q0013\", \"value\": 1.5}, {\"id\": \"Q0014\", \"value\": -1.6}, {\"id\": \"Q0015\", \"value\": -0.2}, {\"id\": \"Q0016\", \"value\": -0.5}, {\"id\": \"Q0017\", \"value\": -1.8}, {\"id\": \"Q0018\", \"value\": 1.4}, {\"id\": \"Q0019\", \"value\": 0.2}, {\"id\": \"Q0020\", \"value\": 0.8}, {\"id\": \"Q0021\", \"value\": -0.5}, {\"id\": \"Q0022\", \"value\": 2.1}, {\"id\": \"Q0023\", \"value\": -0.3}, {\"id\": \"Q0024\", \"value\": 0.1}, {\"id\": \"Q0025\", \"value\": 2.2}, {\"id\": \"Q0026\", \"value\": 0.8}, {\"id\": \"Q0027\", \"value\": -0.4}, {\"id\": \"Q0028\", \"value\": 0.5}, {\"id\": \"Q0029\", \"value\": 0.8}, {\"id\": \"Q0030\", \"value\": -0.9}, {\"id\": \"Q0031\", \"value\": 2.1}, {\"id\": \"Q0032\", \"value\": 0.7}, {\"id\": \"Q0033\", \"value\": 2.5}, {\"id\": \"Q0034\", \"value\": 1.5}, {\"id\": \"Q0035\", \"value\": -0.8}, {\"id\": \"Q0036\", \"value\": -0.4}, {\"id\": \"Q0037\", \"value\": 0.3}, {\"id\": \"Q0038\", \"value\": 1.2}, {\"id\": \"Q0039\", \"value\": 1.1}]}",
+        "refusal": null,
+        "reasoning": "**Analyzing Training Data Trends**\n\nI'm currently sifting through the training set, noting how diverse chemical structures like carbonyls, nitriles, and conjugated systems exhibit a wide spectrum of LUMO energies. My focus is on identifying patterns that might explain these variations, especially in cases with higher LUMO values.\n\n**Identifying LUMO Energy Patterns**\n\nI'm refining my understanding of LUMO energy trends. High LUMO values seem to correlate with saturated hydrocarbons and symmetrical structures. Conversely, low LUMO values appear linked to conjugated or electron-deficient systems, and I'm exploring specific functional groups within those.\n\n**Exploring LUMO Energy Determinants**\n\nI'm investigating specific structural nuances. For instance, I'm considering how aromaticity, the presence of heteroatoms like nitrogen and oxygen, and substituents such as electron-donating or withdrawing groups influence LUMO energy levels. I'm seeing that while aromaticity generally lowers LUMO, substituents can significantly modulate this effect, leading to a broader energy spectrum.\n\n**Refining LUMO Energy Correlations**\n\nI'm observing how specific structures, like bicyclic saturated systems with hydroxyl groups, tend to have higher LUMO energies, predicting around 2.1 eV for one example. Bicyclic ketones with non-conjugated systems also show lower LUMO values.\n\n**Observing LUMO Trends**\n\nMy analysis continues to refine LUMO energy predictions. Saturated bicyclic ethers, for example, appear to have LUMO values in the 1.8 eV range. Conjugated systems with electron-withdrawing groups, like alkynes attached to furan rings, shift LUMO towards slightly higher values. Heterocyclic compounds with multiple heteroatoms and potential tautomerism, such as pyrazoles with hydroxyls, are predicted to have significantly lower LUMO energies.\n\n**Predicting LUMO Energies**\n\nI'm now focusing on predicting LUMO energies for specific molecules. Cationic ketones, like the one in ]2C[N@H+]2[C@H]2C[C@@H]12, are likely to have low LUMO values due to the combined effects of charge and the carbonyl group, so I'm predicting -0.3 eV. For molecules like CC(=O)[C@]1([C@@H](C)O)CO1, featuring both a ketone and epoxide, I anticipate LUMO values around -0.5 eV. Tetrazole rings, as seen in CCc1nnn(CC)n1, are inherently electron-deficient, suggesting predictions around -0.9 eV. Non-conjugated dienes such as CC1=C[C@H]2CC=C[C@@H]1C2 will likely exhibit higher LUMO energies, around 1.1 eV, while molecules with a non-conjugated double bond and ether, like OC[C@H]1C[C@H]2OCC=C12, are estimated at 1.5 eV.\n\n**Predicting LUMO for New Structures**\n\nI'm continuing to generate LUMO predictions based on recent analyses. Highly electron-deficient systems like the alkyne-carbonyl and oxadiazole-pyrazine derivatives are yielding very low eV predictions. Conversely, saturated bicyclic ethers and alcohols show significantly higher LUMO values, with one bicyclic ether/alcohol predicting 2.1 eV.\n\n**Generating LUMO Predictions**\n\nI'm actively generating LUMO predictions for new structures. Highly electron-deficient molecules like substituted pyrazoles and alkynyl ketones are showing very low eV values, with an anion predicted at -1.15 eV. Conversely, saturated bicyclic ethers and epoxides, along with protonated aziridines, are yielding higher positive predictions, in the 2.1-2.2 eV range.\n\n**Generating LUMO Predictions**\n\nI am continuing to generate LUMO predictions for new structures, refining my approach. Recent predictions include an aldehyde/acetal system at 0.7 eV, a saturated hydrocarbon at 2.5 eV, and a bicyclic heteroaromatic with an alkyne at -0.8 eV. I am also evaluating a cyclic carbamate/epoxide at -0.4 eV and a cationic aziridine at 1.1 eV.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Training Data Trends**\n\nI'm currently sifting through the training set, noting how diverse chemical structures like carbonyls, nitriles, and conjugated systems exhibit a wide spectrum of LUMO energies. My focus is on identifying patterns that might explain these variations, especially in cases with higher LUMO values.\n\n**Identifying LUMO Energy Patterns**\n\nI'm refining my understanding of LUMO energy trends. High LUMO values seem to correlate with saturated hydrocarbons and symmetrical structures. Conversely, low LUMO values appear linked to conjugated or electron-deficient systems, and I'm exploring specific functional groups within those.\n\n**Exploring LUMO Energy Determinants**\n\nI'm investigating specific structural nuances. For instance, I'm considering how aromaticity, the presence of heteroatoms like nitrogen and oxygen, and substituents such as electron-donating or withdrawing groups influence LUMO energy levels. I'm seeing that while aromaticity generally lowers LUMO, substituents can significantly modulate this effect, leading to a broader energy spectrum.\n\n**Refining LUMO Energy Correlations**\n\nI'm observing how specific structures, like bicyclic saturated systems with hydroxyl groups, tend to have higher LUMO energies, predicting around 2.1 eV for one example. Bicyclic ketones with non-conjugated systems also show lower LUMO values.\n\n**Observing LUMO Trends**\n\nMy analysis continues to refine LUMO energy predictions. Saturated bicyclic ethers, for example, appear to have LUMO values in the 1.8 eV range. Conjugated systems with electron-withdrawing groups, like alkynes attached to furan rings, shift LUMO towards slightly higher values. Heterocyclic compounds with multiple heteroatoms and potential tautomerism, such as pyrazoles with hydroxyls, are predicted to have significantly lower LUMO energies.\n\n**Predicting LUMO Energies**\n\nI'm now focusing on predicting LUMO energies for specific molecules. Cationic ketones, like the one in ]2C[N@H+]2[C@H]2C[C@@H]12, are likely to have low LUMO values due to the combined effects of charge and the carbonyl group, so I'm predicting -0.3 eV. For molecules like CC(=O)[C@]1([C@@H](C)O)CO1, featuring both a ketone and epoxide, I anticipate LUMO values around -0.5 eV. Tetrazole rings, as seen in CCc1nnn(CC)n1, are inherently electron-deficient, suggesting predictions around -0.9 eV. Non-conjugated dienes such as CC1=C[C@H]2CC=C[C@@H]1C2 will likely exhibit higher LUMO energies, around 1.1 eV, while molecules with a non-conjugated double bond and ether, like OC[C@H]1C[C@H]2OCC=C12, are estimated at 1.5 eV.\n\n**Predicting LUMO for New Structures**\n\nI'm continuing to generate LUMO predictions based on recent analyses. Highly electron-deficient systems like the alkyne-carbonyl and oxadiazole-pyrazine derivatives are yielding very low eV predictions. Conversely, saturated bicyclic ethers and alcohols show significantly higher LUMO values, with one bicyclic ether/alcohol predicting 2.1 eV.\n\n**Generating LUMO Predictions**\n\nI'm actively generating LUMO predictions for new structures. Highly electron-deficient molecules like substituted pyrazoles and alkynyl ketones are showing very low eV values, with an anion predicted at -1.15 eV. Conversely, saturated bicyclic ethers and epoxides, along with protonated aziridines, are yielding higher positive predictions, in the 2.1-2.2 eV range.\n\n**Generating LUMO Predictions**\n\nI am continuing to generate LUMO predictions for new structures, refining my approach. Recent predictions include an aldehyde/acetal system at 0.7 eV, a saturated hydrocarbon at 2.5 eV, and a bicyclic heteroaromatic with an alkyne at -0.8 eV. I am also evaluating a cyclic carbamate/epoxide at -0.4 eV and a cationic aziridine at 1.1 eV.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2831,
+    "completion_tokens": 5016,
+    "total_tokens": 7847,
+    "cost": 0.0493905,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0493905,
+      "upstream_inference_prompt_cost": 0.0042465,
+      "upstream_inference_completions_cost": 0.045144
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4292,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

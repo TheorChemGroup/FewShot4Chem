@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792969707-vQHi76XCeHGRiARYE5ti",
+  "object": "chat.completion",
+  "created": 1792969707,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-10911.4},{\"id\":\"Q0001\",\"value\":-11981.3},{\"id\":\"Q0002\",\"value\":-12351.2},{\"id\":\"Q0003\",\"value\":-12579.6},{\"id\":\"Q0004\",\"value\":-12612.6},{\"id\":\"Q0005\",\"value\":-11477.0},{\"id\":\"Q0006\",\"value\":-12455.4},{\"id\":\"Q0007\",\"value\":-12384.2},{\"id\":\"Q0008\",\"value\":-11947.5},{\"id\":\"Q0009\",\"value\":-10937.0},{\"id\":\"Q0010\",\"value\":-9967.0},{\"id\":\"Q0011\",\"value\":-11810.2},{\"id\":\"Q0012\",\"value\":-11811.0},{\"id\":\"Q0013\",\"value\":-11439.4},{\"id\":\"Q0014\",\"value\":-10936.6},{\"id\":\"Q0015\",\"value\":-12488.4},{\"id\":\"Q0016\",\"value\":-10799.4},{\"id\":\"Q0017\",\"value\":-10936.6},{\"id\":\"Q0018\",\"value\":-10566.2},{\"id\":\"Q0019\",\"value\":-11947.4},{\"id\":\"Q0020\",\"value\":-9959.3},{\"id\":\"Q0021\",\"value\":-11981.3},{\"id\":\"Q0022\",\"value\":-12521.2},{\"id\":\"Q0023\",\"value\":-11315.2},{\"id\":\"Q0024\",\"value\":-11640.0},{\"id\":\"Q0025\",\"value\":-10566.0},{\"id\":\"Q0026\",\"value\":-12455.4},{\"id\":\"Q0027\",\"value\":-9623.0},{\"id\":\"Q0028\",\"value\":-11477.4},{\"id\":\"Q0029\",\"value\":-9925.8},{\"id\":\"Q0030\",\"value\":-12521.0},{\"id\":\"Q0031\",\"value\":-11543.6},{\"id\":\"Q0032\",\"value\":-12521.0},{\"id\":\"Q0033\",\"value\":-10499.0},{\"id\":\"Q0034\",\"value\":-9705.2},{\"id\":\"Q0035\",\"value\":-11719.0},{\"id\":\"Q0036\",\"value\":-12455.4},{\"id\":\"Q0037\",\"value\":-11843.2},{\"id\":\"Q0038\",\"value\":-10532.8},{\"id\":\"Q0039\",\"value\":-10499.3}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 using rough per-atom energy contributions in eV, attempting to fit values against a known molecule like C7H10O to calibrate the atomic baseline energies.\n\nRefining N to roughly -1489.4 using another nitrile example, then calibrating O using a few oxygen-rich molecules, settling on about -2046.8 for O. I'm now setting up a linear formula combining per-atom coefficients for C, H, N, O to estimate energies, and starting to apply it to the first query molecule.\n\nContinuing through the formula energy calculations for Q4 through Q7, computing atom-count-based estimates and cross-checking against reference values for each candidate structure.\n\nNow I'm moving to Q8, computing the energy for a nitrile-containing cyclopropane structure and comparing it against a similar reference compound, then starting the atom count for Q9's bicyclic structure.\n\nLet me check C[C@@H](C1COC1)[NH+]1CC1 similarly — C7H14NO comes out to roughly -11019, but that's off by about 18 from my computed value, so the charged NH+ must have a different effective H count than I assumed. These QM9 structures are probably neutral despite the SMILES charge notation, so I should treat the formula as C7 with adjusted H.\n\nTesting this against another charged example, C[C@H]1C[N@H+](C)[C@H]1C#N as C6H10N2 checks out well against the target, confirming that for charged atoms I should subtract the extra H rather than add one. Now I'm working through a trickier case with both [CH+] and [NH2+] groups, trying to figure out the right electron/H count for that structure.\n\nI'll settle on C7H9NO for Q9, giving roughly -10937. For Q11, computing Cc1coc(/N=C/N)n1 as C5H7N3O yields about -11810.2. For Q12, the zwitterion C[CH+]1N=C([NH-])C=C(N)O1 has an H-count puzzle, but I'll treat the real neutral form as C5H7N3O or C5H8N3O and keep working through the atom-count reconciliation.\n\nFor the next molecule, C#C[C@H]1C[C@@H]([NH-])OCO1, counting hydrogens gives C5H8NO2, but my computed value (-10894.9) is off from the actual (-11914.67) by about 1020, which looks like the gap from a missing carbon — so I need to recount the carbon atoms in the alkyne and ring more carefully.\n\nContinuing through Q15-Q17: calculating -12488.4 for C6H8O3, -10799.4 for C6H7N3, and working out the atom count for the bicyclic amine structure in Q17 to get C7H9NO at -10936.6, comparing against prior values.\n\nFor Q18, counting atoms in the cyclopentene with hydroxyethyl substituent gives C8H14O, landing around -10565.8 to -10566.2 after comparing against training data.\n\nMoving through Q19-Q22, I'm computing formation energies by counting carbons, hydrogens, nitrogens and oxygens for each structure: the methoxy-nitrile-cyclopropane gives C6H9NO2 at -11947.4, the bicyclic amine C8H11N compares well against a similar training compound at -9959.3, the methyl-oxetane-acetamide gives C6H11NO2 at -11981.3, and the acetyl-oxirane compound gives C6H10O3 at -12521.2. Now starting on Q23.\n\nQ31 comes out to -11543.6, close enough to -11543.42 to confirm. Q32: C6H10O3 gives -12521.0. Moving to Q33, continuing the alkyne structure analysis.\n\nFor Q34 I'm working out C3H5N3O at -9705.2, Q35 gives C3H3N3O2 at -11719.0, and Q36's bicyclic alkyne oxygen compound computes to -12455.4. Now starting Q37 with an imine/formamide structure.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 using rough per-atom energy contributions in eV, attempting to fit values against a known molecule like C7H10O to calibrate the atomic baseline energies.\n\nRefining N to roughly -1489.4 using another nitrile example, then calibrating O using a few oxygen-rich molecules, settling on about -2046.8 for O. I'm now setting up a linear formula combining per-atom coefficients for C, H, N, O to estimate energies, and starting to apply it to the first query molecule.\n\nContinuing through the formula energy calculations for Q4 through Q7, computing atom-count-based estimates and cross-checking against reference values for each candidate structure.\n\nNow I'm moving to Q8, computing the energy for a nitrile-containing cyclopropane structure and comparing it against a similar reference compound, then starting the atom count for Q9's bicyclic structure.\n\nLet me check C[C@@H](C1COC1)[NH+]1CC1 similarly — C7H14NO comes out to roughly -11019, but that's off by about 18 from my computed value, so the charged NH+ must have a different effective H count than I assumed. These QM9 structures are probably neutral despite the SMILES charge notation, so I should treat the formula as C7 with adjusted H.\n\nTesting this against another charged example, C[C@H]1C[N@H+](C)[C@H]1C#N as C6H10N2 checks out well against the target, confirming that for charged atoms I should subtract the extra H rather than add one. Now I'm working through a trickier case with both [CH+] and [NH2+] groups, trying to figure out the right electron/H count for that structure.\n\nI'll settle on C7H9NO for Q9, giving roughly -10937. For Q11, computing Cc1coc(/N=C/N)n1 as C5H7N3O yields about -11810.2. For Q12, the zwitterion C[CH+]1N=C([NH-])C=C(N)O1 has an H-count puzzle, but I'll treat the real neutral form as C5H7N3O or C5H8N3O and keep working through the atom-count reconciliation.\n\nFor the next molecule, C#C[C@H]1C[C@@H]([NH-])OCO1, counting hydrogens gives C5H8NO2, but my computed value (-10894.9) is off from the actual (-11914.67) by about 1020, which looks like the gap from a missing carbon — so I need to recount the carbon atoms in the alkyne and ring more carefully.\n\nContinuing through Q15-Q17: calculating -12488.4 for C6H8O3, -10799.4 for C6H7N3, and working out the atom count for the bicyclic amine structure in Q17 to get C7H9NO at -10936.6, comparing against prior values.\n\nFor Q18, counting atoms in the cyclopentene with hydroxyethyl substituent gives C8H14O, landing around -10565.8 to -10566.2 after comparing against training data.\n\nMoving through Q19-Q22, I'm computing formation energies by counting carbons, hydrogens, nitrogens and oxygens for each structure: the methoxy-nitrile-cyclopropane gives C6H9NO2 at -11947.4, the bicyclic amine C8H11N compares well against a similar training compound at -9959.3, the methyl-oxetane-acetamide gives C6H11NO2 at -11981.3, and the acetyl-oxirane compound gives C6H10O3 at -12521.2. Now starting on Q23.\n\nQ31 comes out to -11543.6, close enough to -11543.42 to confirm. Q32: C6H10O3 gives -12521.0. Moving to Q33, continuing the alkyne structure analysis.\n\nFor Q34 I'm working out C3H5N3O at -9705.2, Q35 gives C3H3N3O2 at -11719.0, and Q36's bicyclic alkyne oxygen compound computes to -12455.4. Now starting Q37 with an imine/formamide structure.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 5782,
+    "total_tokens": 9096,
+    "cost": 0.128896,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.128896,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.11564
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5051,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

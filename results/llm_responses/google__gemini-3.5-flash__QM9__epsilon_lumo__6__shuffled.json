@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792955366-wFgZBpoU62aJtRj9z2Wy",
+  "object": "chat.completion",
+  "created": 1792955366,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": 1.7}, {\"id\": \"Q0001\", \"value\": 0.2}, {\"id\": \"Q0002\", \"value\": 1.8}, {\"id\": \"Q0003\", \"value\": -1.5}, {\"id\": \"Q0004\", \"value\": 2.2}, {\"id\": \"Q0005\", \"value\": -0.5}, {\"id\": \"Q0006\", \"value\": 1.2}, {\"id\": \"Q0007\", \"value\": -0.6}, {\"id\": \"Q0008\", \"value\": 0.8}, {\"id\": \"Q0009\", \"value\": 1.3}, {\"id\": \"Q0010\", \"value\": -0.3}, {\"id\": \"Q0011\", \"value\": -0.1}, {\"id\": \"Q0012\", \"value\": 0.3}, {\"id\": \"Q0013\", \"value\": 0.8}, {\"id\": \"Q0014\", \"value\": -0.2}, {\"id\": \"Q0015\", \"value\": 1.5}, {\"id\": \"Q0016\", \"value\": 2.4}, {\"id\": \"Q0017\", \"value\": -0.8}, {\"id\": \"Q0018\", \"value\": -1.2}, {\"id\": \"Q0019\", \"value\": 0.5}, {\"id\": \"Q0020\", \"value\": 0.5}, {\"id\": \"Q0021\", \"value\": 1.0}, {\"id\": \"Q0022\", \"value\": 0.7}, {\"id\": \"Q0023\", \"value\": 0.2}, {\"id\": \"Q0024\", \"value\": 0.5}, {\"id\": \"Q0025\", \"value\": 0.6}, {\"id\": \"Q0026\", \"value\": -0.5}, {\"id\": \"Q0027\", \"value\": 0.8}, {\"id\": \"Q0028\", \"value\": 0.1}, {\"id\": \"Q0029\", \"value\": 0.8}, {\"id\": \"Q0030\", \"value\": 0.2}, {\"id\": \"Q0031\", \"value\": -0.5}, {\"id\": \"Q0032\", \"value\": 2.0}, {\"id\": \"Q0033\", \"value\": 2.2}, {\"id\": \"Q0034\", \"value\": 1.5}, {\"id\": \"Q0035\", \"value\": 0.1}, {\"id\": \"Q0036\", \"value\": 1.3}, {\"id\": \"Q0037\", \"value\": -0.2}, {\"id\": \"Q0038\", \"value\": 0.5}, {\"id\": \"Q0039\", \"value\": 1.8}]}",
+        "refusal": null,
+        "reasoning": "**Exploring LUMO Trends**\n\nI'm currently analyzing the training data, specifically noting molecules with higher LUMO energy values. This involves examining their structures to identify potential correlations with LUMO levels, aiming to build a predictive model for the query molecules.\n\n**Predicting LUMO Values**\n\nI'm now focusing on predicting LUMO values for the query molecules. Based on their structural features, I've made initial estimations for Q0000, Q0001, and Q0002, considering functional groups like alkynes, alcohols, amides, and heterocyclic systems.\n\n**Refining LUMO Predictions**\n\nI've refined my LUMO estimations for Q0003 through Q0007, considering specific functional group influences. For instance, the cyclopropanecarboxaldehyde derivative (Q0003) is predicted to have a low LUMO due to the aldehyde on the cyclopropane ring.\n\n**Refining LUMO Values**\n\nI'm now refining predictions for Q0008 through Q0012. Based on structural comparisons, I anticipate a LUMO of 0.8 for Q0008, 1.3 for Q0009 (a dioxanone), -0.3 for Q0010 (a cyano-substituted cyclopropane), -0.1 for Q0011 (a cyclobutanone), and 0.3 for Q0012 (an imine/amide).\n\n**Estimating LUMO Values**\n\nI'm now estimating LUMO values for Q0013 through Q0018, considering structural influences. For Q0013, a heteroaromatic amide, I predict 0.8. Q0014, a cyclopentene-diol, is estimated at -0.2. Q0015, a protonated aziridine fusion, suggests 1.5. Q0016, a tetrahydropyran, is predicted high at 2.4. Q0017, an epoxy-cyclohexenecarboxaldehyde, is anticipated at -0.8, and Q0018, an aldehyde with a formate ester, at -1.2.\n\n**Estimating LUMO Values**\n\nI'm continuing to estimate LUMO values, now for molecules Q0019 through Q0026. I'm considering dienes and protonated azetidines (Q0019, Q0020), a dimethylamine-substituted triazole (Q0021), and a cyclic carbamate/ether (Q0022). I'm also evaluating a highly polar zwitterionic species (Q0023), an oxadiazine (Q0024), an aziridine-fused cyclopentene (Q0025), and an N-formyl carbamate (Q0026).\n\n**Estimating LUMO Values**\n\nI'm continuing my LUMO value estimations, focusing now on Q0027 through Q0034. I've considered the interplay of functional groups like tetrazoles, epoxides, alkynes, acetyl groups, pyrazolediones, and bicyclic ethers, comparing them against similar known structures to arrive at these predictions.\n\n**Estimating LUMO Values**\n\nI'm continuing my LUMO value estimations, now for Q0035 through Q0039. I'm considering alkynyl imidazopyridines, bicyclic ethers with alkynes and hydroxyl groups, pyrroles with acetaldehyde, imidazole derivatives, and cyclic acetals with alkynes and negative charges, drawing comparisons to established structures.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Exploring LUMO Trends**\n\nI'm currently analyzing the training data, specifically noting molecules with higher LUMO energy values. This involves examining their structures to identify potential correlations with LUMO levels, aiming to build a predictive model for the query molecules.\n\n**Predicting LUMO Values**\n\nI'm now focusing on predicting LUMO values for the query molecules. Based on their structural features, I've made initial estimations for Q0000, Q0001, and Q0002, considering functional groups like alkynes, alcohols, amides, and heterocyclic systems.\n\n**Refining LUMO Predictions**\n\nI've refined my LUMO estimations for Q0003 through Q0007, considering specific functional group influences. For instance, the cyclopropanecarboxaldehyde derivative (Q0003) is predicted to have a low LUMO due to the aldehyde on the cyclopropane ring.\n\n**Refining LUMO Values**\n\nI'm now refining predictions for Q0008 through Q0012. Based on structural comparisons, I anticipate a LUMO of 0.8 for Q0008, 1.3 for Q0009 (a dioxanone), -0.3 for Q0010 (a cyano-substituted cyclopropane), -0.1 for Q0011 (a cyclobutanone), and 0.3 for Q0012 (an imine/amide).\n\n**Estimating LUMO Values**\n\nI'm now estimating LUMO values for Q0013 through Q0018, considering structural influences. For Q0013, a heteroaromatic amide, I predict 0.8. Q0014, a cyclopentene-diol, is estimated at -0.2. Q0015, a protonated aziridine fusion, suggests 1.5. Q0016, a tetrahydropyran, is predicted high at 2.4. Q0017, an epoxy-cyclohexenecarboxaldehyde, is anticipated at -0.8, and Q0018, an aldehyde with a formate ester, at -1.2.\n\n**Estimating LUMO Values**\n\nI'm continuing to estimate LUMO values, now for molecules Q0019 through Q0026. I'm considering dienes and protonated azetidines (Q0019, Q0020), a dimethylamine-substituted triazole (Q0021), and a cyclic carbamate/ether (Q0022). I'm also evaluating a highly polar zwitterionic species (Q0023), an oxadiazine (Q0024), an aziridine-fused cyclopentene (Q0025), and an N-formyl carbamate (Q0026).\n\n**Estimating LUMO Values**\n\nI'm continuing my LUMO value estimations, focusing now on Q0027 through Q0034. I've considered the interplay of functional groups like tetrazoles, epoxides, alkynes, acetyl groups, pyrazolediones, and bicyclic ethers, comparing them against similar known structures to arrive at these predictions.\n\n**Estimating LUMO Values**\n\nI'm continuing my LUMO value estimations, now for Q0035 through Q0039. I'm considering alkynyl imidazopyridines, bicyclic ethers with alkynes and hydroxyl groups, pyrroles with acetaldehyde, imidazole derivatives, and cyclic acetals with alkynes and negative charges, drawing comparisons to established structures.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2832,
+    "completion_tokens": 4967,
+    "total_tokens": 7799,
+    "cost": 0.048951,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.048951,
+      "upstream_inference_prompt_cost": 0.004248,
+      "upstream_inference_completions_cost": 0.044703
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4244,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

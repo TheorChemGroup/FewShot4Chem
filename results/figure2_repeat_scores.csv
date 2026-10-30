@@ -1,0 +1,781 @@
+panel,model,support,repeat,configuration,validation_R2,test_R2,validation_source,cohort,record_id,status
+frozen,gin-pretrained,60,0,tabpfn,0.343312197718614,0.3399646074923638,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gin-pretrained__tabpfn__0,scored
+frozen,gin-pretrained,60,1,tabpfn,0.5438435418576574,0.2600277619426643,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gin-pretrained__tabpfn__1,scored
+frozen,gin-pretrained,60,2,tabpfn,0.18877413201412496,0.42237831215227684,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gin-pretrained__tabpfn__2,scored
+frozen,gin-pretrained,60,3,tabpfn,-0.10746983067257099,0.31149857099360045,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gin-pretrained__tabpfn__3,scored
+frozen,gin-pretrained,60,4,tabpfn,0.22950784599076468,0.2530711747134292,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gin-pretrained__tabpfn__4,scored
+frozen,gin-pretrained,100,0,tabpfn,0.5720407750497111,0.48759155319093284,actual saved-model validation,new_small125_90_10_25,small125__head__gin-pretrained__tabpfn__0,scored
+frozen,gin-pretrained,100,1,tabpfn,0.5655539606722175,0.24043887237664763,actual saved-model validation,new_small125_90_10_25,small125__head__gin-pretrained__tabpfn__1,scored
+frozen,gin-pretrained,100,2,tabpfn,0.6905044228323305,0.5847324443637278,actual saved-model validation,new_small125_90_10_25,small125__head__gin-pretrained__tabpfn__2,scored
+frozen,gin-pretrained,100,3,tabpfn,0.6895874221663749,0.5338545838975227,actual saved-model validation,new_small125_90_10_25,small125__head__gin-pretrained__tabpfn__3,scored
+frozen,gin-pretrained,100,4,tabpfn,0.055786123280890165,0.6254723112724387,actual saved-model validation,new_small125_90_10_25,small125__head__gin-pretrained__tabpfn__4,scored
+frozen,gin-pretrained,1000,0,tabicl,0.6539160013198853,0.653870701789856,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__gin-pretrained__tabicl__0,scored
+frozen,gin-pretrained,1000,1,tabicl,0.6500780582427979,0.7214581966400146,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__gin-pretrained__tabicl__1,scored
+frozen,gin-pretrained,1000,2,tabicl,0.5755144357681274,0.7083860635757446,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__gin-pretrained__tabicl__2,scored
+frozen,gin-pretrained,1000,3,tabicl,0.6353168487548828,0.7281664609909058,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__gin-pretrained__tabicl__3,scored
+frozen,gin-pretrained,1000,4,tabicl,0.7364524602890015,0.6250728368759155,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__gin-pretrained__tabicl__4,scored
+frozen,gin-pretrained,10000,0,tabpfn,0.8307833501248689,0.8523478082655535,actual saved-model validation,new_random12500_9000_1000_2500,head__gin-pretrained__tabpfn__0,scored
+frozen,gin-pretrained,10000,1,tabpfn,0.8274805180763647,0.8317962558530179,actual saved-model validation,new_random12500_9000_1000_2500,head__gin-pretrained__tabpfn__1,scored
+frozen,gin-pretrained,10000,2,tabpfn,0.868576092099475,0.8177570281575364,actual saved-model validation,new_random12500_9000_1000_2500,head__gin-pretrained__tabpfn__2,scored
+frozen,gin-pretrained,10000,3,tabpfn,0.8454736813317627,0.8214832183031795,actual saved-model validation,new_random12500_9000_1000_2500,head__gin-pretrained__tabpfn__3,scored
+frozen,gin-pretrained,10000,4,tabpfn,0.8412579408357884,0.8269688066793649,actual saved-model validation,new_random12500_9000_1000_2500,head__gin-pretrained__tabpfn__4,scored
+frozen,grover-base,60,0,linear,0.5959947387168257,0.481351515960146,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__grover-base__linear__0,scored
+frozen,grover-base,60,1,linear,0.7297351247660813,0.3805137795332243,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__grover-base__linear__1,scored
+frozen,grover-base,60,2,linear,0.6777005821166342,0.4321260813112582,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__grover-base__linear__2,scored
+frozen,grover-base,60,3,linear,0.4656647672649,0.3264831887455677,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__grover-base__linear__3,scored
+frozen,grover-base,60,4,linear,0.4134674102158147,0.46653765626649535,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__grover-base__linear__4,scored
+frozen,grover-base,100,0,tabpfn,0.3718316324549684,0.482077475381111,actual saved-model validation,new_small125_90_10_25,small125__head__grover-base__tabpfn__0,scored
+frozen,grover-base,100,1,tabpfn,0.7461118493471282,0.08008980047741576,actual saved-model validation,new_small125_90_10_25,small125__head__grover-base__tabpfn__1,scored
+frozen,grover-base,100,2,tabpfn,0.7873833366824036,0.4606779367216667,actual saved-model validation,new_small125_90_10_25,small125__head__grover-base__tabpfn__2,scored
+frozen,grover-base,100,3,tabpfn,0.6227698238761783,0.6879030165229698,actual saved-model validation,new_small125_90_10_25,small125__head__grover-base__tabpfn__3,scored
+frozen,grover-base,100,4,tabpfn,0.29100138606554415,0.6520776578046789,actual saved-model validation,new_small125_90_10_25,small125__head__grover-base__tabpfn__4,scored
+frozen,grover-base,1000,0,gp-rbf,0.7440108060836792,0.727397084236145,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__grover-base__gp-rbf__0,scored
+frozen,grover-base,1000,1,gp-rbf,0.702207088470459,0.7549589276313782,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__grover-base__gp-rbf__1,scored
+frozen,grover-base,1000,2,gp-rbf,0.6577240228652954,0.7684772610664368,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__grover-base__gp-rbf__2,scored
+frozen,grover-base,1000,3,gp-rbf,0.7046763896942139,0.7157636284828186,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__grover-base__gp-rbf__3,scored
+frozen,grover-base,1000,4,gp-rbf,0.7140859365463257,0.6989855766296387,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__grover-base__gp-rbf__4,scored
+frozen,grover-base,10000,0,tabpfn,0.9582846751584779,0.9594150044747533,actual saved-model validation,new_random12500_9000_1000_2500,head__grover-base__tabpfn__0,scored
+frozen,grover-base,10000,1,tabpfn,0.9629678907005476,0.9554138974009715,actual saved-model validation,new_random12500_9000_1000_2500,head__grover-base__tabpfn__1,scored
+frozen,grover-base,10000,2,tabpfn,0.96456908313612,0.9510757367000361,actual saved-model validation,new_random12500_9000_1000_2500,head__grover-base__tabpfn__2,scored
+frozen,grover-base,10000,3,tabpfn,0.9638413971641541,0.9555687049810455,actual saved-model validation,new_random12500_9000_1000_2500,head__grover-base__tabpfn__3,scored
+frozen,grover-base,10000,4,tabpfn,0.9620191779229078,0.9584928747053205,actual saved-model validation,new_random12500_9000_1000_2500,head__grover-base__tabpfn__4,scored
+frozen,molformer,60,0,mlp,0.6244637389687561,0.576194810281927,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer__mlp__0,scored
+frozen,molformer,60,1,mlp,0.8045244168454024,0.3733587827970618,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer__mlp__1,scored
+frozen,molformer,60,2,mlp,0.4066043196474435,0.5344116261908807,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer__mlp__2,scored
+frozen,molformer,60,3,mlp,0.22194833597661356,0.35646084850957493,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer__mlp__3,scored
+frozen,molformer,60,4,mlp,0.5374722999282908,0.5549248684452377,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer__mlp__4,scored
+frozen,molformer,100,0,gp-rbf,0.5132423043251038,0.6238222718238831,actual saved-model validation,new_small125_90_10_25,small125__head__molformer__gp-rbf__0,scored
+frozen,molformer,100,1,gp-rbf,0.6716530323028564,0.4287862181663513,actual saved-model validation,new_small125_90_10_25,small125__head__molformer__gp-rbf__1,scored
+frozen,molformer,100,2,gp-rbf,0.8148548603057861,0.7208634614944458,actual saved-model validation,new_small125_90_10_25,small125__head__molformer__gp-rbf__2,scored
+frozen,molformer,100,3,gp-rbf,0.5942791700363159,0.6936043500900269,actual saved-model validation,new_small125_90_10_25,small125__head__molformer__gp-rbf__3,scored
+frozen,molformer,100,4,gp-rbf,0.2372981309890747,0.7091559171676636,actual saved-model validation,new_small125_90_10_25,small125__head__molformer__gp-rbf__4,scored
+frozen,molformer,1000,0,tabicl,0.8031991124153137,0.8271048665046692,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer__tabicl__0,scored
+frozen,molformer,1000,1,tabicl,0.8000510931015015,0.85954350233078,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer__tabicl__1,scored
+frozen,molformer,1000,2,tabicl,0.830810010433197,0.8266497254371643,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer__tabicl__2,scored
+frozen,molformer,1000,3,tabicl,0.8128764629364014,0.8152576684951782,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer__tabicl__3,scored
+frozen,molformer,1000,4,tabicl,0.8187402486801147,0.776427686214447,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer__tabicl__4,scored
+frozen,molformer,10000,0,tabpfn,0.9331722783989362,0.9400517748585361,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer__tabpfn__0,scored
+frozen,molformer,10000,1,tabpfn,0.9359851935585197,0.9387841999472012,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer__tabpfn__1,scored
+frozen,molformer,10000,2,tabpfn,0.9445360598281116,0.9302143514178419,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer__tabpfn__2,scored
+frozen,molformer,10000,3,tabpfn,0.9373163876234983,0.9331238339898973,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer__tabpfn__3,scored
+frozen,molformer,10000,4,tabpfn,0.9337012602135265,0.9337419515744448,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer__tabpfn__4,scored
+frozen,molformer-xl,60,0,tabicl,0.635156451978911,0.5636565569878433,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer-xl__tabicl__0,scored
+frozen,molformer-xl,60,1,tabicl,0.7248574902796061,0.3859360885809925,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer-xl__tabicl__1,scored
+frozen,molformer-xl,60,2,tabicl,0.6273369346568455,0.5035287175003487,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer-xl__tabicl__2,scored
+frozen,molformer-xl,60,3,tabicl,0.42659254178867,0.4346123338524852,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer-xl__tabicl__3,scored
+frozen,molformer-xl,60,4,tabicl,0.5938270846439793,0.512230351300875,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__molformer-xl__tabicl__4,scored
+frozen,molformer-xl,100,0,tabicl,0.5105759804157197,0.811593060481809,actual saved-model validation,new_small125_90_10_25,small125__head__molformer-xl__tabicl__0,scored
+frozen,molformer-xl,100,1,tabicl,0.83006241146507,0.62833399684912,actual saved-model validation,new_small125_90_10_25,small125__head__molformer-xl__tabicl__1,scored
+frozen,molformer-xl,100,2,tabicl,0.8477181747215908,0.7509089765743255,actual saved-model validation,new_small125_90_10_25,small125__head__molformer-xl__tabicl__2,scored
+frozen,molformer-xl,100,3,tabicl,0.7691132020419731,0.7209925296947998,actual saved-model validation,new_small125_90_10_25,small125__head__molformer-xl__tabicl__3,scored
+frozen,molformer-xl,100,4,tabicl,0.4070916581993925,0.7131053766542264,actual saved-model validation,new_small125_90_10_25,small125__head__molformer-xl__tabicl__4,scored
+frozen,molformer-xl,1000,0,tabicl,0.8106672763824463,0.8453823328018188,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer-xl__tabicl__0,scored
+frozen,molformer-xl,1000,1,tabicl,0.8551805019378662,0.8739405870437622,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer-xl__tabicl__1,scored
+frozen,molformer-xl,1000,2,tabicl,0.8666643500328064,0.8618766665458679,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer-xl__tabicl__2,scored
+frozen,molformer-xl,1000,3,tabicl,0.8685836791992188,0.8516575694084167,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer-xl__tabicl__3,scored
+frozen,molformer-xl,1000,4,tabicl,0.8664271235466003,0.8100240230560303,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__molformer-xl__tabicl__4,scored
+frozen,molformer-xl,10000,0,tabpfn,0.9456372178393587,0.9536986360696438,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer-xl__tabpfn__0,scored
+frozen,molformer-xl,10000,1,tabpfn,0.9477424035708546,0.953243855351287,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer-xl__tabpfn__1,scored
+frozen,molformer-xl,10000,2,tabpfn,0.9589813379691904,0.9465772481721099,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer-xl__tabpfn__2,scored
+frozen,molformer-xl,10000,3,tabpfn,0.9549697162590701,0.9502254439947136,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer-xl__tabpfn__3,scored
+frozen,molformer-xl,10000,4,tabpfn,0.9481933858412863,0.9501198199002231,actual saved-model validation,new_random12500_9000_1000_2500,head__molformer-xl__tabpfn__4,scored
+frozen,ChemBERTa-2-77M-MTR,60,0,linear,0.39262492650053726,0.5610892333571481,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__linear__0,scored
+frozen,ChemBERTa-2-77M-MTR,60,1,linear,0.6586487475381865,0.44194177515581,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__linear__1,scored
+frozen,ChemBERTa-2-77M-MTR,60,2,linear,0.8316670964609643,0.4958270514006795,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__linear__2,scored
+frozen,ChemBERTa-2-77M-MTR,60,3,linear,0.4264984503809891,0.5043061977856861,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__linear__3,scored
+frozen,ChemBERTa-2-77M-MTR,60,4,linear,0.5264738992372765,0.44023397527983144,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__linear__4,scored
+frozen,ChemBERTa-2-77M-MTR,100,0,tabicl,0.3618010999906778,0.6303349325610323,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-2-77M-MTR__tabicl__0,scored
+frozen,ChemBERTa-2-77M-MTR,100,1,tabicl,0.7465098866248489,0.46366828784953595,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-2-77M-MTR__tabicl__1,scored
+frozen,ChemBERTa-2-77M-MTR,100,2,tabicl,0.8272406272031441,0.6743587233656242,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-2-77M-MTR__tabicl__2,scored
+frozen,ChemBERTa-2-77M-MTR,100,3,tabicl,0.7605684247964124,0.6239272681150465,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-2-77M-MTR__tabicl__3,scored
+frozen,ChemBERTa-2-77M-MTR,100,4,tabicl,0.5221624585397444,0.7098132773210175,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-2-77M-MTR__tabicl__4,scored
+frozen,ChemBERTa-2-77M-MTR,1000,0,tabicl,0.8204357028007507,0.8453701734542847,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-2-77M-MTR__tabicl__0,scored
+frozen,ChemBERTa-2-77M-MTR,1000,1,tabicl,0.8750596046447754,0.8793265223503113,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-2-77M-MTR__tabicl__1,scored
+frozen,ChemBERTa-2-77M-MTR,1000,2,tabicl,0.8866990804672241,0.8820368051528931,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-2-77M-MTR__tabicl__2,scored
+frozen,ChemBERTa-2-77M-MTR,1000,3,tabicl,0.8544327616691589,0.8640435934066772,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-2-77M-MTR__tabicl__3,scored
+frozen,ChemBERTa-2-77M-MTR,1000,4,tabicl,0.8732545375823975,0.8266002535820007,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-2-77M-MTR__tabicl__4,scored
+frozen,ChemBERTa-2-77M-MTR,10000,0,tabpfn,0.940348531581039,0.9484049493285258,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-2-77M-MTR__tabpfn__0,scored
+frozen,ChemBERTa-2-77M-MTR,10000,1,tabpfn,0.9402094724337317,0.9486545552572958,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-2-77M-MTR__tabpfn__1,scored
+frozen,ChemBERTa-2-77M-MTR,10000,2,tabpfn,0.9496892466686445,0.9381016344011631,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-2-77M-MTR__tabpfn__2,scored
+frozen,ChemBERTa-2-77M-MTR,10000,3,tabpfn,0.9511193661177167,0.9395421451618825,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-2-77M-MTR__tabpfn__3,scored
+frozen,ChemBERTa-2-77M-MTR,10000,4,tabpfn,0.9421376935444882,0.9386459400599731,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-2-77M-MTR__tabpfn__4,scored
+frozen,selformer,60,0,tabpfn,0.6132280290905485,0.4316722438233431,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__selformer__tabpfn__0,scored
+frozen,selformer,60,1,tabpfn,0.5910417565360888,0.37923776914183627,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__selformer__tabpfn__1,scored
+frozen,selformer,60,2,tabpfn,0.5409937872882076,0.5405024933645979,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__selformer__tabpfn__2,scored
+frozen,selformer,60,3,tabpfn,0.3693305284474836,0.20775560166094453,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__selformer__tabpfn__3,scored
+frozen,selformer,60,4,tabpfn,0.4135241964424221,0.4373798997686673,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__selformer__tabpfn__4,scored
+frozen,selformer,100,0,gp-rbf,0.6046422123908997,0.5648740530014038,actual saved-model validation,new_small125_90_10_25,small125__head__selformer__gp-rbf__0,scored
+frozen,selformer,100,1,gp-rbf,0.7479712963104248,0.23805737495422363,actual saved-model validation,new_small125_90_10_25,small125__head__selformer__gp-rbf__1,scored
+frozen,selformer,100,2,gp-rbf,0.856820821762085,0.7358818054199219,actual saved-model validation,new_small125_90_10_25,small125__head__selformer__gp-rbf__2,scored
+frozen,selformer,100,3,gp-rbf,0.7322924137115479,0.584014892578125,actual saved-model validation,new_small125_90_10_25,small125__head__selformer__gp-rbf__3,scored
+frozen,selformer,100,4,gp-rbf,0.3047536611557007,0.6046027541160583,actual saved-model validation,new_small125_90_10_25,small125__head__selformer__gp-rbf__4,scored
+frozen,selformer,1000,0,tabicl,0.7521103620529175,0.7746403217315674,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__selformer__tabicl__0,scored
+frozen,selformer,1000,1,tabicl,0.7725818157196045,0.8059270977973938,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__selformer__tabicl__1,scored
+frozen,selformer,1000,2,tabicl,0.783745288848877,0.8066695332527161,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__selformer__tabicl__2,scored
+frozen,selformer,1000,3,tabicl,0.7540951371192932,0.7695397138595581,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__selformer__tabicl__3,scored
+frozen,selformer,1000,4,tabicl,0.7790870666503906,0.7366979122161865,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__selformer__tabicl__4,scored
+frozen,selformer,10000,0,tabpfn,0.9269066012207965,0.9359578475506302,actual saved-model validation,new_random12500_9000_1000_2500,head__selformer__tabpfn__0,scored
+frozen,selformer,10000,1,tabpfn,0.9310802570855522,0.9312566642954947,actual saved-model validation,new_random12500_9000_1000_2500,head__selformer__tabpfn__1,scored
+frozen,selformer,10000,2,tabpfn,0.9353639676648452,0.9244872990107292,actual saved-model validation,new_random12500_9000_1000_2500,head__selformer__tabpfn__2,scored
+frozen,selformer,10000,3,tabpfn,0.929296458435658,0.9299610590252166,actual saved-model validation,new_random12500_9000_1000_2500,head__selformer__tabpfn__3,scored
+frozen,selformer,10000,4,tabpfn,0.9257593247745589,0.930436765920901,actual saved-model validation,new_random12500_9000_1000_2500,head__selformer__tabpfn__4,scored
+frozen,clamp,60,0,mlp,0.44713374345242785,0.49147079946441274,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__clamp__mlp__0,scored
+frozen,clamp,60,1,mlp,0.5967957455383925,0.3460845482465572,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__clamp__mlp__1,scored
+frozen,clamp,60,2,mlp,0.49900941955590794,0.5360428593417252,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__clamp__mlp__2,scored
+frozen,clamp,60,3,mlp,-0.16414034313376025,0.1348392936573921,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__clamp__mlp__3,scored
+frozen,clamp,60,4,mlp,0.7592171904433022,0.2602182032798066,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__clamp__mlp__4,scored
+frozen,clamp,100,0,mlp,-0.10259890556335449,0.47575557231903076,actual saved-model validation,new_small125_90_10_25,small125__head__clamp__mlp__0,scored
+frozen,clamp,100,1,mlp,0.7097796201705933,0.3277721405029297,actual saved-model validation,new_small125_90_10_25,small125__head__clamp__mlp__1,scored
+frozen,clamp,100,2,mlp,0.5414199829101562,0.4606621265411377,actual saved-model validation,new_small125_90_10_25,small125__head__clamp__mlp__2,scored
+frozen,clamp,100,3,mlp,0.5969860553741455,0.5829369425773621,actual saved-model validation,new_small125_90_10_25,small125__head__clamp__mlp__3,scored
+frozen,clamp,100,4,mlp,0.2808005213737488,0.5647692680358887,actual saved-model validation,new_small125_90_10_25,small125__head__clamp__mlp__4,scored
+frozen,clamp,1000,0,tabicl,0.7280358076095581,0.6970130801200867,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__clamp__tabicl__0,scored
+frozen,clamp,1000,1,tabicl,0.7058271765708923,0.7537554502487183,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__clamp__tabicl__1,scored
+frozen,clamp,1000,2,tabicl,0.7047867178916931,0.6703746318817139,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__clamp__tabicl__2,scored
+frozen,clamp,1000,3,tabicl,0.719204306602478,0.6649466156959534,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__clamp__tabicl__3,scored
+frozen,clamp,1000,4,tabicl,0.682843804359436,0.640575647354126,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__clamp__tabicl__4,scored
+frozen,clamp,10000,0,tabpfn,0.8696763658170973,0.8849169302700721,actual saved-model validation,new_random12500_9000_1000_2500,head__clamp__tabpfn__0,scored
+frozen,clamp,10000,1,tabpfn,0.8938485483926967,0.887687606429383,actual saved-model validation,new_random12500_9000_1000_2500,head__clamp__tabpfn__1,scored
+frozen,clamp,10000,2,tabpfn,0.9073852385587593,0.873953431355486,actual saved-model validation,new_random12500_9000_1000_2500,head__clamp__tabpfn__2,scored
+frozen,clamp,10000,3,tabpfn,0.882923830050748,0.8781478509885631,actual saved-model validation,new_random12500_9000_1000_2500,head__clamp__tabpfn__3,scored
+frozen,clamp,10000,4,tabpfn,0.8846107308564123,0.8806379722908375,actual saved-model validation,new_random12500_9000_1000_2500,head__clamp__tabpfn__4,scored
+frozen,chemfm-1b,60,0,linear,0.5497327800171754,0.532781363770936,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__chemfm-1b__linear__0,scored
+frozen,chemfm-1b,60,1,linear,0.7065297919656328,0.12444616815504383,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__chemfm-1b__linear__1,scored
+frozen,chemfm-1b,60,2,linear,0.7310558225222018,0.5106148934702729,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__chemfm-1b__linear__2,scored
+frozen,chemfm-1b,60,3,linear,0.6931056415653114,0.33889686101161043,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__chemfm-1b__linear__3,scored
+frozen,chemfm-1b,60,4,linear,0.666496611564946,0.38586585649833216,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__chemfm-1b__linear__4,scored
+frozen,chemfm-1b,100,0,tabicl,0.15929419357909735,0.685872053960868,actual saved-model validation,new_small125_90_10_25,small125__head__chemfm-1b__tabicl__0,scored
+frozen,chemfm-1b,100,1,tabicl,0.8552177073696922,0.37584558302063675,actual saved-model validation,new_small125_90_10_25,small125__head__chemfm-1b__tabicl__1,scored
+frozen,chemfm-1b,100,2,tabicl,0.8569225169284748,0.8135482368014072,actual saved-model validation,new_small125_90_10_25,small125__head__chemfm-1b__tabicl__2,scored
+frozen,chemfm-1b,100,3,tabicl,0.8578397819153549,0.7095737410682044,actual saved-model validation,new_small125_90_10_25,small125__head__chemfm-1b__tabicl__3,scored
+frozen,chemfm-1b,100,4,tabicl,0.4219463326882755,0.7169257012373497,actual saved-model validation,new_small125_90_10_25,small125__head__chemfm-1b__tabicl__4,scored
+frozen,chemfm-1b,1000,0,tabicl,0.7726538181304932,0.8063951730728149,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__chemfm-1b__tabicl__0,scored
+frozen,chemfm-1b,1000,1,tabicl,0.8290964961051941,0.8232706189155579,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__chemfm-1b__tabicl__1,scored
+frozen,chemfm-1b,1000,2,tabicl,0.7158011198043823,0.8208642601966858,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__chemfm-1b__tabicl__2,scored
+frozen,chemfm-1b,1000,3,tabicl,0.7683307528495789,0.7619199752807617,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__chemfm-1b__tabicl__3,scored
+frozen,chemfm-1b,1000,4,tabicl,0.7973809838294983,0.7806258201599121,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__chemfm-1b__tabicl__4,scored
+frozen,chemfm-1b,10000,0,tabpfn,0.9336239091829179,0.9437384663568281,actual saved-model validation,new_random12500_9000_1000_2500,head__chemfm-1b__tabpfn__0,scored
+frozen,chemfm-1b,10000,1,tabpfn,0.9355960867036657,0.9413690407282158,actual saved-model validation,new_random12500_9000_1000_2500,head__chemfm-1b__tabpfn__1,scored
+frozen,chemfm-1b,10000,2,tabpfn,0.9412377711590656,0.9348514753483026,actual saved-model validation,new_random12500_9000_1000_2500,head__chemfm-1b__tabpfn__2,scored
+frozen,chemfm-1b,10000,3,tabpfn,0.9444773699983758,0.9417401037585017,actual saved-model validation,new_random12500_9000_1000_2500,head__chemfm-1b__tabpfn__3,scored
+frozen,chemfm-1b,10000,4,tabpfn,0.9403549213403748,0.9400789338592328,actual saved-model validation,new_random12500_9000_1000_2500,head__chemfm-1b__tabpfn__4,scored
+frozen,MoLFormer-c3-1.1B,60,0,linear,0.5194497053376927,0.6347181505212329,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__MoLFormer-c3-1.1B__linear__0,scored
+frozen,MoLFormer-c3-1.1B,60,1,linear,0.7802173008360482,0.50164122088644,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__MoLFormer-c3-1.1B__linear__1,scored
+frozen,MoLFormer-c3-1.1B,60,2,linear,0.4000895354347298,0.29085967865031737,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__MoLFormer-c3-1.1B__linear__2,scored
+frozen,MoLFormer-c3-1.1B,60,3,linear,0.31514073612920956,0.3770638860159441,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__MoLFormer-c3-1.1B__linear__3,scored
+frozen,MoLFormer-c3-1.1B,60,4,linear,0.5603883027661536,0.4547509757880963,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__MoLFormer-c3-1.1B__linear__4,scored
+frozen,MoLFormer-c3-1.1B,100,0,tabpfn,0.6082966280518385,0.6121152117969841,actual saved-model validation,new_small125_90_10_25,small125__head__MoLFormer-c3-1.1B__tabpfn__0,scored
+frozen,MoLFormer-c3-1.1B,100,1,tabpfn,0.8050918401107968,0.027766320856638327,actual saved-model validation,new_small125_90_10_25,small125__head__MoLFormer-c3-1.1B__tabpfn__1,scored
+frozen,MoLFormer-c3-1.1B,100,2,tabpfn,0.9049672842388501,0.7436797772742698,actual saved-model validation,new_small125_90_10_25,small125__head__MoLFormer-c3-1.1B__tabpfn__2,scored
+frozen,MoLFormer-c3-1.1B,100,3,tabpfn,0.7676975213300338,0.7474981593300228,actual saved-model validation,new_small125_90_10_25,small125__head__MoLFormer-c3-1.1B__tabpfn__3,scored
+frozen,MoLFormer-c3-1.1B,100,4,tabpfn,-0.03129149654364971,0.7283629783238225,actual saved-model validation,new_small125_90_10_25,small125__head__MoLFormer-c3-1.1B__tabpfn__4,scored
+frozen,MoLFormer-c3-1.1B,1000,0,tabicl,0.7390196323394775,0.7805859446525574,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__MoLFormer-c3-1.1B__tabicl__0,scored
+frozen,MoLFormer-c3-1.1B,1000,1,tabicl,0.7762902975082397,0.8173792362213135,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__MoLFormer-c3-1.1B__tabicl__1,scored
+frozen,MoLFormer-c3-1.1B,1000,2,tabicl,0.7670742273330688,0.8086394667625427,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__MoLFormer-c3-1.1B__tabicl__2,scored
+frozen,MoLFormer-c3-1.1B,1000,3,tabicl,0.796716570854187,0.7859487533569336,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__MoLFormer-c3-1.1B__tabicl__3,scored
+frozen,MoLFormer-c3-1.1B,1000,4,tabicl,0.7711948156356812,0.7591485977172852,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__MoLFormer-c3-1.1B__tabicl__4,scored
+frozen,MoLFormer-c3-1.1B,10000,0,tabpfn,0.9195608816578676,0.9259537431072444,actual saved-model validation,new_random12500_9000_1000_2500,head__MoLFormer-c3-1.1B__tabpfn__0,scored
+frozen,MoLFormer-c3-1.1B,10000,1,tabpfn,0.9207882027864559,0.9281170443471539,actual saved-model validation,new_random12500_9000_1000_2500,head__MoLFormer-c3-1.1B__tabpfn__1,scored
+frozen,MoLFormer-c3-1.1B,10000,2,tabpfn,0.9330847833913681,0.9189100216588411,actual saved-model validation,new_random12500_9000_1000_2500,head__MoLFormer-c3-1.1B__tabpfn__2,scored
+frozen,MoLFormer-c3-1.1B,10000,3,tabpfn,0.9362844561256725,0.9240299497831185,actual saved-model validation,new_random12500_9000_1000_2500,head__MoLFormer-c3-1.1B__tabpfn__3,scored
+frozen,MoLFormer-c3-1.1B,10000,4,tabpfn,0.9074343007576813,0.9232036151927637,actual saved-model validation,new_random12500_9000_1000_2500,head__MoLFormer-c3-1.1B__tabpfn__4,scored
+frozen,ChemBERTa-3-100M-MLM,60,0,tabicl,0.6466704501800575,0.39545552269991,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__tabicl__0,scored
+frozen,ChemBERTa-3-100M-MLM,60,1,tabicl,0.5448742285829009,0.29142577920417234,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__tabicl__1,scored
+frozen,ChemBERTa-3-100M-MLM,60,2,tabicl,0.5870869829262438,0.45223805046125776,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__tabicl__2,scored
+frozen,ChemBERTa-3-100M-MLM,60,3,tabicl,0.6405101557271211,0.18163615074187522,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__tabicl__3,scored
+frozen,ChemBERTa-3-100M-MLM,60,4,tabicl,0.6769957636933477,0.2712501723776525,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__tabicl__4,scored
+frozen,ChemBERTa-3-100M-MLM,100,0,gp-rbf,0.6229489859806656,0.524270760681283,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-3-100M-MLM__gp-rbf__0,scored
+frozen,ChemBERTa-3-100M-MLM,100,1,gp-rbf,0.6934457618482905,0.11475912802885013,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-3-100M-MLM__gp-rbf__1,scored
+frozen,ChemBERTa-3-100M-MLM,100,2,gp-rbf,0.6251391230772709,0.7413379397132644,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-3-100M-MLM__gp-rbf__2,scored
+frozen,ChemBERTa-3-100M-MLM,100,3,gp-rbf,0.6601603099823978,0.6744394348616889,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-3-100M-MLM__gp-rbf__3,scored
+frozen,ChemBERTa-3-100M-MLM,100,4,gp-rbf,0.25449585155691357,0.6720788656308724,actual saved-model validation,new_small125_90_10_25,small125__head__ChemBERTa-3-100M-MLM__gp-rbf__4,scored
+frozen,ChemBERTa-3-100M-MLM,1000,0,tabicl,0.7145597338676453,0.7292706966400146,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-3-100M-MLM__tabicl__0,scored
+frozen,ChemBERTa-3-100M-MLM,1000,1,tabicl,0.6892669200897217,0.7449336647987366,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-3-100M-MLM__tabicl__1,scored
+frozen,ChemBERTa-3-100M-MLM,1000,2,tabicl,0.739304780960083,0.7474046945571899,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-3-100M-MLM__tabicl__2,scored
+frozen,ChemBERTa-3-100M-MLM,1000,3,tabicl,0.7042438387870789,0.6898877024650574,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-3-100M-MLM__tabicl__3,scored
+frozen,ChemBERTa-3-100M-MLM,1000,4,tabicl,0.6885334253311157,0.6936038732528687,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__ChemBERTa-3-100M-MLM__tabicl__4,scored
+frozen,ChemBERTa-3-100M-MLM,10000,0,tabpfn,0.8690171997122077,0.8843332869649764,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-3-100M-MLM__tabpfn__0,scored
+frozen,ChemBERTa-3-100M-MLM,10000,1,tabpfn,0.8880378879223815,0.87363215481621,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-3-100M-MLM__tabpfn__1,scored
+frozen,ChemBERTa-3-100M-MLM,10000,2,tabpfn,0.8825592809777428,0.862290210814077,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-3-100M-MLM__tabpfn__2,scored
+frozen,ChemBERTa-3-100M-MLM,10000,3,tabpfn,0.8830998043330694,0.8697683132618269,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-3-100M-MLM__tabpfn__3,scored
+frozen,ChemBERTa-3-100M-MLM,10000,4,tabpfn,0.8804588897352386,0.8671341421513712,actual saved-model validation,new_random12500_9000_1000_2500,head__ChemBERTa-3-100M-MLM__tabpfn__4,scored
+frozen,rdkit,60,0,tabpfn,0.7430456089004883,0.783675435260019,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__0,scored
+frozen,rdkit,60,1,tabpfn,0.88674067303336,0.6600723376803952,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__1,scored
+frozen,rdkit,60,2,tabpfn,0.8571084952722228,0.7699306278705185,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__2,scored
+frozen,rdkit,60,3,tabpfn,0.6506670924564613,0.6471921933385083,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__3,scored
+frozen,rdkit,60,4,tabpfn,0.8632459110659945,0.7100565398242938,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__4,scored
+frozen,rdkit,100,0,tabicl,0.7351908181910487,0.8458978033650377,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__0,scored
+frozen,rdkit,100,1,tabicl,0.8999410396057654,0.7343463322216359,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__1,scored
+frozen,rdkit,100,2,tabicl,0.9167667145774478,0.8094644538456217,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__2,scored
+frozen,rdkit,100,3,tabicl,0.9305685818418047,0.9267682701808128,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__3,scored
+frozen,rdkit,100,4,tabicl,0.637907120194469,0.8272358994080924,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__4,scored
+frozen,rdkit,1000,0,tabicl,0.8689988851547241,0.9145894050598145,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__0,scored
+frozen,rdkit,1000,1,tabicl,0.8239376544952393,0.9133583903312683,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__1,scored
+frozen,rdkit,1000,2,tabicl,0.9225339889526367,0.8927321434020996,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__2,scored
+frozen,rdkit,1000,3,tabicl,0.8880658745765686,0.8955841064453125,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__3,scored
+frozen,rdkit,1000,4,tabicl,0.8975940942764282,0.840496838092804,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__4,scored
+frozen,rdkit,10000,0,tabpfn,0.9570146533512366,0.9610039032543423,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__0,scored
+frozen,rdkit,10000,1,tabpfn,0.9556828507492677,0.9579799414959699,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__1,scored
+frozen,rdkit,10000,2,tabpfn,0.9636700818307941,0.9532986287780352,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__2,scored
+frozen,rdkit,10000,3,tabpfn,0.9611229479290773,0.9554167292213619,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__3,scored
+frozen,rdkit,10000,4,tabpfn,0.96199989772279,0.952741952274329,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__4,scored
+frozen,gemini,60,0,linear,0.7598276268730271,0.6777507792732733,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__0,scored
+frozen,gemini,60,1,linear,0.783545548361553,0.32823709253721767,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__1,scored
+frozen,gemini,60,2,linear,0.7630894878743392,0.6032152845387995,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__2,scored
+frozen,gemini,60,3,linear,0.6438335807983842,0.4286029452469108,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__3,scored
+frozen,gemini,60,4,linear,0.9379353523851526,0.5251290242661609,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__4,scored
+frozen,gemini,100,0,,,,,,,unavailable
+frozen,gemini,100,1,,,,,,,unavailable
+frozen,gemini,100,2,,,,,,,unavailable
+frozen,gemini,100,3,,,,,,,unavailable
+frozen,gemini,100,4,,,,,,,unavailable
+frozen,gemini,1000,0,tabpfn,0.8509794420803799,0.866796513046975,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:0,scored
+frozen,gemini,1000,1,tabpfn,0.84414682725626,0.8842244349627267,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:1,scored
+frozen,gemini,1000,2,tabpfn,0.8616884150430848,0.8772584670465945,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:2,scored
+frozen,gemini,1000,3,tabpfn,0.848892784748767,0.8631198829189044,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:3,scored
+frozen,gemini,1000,4,tabpfn,0.8501397742870513,0.804597412080003,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:4,scored
+frozen,gemini,10000,0,tabpfn,0.9310188479989474,0.9358075896687484,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__0,scored
+frozen,gemini,10000,1,tabpfn,0.9313495782171552,0.9294417710330887,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__1,scored
+frozen,gemini,10000,2,tabpfn,0.9351017073328228,0.9230188199219291,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__2,scored
+frozen,gemini,10000,3,tabpfn,0.9352279419731254,0.927383938506767,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__3,scored
+frozen,gemini,10000,4,tabpfn,0.9251300568011391,0.9272898827944207,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__4,scored
+frozen,astra,60,0,none,,0.9071260806342103,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__0__normal,scored
+frozen,astra,60,1,none,,0.8332963860754541,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__1__normal,scored
+frozen,astra,60,2,none,,0.7927179853917142,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__2__normal,scored
+frozen,astra,60,3,none,,0.8475742092503415,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__3__normal,scored
+frozen,astra,60,4,none,,0.8493623659122616,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__4__normal,scored
+frozen,astra,100,0,,,,,,,unavailable
+frozen,astra,100,1,,,,,,,unavailable
+frozen,astra,100,2,,,,,,,unavailable
+frozen,astra,100,3,,,,,,,unavailable
+frozen,astra,100,4,,,,,,,unavailable
+frozen,astra,1000,0,none,,0.9419833689684092,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed0.json,scored
+frozen,astra,1000,1,none,,0.9423544799672291,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed1.json,scored
+frozen,astra,1000,2,none,,0.9377402310585736,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed2.json,scored
+frozen,astra,1000,3,none,,0.9476330744900554,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed3.json,scored
+frozen,astra,1000,4,none,,0.8977056247586057,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed4.json,scored
+frozen,astra,10000,0,,,,,,,unavailable
+frozen,astra,10000,1,,,,,,,unavailable
+frozen,astra,10000,2,,,,,,,unavailable
+frozen,astra,10000,3,,,,,,,unavailable
+frozen,astra,10000,4,,,,,,,unavailable
+fullft,gin-pretrained,60,0,"native MLP (256,256)",-0.664112227899736,-0.11160555750992995,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__gin-pretrained__0,scored
+fullft,gin-pretrained,60,1,"native MLP (256,256)",-0.03553121489862576,-0.2838968507807931,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__gin-pretrained__1,scored
+fullft,gin-pretrained,60,2,"native MLP (256,256)",-0.44847658311937244,-0.046993976128765214,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__gin-pretrained__2,scored
+fullft,gin-pretrained,60,3,"native MLP (256,256)",-0.2783407601180359,-0.13390593809818307,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__gin-pretrained__3,scored
+fullft,gin-pretrained,60,4,"native MLP (256,256)",-0.9027955645325492,-0.010744946147820844,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__gin-pretrained__4,scored
+fullft,gin-pretrained,100,0,r0,-0.0029067146303762836,-0.21519499824720034,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__gin-pretrained__r0__0,scored
+fullft,gin-pretrained,100,1,r0,0.002599918364210696,-0.13674270509690212,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__gin-pretrained__r0__1,scored
+fullft,gin-pretrained,100,2,r0,-0.017642489442668552,-0.020684177977209117,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__gin-pretrained__r0__2,scored
+fullft,gin-pretrained,100,3,r0,-0.01253226981100064,-0.11768445768430347,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__gin-pretrained__r0__3,scored
+fullft,gin-pretrained,100,4,r0,-0.2799655662471461,-0.022431643921570377,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__gin-pretrained__r0__4,scored
+fullft,gin-pretrained,1000,0,r0,0.13377374410629272,0.1102607250213623,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__gin-pretrained__r0__0,scored
+fullft,gin-pretrained,1000,1,r0,0.1007528305053711,0.08073318004608154,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__gin-pretrained__r0__1,scored
+fullft,gin-pretrained,1000,2,r0,0.11542516946792603,0.13237375020980835,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__gin-pretrained__r0__2,scored
+fullft,gin-pretrained,1000,3,r0,0.09974318742752075,0.1381169557571411,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__gin-pretrained__r0__3,scored
+fullft,gin-pretrained,1000,4,r0,0.14982402324676514,0.14625626802444458,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__gin-pretrained__r0__4,scored
+fullft,gin-pretrained,10000,0,r0,0.6871072536241798,0.70275616799988,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__gin-pretrained__r0__0,scored
+fullft,gin-pretrained,10000,1,r0,0.6854819680798627,0.6950100200652036,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__gin-pretrained__r0__1,scored
+fullft,gin-pretrained,10000,2,r0,0.7281345104674344,0.6863750481118571,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__gin-pretrained__r0__2,scored
+fullft,gin-pretrained,10000,3,r0,0.7292863553348601,0.7093956624720514,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__gin-pretrained__r0__3,scored
+fullft,gin-pretrained,10000,4,r0,0.7159806992309139,0.6873963782271766,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__gin-pretrained__r0__4,scored
+fullft,grover-base,60,0,"native MLP (256,256)",-0.049807031940322766,0.018686640244915842,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__grover-base__0,scored
+fullft,grover-base,60,1,"native MLP (256,256)",0.42187773731027944,0.10205204562071724,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__grover-base__1,scored
+fullft,grover-base,60,2,"native MLP (256,256)",0.2433641961585431,0.1092132513656966,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__grover-base__2,scored
+fullft,grover-base,60,3,"native MLP (256,256)",-0.022958722857570724,0.138606582451421,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__grover-base__3,scored
+fullft,grover-base,60,4,"native MLP (256,256)",0.5778699202752715,0.028849281509780944,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__grover-base__4,scored
+fullft,grover-base,100,0,r0,0.3372187149200947,0.20417205676086292,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__grover-base__r0__0,scored
+fullft,grover-base,100,1,r0,0.36924129831380825,-0.5422607470007335,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__grover-base__r0__1,scored
+fullft,grover-base,100,2,r0,0.617712183297677,0.43227809712397913,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__grover-base__r0__2,scored
+fullft,grover-base,100,3,r0,0.3690504306876501,0.40570406571425255,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__grover-base__r0__3,scored
+fullft,grover-base,100,4,r0,0.06825490357163222,0.29840729568859525,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__grover-base__r0__4,scored
+fullft,grover-base,1000,0,r0,0.6264826059341431,0.699463963508606,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__grover-base__r0__0,scored
+fullft,grover-base,1000,1,r0,0.5937589406967163,0.7363969087600708,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__grover-base__r0__1,scored
+fullft,grover-base,1000,2,r0,0.6934828758239746,0.7288233041763306,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__grover-base__r0__2,scored
+fullft,grover-base,1000,3,r0,0.658435583114624,0.6719064116477966,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__grover-base__r0__3,scored
+fullft,grover-base,1000,4,r0,0.6814885139465332,0.5846002101898193,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__grover-base__r0__4,scored
+fullft,grover-base,10000,0,r0,0.9172213213158456,0.9199957458335362,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__grover-base__r0__0,scored
+fullft,grover-base,10000,1,r0,0.9273226544849711,0.9268170933741114,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__grover-base__r0__1,scored
+fullft,grover-base,10000,2,r0,0.9202552854894102,0.9065703973598657,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__grover-base__r0__2,scored
+fullft,grover-base,10000,3,r0,0.920889381831935,0.9136904253872117,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__grover-base__r0__3,scored
+fullft,grover-base,10000,4,r0,0.9278871557342013,0.9186671954693545,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__grover-base__r0__4,scored
+fullft,molformer,60,0,"native MLP (256,256)",0.2016028567197098,0.33386230367430414,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer__0,scored
+fullft,molformer,60,1,"native MLP (256,256)",0.2941204914351121,0.20223400893842236,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer__1,scored
+fullft,molformer,60,2,"native MLP (256,256)",0.4904177104239559,0.3209796117178526,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer__2,scored
+fullft,molformer,60,3,"native MLP (256,256)",0.029171843792766383,0.1778079770473514,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer__3,scored
+fullft,molformer,60,4,"native MLP (256,256)",0.44887103892602886,0.23593995109934685,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer__4,scored
+fullft,molformer,100,0,r0,0.5429266985200061,0.3184523446116203,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer__r0__0,scored
+fullft,molformer,100,1,r0,0.27646477676607595,0.23566953491011933,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer__r0__1,scored
+fullft,molformer,100,2,r0,0.3253989412296011,0.4595443008503557,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer__r0__2,scored
+fullft,molformer,100,3,r0,0.33568066778116823,0.3272692265771421,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer__r0__3,scored
+fullft,molformer,100,4,r0,0.18744709916166835,0.3366693652105388,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer__r0__4,scored
+fullft,molformer,1000,0,r0,0.8475956916809082,0.8760964274406433,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer__r0__0,scored
+fullft,molformer,1000,1,r0,0.8606116771697998,0.8859241008758545,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer__r0__1,scored
+fullft,molformer,1000,2,r0,0.8759521245956421,0.8732084631919861,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer__r0__2,scored
+fullft,molformer,1000,3,r0,0.8374907374382019,0.8270789384841919,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer__r0__3,scored
+fullft,molformer,1000,4,r0,0.8714430332183838,0.849560558795929,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer__r0__4,scored
+fullft,molformer,10000,0,r0,0.9477222594086158,0.9533646125784189,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer__r0__0,scored
+fullft,molformer,10000,1,r0,0.9504967036748152,0.9546145765801595,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer__r0__1,scored
+fullft,molformer,10000,2,r0,0.9572539660129709,0.9507107635366344,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer__r0__2,scored
+fullft,molformer,10000,3,r0,0.9544200809495224,0.9524304262858133,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer__r0__3,scored
+fullft,molformer,10000,4,r0,0.9507553821992266,0.9524204325720805,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer__r0__4,scored
+fullft,molformer-xl,60,0,"native MLP (256,256)",0.2629385084089312,0.3621827813530166,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer-xl__0,scored
+fullft,molformer-xl,60,1,"native MLP (256,256)",0.30996349964720127,0.2621345505076711,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer-xl__1,scored
+fullft,molformer-xl,60,2,"native MLP (256,256)",0.36009963821842805,0.32843710850394436,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer-xl__2,scored
+fullft,molformer-xl,60,3,"native MLP (256,256)",0.14144887880957113,0.15985917233215774,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer-xl__3,scored
+fullft,molformer-xl,60,4,"native MLP (256,256)",0.21384254134678515,0.1825349955687703,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__molformer-xl__4,scored
+fullft,molformer-xl,100,0,r0,0.534658754176474,0.3314641336769034,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer-xl__r0__0,scored
+fullft,molformer-xl,100,1,r0,0.25457965687298534,0.1444377750516106,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer-xl__r0__1,scored
+fullft,molformer-xl,100,2,r0,0.31054476972020906,0.4036747369350143,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer-xl__r0__2,scored
+fullft,molformer-xl,100,3,r0,0.35494466257978596,0.3847965851708053,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer-xl__r0__3,scored
+fullft,molformer-xl,100,4,r0,0.17953220128614045,0.3110608496464419,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__molformer-xl__r0__4,scored
+fullft,molformer-xl,1000,0,r0,0.8621772527694702,0.8683816194534302,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer-xl__r0__0,scored
+fullft,molformer-xl,1000,1,r0,0.884250283241272,0.8822669386863708,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer-xl__r0__1,scored
+fullft,molformer-xl,1000,2,r0,0.8775796294212341,0.8691753149032593,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer-xl__r0__2,scored
+fullft,molformer-xl,1000,3,r0,0.8711298108100891,0.8550540208816528,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer-xl__r0__3,scored
+fullft,molformer-xl,1000,4,r0,0.8811042308807373,0.8199671506881714,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__molformer-xl__r0__4,scored
+fullft,molformer-xl,10000,0,r0,0.9533006918128516,0.9584475103897583,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer-xl__r0__0,scored
+fullft,molformer-xl,10000,1,r0,0.955232004044516,0.9581634374211584,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer-xl__r0__1,scored
+fullft,molformer-xl,10000,2,r0,0.9608449071667257,0.9534489167412905,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer-xl__r0__2,scored
+fullft,molformer-xl,10000,3,r0,0.9595765235129377,0.9570320003817315,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer-xl__r0__3,scored
+fullft,molformer-xl,10000,4,r0,0.9522662164009594,0.9502421708484712,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__molformer-xl__r0__4,scored
+fullft,ChemBERTa-2-77M-MTR,60,0,"native MLP (256,256)",-0.6657875750181612,-0.10877883755617823,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__0,scored
+fullft,ChemBERTa-2-77M-MTR,60,1,"native MLP (256,256)",0.0013333875572731912,-0.15202174770820265,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__1,scored
+fullft,ChemBERTa-2-77M-MTR,60,2,"native MLP (256,256)",-0.4974916452648499,-0.044049378872051514,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__2,scored
+fullft,ChemBERTa-2-77M-MTR,60,3,"native MLP (256,256)",-0.13886392336872566,-0.06920306215324756,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__3,scored
+fullft,ChemBERTa-2-77M-MTR,60,4,"native MLP (256,256)",-0.9948660141099341,-0.018931337704344076,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__4,scored
+fullft,ChemBERTa-2-77M-MTR,100,0,r0,0.03389970481494464,-0.20444500532457877,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-2-77M-MTR__r0__0,scored
+fullft,ChemBERTa-2-77M-MTR,100,1,r0,-0.0070371726277354,-0.01836087892713234,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-2-77M-MTR__r0__1,scored
+fullft,ChemBERTa-2-77M-MTR,100,2,r0,0.03168532610135366,0.0011594175506456361,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-2-77M-MTR__r0__2,scored
+fullft,ChemBERTa-2-77M-MTR,100,3,r0,0.014057577829338364,-0.04947977652526414,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-2-77M-MTR__r0__3,scored
+fullft,ChemBERTa-2-77M-MTR,100,4,r0,-0.34530916261350497,-0.03433336327538816,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-2-77M-MTR__r0__4,scored
+fullft,ChemBERTa-2-77M-MTR,1000,0,r0,0.6442916393280029,0.7084575891494751,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-2-77M-MTR__r0__0,scored
+fullft,ChemBERTa-2-77M-MTR,1000,1,r0,0.7381526231765747,0.7117166519165039,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-2-77M-MTR__r0__1,scored
+fullft,ChemBERTa-2-77M-MTR,1000,2,r0,0.7604974508285522,0.6748715043067932,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-2-77M-MTR__r0__2,scored
+fullft,ChemBERTa-2-77M-MTR,1000,3,r0,0.7181450128555298,0.7203195095062256,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-2-77M-MTR__r0__3,scored
+fullft,ChemBERTa-2-77M-MTR,1000,4,r0,0.6989250183105469,0.5985793471336365,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-2-77M-MTR__r0__4,scored
+fullft,ChemBERTa-2-77M-MTR,10000,0,r0,0.8993240384674032,0.901471533280803,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-2-77M-MTR__r0__0,scored
+fullft,ChemBERTa-2-77M-MTR,10000,1,r0,0.89524471970033,0.8936876105299807,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-2-77M-MTR__r0__1,scored
+fullft,ChemBERTa-2-77M-MTR,10000,2,r0,0.8957956764627509,0.8770733519100388,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-2-77M-MTR__r0__2,scored
+fullft,ChemBERTa-2-77M-MTR,10000,3,r0,0.9059574403079661,0.8983076548824938,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-2-77M-MTR__r0__3,scored
+fullft,ChemBERTa-2-77M-MTR,10000,4,r0,0.8928210950201312,0.8892494701173295,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-2-77M-MTR__r0__4,scored
+fullft,selformer,60,0,"native MLP (256,256)",-0.03474889076073895,0.1859084855762998,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__selformer__0,scored
+fullft,selformer,60,1,"native MLP (256,256)",0.22001926101860003,0.13849114304257348,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__selformer__1,scored
+fullft,selformer,60,2,"native MLP (256,256)",0.2678697478873685,0.33009947350999425,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__selformer__2,scored
+fullft,selformer,60,3,"native MLP (256,256)",0.27547086892341477,0.23847968326066227,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__selformer__3,scored
+fullft,selformer,60,4,"native MLP (256,256)",0.07871612517257964,0.1737230022517372,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__selformer__4,scored
+fullft,selformer,100,0,r0,0.27128383421567825,0.15306308786816492,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__selformer__r0__0,scored
+fullft,selformer,100,1,r0,0.24743601135639914,0.2518377197626199,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__selformer__r0__1,scored
+fullft,selformer,100,2,r0,0.3855522513396037,0.42619788051220486,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__selformer__r0__2,scored
+fullft,selformer,100,3,r0,0.39678863437640166,0.32305367576952115,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__selformer__r0__3,scored
+fullft,selformer,100,4,r0,0.13519406257768907,0.33285122042499193,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__selformer__r0__4,scored
+fullft,selformer,1000,0,r0,0.8637938499450684,0.9008901715278625,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__selformer__r0__0,scored
+fullft,selformer,1000,1,r0,0.8494664430618286,0.9207288026809692,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__selformer__r0__1,scored
+fullft,selformer,1000,2,r0,0.904039740562439,0.9083418250083923,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__selformer__r0__2,scored
+fullft,selformer,1000,3,r0,0.8808239102363586,0.9039371013641357,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__selformer__r0__3,scored
+fullft,selformer,1000,4,r0,0.9184473752975464,0.8591472506523132,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__selformer__r0__4,scored
+fullft,selformer,10000,0,r0,0.9567749263128735,0.9638737267452666,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__selformer__r0__0,scored
+fullft,selformer,10000,1,r0,0.9575542285443318,0.9600364599582182,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__selformer__r0__1,scored
+fullft,selformer,10000,2,r0,0.965637164067237,0.9606076231742089,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__selformer__r0__2,scored
+fullft,selformer,10000,3,r0,0.9579084192128923,0.9518881681684646,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__selformer__r0__3,scored
+fullft,selformer,10000,4,r0,0.963279556633686,0.9622831167447412,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__selformer__r0__4,scored
+fullft,clamp,60,0,"native MLP (256,256)",-0.580659365211905,-0.06996424939185109,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__clamp__0,scored
+fullft,clamp,60,1,"native MLP (256,256)",0.039730243913158936,-0.1152782398973069,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__clamp__1,scored
+fullft,clamp,60,2,"native MLP (256,256)",-0.3125565604731506,-0.007217507584792893,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__clamp__2,scored
+fullft,clamp,60,3,"native MLP (256,256)",-0.1034926207075908,-0.01417398759039501,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__clamp__3,scored
+fullft,clamp,60,4,"native MLP (256,256)",-0.6637233445331401,0.006031996992939992,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__clamp__4,scored
+fullft,clamp,100,0,r0,0.036702917692628456,-0.1339107263987731,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__clamp__r0__0,scored
+fullft,clamp,100,1,r0,-0.004404950361876603,-0.06728511467203391,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__clamp__r0__1,scored
+fullft,clamp,100,2,r0,0.02365419384415668,0.03907657623216565,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__clamp__r0__2,scored
+fullft,clamp,100,3,r0,0.010812214975004064,0.0040141077119326685,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__clamp__r0__3,scored
+fullft,clamp,100,4,r0,-0.18008698385249522,0.014970497224905843,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__clamp__r0__4,scored
+fullft,clamp,1000,0,r0,0.6281503438949585,0.6351739168167114,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__clamp__r0__0,scored
+fullft,clamp,1000,1,r0,0.6318591833114624,0.6771931648254395,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__clamp__r0__1,scored
+fullft,clamp,1000,2,r0,0.56097811460495,0.6543498039245605,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__clamp__r0__2,scored
+fullft,clamp,1000,3,r0,0.5757569074630737,0.6399653553962708,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__clamp__r0__3,scored
+fullft,clamp,1000,4,r0,0.654563307762146,0.5879347324371338,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__clamp__r0__4,scored
+fullft,clamp,10000,0,r0,0.8742642362649368,0.8879544385750958,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__clamp__r0__0,scored
+fullft,clamp,10000,1,r0,0.88139924902852,0.8866106454646225,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__clamp__r0__1,scored
+fullft,clamp,10000,2,r0,0.9046918486020697,0.873140299773083,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__clamp__r0__2,scored
+fullft,clamp,10000,3,r0,0.89627527465607,0.8788925985315503,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__clamp__r0__3,scored
+fullft,clamp,10000,4,r0,0.8847098292457304,0.8892953365014555,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__clamp__r0__4,scored
+fullft,MoLFormer-c3-1.1B,60,0,"native MLP (256,256)",0.32086477874988306,0.507407333730348,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__MoLFormer-c3-1.1B__0,scored
+fullft,MoLFormer-c3-1.1B,60,1,"native MLP (256,256)",0.5383795784566818,0.3556205561824767,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__MoLFormer-c3-1.1B__1,scored
+fullft,MoLFormer-c3-1.1B,60,2,"native MLP (256,256)",0.5611244266777828,0.5486100499910516,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__MoLFormer-c3-1.1B__2,scored
+fullft,MoLFormer-c3-1.1B,60,3,"native MLP (256,256)",0.15813652092506814,0.2843887998986192,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__MoLFormer-c3-1.1B__3,scored
+fullft,MoLFormer-c3-1.1B,60,4,"native MLP (256,256)",0.6327860315904464,0.3451587208890865,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__MoLFormer-c3-1.1B__4,scored
+fullft,MoLFormer-c3-1.1B,100,0,r0,0.6363232489247541,0.2951347502753007,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__MoLFormer-c3-1.1B__r0__0,scored
+fullft,MoLFormer-c3-1.1B,100,1,r0,0.6123704442169493,-0.04388813107848932,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__MoLFormer-c3-1.1B__r0__1,scored
+fullft,MoLFormer-c3-1.1B,100,2,r0,0.6110876073930201,0.6593399027879967,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__MoLFormer-c3-1.1B__r0__2,scored
+fullft,MoLFormer-c3-1.1B,100,3,r0,0.6582472941071004,0.6424240297033129,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__MoLFormer-c3-1.1B__r0__3,scored
+fullft,MoLFormer-c3-1.1B,100,4,r0,0.23436139980725523,0.4761655395324168,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__MoLFormer-c3-1.1B__r0__4,scored
+fullft,MoLFormer-c3-1.1B,1000,0,r0,0.8784055709838867,0.894740879535675,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__MoLFormer-c3-1.1B__r0__0,scored
+fullft,MoLFormer-c3-1.1B,1000,1,r0,0.8726054430007935,0.8954694271087646,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__MoLFormer-c3-1.1B__r0__1,scored
+fullft,MoLFormer-c3-1.1B,1000,2,r0,0.8808220624923706,0.9075108170509338,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__MoLFormer-c3-1.1B__r0__2,scored
+fullft,MoLFormer-c3-1.1B,1000,3,r0,0.8910723328590393,0.8934462666511536,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__MoLFormer-c3-1.1B__r0__3,scored
+fullft,MoLFormer-c3-1.1B,1000,4,r0,0.9189379215240479,0.8569480180740356,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__MoLFormer-c3-1.1B__r0__4,scored
+fullft,MoLFormer-c3-1.1B,10000,0,r0,0.9584842912994416,0.9595919305903355,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__MoLFormer-c3-1.1B__r0__0,scored
+fullft,MoLFormer-c3-1.1B,10000,1,r0,0.9561280239265149,0.9581691756202737,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__MoLFormer-c3-1.1B__r0__1,scored
+fullft,MoLFormer-c3-1.1B,10000,2,r0,0.9630914920025849,0.957216548892848,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__MoLFormer-c3-1.1B__r0__2,scored
+fullft,MoLFormer-c3-1.1B,10000,3,r0,0.9621843150000803,0.9590515935477887,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__MoLFormer-c3-1.1B__r0__3,scored
+fullft,MoLFormer-c3-1.1B,10000,4,r0,0.9531244908610912,0.9508053191250317,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__MoLFormer-c3-1.1B__r0__4,scored
+fullft,ChemBERTa-3-100M-MLM,60,0,"native MLP (256,256)",0.18624823087027864,0.3394138090231278,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__0,scored
+fullft,ChemBERTa-3-100M-MLM,60,1,"native MLP (256,256)",0.3882116254505906,0.27601695020160977,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__1,scored
+fullft,ChemBERTa-3-100M-MLM,60,2,"native MLP (256,256)",0.32212411942331853,0.37512867725030563,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__2,scored
+fullft,ChemBERTa-3-100M-MLM,60,3,"native MLP (256,256)",0.17355062048918857,0.2997695379374795,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__3,scored
+fullft,ChemBERTa-3-100M-MLM,60,4,"native MLP (256,256)",0.33769294257246396,0.24172745042919086,training_checkpoint_R2,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__4,scored
+fullft,ChemBERTa-3-100M-MLM,100,0,r0,0.634775375142428,0.37329873630347643,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-3-100M-MLM__r0__0,scored
+fullft,ChemBERTa-3-100M-MLM,100,1,r0,0.4629686841242504,0.18317049064723223,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-3-100M-MLM__r0__1,scored
+fullft,ChemBERTa-3-100M-MLM,100,2,r0,0.45307207071729794,0.5448579332452603,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-3-100M-MLM__r0__2,scored
+fullft,ChemBERTa-3-100M-MLM,100,3,r0,0.6388042389609496,0.5065212302241671,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-3-100M-MLM__r0__3,scored
+fullft,ChemBERTa-3-100M-MLM,100,4,r0,0.273117829483317,0.4639556972514274,actual saved-model validation,new_small125_90_10_25,small125__full_finetuning__ChemBERTa-3-100M-MLM__r0__4,scored
+fullft,ChemBERTa-3-100M-MLM,1000,0,r0,0.7451228499412537,0.8460608124732971,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-3-100M-MLM__r0__0,scored
+fullft,ChemBERTa-3-100M-MLM,1000,1,r0,0.8206319808959961,0.8487069010734558,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-3-100M-MLM__r0__1,scored
+fullft,ChemBERTa-3-100M-MLM,1000,2,r0,0.8507059812545776,0.8735633492469788,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-3-100M-MLM__r0__2,scored
+fullft,ChemBERTa-3-100M-MLM,1000,3,r0,0.8224173784255981,0.8057867884635925,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-3-100M-MLM__r0__3,scored
+fullft,ChemBERTa-3-100M-MLM,1000,4,r0,0.8330927491188049,0.8063061237335205,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__full_finetuning__ChemBERTa-3-100M-MLM__r0__4,scored
+fullft,ChemBERTa-3-100M-MLM,10000,0,r0,0.945954842038537,0.9502254196481595,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-3-100M-MLM__r0__0,scored
+fullft,ChemBERTa-3-100M-MLM,10000,1,r0,0.9481442638740867,0.9517898488376149,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-3-100M-MLM__r0__1,scored
+fullft,ChemBERTa-3-100M-MLM,10000,2,r0,0.958002249191921,0.9498888130688091,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-3-100M-MLM__r0__2,scored
+fullft,ChemBERTa-3-100M-MLM,10000,3,r0,0.9513694507256221,0.9521423087151811,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-3-100M-MLM__r0__3,scored
+fullft,ChemBERTa-3-100M-MLM,10000,4,r0,0.9472140650854245,0.9469072423575815,actual saved-model validation,new_random12500_9000_1000_2500,full_finetuning__ChemBERTa-3-100M-MLM__r0__4,scored
+fullft,rdkit,60,0,tabpfn,0.7430456089004883,0.783675435260019,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__0,scored
+fullft,rdkit,60,1,tabpfn,0.88674067303336,0.6600723376803952,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__1,scored
+fullft,rdkit,60,2,tabpfn,0.8571084952722228,0.7699306278705185,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__2,scored
+fullft,rdkit,60,3,tabpfn,0.6506670924564613,0.6471921933385083,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__3,scored
+fullft,rdkit,60,4,tabpfn,0.8632459110659945,0.7100565398242938,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__4,scored
+fullft,rdkit,100,0,tabicl,0.7351908181910487,0.8458978033650377,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__0,scored
+fullft,rdkit,100,1,tabicl,0.8999410396057654,0.7343463322216359,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__1,scored
+fullft,rdkit,100,2,tabicl,0.9167667145774478,0.8094644538456217,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__2,scored
+fullft,rdkit,100,3,tabicl,0.9305685818418047,0.9267682701808128,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__3,scored
+fullft,rdkit,100,4,tabicl,0.637907120194469,0.8272358994080924,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__4,scored
+fullft,rdkit,1000,0,tabicl,0.8689988851547241,0.9145894050598145,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__0,scored
+fullft,rdkit,1000,1,tabicl,0.8239376544952393,0.9133583903312683,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__1,scored
+fullft,rdkit,1000,2,tabicl,0.9225339889526367,0.8927321434020996,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__2,scored
+fullft,rdkit,1000,3,tabicl,0.8880658745765686,0.8955841064453125,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__3,scored
+fullft,rdkit,1000,4,tabicl,0.8975940942764282,0.840496838092804,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__4,scored
+fullft,rdkit,10000,0,tabpfn,0.9570146533512366,0.9610039032543423,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__0,scored
+fullft,rdkit,10000,1,tabpfn,0.9556828507492677,0.9579799414959699,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__1,scored
+fullft,rdkit,10000,2,tabpfn,0.9636700818307941,0.9532986287780352,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__2,scored
+fullft,rdkit,10000,3,tabpfn,0.9611229479290773,0.9554167292213619,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__3,scored
+fullft,rdkit,10000,4,tabpfn,0.96199989772279,0.952741952274329,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__4,scored
+fullft,gemini,60,0,linear,0.7598276268730271,0.6777507792732733,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__0,scored
+fullft,gemini,60,1,linear,0.783545548361553,0.32823709253721767,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__1,scored
+fullft,gemini,60,2,linear,0.7630894878743392,0.6032152845387995,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__2,scored
+fullft,gemini,60,3,linear,0.6438335807983842,0.4286029452469108,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__3,scored
+fullft,gemini,60,4,linear,0.9379353523851526,0.5251290242661609,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__4,scored
+fullft,gemini,100,0,,,,,,,unavailable
+fullft,gemini,100,1,,,,,,,unavailable
+fullft,gemini,100,2,,,,,,,unavailable
+fullft,gemini,100,3,,,,,,,unavailable
+fullft,gemini,100,4,,,,,,,unavailable
+fullft,gemini,1000,0,tabpfn,0.8509794420803799,0.866796513046975,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:0,scored
+fullft,gemini,1000,1,tabpfn,0.84414682725626,0.8842244349627267,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:1,scored
+fullft,gemini,1000,2,tabpfn,0.8616884150430848,0.8772584670465945,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:2,scored
+fullft,gemini,1000,3,tabpfn,0.848892784748767,0.8631198829189044,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:3,scored
+fullft,gemini,1000,4,tabpfn,0.8501397742870513,0.804597412080003,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:4,scored
+fullft,gemini,10000,0,tabpfn,0.9310188479989474,0.9358075896687484,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__0,scored
+fullft,gemini,10000,1,tabpfn,0.9313495782171552,0.9294417710330887,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__1,scored
+fullft,gemini,10000,2,tabpfn,0.9351017073328228,0.9230188199219291,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__2,scored
+fullft,gemini,10000,3,tabpfn,0.9352279419731254,0.927383938506767,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__3,scored
+fullft,gemini,10000,4,tabpfn,0.9251300568011391,0.9272898827944207,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__4,scored
+fullft,astra,60,0,none,,0.9071260806342103,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__0__normal,scored
+fullft,astra,60,1,none,,0.8332963860754541,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__1__normal,scored
+fullft,astra,60,2,none,,0.7927179853917142,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__2__normal,scored
+fullft,astra,60,3,none,,0.8475742092503415,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__3__normal,scored
+fullft,astra,60,4,none,,0.8493623659122616,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__4__normal,scored
+fullft,astra,100,0,,,,,,,unavailable
+fullft,astra,100,1,,,,,,,unavailable
+fullft,astra,100,2,,,,,,,unavailable
+fullft,astra,100,3,,,,,,,unavailable
+fullft,astra,100,4,,,,,,,unavailable
+fullft,astra,1000,0,none,,0.9419833689684092,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed0.json,scored
+fullft,astra,1000,1,none,,0.9423544799672291,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed1.json,scored
+fullft,astra,1000,2,none,,0.9377402310585736,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed2.json,scored
+fullft,astra,1000,3,none,,0.9476330744900554,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed3.json,scored
+fullft,astra,1000,4,none,,0.8977056247586057,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed4.json,scored
+fullft,astra,10000,0,,,,,,,unavailable
+fullft,astra,10000,1,,,,,,,unavailable
+fullft,astra,10000,2,,,,,,,unavailable
+fullft,astra,10000,3,,,,,,,unavailable
+fullft,astra,10000,4,,,,,,,unavailable
+lora,gin-pretrained,60,0,"native MLP (256,256) 16",0.5904601118743473,0.29826607448023945,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__gin-pretrained__r16__0,scored
+lora,gin-pretrained,60,1,"native MLP (256,256) 16",0.6662716725711244,-0.07946302334410316,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__gin-pretrained__r16__1,scored
+lora,gin-pretrained,60,2,"native MLP (256,256) 16",0.09382770754919167,0.2922889128053018,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__gin-pretrained__r16__2,scored
+lora,gin-pretrained,60,3,"native MLP (256,256) 16",0.3730486156527272,0.19688216350897958,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__gin-pretrained__r16__3,scored
+lora,gin-pretrained,60,4,"native MLP (256,256) 16",0.0017608732095280022,-0.13146261400499748,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__gin-pretrained__r16__4,scored
+lora,gin-pretrained,100,0,r16,0.519800828918403,0.1993848547355439,actual saved-model validation,new_small125_90_10_25,small125__lora__gin-pretrained__r16__0,scored
+lora,gin-pretrained,100,1,r16,0.28248737290655,-0.006346339819693014,actual saved-model validation,new_small125_90_10_25,small125__lora__gin-pretrained__r16__1,scored
+lora,gin-pretrained,100,2,r16,0.5654399723285403,0.5126604456226895,actual saved-model validation,new_small125_90_10_25,small125__lora__gin-pretrained__r16__2,scored
+lora,gin-pretrained,100,3,r16,0.7072936580092366,0.44989763500827473,actual saved-model validation,new_small125_90_10_25,small125__lora__gin-pretrained__r16__3,scored
+lora,gin-pretrained,100,4,r16,0.2411356261001727,0.37993974185181956,actual saved-model validation,new_small125_90_10_25,small125__lora__gin-pretrained__r16__4,scored
+lora,gin-pretrained,1000,0,r16,0.8710931057448636,0.8401108801320879,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__gin-pretrained__r16__0,scored
+lora,gin-pretrained,1000,1,r16,0.7804626503072853,0.8565596637945404,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__gin-pretrained__r16__1,scored
+lora,gin-pretrained,1000,2,r16,0.8454450009655737,0.8426713766418755,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__gin-pretrained__r16__2,scored
+lora,gin-pretrained,1000,3,r16,0.7974559992283268,0.850539506264238,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__gin-pretrained__r16__3,scored
+lora,gin-pretrained,1000,4,r16,0.8477866368632747,0.8047903176682994,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__gin-pretrained__r16__4,scored
+lora,gin-pretrained,10000,0,r8,0.8834547567894805,0.9075525863118878,actual saved-model validation,new_random12500_9000_1000_2500,lora__gin-pretrained__r8__0,scored
+lora,gin-pretrained,10000,1,r8,0.8933425471364141,0.9046337865395528,actual saved-model validation,new_random12500_9000_1000_2500,lora__gin-pretrained__r8__1,scored
+lora,gin-pretrained,10000,2,r8,0.9264714700729687,0.8737791205351725,actual saved-model validation,new_random12500_9000_1000_2500,lora__gin-pretrained__r8__2,scored
+lora,gin-pretrained,10000,3,r8,0.9079898212106622,0.8942919465117288,actual saved-model validation,new_random12500_9000_1000_2500,lora__gin-pretrained__r8__3,scored
+lora,gin-pretrained,10000,4,r8,0.911561652444155,0.8995262653825095,actual saved-model validation,new_random12500_9000_1000_2500,lora__gin-pretrained__r8__4,scored
+lora,grover-base,60,0,"native MLP (256,256) 8",-0.03730219160907078,-0.021701420066633448,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__grover-base__r8__0,scored
+lora,grover-base,60,1,"native MLP (256,256) 8",0.5008839969547261,0.2110416881176611,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__grover-base__r8__1,scored
+lora,grover-base,60,2,"native MLP (256,256) 8",0.2734267100780393,0.134130733546721,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__grover-base__r8__2,scored
+lora,grover-base,60,3,"native MLP (256,256) 8",-0.037641513731849985,0.06620618501728293,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__grover-base__r8__3,scored
+lora,grover-base,60,4,"native MLP (256,256) 8",0.8274338469966437,0.0701915421806878,actual_saved_model,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__grover-base__r8__4,scored
+lora,grover-base,100,0,r8,0.38315617056979856,0.23161744251422767,actual saved-model validation,new_small125_90_10_25,small125__lora__grover-base__r8__0,scored
+lora,grover-base,100,1,r8,0.41127673180756996,-0.05101257284487426,actual saved-model validation,new_small125_90_10_25,small125__lora__grover-base__r8__1,scored
+lora,grover-base,100,2,r8,0.5995101505347689,0.4669157165379745,actual saved-model validation,new_small125_90_10_25,small125__lora__grover-base__r8__2,scored
+lora,grover-base,100,3,r8,0.3570870354418342,0.4252439291897855,actual saved-model validation,new_small125_90_10_25,small125__lora__grover-base__r8__3,scored
+lora,grover-base,100,4,r8,0.07105684289189185,0.225095011597663,actual saved-model validation,new_small125_90_10_25,small125__lora__grover-base__r8__4,scored
+lora,grover-base,1000,0,r4,0.6788003419513117,0.6682415190960609,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__grover-base__r4__0,scored
+lora,grover-base,1000,1,r4,0.664857234980855,0.786244052021993,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__grover-base__r4__1,scored
+lora,grover-base,1000,2,r4,0.6594132053301855,0.6403303640179165,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__grover-base__r4__2,scored
+lora,grover-base,1000,3,r4,0.7395035937684074,0.8218578778881905,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__grover-base__r4__3,scored
+lora,grover-base,1000,4,r4,0.7147291821581597,0.6626061919154079,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__grover-base__r4__4,scored
+lora,grover-base,10000,0,r4,0.8818334463078414,0.8930826596105222,actual saved-model validation,new_random12500_9000_1000_2500,lora__grover-base__r4__0,scored
+lora,grover-base,10000,1,r4,0.8379929432567343,0.8216633718329177,actual saved-model validation,new_random12500_9000_1000_2500,lora__grover-base__r4__1,scored
+lora,grover-base,10000,2,r4,0.8869770696612771,0.8779332364220882,actual saved-model validation,new_random12500_9000_1000_2500,lora__grover-base__r4__2,scored
+lora,grover-base,10000,3,r4,0.9003621054312614,0.8807642778537557,actual saved-model validation,new_random12500_9000_1000_2500,lora__grover-base__r4__3,scored
+lora,grover-base,10000,4,r4,0.892377645584058,0.8924004266453233,actual saved-model validation,new_random12500_9000_1000_2500,lora__grover-base__r4__4,scored
+lora,molformer,60,0,"native MLP (256,256) 8",0.8067235173588299,0.6137345332146582,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer__r8__0,scored
+lora,molformer,60,1,"native MLP (256,256) 8",0.7530646101713727,0.16425361706205555,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer__r8__1,scored
+lora,molformer,60,2,"native MLP (256,256) 8",0.6732163326484737,0.6098489773263893,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer__r8__2,scored
+lora,molformer,60,3,"native MLP (256,256) 8",0.5380665658859558,0.3555548985458816,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer__r8__3,scored
+lora,molformer,60,4,"native MLP (256,256) 8",0.8357346348544826,0.14958512323636575,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer__r8__4,scored
+lora,molformer,100,0,r8,0.6679691149360885,0.45019281533933264,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer__r8__0,scored
+lora,molformer,100,1,r8,0.887096174523471,0.20962791723156138,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer__r8__1,scored
+lora,molformer,100,2,r8,0.8593088662692002,0.643984701392639,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer__r8__2,scored
+lora,molformer,100,3,r8,0.7423962020089041,0.6635718000284723,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer__r8__3,scored
+lora,molformer,100,4,r8,0.3798802881670531,0.5169703855342803,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer__r8__4,scored
+lora,molformer,1000,0,r4,0.9128051400184631,0.9168760180473328,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer__r4__0,scored
+lora,molformer,1000,1,r4,0.900747537612915,0.8907389044761658,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer__r4__1,scored
+lora,molformer,1000,2,r4,0.9218820333480835,0.9185824394226074,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer__r4__2,scored
+lora,molformer,1000,3,r4,0.898933470249176,0.9025800824165344,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer__r4__3,scored
+lora,molformer,1000,4,r4,0.9415141344070435,0.874915599822998,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer__r4__4,scored
+lora,molformer,10000,0,r16,0.9607728883774046,0.9637056807282195,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer__r16__0,scored
+lora,molformer,10000,1,r16,0.9610774461409956,0.9643046355499933,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer__r16__1,scored
+lora,molformer,10000,2,r16,0.9628284787828469,0.9511835530150333,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer__r16__2,scored
+lora,molformer,10000,3,r16,0.9609199427918182,0.9559333803885867,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer__r16__3,scored
+lora,molformer,10000,4,r16,0.9493032509578456,0.9497624309572451,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer__r16__4,scored
+lora,molformer-xl,60,0,"native MLP (256,256) 16",0.815255416364763,0.7492843679754091,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer-xl__r16__0,scored
+lora,molformer-xl,60,1,"native MLP (256,256) 16",0.7541788750046585,0.3245155179815672,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer-xl__r16__1,scored
+lora,molformer-xl,60,2,"native MLP (256,256) 16",0.7459553266694559,0.6182013046902306,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer-xl__r16__2,scored
+lora,molformer-xl,60,3,"native MLP (256,256) 16",0.5014988185143034,0.23440115639731163,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer-xl__r16__3,scored
+lora,molformer-xl,60,4,"native MLP (256,256) 16",0.8833395343709582,0.5287572536151259,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__molformer-xl__r16__4,scored
+lora,molformer-xl,100,0,r16,0.647814163969425,0.4061920430698004,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer-xl__r16__0,scored
+lora,molformer-xl,100,1,r16,0.8917477202554965,0.5155536790622746,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer-xl__r16__1,scored
+lora,molformer-xl,100,2,r16,0.8226399360265908,0.6273872503814621,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer-xl__r16__2,scored
+lora,molformer-xl,100,3,r16,0.6923000530183087,0.7546723375946018,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer-xl__r16__3,scored
+lora,molformer-xl,100,4,r16,0.46519476224331713,0.669290820606739,actual saved-model validation,new_small125_90_10_25,small125__lora__molformer-xl__r16__4,scored
+lora,molformer-xl,1000,0,r8,0.9301918745040894,0.9226872324943542,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer-xl__r8__0,scored
+lora,molformer-xl,1000,1,r8,0.9123584628105164,0.9320837259292603,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer-xl__r8__1,scored
+lora,molformer-xl,1000,2,r8,0.9233777523040771,0.9028366208076477,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer-xl__r8__2,scored
+lora,molformer-xl,1000,3,r8,0.9227568507194519,0.9079301953315735,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer-xl__r8__3,scored
+lora,molformer-xl,1000,4,r8,0.9228978753089905,0.873984694480896,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__molformer-xl__r8__4,scored
+lora,molformer-xl,10000,0,r16,0.9569815743579598,0.9603829532205401,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer-xl__r16__0,scored
+lora,molformer-xl,10000,1,r16,0.9635656128248462,0.9642282855772515,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer-xl__r16__1,scored
+lora,molformer-xl,10000,2,r16,0.9669130084296365,0.956953279331545,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer-xl__r16__2,scored
+lora,molformer-xl,10000,3,r16,0.9641620947912678,0.9588071123383006,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer-xl__r16__3,scored
+lora,molformer-xl,10000,4,r16,0.959187422836759,0.9605512505750329,actual saved-model validation,new_random12500_9000_1000_2500,lora__molformer-xl__r16__4,scored
+lora,ChemBERTa-2-77M-MTR,60,0,"native MLP (256,256) 16",0.6025068728218548,0.44776698291646055,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__r16__0,scored
+lora,ChemBERTa-2-77M-MTR,60,1,"native MLP (256,256) 16",0.5965202002902901,0.4990176104089926,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__r16__1,scored
+lora,ChemBERTa-2-77M-MTR,60,2,"native MLP (256,256) 16",0.6714199366676841,0.30496669577507507,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__r16__2,scored
+lora,ChemBERTa-2-77M-MTR,60,3,"native MLP (256,256) 16",0.315737141818217,0.3283960818061302,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__r16__3,scored
+lora,ChemBERTa-2-77M-MTR,60,4,"native MLP (256,256) 16",0.7640444337514088,0.4524001212191011,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-2-77M-MTR__r16__4,scored
+lora,ChemBERTa-2-77M-MTR,100,0,r8,0.4983222949877826,0.22487225351265727,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-2-77M-MTR__r8__0,scored
+lora,ChemBERTa-2-77M-MTR,100,1,r8,-0.03342384058488457,-0.02189558008010506,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-2-77M-MTR__r8__1,scored
+lora,ChemBERTa-2-77M-MTR,100,2,r8,0.7889554791726707,0.5203224138309908,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-2-77M-MTR__r8__2,scored
+lora,ChemBERTa-2-77M-MTR,100,3,r8,0.7028630036810477,0.7015813725896878,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-2-77M-MTR__r8__3,scored
+lora,ChemBERTa-2-77M-MTR,100,4,r8,0.18388145087545404,0.41140373484592796,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-2-77M-MTR__r8__4,scored
+lora,ChemBERTa-2-77M-MTR,1000,0,r16,0.8612240552902222,0.910092830657959,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-2-77M-MTR__r16__0,scored
+lora,ChemBERTa-2-77M-MTR,1000,1,r16,0.9050479531288147,0.8973595499992371,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-2-77M-MTR__r16__1,scored
+lora,ChemBERTa-2-77M-MTR,1000,2,r16,0.8915241360664368,0.8711870908737183,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-2-77M-MTR__r16__2,scored
+lora,ChemBERTa-2-77M-MTR,1000,3,r16,0.9126874804496765,0.9006631374359131,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-2-77M-MTR__r16__3,scored
+lora,ChemBERTa-2-77M-MTR,1000,4,r16,0.8663683533668518,0.8038219213485718,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-2-77M-MTR__r16__4,scored
+lora,ChemBERTa-2-77M-MTR,10000,0,r16,0.9589728158082858,0.9563230205278807,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-2-77M-MTR__r16__0,scored
+lora,ChemBERTa-2-77M-MTR,10000,1,r16,0.9606614121138815,0.9621496928929306,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-2-77M-MTR__r16__1,scored
+lora,ChemBERTa-2-77M-MTR,10000,2,r16,0.9537602390939784,0.9437549258501505,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-2-77M-MTR__r16__2,scored
+lora,ChemBERTa-2-77M-MTR,10000,3,r16,0.9608329857861543,0.9592914123276097,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-2-77M-MTR__r16__3,scored
+lora,ChemBERTa-2-77M-MTR,10000,4,r16,0.9507228844218482,0.9521192053886771,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-2-77M-MTR__r16__4,scored
+lora,selformer,60,0,"native MLP (256,256) 16",0.5134381532003928,0.5919337509526341,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__selformer__r16__0,scored
+lora,selformer,60,1,"native MLP (256,256) 16",0.7468895885578823,0.327782985389813,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__selformer__r16__1,scored
+lora,selformer,60,2,"native MLP (256,256) 16",0.658182204572995,0.66614900711642,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__selformer__r16__2,scored
+lora,selformer,60,3,"native MLP (256,256) 16",0.49034942797017245,0.35552245196882637,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__selformer__r16__3,scored
+lora,selformer,60,4,"native MLP (256,256) 16",0.8713951001032135,0.3612293632422777,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__selformer__r16__4,scored
+lora,selformer,100,0,r16,0.5524002586954039,0.42656780395874005,actual saved-model validation,new_small125_90_10_25,small125__lora__selformer__r16__0,scored
+lora,selformer,100,1,r16,0.8042519425200019,0.4031794577314003,actual saved-model validation,new_small125_90_10_25,small125__lora__selformer__r16__1,scored
+lora,selformer,100,2,r16,0.8904747012869527,0.7691145447549366,actual saved-model validation,new_small125_90_10_25,small125__lora__selformer__r16__2,scored
+lora,selformer,100,3,r16,0.7403566380743833,0.6421698445674335,actual saved-model validation,new_small125_90_10_25,small125__lora__selformer__r16__3,scored
+lora,selformer,100,4,r16,0.4535012769926263,0.5080439350276398,actual saved-model validation,new_small125_90_10_25,small125__lora__selformer__r16__4,scored
+lora,selformer,1000,0,r16,0.9083212614059448,0.9289817810058594,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__selformer__r16__0,scored
+lora,selformer,1000,1,r16,0.906393826007843,0.9281108379364014,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__selformer__r16__1,scored
+lora,selformer,1000,2,r16,0.9249469041824341,0.9058651328086853,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__selformer__r16__2,scored
+lora,selformer,1000,3,r16,0.9058613181114197,0.9219228625297546,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__selformer__r16__3,scored
+lora,selformer,1000,4,r16,0.9329002499580383,0.865086019039154,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__selformer__r16__4,scored
+lora,selformer,10000,0,r8,0.9589633499694499,0.96460127563374,actual saved-model validation,new_random12500_9000_1000_2500,lora__selformer__r8__0,scored
+lora,selformer,10000,1,r8,0.9652520834027883,0.9671747985582657,actual saved-model validation,new_random12500_9000_1000_2500,lora__selformer__r8__1,scored
+lora,selformer,10000,2,r8,0.9624024477004501,0.9568834681381869,actual saved-model validation,new_random12500_9000_1000_2500,lora__selformer__r8__2,scored
+lora,selformer,10000,3,r8,0.9692344436690293,0.9628758039344503,actual saved-model validation,new_random12500_9000_1000_2500,lora__selformer__r8__3,scored
+lora,selformer,10000,4,r8,0.9637784475847748,0.9633939828256404,actual saved-model validation,new_random12500_9000_1000_2500,lora__selformer__r8__4,scored
+lora,clamp,60,0,"native MLP (256,256) 8",0.6576310379090606,0.5337290929463485,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__clamp__r8__0,scored
+lora,clamp,60,1,"native MLP (256,256) 8",0.6843416366352015,0.3545876541197197,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__clamp__r8__1,scored
+lora,clamp,60,2,"native MLP (256,256) 8",0.6494261426198213,0.5469369751547628,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__clamp__r8__2,scored
+lora,clamp,60,3,"native MLP (256,256) 8",0.12844616991284907,0.27755584383393483,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__clamp__r8__3,scored
+lora,clamp,60,4,"native MLP (256,256) 8",0.8892082229085548,0.4117136155940784,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__clamp__r8__4,scored
+lora,clamp,100,0,r16,0.4405434650418516,0.26772485747026264,actual saved-model validation,new_small125_90_10_25,small125__lora__clamp__r16__0,scored
+lora,clamp,100,1,r16,0.6921803207294316,0.18357082202494468,actual saved-model validation,new_small125_90_10_25,small125__lora__clamp__r16__1,scored
+lora,clamp,100,2,r16,0.6136272812616606,0.6081215083040798,actual saved-model validation,new_small125_90_10_25,small125__lora__clamp__r16__2,scored
+lora,clamp,100,3,r16,0.48963892557527233,0.6449745163393003,actual saved-model validation,new_small125_90_10_25,small125__lora__clamp__r16__3,scored
+lora,clamp,100,4,r16,0.06070587994372134,0.3520521038641481,actual saved-model validation,new_small125_90_10_25,small125__lora__clamp__r16__4,scored
+lora,clamp,1000,0,r16,0.8560179998803965,0.838775618313271,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__clamp__r16__0,scored
+lora,clamp,1000,1,r16,0.8379774384988157,0.864840453329372,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__clamp__r16__1,scored
+lora,clamp,1000,2,r16,0.8442981704560719,0.8004131912757025,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__clamp__r16__2,scored
+lora,clamp,1000,3,r16,0.811978965865559,0.834565457065331,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__clamp__r16__3,scored
+lora,clamp,1000,4,r16,0.8456589722725856,0.7960110782209889,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__clamp__r16__4,scored
+lora,clamp,10000,0,r8,0.9522907807321617,0.9526802517106961,actual saved-model validation,new_random12500_9000_1000_2500,lora__clamp__r8__0,scored
+lora,clamp,10000,1,r8,0.9545706466179875,0.9529502855563333,actual saved-model validation,new_random12500_9000_1000_2500,lora__clamp__r8__1,scored
+lora,clamp,10000,2,r8,0.950743577977653,0.9478590722239126,actual saved-model validation,new_random12500_9000_1000_2500,lora__clamp__r8__2,scored
+lora,clamp,10000,3,r8,0.9506653171078071,0.9419421495713236,actual saved-model validation,new_random12500_9000_1000_2500,lora__clamp__r8__3,scored
+lora,clamp,10000,4,r8,0.9512537590842436,0.9502412285862167,actual saved-model validation,new_random12500_9000_1000_2500,lora__clamp__r8__4,scored
+lora,chemfm-1b,60,0,"native MLP (256,256) 16",0.4477130079367807,0.38851327973443184,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__chemfm-1b__r16__0,scored
+lora,chemfm-1b,60,1,"native MLP (256,256) 16",0.6957238337621634,-0.00867428505750567,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__chemfm-1b__r16__1,scored
+lora,chemfm-1b,60,2,"native MLP (256,256) 16",0.5905388462172243,0.42792235961023206,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__chemfm-1b__r16__2,scored
+lora,chemfm-1b,60,3,"native MLP (256,256) 16",0.3984071535991285,0.12517165934742935,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__chemfm-1b__r16__3,scored
+lora,chemfm-1b,60,4,"native MLP (256,256) 16",0.8055797780741243,0.33373823718730633,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__chemfm-1b__r16__4,scored
+lora,chemfm-1b,100,0,r16,0.7338207378548676,0.35107510655398244,actual saved-model validation,new_small125_90_10_25,small125__lora__chemfm-1b__r16__0,scored
+lora,chemfm-1b,100,1,r16,0.9087983730176845,0.25219264470294755,actual saved-model validation,new_small125_90_10_25,small125__lora__chemfm-1b__r16__1,scored
+lora,chemfm-1b,100,2,r16,0.8640412556464289,0.6401457865412667,actual saved-model validation,new_small125_90_10_25,small125__lora__chemfm-1b__r16__2,scored
+lora,chemfm-1b,100,3,r16,0.6855621287996216,0.5992162986118368,actual saved-model validation,new_small125_90_10_25,small125__lora__chemfm-1b__r16__3,scored
+lora,chemfm-1b,100,4,r16,0.6554333622741444,0.7312841730326077,actual saved-model validation,new_small125_90_10_25,small125__lora__chemfm-1b__r16__4,scored
+lora,chemfm-1b,1000,0,r8,0.8561936020851135,0.8929634094238281,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__chemfm-1b__r8__0,scored
+lora,chemfm-1b,1000,1,r8,0.9028245210647583,0.879270076751709,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__chemfm-1b__r8__1,scored
+lora,chemfm-1b,1000,2,r8,0.8529458045959473,0.9090763926506042,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__chemfm-1b__r8__2,scored
+lora,chemfm-1b,1000,3,r8,0.8588006496429443,0.8679682016372681,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__chemfm-1b__r8__3,scored
+lora,chemfm-1b,1000,4,r8,0.9093973636627197,0.8634321093559265,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__chemfm-1b__r8__4,scored
+lora,chemfm-1b,10000,0,r4,0.9679253182684519,0.9697561174633821,actual saved-model validation,new_random12500_9000_1000_2500,lora__chemfm-1b__r4__0,scored
+lora,chemfm-1b,10000,1,r4,0.9719788441673907,0.9714265865657947,actual saved-model validation,new_random12500_9000_1000_2500,lora__chemfm-1b__r4__1,scored
+lora,chemfm-1b,10000,2,r4,0.9769786783579374,0.9719805852384792,actual saved-model validation,new_random12500_9000_1000_2500,lora__chemfm-1b__r4__2,scored
+lora,chemfm-1b,10000,3,r4,0.9752164800157846,0.9716911804103131,actual saved-model validation,new_random12500_9000_1000_2500,lora__chemfm-1b__r4__3,scored
+lora,chemfm-1b,10000,4,r4,0.9705359833211566,0.9706670521698197,actual saved-model validation,new_random12500_9000_1000_2500,lora__chemfm-1b__r4__4,scored
+lora,MoLFormer-c3-1.1B,60,0,"native MLP (256,256) 8",0.6647090108520142,0.6572498474379824,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__MoLFormer-c3-1.1B__r8__0,scored
+lora,MoLFormer-c3-1.1B,60,1,"native MLP (256,256) 8",0.8318292679553183,0.589124509591743,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__MoLFormer-c3-1.1B__r8__1,scored
+lora,MoLFormer-c3-1.1B,60,2,"native MLP (256,256) 8",0.6574041751641513,0.6102893808220393,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__MoLFormer-c3-1.1B__r8__2,scored
+lora,MoLFormer-c3-1.1B,60,3,"native MLP (256,256) 8",0.35335168022314867,0.27355224754830687,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__MoLFormer-c3-1.1B__r8__3,scored
+lora,MoLFormer-c3-1.1B,60,4,"native MLP (256,256) 8",0.728931969177907,0.2200039775075604,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__MoLFormer-c3-1.1B__r8__4,scored
+lora,MoLFormer-c3-1.1B,100,0,r16,0.5538813333362069,0.3161246645711717,actual saved-model validation,new_small125_90_10_25,small125__lora__MoLFormer-c3-1.1B__r16__0,scored
+lora,MoLFormer-c3-1.1B,100,1,r16,0.8732547085513276,0.2406236931041732,actual saved-model validation,new_small125_90_10_25,small125__lora__MoLFormer-c3-1.1B__r16__1,scored
+lora,MoLFormer-c3-1.1B,100,2,r16,0.9101678455112996,0.736359316553104,actual saved-model validation,new_small125_90_10_25,small125__lora__MoLFormer-c3-1.1B__r16__2,scored
+lora,MoLFormer-c3-1.1B,100,3,r16,0.8443166288689388,0.7659472457930105,actual saved-model validation,new_small125_90_10_25,small125__lora__MoLFormer-c3-1.1B__r16__3,scored
+lora,MoLFormer-c3-1.1B,100,4,r16,0.38846485486612325,0.6952948161642774,actual saved-model validation,new_small125_90_10_25,small125__lora__MoLFormer-c3-1.1B__r16__4,scored
+lora,MoLFormer-c3-1.1B,1000,0,r16,0.9164380431175232,0.9033681750297546,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__MoLFormer-c3-1.1B__r16__0,scored
+lora,MoLFormer-c3-1.1B,1000,1,r16,0.8901017904281616,0.896416187286377,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__MoLFormer-c3-1.1B__r16__1,scored
+lora,MoLFormer-c3-1.1B,1000,2,r16,0.9079465866088867,0.9180779457092285,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__MoLFormer-c3-1.1B__r16__2,scored
+lora,MoLFormer-c3-1.1B,1000,3,r16,0.9029686450958252,0.9058765769004822,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__MoLFormer-c3-1.1B__r16__3,scored
+lora,MoLFormer-c3-1.1B,1000,4,r16,0.9153621196746826,0.8685571551322937,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__MoLFormer-c3-1.1B__r16__4,scored
+lora,MoLFormer-c3-1.1B,10000,0,r4,0.959759609460396,0.9602642585883222,actual saved-model validation,new_random12500_9000_1000_2500,lora__MoLFormer-c3-1.1B__r4__0,scored
+lora,MoLFormer-c3-1.1B,10000,1,r4,0.9595610820420486,0.9651091450244763,actual saved-model validation,new_random12500_9000_1000_2500,lora__MoLFormer-c3-1.1B__r4__1,scored
+lora,MoLFormer-c3-1.1B,10000,2,r4,0.9658553585256884,0.9585734081428481,actual saved-model validation,new_random12500_9000_1000_2500,lora__MoLFormer-c3-1.1B__r4__2,scored
+lora,MoLFormer-c3-1.1B,10000,3,r4,0.9628002840644188,0.9580109746620962,actual saved-model validation,new_random12500_9000_1000_2500,lora__MoLFormer-c3-1.1B__r4__3,scored
+lora,MoLFormer-c3-1.1B,10000,4,r4,0.9553127763200064,0.9576013000701479,actual saved-model validation,new_random12500_9000_1000_2500,lora__MoLFormer-c3-1.1B__r4__4,scored
+lora,ChemBERTa-3-100M-MLM,60,0,"native MLP (256,256) 16",0.6091496555904786,0.5912693736657216,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__r16__0,scored
+lora,ChemBERTa-3-100M-MLM,60,1,"native MLP (256,256) 16",0.7278327855069626,-0.5090769163026245,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__r16__1,scored
+lora,ChemBERTa-3-100M-MLM,60,2,"native MLP (256,256) 16",0.34130453760375823,0.5745301874638542,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__r16__2,scored
+lora,ChemBERTa-3-100M-MLM,60,3,"native MLP (256,256) 16",0.44539906252182404,0.07021784162143396,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__r16__3,scored
+lora,ChemBERTa-3-100M-MLM,60,4,"native MLP (256,256) 16",0.8482822627365875,0.3939634816387029,training_checkpoint_R2,original_small100_50fit_10val_40query,lora__QM9__epsilon_lumo__ChemBERTa-3-100M-MLM__r16__4,scored
+lora,ChemBERTa-3-100M-MLM,100,0,r8,0.6889964021851505,0.4175827989078085,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-3-100M-MLM__r8__0,scored
+lora,ChemBERTa-3-100M-MLM,100,1,r8,0.875581707387918,-0.06211046527891928,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-3-100M-MLM__r8__1,scored
+lora,ChemBERTa-3-100M-MLM,100,2,r8,0.687903716568214,0.6034405600069619,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-3-100M-MLM__r8__2,scored
+lora,ChemBERTa-3-100M-MLM,100,3,r8,0.8229665073020708,0.6992097355646631,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-3-100M-MLM__r8__3,scored
+lora,ChemBERTa-3-100M-MLM,100,4,r8,0.24424757006343611,0.5011934944852547,actual saved-model validation,new_small125_90_10_25,small125__lora__ChemBERTa-3-100M-MLM__r8__4,scored
+lora,ChemBERTa-3-100M-MLM,1000,0,r16,0.8801488876342773,0.8827191591262817,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-3-100M-MLM__r16__0,scored
+lora,ChemBERTa-3-100M-MLM,1000,1,r16,0.865867555141449,0.8731507658958435,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-3-100M-MLM__r16__1,scored
+lora,ChemBERTa-3-100M-MLM,1000,2,r16,0.8668277859687805,0.8890750408172607,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-3-100M-MLM__r16__2,scored
+lora,ChemBERTa-3-100M-MLM,1000,3,r16,0.8674138188362122,0.8716743588447571,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-3-100M-MLM__r16__3,scored
+lora,ChemBERTa-3-100M-MLM,1000,4,r16,0.8666847348213196,0.8529706597328186,training epoch peak R2; final scored state not replayed,uniform_random1250_900_100_250,uniform__lora__ChemBERTa-3-100M-MLM__r16__4,scored
+lora,ChemBERTa-3-100M-MLM,10000,0,r4,0.9481145474786568,0.9507199681476046,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-3-100M-MLM__r4__0,scored
+lora,ChemBERTa-3-100M-MLM,10000,1,r4,0.9552616373575049,0.9581867461143817,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-3-100M-MLM__r4__1,scored
+lora,ChemBERTa-3-100M-MLM,10000,2,r4,0.9530093885579096,0.9453573806319201,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-3-100M-MLM__r4__2,scored
+lora,ChemBERTa-3-100M-MLM,10000,3,r4,0.948385194693076,0.9457715971342979,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-3-100M-MLM__r4__3,scored
+lora,ChemBERTa-3-100M-MLM,10000,4,r4,0.9523765070800305,0.9449354979682523,actual saved-model validation,new_random12500_9000_1000_2500,lora__ChemBERTa-3-100M-MLM__r4__4,scored
+lora,rdkit,60,0,tabpfn,0.7430456089004883,0.783675435260019,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__0,scored
+lora,rdkit,60,1,tabpfn,0.88674067303336,0.6600723376803952,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__1,scored
+lora,rdkit,60,2,tabpfn,0.8571084952722228,0.7699306278705185,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__2,scored
+lora,rdkit,60,3,tabpfn,0.6506670924564613,0.6471921933385083,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__3,scored
+lora,rdkit,60,4,tabpfn,0.8632459110659945,0.7100565398242938,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__rdkit-descriptors__tabpfn__4,scored
+lora,rdkit,100,0,tabicl,0.7351908181910487,0.8458978033650377,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__0,scored
+lora,rdkit,100,1,tabicl,0.8999410396057654,0.7343463322216359,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__1,scored
+lora,rdkit,100,2,tabicl,0.9167667145774478,0.8094644538456217,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__2,scored
+lora,rdkit,100,3,tabicl,0.9305685818418047,0.9267682701808128,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__3,scored
+lora,rdkit,100,4,tabicl,0.637907120194469,0.8272358994080924,actual saved-model validation,new_small125_90_10_25,small125__rdkit7__tabicl__4,scored
+lora,rdkit,1000,0,tabicl,0.8689988851547241,0.9145894050598145,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__0,scored
+lora,rdkit,1000,1,tabicl,0.8239376544952393,0.9133583903312683,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__1,scored
+lora,rdkit,1000,2,tabicl,0.9225339889526367,0.8927321434020996,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__2,scored
+lora,rdkit,1000,3,tabicl,0.8880658745765686,0.8955841064453125,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__3,scored
+lora,rdkit,1000,4,tabicl,0.8975940942764282,0.840496838092804,actual saved-model validation,uniform_random1250_900_100_250,uniform__head__rdkit__tabicl__4,scored
+lora,rdkit,10000,0,tabpfn,0.9570146533512366,0.9610039032543423,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__0,scored
+lora,rdkit,10000,1,tabpfn,0.9556828507492677,0.9579799414959699,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__1,scored
+lora,rdkit,10000,2,tabpfn,0.9636700818307941,0.9532986287780352,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__2,scored
+lora,rdkit,10000,3,tabpfn,0.9611229479290773,0.9554167292213619,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__3,scored
+lora,rdkit,10000,4,tabpfn,0.96199989772279,0.952741952274329,actual saved-model validation,new_random12500_9000_1000_2500,rdkit7__tabpfn__4,scored
+lora,gemini,60,0,linear,0.7598276268730271,0.6777507792732733,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__0,scored
+lora,gemini,60,1,linear,0.783545548361553,0.32823709253721767,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__1,scored
+lora,gemini,60,2,linear,0.7630894878743392,0.6032152845387995,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__2,scored
+lora,gemini,60,3,linear,0.6438335807983842,0.4286029452469108,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__3,scored
+lora,gemini,60,4,linear,0.9379353523851526,0.5251290242661609,actual_saved_model,original_small100_50fit_10val_40query,head__QM9__epsilon_lumo__gemini-embedding-2__linear__4,scored
+lora,gemini,100,0,,,,,,,unavailable
+lora,gemini,100,1,,,,,,,unavailable
+lora,gemini,100,2,,,,,,,unavailable
+lora,gemini,100,3,,,,,,,unavailable
+lora,gemini,100,4,,,,,,,unavailable
+lora,gemini,1000,0,tabpfn,0.8509794420803799,0.866796513046975,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:0,scored
+lora,gemini,1000,1,tabpfn,0.84414682725626,0.8842244349627267,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:1,scored
+lora,gemini,1000,2,tabpfn,0.8616884150430848,0.8772584670465945,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:2,scored
+lora,gemini,1000,3,tabpfn,0.848892784748767,0.8631198829189044,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:3,scored
+lora,gemini,1000,4,tabpfn,0.8501397742870513,0.804597412080003,actual saved-model validation,uniform_random1250_900_100_250,uniform_gemini:tabpfn:4,scored
+lora,gemini,10000,0,tabpfn,0.9310188479989474,0.9358075896687484,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__0,scored
+lora,gemini,10000,1,tabpfn,0.9313495782171552,0.9294417710330887,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__1,scored
+lora,gemini,10000,2,tabpfn,0.9351017073328228,0.9230188199219291,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__2,scored
+lora,gemini,10000,3,tabpfn,0.9352279419731254,0.927383938506767,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__3,scored
+lora,gemini,10000,4,tabpfn,0.9251300568011391,0.9272898827944207,actual saved-model validation,new_random12500_9000_1000_2500,randomGemini12500__tabpfn__4,scored
+lora,astra,60,0,none,,0.9071260806342103,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__0__normal,scored
+lora,astra,60,1,none,,0.8332963860754541,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__1__normal,scored
+lora,astra,60,2,none,,0.7927179853917142,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__2__normal,scored
+lora,astra,60,3,none,,0.8475742092503415,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__3__normal,scored
+lora,astra,60,4,none,,0.8493623659122616,unavailable,original_small100_50fit_10val_40query,openai__gpt-6-astra__QM9__epsilon_lumo__4__normal,scored
+lora,astra,100,0,,,,,,,unavailable
+lora,astra,100,1,,,,,,,unavailable
+lora,astra,100,2,,,,,,,unavailable
+lora,astra,100,3,,,,,,,unavailable
+lora,astra,100,4,,,,,,,unavailable
+lora,astra,1000,0,none,,0.9419833689684092,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed0.json,scored
+lora,astra,1000,1,none,,0.9423544799672291,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed1.json,scored
+lora,astra,1000,2,none,,0.9377402310585736,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed2.json,scored
+lora,astra,1000,3,none,,0.9476330744900554,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed3.json,scored
+lora,astra,1000,4,none,,0.8977056247586057,unavailable,uniform_random1250_72_8_20,fewshot/runs/openai__gpt-6-astra/uniform/QM9/epsilon_lumo/seed4.json,scored
+lora,astra,10000,0,,,,,,,unavailable
+lora,astra,10000,1,,,,,,,unavailable
+lora,astra,10000,2,,,,,,,unavailable
+lora,astra,10000,3,,,,,,,unavailable
+lora,astra,10000,4,,,,,,,unavailable
+fullft,chemfm-1b,60,0,"native MLP (256,256)",-0.08060778792128387,0.018391464940352487,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__chemfm-1b__0,scored
+fullft,chemfm-1b,60,1,"native MLP (256,256)",0.2039362971025368,0.020968375457789623,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__chemfm-1b__1,scored
+fullft,chemfm-1b,60,2,"native MLP (256,256)",0.21098264246537413,0.1555456562780052,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__chemfm-1b__2,scored
+fullft,chemfm-1b,60,3,"native MLP (256,256)",0.2571205667648765,0.06485114494866173,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__chemfm-1b__3,scored
+fullft,chemfm-1b,60,4,"native MLP (256,256)",-0.13330304266109572,0.15429696777820467,actual_saved_model,original_small100_50fit_10val_40query,ft__QM9__epsilon_lumo__chemfm-1b__4,scored
+fullft,chemfm-1b,100,0,,,,,,,unavailable
+fullft,chemfm-1b,100,1,,,,,,,unavailable
+fullft,chemfm-1b,100,2,,,,,,,unavailable
+fullft,chemfm-1b,100,3,,,,,,,unavailable
+fullft,chemfm-1b,100,4,,,,,,,unavailable
+fullft,chemfm-1b,1000,0,,,,,,,unavailable
+fullft,chemfm-1b,1000,1,,,,,,,unavailable
+fullft,chemfm-1b,1000,2,,,,,,,unavailable
+fullft,chemfm-1b,1000,3,,,,,,,unavailable
+fullft,chemfm-1b,1000,4,,,,,,,unavailable
+fullft,chemfm-1b,10000,0,,,,,,,unavailable
+fullft,chemfm-1b,10000,1,,,,,,,unavailable
+fullft,chemfm-1b,10000,2,,,,,,,unavailable
+fullft,chemfm-1b,10000,3,,,,,,,unavailable
+fullft,chemfm-1b,10000,4,,,,,,,unavailable

@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 The chembertoid authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Third-party code included in this repository keeps its own licence:
+
+  nn/grover/          GROVER (https://github.com/tencent-ailab/grover),
+                      MIT, Copyright (c) 2021 Tencent AI Lab; see nn/grover/LICENSE
+  nn/molformer/       original.py, tokenizer.py, args.py, pubchem_encoder.py and the
+                      vocabulary file from MoLFormer (https://github.com/IBM/molformer),
+                      Apache License 2.0; see nn/molformer/LICENSE
+  nn/gin_pretrained/  model.py and loader.py from pretrain-gnns
+                      (https://github.com/snap-stanford/pretrain-gnns),
+                      MIT, Copyright (c) 2020 snap-stanford; see nn/gin_pretrained/LICENSE
+  nn/chemeleon.py     embeds chemeleon_fingerprint.py from CheMeleon
+                      (https://github.com/JacksonBurns/CheMeleon),
+                      MIT, Copyright (c) 2025 Jackson Burns
+
+Dependencies installed separately (not included here) are under their own licences.
+In particular, CLAMP (https://github.com/ml-jku/clamp, installed from a build-fix
+mirror at https://github.com/OstarkovSN/clamp) is GPL-3.0; it is needed only for the
+CLAMP embedder (nn/lit_clamp.py).

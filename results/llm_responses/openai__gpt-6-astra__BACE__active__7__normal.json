@@ -1,0 +1,66 @@
+{
+  "id": "gen-1792955377-N55fG10RA7NQbA2F16MM",
+  "object": "chat.completion",
+  "created": 1792955377,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":0.61},{\"id\":\"Q0001\",\"value\":0.78},{\"id\":\"Q0002\",\"value\":0.14},{\"id\":\"Q0003\",\"value\":0.88},{\"id\":\"Q0004\",\"value\":0.56},{\"id\":\"Q0005\",\"value\":0.06},{\"id\":\"Q0006\",\"value\":0.04},{\"id\":\"Q0007\",\"value\":0.38},{\"id\":\"Q0008\",\"value\":0.69},{\"id\":\"Q0009\",\"value\":0.84},{\"id\":\"Q0010\",\"value\":0.08},{\"id\":\"Q0011\",\"value\":0.78},{\"id\":\"Q0012\",\"value\":0.86},{\"id\":\"Q0013\",\"value\":0.78},{\"id\":\"Q0014\",\"value\":0.9},{\"id\":\"Q0015\",\"value\":0.3},{\"id\":\"Q0016\",\"value\":0.9},{\"id\":\"Q0017\",\"value\":0.26},{\"id\":\"Q0018\",\"value\":0.14},{\"id\":\"Q0019\",\"value\":0.1},{\"id\":\"Q0020\",\"value\":0.94},{\"id\":\"Q0021\",\"value\":0.7},{\"id\":\"Q0022\",\"value\":0.36},{\"id\":\"Q0023\",\"value\":0.85},{\"id\":\"Q0024\",\"value\":0.65},{\"id\":\"Q0025\",\"value\":0.43},{\"id\":\"Q0026\",\"value\":0.8},{\"id\":\"Q0027\",\"value\":0.96},{\"id\":\"Q0028\",\"value\":0.85},{\"id\":\"Q0029\",\"value\":0.24},{\"id\":\"Q0030\",\"value\":0.1},{\"id\":\"Q0031\",\"value\":0.18},{\"id\":\"Q0032\",\"value\":0.04},{\"id\":\"Q0033\",\"value\":0.88},{\"id\":\"Q0034\",\"value\":0.22},{\"id\":\"Q0035\",\"value\":0.22},{\"id\":\"Q0036\",\"value\":0.04},{\"id\":\"Q0037\",\"value\":0.15},{\"id\":\"Q0038\",\"value\":0.14},{\"id\":\"Q0039\",\"value\":0.94}]}",
+        "refusal": null,
+        "reasoning": "**Inferring probabilities**\n\nI need to infer a series and ensure I have the time to do this properly. It’s essential to calibrate the probabilities based on known matches. I’ll go through each item. For the 0 amino aryl hydroxy ethyl series, I'm considering the negatives of tert-butyl hydrophobics in contrast to hetero polar positives in pyrazole. It seems dimethylamino is likely positive at about .65. I just want to ensure everything's accurate!**Analyzing chemical series**\n\nI’m going through a series of compounds and their properties. For instance, the hydantoin diaryl shows that OCF3 vs. OCHF2 usually results in positive outcomes, rated at .8. Then, I've noticed that amidine variants with methoxy diaryl have known negatives tied to oxazine and diaza, scoring .14. There are other compounds too, like fused sulfonamides with hydroxyethyl that have positives at .88. I’m really just trying to sort out all these variations and their applications!**Evaluating chemical properties**\n\nI'm examining a variety of compounds and their characteristics. For instance, I've found that 20 of the fused compounds have a high positive rating of .94. Then, there's the hydantoin OEt OMe diaryl, which scores around .7. A non-related diaryl aminopyridine could possibly be an inhibitor for BACE, often linked with effective hits around .36. I'm also considering the structure of cyclic hydantoin amino scaffolds and looking into a peptidic hydroxy transition, which shows a score of .49. So much to piece together!",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Inferring probabilities**\n\nI need to infer a series and ensure I have the time to do this properly. It’s essential to calibrate the probabilities based on known matches. I’ll go through each item. For the 0 amino aryl hydroxy ethyl series, I'm considering the negatives of tert-butyl hydrophobics in contrast to hetero polar positives in pyrazole. It seems dimethylamino is likely positive at about .65. I just want to ensure everything's accurate!**Analyzing chemical series**\n\nI’m going through a series of compounds and their properties. For instance, the hydantoin diaryl shows that OCF3 vs. OCHF2 usually results in positive outcomes, rated at .8. Then, I've noticed that amidine variants with methoxy diaryl have known negatives tied to oxazine and diaza, scoring .14. There are other compounds too, like fused sulfonamides with hydroxyethyl that have positives at .88. I’m really just trying to sort out all these variations and their applications!**Evaluating chemical properties**\n\nI'm examining a variety of compounds and their characteristics. For instance, I've found that 20 of the fused compounds have a high positive rating of .94. Then, there's the hydantoin OEt OMe diaryl, which scores around .7. A non-related diaryl aminopyridine could possibly be an inhibitor for BACE, often linked with effective hits around .36. I'm also considering the structure of cyclic hydantoin amino scaffolds and looking into a peptidic hydroxy transition, which shows a score of .49. So much to piece together!",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e93a1a180272df2016ade53f29a9c87d1bdd5bca3ff956a22",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e93a1a180272df2016ade540040f487d1978424947e89ca2d",
+            "index": 2
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4708,
+    "completion_tokens": 1325,
+    "total_tokens": 6033,
+    "cost": 0.1250925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 4705,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1250925,
+      "upstream_inference_prompt_cost": 0.0588425,
+      "upstream_inference_completions_cost": 0.06625
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 829,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+head_type: tabpfn
+objective_type: classification
+path: models/weights/tabpfn/{model_name}-{dataset_name}-classification.pt
+device: cuda
+seed: 42

@@ -1,0 +1,14 @@
+head_type: mlp
+objective_type: regression
+path: models/weights/mlp/{model_name}-{dataset_name}.ckpt
+hidden_dim: 256
+n_hidden_layers: 2
+activation: gelu
+dropout: 0.1
+lr: 1.0e-3
+weight_decay: 1.0e-4
+batch_size: 64
+max_epochs: 200
+val_fraction: 0.1
+early_stopping_patience: 10
+seed: 42

@@ -1,0 +1,19 @@
+type: molformer
+name: molformer
+version: 1.0.0
+legacy_checkpoint: true
+path: models/weights/molformer/N-Step-Checkpoint_3_30000.ckpt
+hyperparams:
+  bert_vocab_path: models/weights/molformer/vocab.json
+  vocab_encoder_weights_path: models/weights/molformer/encoder/pubchem_canon_zinc_final_vocab_sorted.pth
+  config:
+    n_embd: 768
+    n_head: 12
+    n_layer: 12
+    num_feats: 32
+    d_dropout: 0.2
+    q_dropout: 0.5
+    max_len: 202
+    debug: false
+    rotate: true
+batch_size: 64

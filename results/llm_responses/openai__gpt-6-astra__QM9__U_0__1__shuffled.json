@@ -1,0 +1,90 @@
+{
+  "id": "gen-1792945631-kiGAVEmNF6aPzsR24xOD",
+  "object": "chat.completion",
+  "created": 1792945631,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11568.42},{\"id\":\"Q0001\",\"value\":-11422.73},{\"id\":\"Q0002\",\"value\":-11440.18},{\"id\":\"Q0003\",\"value\":-11196.35},{\"id\":\"Q0004\",\"value\":-11142.61},{\"id\":\"Q0005\",\"value\":-11431.27},{\"id\":\"Q0006\",\"value\":-11293.84},{\"id\":\"Q0007\",\"value\":-11502.46},{\"id\":\"Q0008\",\"value\":-11379.52},{\"id\":\"Q0009\",\"value\":-11282.19},{\"id\":\"Q0010\",\"value\":-11245.63},{\"id\":\"Q0011\",\"value\":-11448.36},{\"id\":\"Q0012\",\"value\":-11463.91},{\"id\":\"Q0013\",\"value\":-11497.24},{\"id\":\"Q0014\",\"value\":-11278.65},{\"id\":\"Q0015\",\"value\":-11439.82},{\"id\":\"Q0016\",\"value\":-11504.37},{\"id\":\"Q0017\",\"value\":-11269.48},{\"id\":\"Q0018\",\"value\":-11368.71},{\"id\":\"Q0019\",\"value\":-11296.54},{\"id\":\"Q0020\",\"value\":-11285.16},{\"id\":\"Q0021\",\"value\":-11361.89},{\"id\":\"Q0022\",\"value\":-11334.72},{\"id\":\"Q0023\",\"value\":-11273.45},{\"id\":\"Q0024\",\"value\":-11367.28},{\"id\":\"Q0025\",\"value\":-11378.64},{\"id\":\"Q0026\",\"value\":-11427.93},{\"id\":\"Q0027\",\"value\":-11294.17},{\"id\":\"Q0028\",\"value\":-11218.59},{\"id\":\"Q0029\",\"value\":-11054.86},{\"id\":\"Q0030\",\"value\":-11241.32},{\"id\":\"Q0031\",\"value\":-11450.68},{\"id\":\"Q0032\",\"value\":-11297.41},{\"id\":\"Q0033\",\"value\":-11239.75},{\"id\":\"Q0034\",\"value\":-11396.23},{\"id\":\"Q0035\",\"value\":-11487.56},{\"id\":\"Q0036\",\"value\":-11231.84},{\"id\":\"Q0037\",\"value\":-11097.62},{\"id\":\"Q0038\",\"value\":-11539.47},{\"id\":\"Q0039\",\"value\":-11460.31}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_08715dc70352ab90016ade2de06a6c87d186d26b6d32832e8f",
+            "index": 0
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Considering patterns and accuracy**\n\nI think we should focus on achieving an average around 11,400 while also looking for slight similarity patterns. It’s essential to maximize the accuracy of the plausible learned mappings. Also, I want to ensure we can avoid using code for this. I’ll compute the baseline correlations using a suitable formula to make sure everything aligns correctly and effectively. It’s all about getting those details just right!",
+            "format": "openai-responses-v1",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_08715dc70352ab90016ade2deadab887d1a34677feb8165b9e",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_08715dc70352ab90016ade2df6540887d19e014f80c23887a0",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_08715dc70352ab90016ade2e00fe5c87d18d1fd4972123fd48",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_08715dc70352ab90016ade2e0be4c087d1b589413ae3f5613d",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_08715dc70352ab90016ade2e167a9887d1b5f94b36d5951698",
+            "index": 6
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2416,
+    "completion_tokens": 3342,
+    "total_tokens": 5758,
+    "cost": 0.1972925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2413,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1972925,
+      "upstream_inference_prompt_cost": 0.0301925,
+      "upstream_inference_completions_cost": 0.1671
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2766,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

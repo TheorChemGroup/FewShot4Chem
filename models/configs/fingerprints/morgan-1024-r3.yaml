@@ -1,0 +1,7 @@
+type: fingerprints
+name: morgan-1024-r3
+version: 1.0.0
+hyperparams:
+  radius: 3
+  fpSize: 1024
+batch_size: 1024

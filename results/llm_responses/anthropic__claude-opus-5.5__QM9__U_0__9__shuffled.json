@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792969840-SXpvuSIZC17WN7ScpvaQ",
+  "object": "chat.completion",
+  "created": 1792969840,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-10865},{\"id\":\"Q0001\",\"value\":-11184},{\"id\":\"Q0002\",\"value\":-11618},{\"id\":\"Q0003\",\"value\":-11672},{\"id\":\"Q0004\",\"value\":-11680},{\"id\":\"Q0005\",\"value\":-11353},{\"id\":\"Q0006\",\"value\":-11649},{\"id\":\"Q0007\",\"value\":-11626},{\"id\":\"Q0008\",\"value\":-11493},{\"id\":\"Q0009\",\"value\":-10882},{\"id\":\"Q0010\",\"value\":-10899},{\"id\":\"Q0011\",\"value\":-11455},{\"id\":\"Q0012\",\"value\":-11455},{\"id\":\"Q0013\",\"value\":-11338},{\"id\":\"Q0014\",\"value\":-11189},{\"id\":\"Q0015\",\"value\":-11656},{\"id\":\"Q0016\",\"value\":-11148},{\"id\":\"Q0017\",\"value\":-11193},{\"id\":\"Q0018\",\"value\":-11073},{\"id\":\"Q0019\",\"value\":-11493},{\"id\":\"Q0020\",\"value\":-10894},{\"id\":\"Q0021\",\"value\":-11501},{\"id\":\"Q0022\",\"value\":-11664},{\"id\":\"Q0023\",\"value\":-11306},{\"id\":\"Q0024\",\"value\":-11407},{\"id\":\"Q0025\",\"value\":-11073},{\"id\":\"Q0026\",\"value\":-11649},{\"id\":\"Q0027\",\"value\":-10786},{\"id\":\"Q0028\",\"value\":-11353},{\"id\":\"Q0029\",\"value\":-11205},{\"id\":\"Q0030\",\"value\":-11664},{\"id\":\"Q0031\",\"value\":-11369},{\"id\":\"Q0032\",\"value\":-11664},{\"id\":\"Q0033\",\"value\":-11057},{\"id\":\"Q0034\",\"value\":-10824},{\"id\":\"Q0035\",\"value\":-11431},{\"id\":\"Q0036\",\"value\":-11649},{\"id\":\"Q0037\",\"value\":-11463},{\"id\":\"Q0038\",\"value\":-11065},{\"id\":\"Q0039\",\"value\":-11057}]}",
+        "refusal": null,
+        "reasoning": "I need to estimate U0 from the atomic composition, using known reference atomic energies in Ha/eV for H, C, N, O under B3LYP, then factor in atomization energy contributions per bond.\n\nTesting this against a few training examples though, the numbers don't line up well—my predicted sums come out far more negative than the actual reported U0 values, so something's off with either my reference atomic energies or the underlying assumption that the values scale simply by atom count.\n\nNone of these estimates match the given values, so I'm starting to suspect the numbers aren't correlated with molecular composition at all—like the dataset values might be scrambled or assigned without a direct chemical relationship to the SMILES strings.\n\nChecking a few more examples, the computed atomization-based estimates still don't line up consistently with the given values—sometimes close, sometimes far off. The correlation seems weak and inconsistent, so I'm leaning toward blending my composition-based estimate with the overall mean rather than trusting the formula outright.\n\nI'm blending the given value with a rough atomization-based estimate, weighting roughly 70/30, and running through a few sample molecules (Q0000-Q0002) to check predicted energies against the composition formula.\n\nStill computing energy values across the remaining molecular formulas, working through each compound's atom counts and summing contributions to get final scores.\n\nContinuing through formulas: Q0022 C6H10O3 → -11664, Q0023 C4H6N2O2 → -11306, then working through the triazole structure for Q0024 to determine its nitrogen count and arrive at C4H3N5 → -11407, followed by Q0025 and Q0026 matching earlier values.\n\nI keep computing: Q0027 C9H18 → -10786, Q0028 C7H8O2 → -11353, Q0029 C9H11N → -11205, Q0030 through Q0032 repeating the -11664/-11369 pattern, Q0033 C8H10O → -11057, Q0034 a nitrogen-rich triazine → -10824, and starting Q0035's calculation.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I need to estimate U0 from the atomic composition, using known reference atomic energies in Ha/eV for H, C, N, O under B3LYP, then factor in atomization energy contributions per bond.\n\nTesting this against a few training examples though, the numbers don't line up well—my predicted sums come out far more negative than the actual reported U0 values, so something's off with either my reference atomic energies or the underlying assumption that the values scale simply by atom count.\n\nNone of these estimates match the given values, so I'm starting to suspect the numbers aren't correlated with molecular composition at all—like the dataset values might be scrambled or assigned without a direct chemical relationship to the SMILES strings.\n\nChecking a few more examples, the computed atomization-based estimates still don't line up consistently with the given values—sometimes close, sometimes far off. The correlation seems weak and inconsistent, so I'm leaning toward blending my composition-based estimate with the overall mean rather than trusting the formula outright.\n\nI'm blending the given value with a rough atomization-based estimate, weighting roughly 70/30, and running through a few sample molecules (Q0000-Q0002) to check predicted energies against the composition formula.\n\nStill computing energy values across the remaining molecular formulas, working through each compound's atom counts and summing contributions to get final scores.\n\nContinuing through formulas: Q0022 C6H10O3 → -11664, Q0023 C4H6N2O2 → -11306, then working through the triazole structure for Q0024 to determine its nitrogen count and arrive at C4H3N5 → -11407, followed by Q0025 and Q0026 matching earlier values.\n\nI keep computing: Q0027 C9H18 → -10786, Q0028 C7H8O2 → -11353, Q0029 C9H11N → -11205, Q0030 through Q0032 repeating the -11664/-11369 pattern, Q0033 C8H10O → -11057, Q0034 a nitrogen-rich triazine → -10824, and starting Q0035's calculation.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 4198,
+    "total_tokens": 7512,
+    "cost": 0.097216,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.097216,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.08396
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3547,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

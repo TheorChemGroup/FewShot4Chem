@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792945706-T63LmrDXbL11j8BwFNg6",
+  "object": "chat.completion",
+  "created": 1792945706,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11982.5},{\"id\":\"Q0001\",\"value\":-11306.3},{\"id\":\"Q0002\",\"value\":-10940.3},{\"id\":\"Q0003\",\"value\":-12457.4},{\"id\":\"Q0004\",\"value\":-11998.8},{\"id\":\"Q0005\",\"value\":-11317.2},{\"id\":\"Q0006\",\"value\":-9330.8},{\"id\":\"Q0007\",\"value\":-9379.8},{\"id\":\"Q0008\",\"value\":-11982.5},{\"id\":\"Q0009\",\"value\":-9559.4},{\"id\":\"Q0010\",\"value\":-10869.5},{\"id\":\"Q0011\",\"value\":-11982.5},{\"id\":\"Q0012\",\"value\":-12457.4},{\"id\":\"Q0013\",\"value\":-11721.3},{\"id\":\"Q0014\",\"value\":-12354.0},{\"id\":\"Q0015\",\"value\":-12457.4},{\"id\":\"Q0016\",\"value\":-10334.9},{\"id\":\"Q0017\",\"value\":-10503.6},{\"id\":\"Q0018\",\"value\":-10536.3},{\"id\":\"Q0019\",\"value\":-11480.5},{\"id\":\"Q0020\",\"value\":-10973.0},{\"id\":\"Q0021\",\"value\":-11545.8},{\"id\":\"Q0022\",\"value\":-9466.8},{\"id\":\"Q0023\",\"value\":-11578.5},{\"id\":\"Q0024\",\"value\":-11377.1},{\"id\":\"Q0025\",\"value\":-9707.7},{\"id\":\"Q0026\",\"value\":-13499.6},{\"id\":\"Q0027\",\"value\":-12687.3},{\"id\":\"Q0028\",\"value\":-11545.8},{\"id\":\"Q0029\",\"value\":-9979.8},{\"id\":\"Q0030\",\"value\":-11611.1},{\"id\":\"Q0031\",\"value\":-11447.8},{\"id\":\"Q0032\",\"value\":-12758.0},{\"id\":\"Q0033\",\"value\":-10913.1},{\"id\":\"Q0034\",\"value\":-10891.4},{\"id\":\"Q0035\",\"value\":-10804.2},{\"id\":\"Q0036\",\"value\":-11545.8},{\"id\":\"Q0037\",\"value\":-10956.7},{\"id\":\"Q0038\",\"value\":-11377.1},{\"id\":\"Q0039\",\"value\":-11545.8}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 by assigning approximate per-atom energy contributions (roughly -0.6 for H, -38.0 for C, -54.7 for N, -75.2 for O in Hartree) and checking them against example molecules like the C8H16O compound to see if the fit holds.\n\nRunning these checks, the predicted values keep diverging sharply from the given training numbers across several molecules, which makes me suspect the atomic contribution model doesn't actually hold or that the dataset labels aren't aligned with molecular formulas the way I expect. This pushes me toward considering that the safest fallback might just be predicting something close to the overall mean value rather than trusting a formula-based estimate.\n\nI try to sanity-check against real QM9 atomization energy estimates, like cyclohexane's known value scaled per CH2 unit, and get numbers nowhere close to the training labels given. That confirms the training values aren't physically accurate energies, so the labels must be synthetic or scrambled rather than real quantum chemistry outputs.\n\nCalibrating atomic increments against known reference energies like water, ammonia, HCN, and benzene, I derive rough per-atom contributions: carbon ~38.1 Ha, nitrogen ~54.75, oxygen ~75.2, hydrogen ~0.6. This gives me a simple additive formula to estimate total energy in Hartrees, which I can then convert to the target units.\n\nNow I'm running this formula against each candidate molecule, tallying atom counts and plugging them into the additive formula to get energy estimates in kJ/mol-equivalent units.\n\nI'm finishing the H-count for Q4's mass, then working through Q5 through Q8, computing molecular formulas and masses for each structure in turn.\n\nContinuing through Q9 to Q13, I'm calculating formulas and corresponding mass values for each successive molecule.\n\nQ14-Q18: C5H6N2O2 gives 454.0 →12354.0; Q15's C6H6O3 matches Q12's value at 12457.4; Q16's C7H6N2 comes to 379.8 →10334.9; Q17's C8H10O totals 386 →10503.6; Q18's C8H12O sums to 387.2, continuing the mass tally.\n\nContinuing to tally molecular masses for Q19-Q22: C7H8O2 gives 421.9 →11480.5, C7H11NO gives 403.25 →10973.0, C7H12O2 gives 424.3 →11545.8, and C7H10O gives 347.9 →9466.8, then starting Q23's calculation.\n\nNow computing Q23 through Q27: C7H14O2 totals 425.5 →11578.5, C6H8N2O totals 418.1 →11377.1, C3H5N3O totals 356.75 →9707.7, C5H8O4 totals 496.1 →13499.6, and I'm starting on Q27 with a tetrazole-containing structure, working out the nitrogen contributions from the n1nnnn1 ring.\n\nContinuing through Q31-34, I'm computing molecular formulas and masses for each SMILES structure, converting counts of C, H, N, O atoms into weighted totals and scaling them into the final answer values.\n\nStill computing formula masses...\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 by assigning approximate per-atom energy contributions (roughly -0.6 for H, -38.0 for C, -54.7 for N, -75.2 for O in Hartree) and checking them against example molecules like the C8H16O compound to see if the fit holds.\n\nRunning these checks, the predicted values keep diverging sharply from the given training numbers across several molecules, which makes me suspect the atomic contribution model doesn't actually hold or that the dataset labels aren't aligned with molecular formulas the way I expect. This pushes me toward considering that the safest fallback might just be predicting something close to the overall mean value rather than trusting a formula-based estimate.\n\nI try to sanity-check against real QM9 atomization energy estimates, like cyclohexane's known value scaled per CH2 unit, and get numbers nowhere close to the training labels given. That confirms the training values aren't physically accurate energies, so the labels must be synthetic or scrambled rather than real quantum chemistry outputs.\n\nCalibrating atomic increments against known reference energies like water, ammonia, HCN, and benzene, I derive rough per-atom contributions: carbon ~38.1 Ha, nitrogen ~54.75, oxygen ~75.2, hydrogen ~0.6. This gives me a simple additive formula to estimate total energy in Hartrees, which I can then convert to the target units.\n\nNow I'm running this formula against each candidate molecule, tallying atom counts and plugging them into the additive formula to get energy estimates in kJ/mol-equivalent units.\n\nI'm finishing the H-count for Q4's mass, then working through Q5 through Q8, computing molecular formulas and masses for each structure in turn.\n\nContinuing through Q9 to Q13, I'm calculating formulas and corresponding mass values for each successive molecule.\n\nQ14-Q18: C5H6N2O2 gives 454.0 →12354.0; Q15's C6H6O3 matches Q12's value at 12457.4; Q16's C7H6N2 comes to 379.8 →10334.9; Q17's C8H10O totals 386 →10503.6; Q18's C8H12O sums to 387.2, continuing the mass tally.\n\nContinuing to tally molecular masses for Q19-Q22: C7H8O2 gives 421.9 →11480.5, C7H11NO gives 403.25 →10973.0, C7H12O2 gives 424.3 →11545.8, and C7H10O gives 347.9 →9466.8, then starting Q23's calculation.\n\nNow computing Q23 through Q27: C7H14O2 totals 425.5 →11578.5, C6H8N2O totals 418.1 →11377.1, C3H5N3O totals 356.75 →9707.7, C5H8O4 totals 496.1 →13499.6, and I'm starting on Q27 with a tetrazole-containing structure, working out the nitrogen contributions from the n1nnnn1 ring.\n\nContinuing through Q31-34, I'm computing molecular formulas and masses for each SMILES structure, converting counts of C, H, N, O atoms into weighted totals and scaling them into the final answer values.\n\nStill computing formula masses...\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 5012,
+    "total_tokens": 8326,
+    "cost": 0.113496,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.113496,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.10024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4281,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+CCCC
+CC(=O)C
+CCS
+CCC#N
+CC(=O)OC
+C1=CC=CC=C1

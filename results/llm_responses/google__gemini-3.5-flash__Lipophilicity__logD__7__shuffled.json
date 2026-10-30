@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792955651-RhebL4I7KOvYPLfOMkiZ",
+  "object": "chat.completion",
+  "created": 1792955651,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\"id\": \"Q0000\", \"value\": 1.20},\n    {\"id\": \"Q0001\", \"value\": 1.80},\n    {\"id\": \"Q0002\", \"value\": 1.50},\n    {\"id\": \"Q0003\", \"value\": 3.10},\n    {\"id\": \"Q0004\", \"value\": 0.50},\n    {\"id\": \"Q0005\", \"value\": 0.80},\n    {\"id\": \"Q0006\", \"value\": -0.50},\n    {\"id\": \"Q0007\", \"value\": 1.80},\n    {\"id\": \"Q0008\", \"value\": 2.20},\n    {\"id\": \"Q0009\", \"value\": -0.80},\n    {\"id\": \"Q0010\", \"value\": 1.50},\n    {\"id\": \"Q0011\", \"value\": 2.10},\n    {\"id\": \"Q0012\", \"value\": 1.30},\n    {\"id\": \"Q0013\", \"value\": 1.25},\n    {\"id\": \"Q0014\", \"value\": 1.90},\n    {\"id\": \"Q0015\", \"value\": 3.20},\n    {\"id\": \"Q0016\", \"value\": 1.00},\n    {\"id\": \"Q0017\", \"value\": 1.10},\n    {\"id\": \"Q0018\", \"value\": 2.00},\n    {\"id\": \"Q0019\", \"value\": -0.40},\n    {\"id\": \"Q0020\", \"value\": 2.80},\n    {\"id\": \"Q0021\", \"value\": 1.10},\n    {\"id\": \"Q0022\", \"value\": 3.40},\n    {\"id\": \"Q0023\", \"value\": 1.50},\n    {\"id\": \"Q0024\", \"value\": 1.00},\n    {\"id\": \"Q0025\", \"value\": 1.80},\n    {\"id\": \"Q0026\", \"value\": 1.50},\n    {\"id\": \"Q0027\", \"value\": 1.70},\n    {\"id\": \"Q0028\", \"value\": 2.50},\n    {\"id\": \"Q0029\", \"value\": 1.20},\n    {\"id\": \"Q0030\", \"value\": 2.75},\n    {\"id\": \"Q0031\", \"value\": 1.10},\n    {\"id\": \"Q0032\", \"value\": 2.20},\n    {\"id\": \"Q0033\", \"value\": 1.90},\n    {\"id\": \"Q0034\", \"value\": 1.30},\n    {\"id\": \"Q0035\", \"value\": 0.80},\n    {\"id\": \"Q0036\", \"value\": -0.20},\n    {\"id\": \"Q0037\", \"value\": 2.90},\n    {\"id\": \"Q0038\", \"value\": 1.10},\n    {\"id\": \"Q0039\", \"value\": 3.30}\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Molecular Distributions**\n\nI'm currently comparing the structural features and property values of the 40 query molecules against the 60 training set examples. My aim is to estimate the `logD` for each query molecule by identifying similarities and extrapolating trends.\n\n**Refining LogD Estimates**\n\nI'm now focusing on refining my logD estimates by analyzing the functional groups of Q0000, noting its hydrophobic backbone and basic amine, leading to an estimated logD of 1.20. I'm proceeding to evaluate Q0001’s acidic and potential hydrate functionalities.\n\n**Estimating LogD Values**\n\nI'm now processing Q0001 through Q0006. For Q0001, the acidic sulfonamide group suggests ionization at pH 7.4, resulting in a hydrophobic but charged state and an estimated logD of 1.80. Q0002, featuring a tertiary amine, is predicted to be charged, with an estimated logD of 1.50. Q0003, a neutral diphenolic compound, shows high hydrophobicity with an estimated logD of 3.10. Q0004's primary amine leads to an estimated logD of 0.50. Q0005, identified as Venlafaxine, has a predicted logD of 0.65 due to its tertiary amine. I'm continuing with Q0006.\n\n**Processing Remaining Molecules**\n\nI've now estimated logD values for molecules Q0007 through Q0010. Q0007, with its fluorophenyl and trifluoromethyl ketone, is estimated at 1.80. Q0008, resembling kinase inhibitors, has a basic tertiary amine and a predicted logD of 2.20. Q0009, featuring an N-oxide and primary amine, is highly polar with an estimated logD of -0.80. Finally, Q0010, a chlorobenzyl aminomethylpyridine, is estimated at 1.20.\n\n**Estimating LogD for More Compounds**\n\nI've now completed logD estimations for molecules Q0011 through Q0015. Q0011, a neutral, moderately hydrophobic dichlorobenzyl pyridone carboxamide, is estimated at 2.10. For Q0012, an indole derivative with an ionized carboxylic acid, I've estimated a logD of 1.30. Q0013, identified as Modafinil, is neutral with an estimated logD of 1.20. Q0014, a purine-like structure, is estimated at 1.90. Finally, Q0015, a chlorinated quinoline-diol, is estimated at 3.20.\n\n**Estimating LogD for Additional Compounds**\n\nI've now completed logD estimations for molecules Q0016 through Q0019. Q0016, a beta-agonist analog with a secondary amine, shows a hydrophobic tail, leading to an estimated logD of 1.00. Q0017, a small neutral aniline sulfonamide, is estimated at 0.90. Q0018, a quinazoline derivative with a basic pyrrolidine, is estimated at 2.00. Q0019, a sulfonamide with a trifluoroethyl group, shows increased acidity and a reduced logD of -0.40 compared to a phenyl analog. I am now analyzing Q0020.\n\n**Estimating LogD for Remaining Compounds**\n\nI've now completed logD estimations for molecules Q0020 through Q0026. Q0020, a biphenyl-CF3 with acidic hydroxyls, is estimated at 2.80. Q0021, Naphthazarin, with acidic phenols, shows a logD of 1.10. Q0022, a neutral and hydrophobic amide, is estimated at 3.40. Q0023, a phenacyl sulfone, is estimated at 1.50. Q0024, a zwitterionic sulfonylurea, is estimated at 1.00. Q0025, a Tedizolid analog, is estimated at 1.80. Q0026, a dichlorobiphenyl with a carboxylic acid, is estimated at 1.50.\n\n**Continuing LogD Calculations**\n\nI've now estimated the logD for molecules Q0027 through Q0033. Q0027, with its morpholine and aminopyrimidine, is projected at 1.70. Q0028, featuring a primary amine, is estimated at 2.50. Q0029, a polar molecule with carbonyls, is at 1.20. Q0030, a hydrophobic imidazopyridine, is at 2.70. Q0031, a large compound with a basic amine, is estimated at 1.10. Q0032, a neutral triazolopyrimidine, is at 2.20. Finally, Q0033, a kinase inhibitor analog with a basic amine, is estimated at 1.30.\n\n**Finalizing LogD Calculations**\n\nI've now determined the logD values for the final set of molecules, Q0034 through Q0039. These include further analogs and a particularly hydrophobic adamantyl amide. I'm also reviewing and potentially adjusting Q0005 and Q0017 based on additional comparative data.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Molecular Distributions**\n\nI'm currently comparing the structural features and property values of the 40 query molecules against the 60 training set examples. My aim is to estimate the `logD` for each query molecule by identifying similarities and extrapolating trends.\n\n**Refining LogD Estimates**\n\nI'm now focusing on refining my logD estimates by analyzing the functional groups of Q0000, noting its hydrophobic backbone and basic amine, leading to an estimated logD of 1.20. I'm proceeding to evaluate Q0001’s acidic and potential hydrate functionalities.\n\n**Estimating LogD Values**\n\nI'm now processing Q0001 through Q0006. For Q0001, the acidic sulfonamide group suggests ionization at pH 7.4, resulting in a hydrophobic but charged state and an estimated logD of 1.80. Q0002, featuring a tertiary amine, is predicted to be charged, with an estimated logD of 1.50. Q0003, a neutral diphenolic compound, shows high hydrophobicity with an estimated logD of 3.10. Q0004's primary amine leads to an estimated logD of 0.50. Q0005, identified as Venlafaxine, has a predicted logD of 0.65 due to its tertiary amine. I'm continuing with Q0006.\n\n**Processing Remaining Molecules**\n\nI've now estimated logD values for molecules Q0007 through Q0010. Q0007, with its fluorophenyl and trifluoromethyl ketone, is estimated at 1.80. Q0008, resembling kinase inhibitors, has a basic tertiary amine and a predicted logD of 2.20. Q0009, featuring an N-oxide and primary amine, is highly polar with an estimated logD of -0.80. Finally, Q0010, a chlorobenzyl aminomethylpyridine, is estimated at 1.20.\n\n**Estimating LogD for More Compounds**\n\nI've now completed logD estimations for molecules Q0011 through Q0015. Q0011, a neutral, moderately hydrophobic dichlorobenzyl pyridone carboxamide, is estimated at 2.10. For Q0012, an indole derivative with an ionized carboxylic acid, I've estimated a logD of 1.30. Q0013, identified as Modafinil, is neutral with an estimated logD of 1.20. Q0014, a purine-like structure, is estimated at 1.90. Finally, Q0015, a chlorinated quinoline-diol, is estimated at 3.20.\n\n**Estimating LogD for Additional Compounds**\n\nI've now completed logD estimations for molecules Q0016 through Q0019. Q0016, a beta-agonist analog with a secondary amine, shows a hydrophobic tail, leading to an estimated logD of 1.00. Q0017, a small neutral aniline sulfonamide, is estimated at 0.90. Q0018, a quinazoline derivative with a basic pyrrolidine, is estimated at 2.00. Q0019, a sulfonamide with a trifluoroethyl group, shows increased acidity and a reduced logD of -0.40 compared to a phenyl analog. I am now analyzing Q0020.\n\n**Estimating LogD for Remaining Compounds**\n\nI've now completed logD estimations for molecules Q0020 through Q0026. Q0020, a biphenyl-CF3 with acidic hydroxyls, is estimated at 2.80. Q0021, Naphthazarin, with acidic phenols, shows a logD of 1.10. Q0022, a neutral and hydrophobic amide, is estimated at 3.40. Q0023, a phenacyl sulfone, is estimated at 1.50. Q0024, a zwitterionic sulfonylurea, is estimated at 1.00. Q0025, a Tedizolid analog, is estimated at 1.80. Q0026, a dichlorobiphenyl with a carboxylic acid, is estimated at 1.50.\n\n**Continuing LogD Calculations**\n\nI've now estimated the logD for molecules Q0027 through Q0033. Q0027, with its morpholine and aminopyrimidine, is projected at 1.70. Q0028, featuring a primary amine, is estimated at 2.50. Q0029, a polar molecule with carbonyls, is at 1.20. Q0030, a hydrophobic imidazopyridine, is at 2.70. Q0031, a large compound with a basic amine, is estimated at 1.10. Q0032, a neutral triazolopyrimidine, is at 2.20. Finally, Q0033, a kinase inhibitor analog with a basic amine, is estimated at 1.30.\n\n**Finalizing LogD Calculations**\n\nI've now determined the logD values for the final set of molecules, Q0034 through Q0039. These include further analogs and a particularly hydrophobic adamantyl amide. I'm also reviewing and potentially adjusting Q0005 and Q0017 based on additional comparative data.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4209,
+    "completion_tokens": 4924,
+    "total_tokens": 9133,
+    "cost": 0.0506295,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0506295,
+      "upstream_inference_prompt_cost": 0.0063135,
+      "upstream_inference_completions_cost": 0.044316
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4072,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

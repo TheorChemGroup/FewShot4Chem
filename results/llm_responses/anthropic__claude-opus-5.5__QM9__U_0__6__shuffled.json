@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792955352-7z4Suj5E9Da9WOJ4AZKV",
+  "object": "chat.completion",
+  "created": 1792955352,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11076},{\"id\":\"Q0001\",\"value\":-11320},{\"id\":\"Q0002\",\"value\":-11501},{\"id\":\"Q0003\",\"value\":-11370},{\"id\":\"Q0004\",\"value\":-11076},{\"id\":\"Q0005\",\"value\":-11506},{\"id\":\"Q0006\",\"value\":-11057},{\"id\":\"Q0007\",\"value\":-11623},{\"id\":\"Q0008\",\"value\":-11208},{\"id\":\"Q0009\",\"value\":-11654},{\"id\":\"Q0010\",\"value\":-11492},{\"id\":\"Q0011\",\"value\":-11370},{\"id\":\"Q0012\",\"value\":-11339},{\"id\":\"Q0013\",\"value\":-11452},{\"id\":\"Q0014\",\"value\":-11370},{\"id\":\"Q0015\",\"value\":-11203},{\"id\":\"Q0016\",\"value\":-11086},{\"id\":\"Q0017\",\"value\":-11351},{\"id\":\"Q0018\",\"value\":-11957},{\"id\":\"Q0019\",\"value\":-10763},{\"id\":\"Q0020\",\"value\":-10721},{\"id\":\"Q0021\",\"value\":-11299},{\"id\":\"Q0022\",\"value\":-11475},{\"id\":\"Q0023\",\"value\":-11320},{\"id\":\"Q0024\",\"value\":-11425},{\"id\":\"Q0025\",\"value\":-10895},{\"id\":\"Q0026\",\"value\":-11795},{\"id\":\"Q0027\",\"value\":-11715},{\"id\":\"Q0028\",\"value\":-10773},{\"id\":\"Q0029\",\"value\":-11057},{\"id\":\"Q0030\",\"value\":-11664},{\"id\":\"Q0031\",\"value\":-11303},{\"id\":\"Q0032\",\"value\":-11370},{\"id\":\"Q0033\",\"value\":-11389},{\"id\":\"Q0034\",\"value\":-11181},{\"id\":\"Q0035\",\"value\":-11007},{\"id\":\"Q0036\",\"value\":-11644},{\"id\":\"Q0037\",\"value\":-11188},{\"id\":\"Q0038\",\"value\":-11461},{\"id\":\"Q0039\",\"value\":-11176}]}",
+        "refusal": null,
+        "reasoning": "I need to estimate U0 using typical per-atom energy contributions in Hartree for carbon, hydrogen, nitrogen, and oxygen, then convert to eV using the standard conversion factor.\n\nI'm fitting empirical per-atom (or per-group) contributions using training examples: comparing two molecules with similar formulas lets me isolate a CH2 unit's contribution (~-1170.31 eV per CH2), then back out an oxygen contribution from an ether example, though isolating hydrogen's individual contribution is proving tricky since my estimates for carbon and hydrogen separately don't reconcile cleanly.\n\nNow I'm trying to pin down nitrogen's contribution by analyzing a cyclic nitrile structure, carefully counting its carbon, hydrogen, and nitrogen atoms to set up another equation.\n\nThat approach isn't converging cleanly, so I'll switch to setting up a direct linear fit using multiple known molecules as data points. I'm collecting energy values for C9H18 and C7H14O2 to start building equations for the atomic contributions.\n\nI'm noticing other molecules with the same formula show wildly different energies than typical QM9 variance, suggesting the dataset values might be scrambled or mismatched rather than physically meaningful. Given this apparent randomness, I'm leaning toward just predicting something near the overall mean rather than trying to find real structure.\n\nThat estimate doesn't fit either, so the noise must be large or the labels are partially shuffled. I notice several repeated energy values across the set, which suggests these correspond to real QM9 formula energies, but matching them to specific SMILES isn't working out cleanly—it's possible the SMILES are mismatched with their labels.\n\nThat doesn't match -10532 eV, which seems closer to a different molecular formula entirely, so it looks like the labels have been shuffled across molecules rather than corresponding properly. This makes physically-grounded prediction essentially impossible, so I may just need to fall back on predicting the mean value.\n\nThat -9701 estimate matches another row's label almost exactly, confirming labels are shuffled across rows rather than randomly corrupted. I try checking if there's a consistent offset by comparing a simple hydrocarbon's expected value against nearby training labels, but nothing lines up cleanly, so the shuffle doesn't appear to follow a predictable pattern I can exploit.\n\nGiven this, I'm leaning toward hedging my prediction as a blend between a physically-derived estimate and the dataset mean, weighting mostly toward the mean since the labels seem unreliable, with just a small physical correction. I'm working out a rough per-atom energy contribution calibration using typical atomic reference energies for carbon, hydrogen, nitrogen, and oxygen to build that physical estimate.\n\nContinuing through queries Q3 through Q7, computing molecular formula contributions and blending each estimate toward the mean around -11300.\n\nContinuing through the remaining compounds: Q12 gives -11339, Q13 computes to -11452, Q14 matches the earlier C7H12O2 value at -11370, Q15 works out to -11203, and Q16 comes to -11086 for C8H16O.\n\nQ17 then resolves to -11351, Q18 produces -11957 for the C5H8O4 formula, Q19 gives -10763 for the C9H12 structure, Q20 yields -10721 for the cationic C6H11N2+ species, and I'm now working through Q21's C5H10N4 formula.\n\nContinuing the bond energy calculations for Q22 through Q26, computing formation energies for each structure's atomic composition and converting to final adjusted values.\n\nContinuing through the calculations, I get -11057 for Q29, then work out Q30 through Q33's formation energies landing around -11664, -11303, -11370, and -11389 respectively, and I'm now setting up Q34's molecular formula for the same treatment.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I need to estimate U0 using typical per-atom energy contributions in Hartree for carbon, hydrogen, nitrogen, and oxygen, then convert to eV using the standard conversion factor.\n\nI'm fitting empirical per-atom (or per-group) contributions using training examples: comparing two molecules with similar formulas lets me isolate a CH2 unit's contribution (~-1170.31 eV per CH2), then back out an oxygen contribution from an ether example, though isolating hydrogen's individual contribution is proving tricky since my estimates for carbon and hydrogen separately don't reconcile cleanly.\n\nNow I'm trying to pin down nitrogen's contribution by analyzing a cyclic nitrile structure, carefully counting its carbon, hydrogen, and nitrogen atoms to set up another equation.\n\nThat approach isn't converging cleanly, so I'll switch to setting up a direct linear fit using multiple known molecules as data points. I'm collecting energy values for C9H18 and C7H14O2 to start building equations for the atomic contributions.\n\nI'm noticing other molecules with the same formula show wildly different energies than typical QM9 variance, suggesting the dataset values might be scrambled or mismatched rather than physically meaningful. Given this apparent randomness, I'm leaning toward just predicting something near the overall mean rather than trying to find real structure.\n\nThat estimate doesn't fit either, so the noise must be large or the labels are partially shuffled. I notice several repeated energy values across the set, which suggests these correspond to real QM9 formula energies, but matching them to specific SMILES isn't working out cleanly—it's possible the SMILES are mismatched with their labels.\n\nThat doesn't match -10532 eV, which seems closer to a different molecular formula entirely, so it looks like the labels have been shuffled across molecules rather than corresponding properly. This makes physically-grounded prediction essentially impossible, so I may just need to fall back on predicting the mean value.\n\nThat -9701 estimate matches another row's label almost exactly, confirming labels are shuffled across rows rather than randomly corrupted. I try checking if there's a consistent offset by comparing a simple hydrocarbon's expected value against nearby training labels, but nothing lines up cleanly, so the shuffle doesn't appear to follow a predictable pattern I can exploit.\n\nGiven this, I'm leaning toward hedging my prediction as a blend between a physically-derived estimate and the dataset mean, weighting mostly toward the mean since the labels seem unreliable, with just a small physical correction. I'm working out a rough per-atom energy contribution calibration using typical atomic reference energies for carbon, hydrogen, nitrogen, and oxygen to build that physical estimate.\n\nContinuing through queries Q3 through Q7, computing molecular formula contributions and blending each estimate toward the mean around -11300.\n\nContinuing through the remaining compounds: Q12 gives -11339, Q13 computes to -11452, Q14 matches the earlier C7H12O2 value at -11370, Q15 works out to -11203, and Q16 comes to -11086 for C8H16O.\n\nQ17 then resolves to -11351, Q18 produces -11957 for the C5H8O4 formula, Q19 gives -10763 for the C9H12 structure, Q20 yields -10721 for the cationic C6H11N2+ species, and I'm now working through Q21's C5H10N4 formula.\n\nContinuing the bond energy calculations for Q22 through Q26, computing formation energies for each structure's atomic composition and converting to final adjusted values.\n\nContinuing through the calculations, I get -11057 for Q29, then work out Q30 through Q33's formation energies landing around -11664, -11303, -11370, and -11389 respectively, and I'm now setting up Q34's molecular formula for the same treatment.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 6638,
+    "total_tokens": 9952,
+    "cost": 0.146016,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.146016,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.13276
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5987,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

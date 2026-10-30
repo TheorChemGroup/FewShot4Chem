@@ -1,0 +1,90 @@
+{
+  "id": "gen-1792951634-iQjyp5eTm03hL8dwgeQk",
+  "object": "chat.completion",
+  "created": 1792951634,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-5.85},{\"id\":\"Q0001\",\"value\":-2.75},{\"id\":\"Q0002\",\"value\":-3.98},{\"id\":\"Q0003\",\"value\":-2.42},{\"id\":\"Q0004\",\"value\":-2.56},{\"id\":\"Q0005\",\"value\":-5.3},{\"id\":\"Q0006\",\"value\":-0.15},{\"id\":\"Q0007\",\"value\":-1.8},{\"id\":\"Q0008\",\"value\":0.78},{\"id\":\"Q0009\",\"value\":-2.65},{\"id\":\"Q0010\",\"value\":-3.5},{\"id\":\"Q0011\",\"value\":-3.15},{\"id\":\"Q0012\",\"value\":-0.3},{\"id\":\"Q0013\",\"value\":-5.35},{\"id\":\"Q0014\",\"value\":-5.5},{\"id\":\"Q0015\",\"value\":-3.21},{\"id\":\"Q0016\",\"value\":-2.8},{\"id\":\"Q0017\",\"value\":-3.55},{\"id\":\"Q0018\",\"value\":-2.65},{\"id\":\"Q0019\",\"value\":-0.41},{\"id\":\"Q0020\",\"value\":-2.0},{\"id\":\"Q0021\",\"value\":-3.25},{\"id\":\"Q0022\",\"value\":-3.38},{\"id\":\"Q0023\",\"value\":-2.02},{\"id\":\"Q0024\",\"value\":-1.0},{\"id\":\"Q0025\",\"value\":-4.65},{\"id\":\"Q0026\",\"value\":-1.75},{\"id\":\"Q0027\",\"value\":-5.25},{\"id\":\"Q0028\",\"value\":-2.55},{\"id\":\"Q0029\",\"value\":-5.0},{\"id\":\"Q0030\",\"value\":-1.95},{\"id\":\"Q0031\",\"value\":-4.55},{\"id\":\"Q0032\",\"value\":-2.85},{\"id\":\"Q0033\",\"value\":-0.25},{\"id\":\"Q0034\",\"value\":-7.3},{\"id\":\"Q0035\",\"value\":-2.33},{\"id\":\"Q0036\",\"value\":0.27},{\"id\":\"Q0037\",\"value\":-2.2},{\"id\":\"Q0038\",\"value\":-3.62},{\"id\":\"Q0039\",\"value\":-6.1}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07511995728a19fd016ade455335dc87d19a24709054c56684",
+            "index": 0
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Assessing compound properties**\n\nI'm analyzing the solubility of a compound: known solubility in water is 0.002 g/L at 20°C, with a value of -5.42 and a pH of 7, which translates to 19 mg/L at -4.44. I need to evaluate bromadiolone and its formula, especially for Q14, which seems to involve phenyl groups and CH2CH(OH) biphenyl bromide. It's interesting to map out how these components interact and their properties.",
+            "format": "openai-responses-v1",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07511995728a19fd016ade4560d7e087d1b3b6162fd82fd0b5",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07511995728a19fd016ade456c600887d1ae12f7dc9859fdb3",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07511995728a19fd016ade45765ffc87d18bad3b6722c76dbd",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07511995728a19fd016ade458053ec87d19c23de791fa95f41",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_07511995728a19fd016ade4588f44c87d1a88ac820be878bc3",
+            "index": 6
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2153,
+    "completion_tokens": 3527,
+    "total_tokens": 5680,
+    "cost": 0.203255,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2150,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.203255,
+      "upstream_inference_prompt_cost": 0.026905,
+      "upstream_inference_completions_cost": 0.17635
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2993,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+type: gin-pretrained
+name: gin-pretrained
+version: 1.0.0
+hyperparams:
+  mode: embedding
+  emb_dim: 300
+  num_layer: 5
+  drop_ratio: 0.0
+  checkpoint_path: Pretrained GIN/supervised_contextpred.pth
+batch_size: 64

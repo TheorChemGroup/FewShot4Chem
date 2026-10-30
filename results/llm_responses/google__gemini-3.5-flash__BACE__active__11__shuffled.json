@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792970378-czwKGBk8CBblieEniMML",
+  "object": "chat.completion",
+  "created": 1792970378,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": 0.1}, {\"id\": \"Q0001\", \"value\": 0.1}, {\"id\": \"Q0002\", \"value\": 0.15}, {\"id\": \"Q0003\", \"value\": 0.8}, {\"id\": \"Q0004\", \"value\": 0.85}, {\"id\": \"Q0005\", \"value\": 0.2}, {\"id\": \"Q0006\", \"value\": 0.6}, {\"id\": \"Q0007\", \"value\": 0.9}, {\"id\": \"Q0008\", \"value\": 0.7}, {\"id\": \"Q0009\", \"value\": 0.15}, {\"id\": \"Q0010\", \"value\": 0.65}, {\"id\": \"Q0011\", \"value\": 0.15}, {\"id\": \"Q0012\", \"value\": 0.9}, {\"id\": \"Q0013\", \"value\": 0.8}, {\"id\": \"Q0014\", \"value\": 0.85}, {\"id\": \"Q0015\", \"value\": 0.3}, {\"id\": \"Q0016\", \"value\": 0.15}, {\"id\": \"Q0017\", \"value\": 0.8}, {\"id\": \"Q0018\", \"value\": 0.1}, {\"id\": \"Q0019\", \"value\": 0.3}, {\"id\": \"Q0020\", \"value\": 0.15}, {\"id\": \"Q0021\", \"value\": 0.15}, {\"id\": \"Q0022\", \"value\": 0.1}, {\"id\": \"Q0023\", \"value\": 0.8}, {\"id\": \"Q0024\", \"value\": 0.2}, {\"id\": \"Q0025\", \"value\": 0.4}, {\"id\": \"Q0026\", \"value\": 0.85}, {\"id\": \"Q0027\", \"value\": 0.6}, {\"id\": \"Q0028\", \"value\": 0.85}, {\"id\": \"Q0029\", \"value\": 0.8}, {\"id\": \"Q0030\", \"value\": 0.9}, {\"id\": \"Q0031\", \"value\": 0.9}, {\"id\": \"Q0032\", \"value\": 0.85}, {\"id\": \"Q0033\", \"value\": 0.85}, {\"id\": \"Q0034\", \"value\": 0.15}, {\"id\": \"Q0035\", \"value\": 0.1}, {\"id\": \"Q0036\", \"value\": 0.2}, {\"id\": \"Q0037\", \"value\": 0.5}, {\"id\": \"Q0038\", \"value\": 0.3}, {\"id\": \"Q0039\", \"value\": 0.1}]}",
+        "refusal": null,
+        "reasoning": "**Predicting BACE-1 Inhibitors**\n\nI'm currently focused on developing a predictive model to ascertain the likelihood of 40 query molecules acting as human beta-secretase 1 (BACE-1) inhibitors. My training dataset consists of 60 molecules, each labeled as either an inhibitor (1) or non-inhibitor (0). The ultimate goal is to generate a strictly parseable JSON output reflecting these probabilities.\n\n**Analyzing Structural Patterns**\n\nI've begun examining the training data and query molecules, focusing on structural similarities and differences to inform my predictions. Initial observations suggest that slight variations in specific functional groups or ring systems might significantly impact BACE-1 inhibition. I am continuing to explore these relationships to refine the model's accuracy.\n\n**Refining Inhibition Predictions**\n\nMy latest analysis is focused on refining predictions for query molecules. I've observed that subtle isomer differences, like the oxadiazole ring variations in Q0003, significantly influence predicted inhibition. I'm also noting structural similarities between Q0004 and its training analog, bolstering confidence in its predicted high probability of inhibition.\n\n**Evaluating Query Molecules**\n\nI am continuing to refine BACE-1 inhibition predictions. Q0005 appears unlikely to be an inhibitor, while Q0006 shows moderate potential. For Q0007, the structural similarity to a known inhibitor strongly suggests high activity. I am currently assessing Q0008, noting a significant structural modification compared to its closest analog.\n\n**Assigning Inhibition Probabilities**\n\nI'm continuing to refine my BACE-1 inhibition predictions, now focusing on Q0009 through Q0011. For Q0009, despite some structural differences, I'm assigning a probability of 0.2 based on its core scaffold. Q0010, resembling known inhibitors, is estimated at 0.65. Q0011's proximity to a non-inhibitor analog suggests it's also unlikely to be active.\n\n**Comparing Query Molecules**\n\nI am continuing to evaluate query molecules. Q0012, showing high similarity to a known inhibitor, is assigned a probability of 0.9. Q0013, with minor structural differences from training analogs, also appears highly likely to be an inhibitor (0.8). Q0014's complex fused ring system suggests it is likely an inhibitor.\n\n**Analyzing Molecular Structures**\n\nI am continuing to refine my BACE-1 inhibition predictions. I've confirmed Q0014 is likely an inhibitor (~0.85 probability). I'm assigning Q0015 a lower probability (~0.3) due to a lack of direct analogs. Q0016 is also likely not an inhibitor (~0.15).\n\n**Predicting Remaining Molecules**\n\nI'm continuing to refine BACE-1 inhibition predictions. Q0017 appears likely to be an inhibitor (~0.8), while Q0018 shows low potential (~0.1). Q0019 is assigned a probability of ~0.3, and Q0020 is likely inactive (~0.15). I'm currently assessing Q0021 based on its structural similarity to a known non-inhibitor.\n\n**Assessing New Inhibitors**\n\nI'm continuing my assessment, and Q0021 appears to have a low probability of inhibition (~0.15). Q0022 also shows low potential (~0.1). Q0023's complex fused ring structure suggests a high probability of inhibition (~0.8). For Q0024, initial comparisons indicate a low likelihood of activity.\n\n**Evaluating Remaining Molecules**\n\nI am continuing to refine BACE-1 inhibition predictions. Q0024 appears to have low potential (~0.2), while Q0025 has moderate potential (~0.4). Q0026 shows high probability (~0.85) due to structural similarity. Q0027 is assigned a probability of ~0.6, and Q0028 is highly likely to be an inhibitor (~0.85).\n\n**Analyzing Remaining Molecules**\n\nI'm continuing to refine BACE-1 inhibition predictions. Q0029 appears likely to be an inhibitor (~0.8 probability). Q0030 shows significant structural similarity to known inhibitors, suggesting a high probability (~0.9). Q0031, despite a minor structural difference, also exhibits strong potential (~0.9). Q0032 is being assessed against its sulfonamide analog.\n\n**Evaluating Remaining Molecules**\n\nI'm continuing to refine BACE-1 inhibition predictions. Q0033 and Q0034 show high and low inhibition potential respectively. Q0035 is likely inactive, and Q0036's pyrazole substituent suggests low activity.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Predicting BACE-1 Inhibitors**\n\nI'm currently focused on developing a predictive model to ascertain the likelihood of 40 query molecules acting as human beta-secretase 1 (BACE-1) inhibitors. My training dataset consists of 60 molecules, each labeled as either an inhibitor (1) or non-inhibitor (0). The ultimate goal is to generate a strictly parseable JSON output reflecting these probabilities.\n\n**Analyzing Structural Patterns**\n\nI've begun examining the training data and query molecules, focusing on structural similarities and differences to inform my predictions. Initial observations suggest that slight variations in specific functional groups or ring systems might significantly impact BACE-1 inhibition. I am continuing to explore these relationships to refine the model's accuracy.\n\n**Refining Inhibition Predictions**\n\nMy latest analysis is focused on refining predictions for query molecules. I've observed that subtle isomer differences, like the oxadiazole ring variations in Q0003, significantly influence predicted inhibition. I'm also noting structural similarities between Q0004 and its training analog, bolstering confidence in its predicted high probability of inhibition.\n\n**Evaluating Query Molecules**\n\nI am continuing to refine BACE-1 inhibition predictions. Q0005 appears unlikely to be an inhibitor, while Q0006 shows moderate potential. For Q0007, the structural similarity to a known inhibitor strongly suggests high activity. I am currently assessing Q0008, noting a significant structural modification compared to its closest analog.\n\n**Assigning Inhibition Probabilities**\n\nI'm continuing to refine my BACE-1 inhibition predictions, now focusing on Q0009 through Q0011. For Q0009, despite some structural differences, I'm assigning a probability of 0.2 based on its core scaffold. Q0010, resembling known inhibitors, is estimated at 0.65. Q0011's proximity to a non-inhibitor analog suggests it's also unlikely to be active.\n\n**Comparing Query Molecules**\n\nI am continuing to evaluate query molecules. Q0012, showing high similarity to a known inhibitor, is assigned a probability of 0.9. Q0013, with minor structural differences from training analogs, also appears highly likely to be an inhibitor (0.8). Q0014's complex fused ring system suggests it is likely an inhibitor.\n\n**Analyzing Molecular Structures**\n\nI am continuing to refine my BACE-1 inhibition predictions. I've confirmed Q0014 is likely an inhibitor (~0.85 probability). I'm assigning Q0015 a lower probability (~0.3) due to a lack of direct analogs. Q0016 is also likely not an inhibitor (~0.15).\n\n**Predicting Remaining Molecules**\n\nI'm continuing to refine BACE-1 inhibition predictions. Q0017 appears likely to be an inhibitor (~0.8), while Q0018 shows low potential (~0.1). Q0019 is assigned a probability of ~0.3, and Q0020 is likely inactive (~0.15). I'm currently assessing Q0021 based on its structural similarity to a known non-inhibitor.\n\n**Assessing New Inhibitors**\n\nI'm continuing my assessment, and Q0021 appears to have a low probability of inhibition (~0.15). Q0022 also shows low potential (~0.1). Q0023's complex fused ring structure suggests a high probability of inhibition (~0.8). For Q0024, initial comparisons indicate a low likelihood of activity.\n\n**Evaluating Remaining Molecules**\n\nI am continuing to refine BACE-1 inhibition predictions. Q0024 appears to have low potential (~0.2), while Q0025 has moderate potential (~0.4). Q0026 shows high probability (~0.85) due to structural similarity. Q0027 is assigned a probability of ~0.6, and Q0028 is highly likely to be an inhibitor (~0.85).\n\n**Analyzing Remaining Molecules**\n\nI'm continuing to refine BACE-1 inhibition predictions. Q0029 appears likely to be an inhibitor (~0.8 probability). Q0030 shows significant structural similarity to known inhibitors, suggesting a high probability (~0.9). Q0031, despite a minor structural difference, also exhibits strong potential (~0.9). Q0032 is being assessed against its sulfonamide analog.\n\n**Evaluating Remaining Molecules**\n\nI'm continuing to refine BACE-1 inhibition predictions. Q0033 and Q0034 show high and low inhibition potential respectively. Q0035 is likely inactive, and Q0036's pyrazole substituent suggests low activity.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5238,
+    "completion_tokens": 7882,
+    "total_tokens": 13120,
+    "cost": 0.078795,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.078795,
+      "upstream_inference_prompt_cost": 0.007857,
+      "upstream_inference_completions_cost": 0.070938
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7145,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

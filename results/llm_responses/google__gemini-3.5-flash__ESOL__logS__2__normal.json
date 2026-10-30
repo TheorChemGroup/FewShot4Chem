@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792945847-xZcqLdOWUrqPnck8xJ7a",
+  "object": "chat.completion",
+  "created": 1792945847,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -5.8\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -3.8\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -2.1\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": 0.77\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": -7.5\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -6.3\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": 0.25\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": -2.7\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": 1.0\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -4.6\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -2.06\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -1.1\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": 0.9\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -3.4\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -2.4\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -2.8\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -1.56\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": -6.2\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": -0.15\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -2.6\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": -4.4\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -1.8\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": -2.3\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -4.4\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -5.5\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -0.8\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Solubility Patterns**\n\nI'm focusing on understanding the relationship between molecular features and `logS`. Initial exploration reveals variations in the training data that I'm currently investigating to identify key predictive trends.\n\n**Investigating Structural Influences**\n\nI'm now examining how specific functional groups and structural motifs, like aromatic rings and halogens, influence solubility values. I've started comparing query molecules against similar structures in the training set to refine predictive estimates.\n\n**Refining Solubility Predictions**\n\nI'm now generating initial solubility predictions for several new molecules. I'm actively comparing their structures to relevant training examples, especially focusing on the impact of alkyl chains, halogens, and fused aromatic systems on hydrophobicity and polarity.\n\n**Predicting Specific LogS Values**\n\nI'm now generating specific solubility predictions based on recent training comparisons. For secobarbital and pentobarbital, I anticipate around -2.1. 1,2,4-Trichlorobenzene suggests a lower value of -3.5. Sucrose should be around 0.3, and octadecanol approximately -6.8, factoring in carbon chain length.\n\n**Estimating Specific LogS Values**\n\nI'm now refining my logS estimations for several new compounds by comparing them to similar structures in the training data, factoring in molecular size and functional groups to predict values for pyrene, acenaphthylene, cineole, propionitrile, ethyl-methylbenzene, monuron, and pyrimidine.\n\n**Generating Solubility Predictions**\n\nI am now generating predictions for several new compounds. I've considered the impact of functional groups like nitro, furan, and oxime on polarity and size for nitrophenol derivatives, and alkyl substitution for dimethylnaphthalene. For heptanol, I'm using existing alcohol data for comparison. I'm also looking at carbamates, nitriles, and urea derivatives.\n\n**Estimating Novel LogS Values**\n\nI am now refining predictions for several new compounds. For a complex steroid-like molecule (Q0032) with many polar groups, I anticipate significant solubility. For 1-bromo-3-fluorobenzene (Q0027), I predict a slight decrease from similar bromobenzene training data. 2,4-dichlorophenol (Q0028) and hydrazobenzene (Q0029) are being estimated based on analogous structures, while dibutyi sebacate (Q0030) and methyl acrylate (Q0031) are considered for their very different solubility profiles.\n\n**Estimating Specific Compound Solubilities**\n\nI'm now estimating `logS` values for several compounds. For testosterone acetate (Q0033), I predict -4.4; for a long-chain ester/ether (Q0034), -4.2; and for dimethirimol (Q0035), -1.8. 4-hexylresorcinol (Q0036) is estimated at -2.3, and tetrachlorobenzene (Q0037) at -4.4. For the highly chlorinated polycycle (Q0038), I predict -5.5, and for iodomethane (Q0039), -0.8. I've also noted sucrose's high solubility.\n\n**Calculating Specific LogS Values**\n\nI'm now calculating precise logS values based on recent comparisons. Propionitrile and pyrimidine are predicted at 0.25 and 1.0 respectively, while tetramethylurea is around 0.9. Methyl acrylate and heptanol estimations stand at -0.15 and -2.06. Further predictions include 2-methylpentane (-3.8), cumene (-3.4), 1-ethyl-2-methylbenzene (-3.5), 3-chloroaniline (-1.2), and 2,4-dichlorophenol (-2.1).\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Solubility Patterns**\n\nI'm focusing on understanding the relationship between molecular features and `logS`. Initial exploration reveals variations in the training data that I'm currently investigating to identify key predictive trends.\n\n**Investigating Structural Influences**\n\nI'm now examining how specific functional groups and structural motifs, like aromatic rings and halogens, influence solubility values. I've started comparing query molecules against similar structures in the training set to refine predictive estimates.\n\n**Refining Solubility Predictions**\n\nI'm now generating initial solubility predictions for several new molecules. I'm actively comparing their structures to relevant training examples, especially focusing on the impact of alkyl chains, halogens, and fused aromatic systems on hydrophobicity and polarity.\n\n**Predicting Specific LogS Values**\n\nI'm now generating specific solubility predictions based on recent training comparisons. For secobarbital and pentobarbital, I anticipate around -2.1. 1,2,4-Trichlorobenzene suggests a lower value of -3.5. Sucrose should be around 0.3, and octadecanol approximately -6.8, factoring in carbon chain length.\n\n**Estimating Specific LogS Values**\n\nI'm now refining my logS estimations for several new compounds by comparing them to similar structures in the training data, factoring in molecular size and functional groups to predict values for pyrene, acenaphthylene, cineole, propionitrile, ethyl-methylbenzene, monuron, and pyrimidine.\n\n**Generating Solubility Predictions**\n\nI am now generating predictions for several new compounds. I've considered the impact of functional groups like nitro, furan, and oxime on polarity and size for nitrophenol derivatives, and alkyl substitution for dimethylnaphthalene. For heptanol, I'm using existing alcohol data for comparison. I'm also looking at carbamates, nitriles, and urea derivatives.\n\n**Estimating Novel LogS Values**\n\nI am now refining predictions for several new compounds. For a complex steroid-like molecule (Q0032) with many polar groups, I anticipate significant solubility. For 1-bromo-3-fluorobenzene (Q0027), I predict a slight decrease from similar bromobenzene training data. 2,4-dichlorophenol (Q0028) and hydrazobenzene (Q0029) are being estimated based on analogous structures, while dibutyi sebacate (Q0030) and methyl acrylate (Q0031) are considered for their very different solubility profiles.\n\n**Estimating Specific Compound Solubilities**\n\nI'm now estimating `logS` values for several compounds. For testosterone acetate (Q0033), I predict -4.4; for a long-chain ester/ether (Q0034), -4.2; and for dimethirimol (Q0035), -1.8. 4-hexylresorcinol (Q0036) is estimated at -2.3, and tetrachlorobenzene (Q0037) at -4.4. For the highly chlorinated polycycle (Q0038), I predict -5.5, and for iodomethane (Q0039), -0.8. I've also noted sucrose's high solubility.\n\n**Calculating Specific LogS Values**\n\nI'm now calculating precise logS values based on recent comparisons. Propionitrile and pyrimidine are predicted at 0.25 and 1.0 respectively, while tetramethylurea is around 0.9. Methyl acrylate and heptanol estimations stand at -0.15 and -2.06. Further predictions include 2-methylpentane (-3.8), cumene (-3.4), 1-ethyl-2-methylbenzene (-3.5), 3-chloroaniline (-1.2), and 2,4-dichlorophenol (-2.1).\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2458,
+    "completion_tokens": 5261,
+    "total_tokens": 7719,
+    "cost": 0.051036,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.051036,
+      "upstream_inference_prompt_cost": 0.003687,
+      "upstream_inference_completions_cost": 0.047349
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4164,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

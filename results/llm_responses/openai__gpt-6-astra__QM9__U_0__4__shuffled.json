@@ -1,0 +1,102 @@
+{
+  "id": "gen-1792946311-Oycgs1CFb3Nr7x8kBOGk",
+  "object": "chat.completion",
+  "created": 1792946311,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-11316.78},{\"id\":\"Q0001\",\"value\":-11316.78},{\"id\":\"Q0002\",\"value\":-11316.78},{\"id\":\"Q0003\",\"value\":-11316.78},{\"id\":\"Q0004\",\"value\":-11316.78},{\"id\":\"Q0005\",\"value\":-11316.78},{\"id\":\"Q0006\",\"value\":-11316.78},{\"id\":\"Q0007\",\"value\":-11316.78},{\"id\":\"Q0008\",\"value\":-11316.78},{\"id\":\"Q0009\",\"value\":-11316.78},{\"id\":\"Q0010\",\"value\":-11316.78},{\"id\":\"Q0011\",\"value\":-11316.78},{\"id\":\"Q0012\",\"value\":-11316.78},{\"id\":\"Q0013\",\"value\":-11316.78},{\"id\":\"Q0014\",\"value\":-11316.78},{\"id\":\"Q0015\",\"value\":-11316.78},{\"id\":\"Q0016\",\"value\":-11316.78},{\"id\":\"Q0017\",\"value\":-11316.78},{\"id\":\"Q0018\",\"value\":-11316.78},{\"id\":\"Q0019\",\"value\":-11316.78},{\"id\":\"Q0020\",\"value\":-11316.78},{\"id\":\"Q0021\",\"value\":-11316.78},{\"id\":\"Q0022\",\"value\":-11316.78},{\"id\":\"Q0023\",\"value\":-11316.78},{\"id\":\"Q0024\",\"value\":-11316.78},{\"id\":\"Q0025\",\"value\":-11316.78},{\"id\":\"Q0026\",\"value\":-11316.78},{\"id\":\"Q0027\",\"value\":-11316.78},{\"id\":\"Q0028\",\"value\":-11316.78},{\"id\":\"Q0029\",\"value\":-11316.78},{\"id\":\"Q0030\",\"value\":-11316.78},{\"id\":\"Q0031\",\"value\":-11316.78},{\"id\":\"Q0032\",\"value\":-11316.78},{\"id\":\"Q0033\",\"value\":-11316.78},{\"id\":\"Q0034\",\"value\":-11316.78},{\"id\":\"Q0035\",\"value\":-11316.78},{\"id\":\"Q0036\",\"value\":-11316.78},{\"id\":\"Q0037\",\"value\":-11316.78},{\"id\":\"Q0038\",\"value\":-11316.78},{\"id\":\"Q0039\",\"value\":-11316.78}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e3ae7350b18e25b016ade3088fea487d1862f565821f7d494",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e3ae7350b18e25b016ade3098946887d1be4fa5977784e00c",
+            "index": 1
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating predictions and tokens**\n\nI'm thinking about how better final predictions might vary slightly around 11,300. If I shuffle things, I could find a more accurate constant. I need to determine the mean accurately and consider noise correlation. I wonder if I have 7k tokens or maybe 10 remaining out of the original 10k, which is now down to 7k? With 8k left, it feels like I might have time, but I don't have any tools.",
+            "format": "openai-responses-v1",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e3ae7350b18e25b016ade30aa63d887d19893564226f042d1",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e3ae7350b18e25b016ade30bb0b5487d1a1ef2b9d7e68bf64",
+            "index": 4
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating predictive models**\n\nI'm thinking about predictions that use signal shrinkage in training between 100-300. It seems like I could use shuffled labels and consider averaging for better accuracy. Then there’s the question of whether energy assignments correlate with dataset shifts, which might seem random. I wonder if blending known energies with physical data is beneficial, especially when addressing enthalpy and energy values. But oh, I need to be careful about conserving mean values across inquiries.",
+            "format": "openai-responses-v1",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e3ae7350b18e25b016ade30be9d3487d19732e2a32ca9e72f",
+            "index": 6
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Finalizing predictions**\n\nI’m considering how to finalize the predictions. I want to ensure they’re precise, and not overly trivial or misleading. The constant seems to be around -11316.78, but what about adding some variety to the results? It could make things more interesting, but is it necessary? I need to think about whether introducing variability might sacrifice statistical honesty. Overall, the goal is to land on a final prediction that's accurate, albeit perhaps with a little lower precision.",
+            "format": "openai-responses-v1",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0e3ae7350b18e25b016ade30cc92a487d1ab86480572d47571",
+            "index": 8
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2417,
+    "completion_tokens": 3219,
+    "total_tokens": 5636,
+    "cost": 0.191155,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2414,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.191155,
+      "upstream_inference_prompt_cost": 0.030205,
+      "upstream_inference_completions_cost": 0.16095
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2643,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792971954-LPGIRgsneOUMUZOJebnY",
+  "object": "chat.completion",
+  "created": 1792971954,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-12450},{\"id\":\"Q0001\",\"value\":-11357},{\"id\":\"Q0002\",\"value\":-12040},{\"id\":\"Q0003\",\"value\":-11143},{\"id\":\"Q0004\",\"value\":-10950},{\"id\":\"Q0005\",\"value\":-11681},{\"id\":\"Q0006\",\"value\":-11927},{\"id\":\"Q0007\",\"value\":-10477},{\"id\":\"Q0008\",\"value\":-11455},{\"id\":\"Q0009\",\"value\":-10982},{\"id\":\"Q0010\",\"value\":-10982},{\"id\":\"Q0011\",\"value\":-11927},{\"id\":\"Q0012\",\"value\":-11155},{\"id\":\"Q0013\",\"value\":-11386},{\"id\":\"Q0014\",\"value\":-11386},{\"id\":\"Q0015\",\"value\":-11471},{\"id\":\"Q0016\",\"value\":-11875},{\"id\":\"Q0017\",\"value\":-11621},{\"id\":\"Q0018\",\"value\":-10552},{\"id\":\"Q0019\",\"value\":-10680},{\"id\":\"Q0020\",\"value\":-10510},{\"id\":\"Q0021\",\"value\":-11422},{\"id\":\"Q0022\",\"value\":-10666},{\"id\":\"Q0023\",\"value\":-11613},{\"id\":\"Q0024\",\"value\":-11471},{\"id\":\"Q0025\",\"value\":-10950},{\"id\":\"Q0026\",\"value\":-11892},{\"id\":\"Q0027\",\"value\":-10966},{\"id\":\"Q0028\",\"value\":-11657},{\"id\":\"Q0029\",\"value\":-11184},{\"id\":\"Q0030\",\"value\":-11487},{\"id\":\"Q0031\",\"value\":-11350},{\"id\":\"Q0032\",\"value\":-12232},{\"id\":\"Q0033\",\"value\":-11208},{\"id\":\"Q0034\",\"value\":-11471},{\"id\":\"Q0035\",\"value\":-11192},{\"id\":\"Q0036\",\"value\":-10865},{\"id\":\"Q0037\",\"value\":-11673},{\"id\":\"Q0038\",\"value\":-10982},{\"id\":\"Q0039\",\"value\":-11960}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 by fitting approximate per-atom energy contributions from known molecule examples in the dataset, comparing atom counts against their reported U0 values.\n\nThat table value seems off, so I should just rely on standard atomic increments calibrated from known molecules instead: methane and ethane give a CH2 increment around -39.25 Ha, water gives oxygen around -75.2, and ammonia gives nitrogen around -54.73.\n\nConverting these to eV, I estimate atomic contributions of roughly -1036 for carbon, -16.3 for hydrogen, -2046 for oxygen, and -1489 for nitrogen. But testing this against C7H16O2 gives -11607 eV versus the actual -11478.7, so my estimates are off by around 128 eV — I need to recalibrate directly against training examples like C9H12 and other molecules instead of guessing from isolated reference compounds.\n\nChecking a few more molecules confirms the mismatch pattern—computed values consistently diverge from the given ones by large margins, suggesting the labels aren't tied to the actual structures. Given this apparent randomness, predicting something close to the overall mean seems like the safest approach.\n\nWorking through the pentazole ring structure, I'm estimating its formation energy at around -12040 using my blended formula. Then I'm counting atoms carefully in that bicyclic ammonium ketone fragment to figure out its molecular formula before estimating its energy.\n\nFor Q4 through Q7, I'm doing the same atom-counting and formula-balancing approach on each candidate structure - an epoxide, an amino-alcohol aldehyde, a cyclopentenedione, and now starting a new alkyne-substituted ring - computing hydrogen counts and plugging into my energy estimation formula to get stability values for each.\n\nContinuing to work through Q13-Q17, calculating molecular formulas and energy estimates for each structure, converting raw sums into final predicted values.\n\nContinuing through the formula calculations for Q24 through Q31, computing atom contributions and totals for each molecule in sequence.\n\nWorking through Q32-38, calculating the atomic composition and cumulative energy totals for each remaining structure, including figuring out the molecular formula for the alkyne-containing ring compound in Q36.\n\nQ38 lands at -10982, and Q39 (C6H10O3) works out to -6217-163-6139=-12519 → -11960.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 by fitting approximate per-atom energy contributions from known molecule examples in the dataset, comparing atom counts against their reported U0 values.\n\nThat table value seems off, so I should just rely on standard atomic increments calibrated from known molecules instead: methane and ethane give a CH2 increment around -39.25 Ha, water gives oxygen around -75.2, and ammonia gives nitrogen around -54.73.\n\nConverting these to eV, I estimate atomic contributions of roughly -1036 for carbon, -16.3 for hydrogen, -2046 for oxygen, and -1489 for nitrogen. But testing this against C7H16O2 gives -11607 eV versus the actual -11478.7, so my estimates are off by around 128 eV — I need to recalibrate directly against training examples like C9H12 and other molecules instead of guessing from isolated reference compounds.\n\nChecking a few more molecules confirms the mismatch pattern—computed values consistently diverge from the given ones by large margins, suggesting the labels aren't tied to the actual structures. Given this apparent randomness, predicting something close to the overall mean seems like the safest approach.\n\nWorking through the pentazole ring structure, I'm estimating its formation energy at around -12040 using my blended formula. Then I'm counting atoms carefully in that bicyclic ammonium ketone fragment to figure out its molecular formula before estimating its energy.\n\nFor Q4 through Q7, I'm doing the same atom-counting and formula-balancing approach on each candidate structure - an epoxide, an amino-alcohol aldehyde, a cyclopentenedione, and now starting a new alkyne-substituted ring - computing hydrogen counts and plugging into my energy estimation formula to get stability values for each.\n\nContinuing to work through Q13-Q17, calculating molecular formulas and energy estimates for each structure, converting raw sums into final predicted values.\n\nContinuing through the formula calculations for Q24 through Q31, computing atom contributions and totals for each molecule in sequence.\n\nWorking through Q32-38, calculating the atomic composition and cumulative energy totals for each remaining structure, including figuring out the molecular formula for the alkyne-containing ring compound in Q36.\n\nQ38 lands at -10982, and Q39 (C6H10O3) works out to -6217-163-6139=-12519 → -11960.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 4336,
+    "total_tokens": 7650,
+    "cost": 0.099976,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.099976,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.08672
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3685,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

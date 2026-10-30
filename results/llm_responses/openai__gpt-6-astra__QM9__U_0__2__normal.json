@@ -1,0 +1,132 @@
+{
+  "id": "gen-1792945786-4Zd6DIUcnxQFgn9iKYtx",
+  "object": "chat.completion",
+  "created": 1792945786,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-9927.1},{\"id\":\"Q0001\",\"value\":-11812.4},{\"id\":\"Q0002\",\"value\":-10566.0},{\"id\":\"Q0003\",\"value\":-10931.5},{\"id\":\"Q0004\",\"value\":-10534.7},{\"id\":\"Q0005\",\"value\":-11476.8},{\"id\":\"Q0006\",\"value\":-12353.0},{\"id\":\"Q0007\",\"value\":-12454.8},{\"id\":\"Q0008\",\"value\":-11479.9},{\"id\":\"Q0009\",\"value\":-11003.3},{\"id\":\"Q0010\",\"value\":-11576.4},{\"id\":\"Q0011\",\"value\":-12680.6},{\"id\":\"Q0012\",\"value\":-10939.6},{\"id\":\"Q0013\",\"value\":-12385.0},{\"id\":\"Q0014\",\"value\":-12453.0},{\"id\":\"Q0015\",\"value\":-10500.5},{\"id\":\"Q0016\",\"value\":-11447.5},{\"id\":\"Q0017\",\"value\":-11913.9},{\"id\":\"Q0018\",\"value\":-10866.9},{\"id\":\"Q0019\",\"value\":-12521.0},{\"id\":\"Q0020\",\"value\":-12382.8},{\"id\":\"Q0021\",\"value\":-10908.1},{\"id\":\"Q0022\",\"value\":-10939.2},{\"id\":\"Q0023\",\"value\":-11302.2},{\"id\":\"Q0024\",\"value\":-11891.5},{\"id\":\"Q0025\",\"value\":-10972.0},{\"id\":\"Q0026\",\"value\":-9622.7},{\"id\":\"Q0027\",\"value\":-11474.0},{\"id\":\"Q0028\",\"value\":-11374.3},{\"id\":\"Q0029\",\"value\":-11306.0},{\"id\":\"Q0030\",\"value\":-11815.2},{\"id\":\"Q0031\",\"value\":-11608.6},{\"id\":\"Q0032\",\"value\":-9463.1},{\"id\":\"Q0033\",\"value\":-10499.2},{\"id\":\"Q0034\",\"value\":-9960.0},{\"id\":\"Q0035\",\"value\":-9359.3},{\"id\":\"Q0036\",\"value\":-14568.3},{\"id\":\"Q0037\",\"value\":-11317.2},{\"id\":\"Q0038\",\"value\":-11979.3},{\"id\":\"Q0039\",\"value\":-11719.7}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2e7be6b487d1bf7eaf2e9551fbb7",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2e87a84887d1a79bb3ca82657b71",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2e90d6a887d1972c3092e3080977",
+            "index": 2
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Analyzing chemical bonding**\n\nI'm trying to understand the bonding of NH2+ with CH and C, noting that it has four valences. I also see that CH+ bonds with NO, where nitrogen has three valences. It looks like I'm assessing how these valence numbers interact within the context of chemical structures. There’s definitely some complexity here, and I want to ensure the right chemical relationships are considered while exploring their interactivity!",
+            "format": "openai-responses-v1",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2e9b062487d18310a06c0f85a624",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2ea648bc87d18cbe26250aff7072",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2eaffd6487d181ca64cb4eaa22d9",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2eb9263c87d1a678f96f77625ccc",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2ec0b86c87d187048069672b622e",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2ec97c1487d186dfcebf4c13d8a7",
+            "index": 9
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2ed170a887d1bde0f75489c8249e",
+            "index": 10
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2ed8b8ac87d195a7284bdbd2e7c0",
+            "index": 11
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating calculations**\n\nI need to revisit the Q24 baseline for heavy8, using the formula -10913.41 + O - C - 2H. So that’s -10913.41 - 1009.6 + 32.8, which gives me -11890.21. Yes, that seems right! For Q11, I’m considering the N5 pendant pentazole, which has some weird plausible energy. I’m still pondering how to choose. And then there’s the Q3 dication baseline—it feels a bit unclear, so I’ll need to think more about that.",
+            "format": "openai-responses-v1",
+            "index": 12
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0bd41a0708c24f86016ade2ee23d8487d1814280045b06fabe",
+            "index": 13
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2419,
+    "completion_tokens": 6790,
+    "total_tokens": 9209,
+    "cost": 0.36973,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2416,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.36973,
+      "upstream_inference_prompt_cost": 0.03023,
+      "upstream_inference_completions_cost": 0.3395
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6214,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

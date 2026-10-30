@@ -1,0 +1,53 @@
+{
+  "id": "gen-1792945388-yQO8HZFdVdhUHomunCda",
+  "object": "chat.completion",
+  "created": 1792945388,
+  "model": "google/gemini-4-argon",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": -11580.42}, {\"id\": \"Q0001\", \"value\": -12010.15}, {\"id\": \"Q0002\", \"value\": -11948.2}, {\"id\": \"Q0003\", \"value\": -11814.5}, {\"id\": \"Q0004\", \"value\": -10866.2}, {\"id\": \"Q0005\", \"value\": -11408.5}, {\"id\": \"Q0006\", \"value\": -11105.3}, {\"id\": \"Q0007\", \"value\": -11375.8}, {\"id\": \"Q0008\", \"value\": -11890.1}, {\"id\": \"Q0009\", \"value\": -11350.4}, {\"id\": \"Q0010\", \"value\": -11890.5}, {\"id\": \"Q0011\", \"value\": -11643.8}, {\"id\": \"Q0012\", \"value\": -10390.2}, {\"id\": \"Q0013\", \"value\": -10866.5}, {\"id\": \"Q0014\", \"value\": -12250.6}, {\"id\": \"Q0015\", \"value\": -11441.5}, {\"id\": \"Q0016\", \"value\": -11510.2}, {\"id\": \"Q0017\", \"value\": -11950.4}, {\"id\": \"Q0018\", \"value\": -11814.0}, {\"id\": \"Q0019\", \"value\": -9958.9}, {\"id\": \"Q0020\", \"value\": -10566.3}, {\"id\": \"Q0021\", \"value\": -10866.1}, {\"id\": \"Q0022\", \"value\": -11814.2}, {\"id\": \"Q0023\", \"value\": -9620.5}, {\"id\": \"Q0024\", \"value\": -10805.7}, {\"id\": \"Q0025\", \"value\": -11814.8}, {\"id\": \"Q0026\", \"value\": -11476.5}, {\"id\": \"Q0027\", \"value\": -10969.4}, {\"id\": \"Q0028\", \"value\": -11948.3}, {\"id\": \"Q0029\", \"value\": -11480.2}, {\"id\": \"Q0030\", \"value\": -11441.8}, {\"id\": \"Q0031\", \"value\": -10939.5}, {\"id\": \"Q0032\", \"value\": -11375.2}, {\"id\": \"Q0033\", \"value\": -10510.6}, {\"id\": \"Q0034\", \"value\": -10939.8}, {\"id\": \"Q0035\", \"value\": -10800.5}, {\"id\": \"Q0036\", \"value\": -11441.9}, {\"id\": \"Q0037\", \"value\": -11480.6}, {\"id\": \"Q0038\", \"value\": -10355.4}, {\"id\": \"Q0039\", \"value\": -10599.5}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3125,
+    "completion_tokens": 899,
+    "total_tokens": 4024,
+    "cost": 0.01524,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01524,
+      "upstream_inference_prompt_cost": 0.00625,
+      "upstream_inference_completions_cost": 0.00899
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+head_type: linear
+objective_type: classification
+path: models/weights/linear/{model_name}-{dataset_name}-classification.joblib
+Cs: [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+cv: 5
+max_iter: 2000

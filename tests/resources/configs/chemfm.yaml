@@ -1,0 +1,9 @@
+type: chemfm
+name: chemfm-1b
+version: 1.0.0
+hyperparams:
+  mode: embedding
+  pretrained_model_name_or_path: ChemFM/ChemFM-1B
+  torch_dtype: float16
+  normalize: false
+batch_size: 16

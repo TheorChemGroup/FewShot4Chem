@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pixi/
+.venv/
+.env
+# Downloaded or computed locally
+datasets/
+features/
+models/weights/
+lightning_logs/
+results/small_sample_adaptations/
+results/qm9_curve_adaptations/
+results/llm_rescored.csv
+results_uniform/
+finetune/
+data/cohorts/qm9_random12500.json
+figures/*.png
+figures/*.pdf

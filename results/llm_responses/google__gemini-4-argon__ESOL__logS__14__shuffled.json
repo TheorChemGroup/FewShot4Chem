@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792975929-9eQB0m7RwlOhmTqdhoHe",
+  "object": "chat.completion",
+  "created": 1792975929,
+  "model": "google/gemini-4-argon",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": -2.75}, {\"id\": \"Q0001\", \"value\": -2.65}, {\"id\": \"Q0002\", \"value\": -2.8}, {\"id\": \"Q0003\", \"value\": -2.7}, {\"id\": \"Q0004\", \"value\": -2.75}, {\"id\": \"Q0005\", \"value\": -2.85}, {\"id\": \"Q0006\", \"value\": -2.9}, {\"id\": \"Q0007\", \"value\": -2.8}, {\"id\": \"Q0008\", \"value\": -2.75}, {\"id\": \"Q0009\", \"value\": -2.9}, {\"id\": \"Q0010\", \"value\": -2.6}, {\"id\": \"Q0011\", \"value\": -2.85}, {\"id\": \"Q0012\", \"value\": -2.7}, {\"id\": \"Q0013\", \"value\": -2.5}, {\"id\": \"Q0014\", \"value\": -2.6}, {\"id\": \"Q0015\", \"value\": -2.7}, {\"id\": \"Q0016\", \"value\": -2.8}, {\"id\": \"Q0017\", \"value\": -2.5}, {\"id\": \"Q0018\", \"value\": -3.1}, {\"id\": \"Q0019\", \"value\": -2.4}, {\"id\": \"Q0020\", \"value\": -2.7}, {\"id\": \"Q0021\", \"value\": -2.4}, {\"id\": \"Q0022\", \"value\": -3.0}, {\"id\": \"Q0023\", \"value\": -2.8}, {\"id\": \"Q0024\", \"value\": -2.5}, {\"id\": \"Q0025\", \"value\": -2.6}, {\"id\": \"Q0026\", \"value\": -2.5}, {\"id\": \"Q0027\", \"value\": -2.75}, {\"id\": \"Q0028\", \"value\": -2.75}, {\"id\": \"Q0029\", \"value\": -2.95}, {\"id\": \"Q0030\", \"value\": -2.75}, {\"id\": \"Q0031\", \"value\": -2.85}, {\"id\": \"Q0032\", \"value\": -2.55}, {\"id\": \"Q0033\", \"value\": -2.65}, {\"id\": \"Q0034\", \"value\": -2.75}, {\"id\": \"Q0035\", \"value\": -2.65}, {\"id\": \"Q0036\", \"value\": -3.2}, {\"id\": \"Q0037\", \"value\": -3.0}, {\"id\": \"Q0038\", \"value\": -2.3}, {\"id\": \"Q0039\", \"value\": -2.9}]}",
+        "refusal": null,
+        "reasoning": "**Analyzing Data Discrepancies**\n\nI'm observing significant deviations between expected solubility values and those present in the training data. This suggests potential issues with label shuffling, noise, or that the data is inherently noisy logS values.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Data Discrepancies**\n\nI'm observing significant deviations between expected solubility values and those present in the training data. This suggests potential issues with label shuffling, noise, or that the data is inherently noisy logS values.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2607,
+    "completion_tokens": 984,
+    "total_tokens": 3591,
+    "cost": 0.015054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015054,
+      "upstream_inference_prompt_cost": 0.005214,
+      "upstream_inference_completions_cost": 0.00984
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 230,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "gen-1792970196-W2zNuzeg6PvQ9cwtLcpe",
+  "object": "chat.completion",
+  "created": 1792970196,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-9521.9},{\"id\":\"Q0001\",\"value\":-10499.0},{\"id\":\"Q0002\",\"value\":-9555.5},{\"id\":\"Q0003\",\"value\":-10908.8},{\"id\":\"Q0004\",\"value\":-11304.8},{\"id\":\"Q0005\",\"value\":-12488.5},{\"id\":\"Q0006\",\"value\":-10939.9},{\"id\":\"Q0007\",\"value\":-10939.0},{\"id\":\"Q0008\",\"value\":-12683.5},{\"id\":\"Q0009\",\"value\":-12521.3},{\"id\":\"Q0010\",\"value\":-11304.2},{\"id\":\"Q0011\",\"value\":-12961.0},{\"id\":\"Q0012\",\"value\":-11477.5},{\"id\":\"Q0013\",\"value\":-11375.5},{\"id\":\"Q0014\",\"value\":-12453.2},{\"id\":\"Q0015\",\"value\":-9621.8},{\"id\":\"Q0016\",\"value\":-12519.9},{\"id\":\"Q0017\",\"value\":-9926.3},{\"id\":\"Q0018\",\"value\":-10440.7},{\"id\":\"Q0019\",\"value\":-10500.6},{\"id\":\"Q0020\",\"value\":-12456.7},{\"id\":\"Q0021\",\"value\":-11542.4},{\"id\":\"Q0022\",\"value\":-10566.6},{\"id\":\"Q0023\",\"value\":-10565.8},{\"id\":\"Q0024\",\"value\":-11000.8},{\"id\":\"Q0025\",\"value\":-11645.1},{\"id\":\"Q0026\",\"value\":-10534.8},{\"id\":\"Q0027\",\"value\":-10566.5},{\"id\":\"Q0028\",\"value\":-11846.2},{\"id\":\"Q0029\",\"value\":-9965.1},{\"id\":\"Q0030\",\"value\":-11815.0},{\"id\":\"Q0031\",\"value\":-11575.3},{\"id\":\"Q0032\",\"value\":-9958.5},{\"id\":\"Q0033\",\"value\":-11981.1},{\"id\":\"Q0034\",\"value\":-10531.2},{\"id\":\"Q0035\",\"value\":-11473.8},{\"id\":\"Q0036\",\"value\":-11914.6},{\"id\":\"Q0037\",\"value\":-10935.4},{\"id\":\"Q0038\",\"value\":-9461.9},{\"id\":\"Q0039\",\"value\":-10565.4}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8dd53dbc87d1b21181d41a2b7bdc",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8ddefdd087d1b9d16cc62b725b4c",
+            "index": 1
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Calculating base total**\n\nI'm breaking down the contributions from different elements to find the base total. I've got C at -1036.2756, O at -2046.4456, N at -1490.7956, and H at -16.4. Adding these together gives a base total of -11543.4. It seems straightforward, but I want to double-check my calculations to ensure everything adds up correctly. Accuracy is vital here, so I’ll be careful rounding any figures as needed.",
+            "format": "openai-responses-v1",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8de82f7887d1a29ad67d0fc74b65",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8df0afe087d1a65405da31a59427",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8df695fc87d1842240847d71f3e9",
+            "index": 5
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8dff53ac87d18f00d54768045d13",
+            "index": 6
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e06596487d18c9ef90ef54ba729",
+            "index": 7
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e0d9b0c87d1b4533394eb076593",
+            "index": 8
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e13451087d19374de6092d47861",
+            "index": 9
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating chemical formula**\n\nI'm thinking about the NH2+ bonds with methyl and the ring, which equals 2+2H. That seems good! I wonder if the original formula computed the hydrogen offset as a charged atom artifact. It could be a detail worth exploring more. I'm curious about how these elements interact and what it means for the overall chemistry involved. There's definitely something interesting here to unpack!",
+            "format": "openai-responses-v1",
+            "index": 10
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e1a3eec87d185f4901c4ce4cccd",
+            "index": 11
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e23f23087d1a8c1dabd02682fee",
+            "index": 12
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e2c443887d1946a30eab9cc147f",
+            "index": 13
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e321cac87d1913ce336fcf5aac4",
+            "index": 14
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e38effc87d1b8062382b08470e9",
+            "index": 15
+          },
+          {
+            "type": "reasoning.summary",
+            "summary": "**Evaluating training data**\n\nI'm looking into the training data for Nc1nocnc1=O C3H3N3O2 with hefty numbers involved! I see the initial values at heavy8-1363.56 and 2020.34, then I have to consider that adjustment of +147.6. It seems like I'm calculating to find an actual value of -11720.55, but I notice a small difference of +2.53 in my evaluation. It’s essential to keep track of these figures accurately!",
+            "format": "openai-responses-v1",
+            "index": 16
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_03d66d4d461fd2c0016ade8e3fc89487d18ed2043d760c6925",
+            "index": 17
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2412,
+    "completion_tokens": 8344,
+    "total_tokens": 10756,
+    "cost": 0.4473425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2409,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.4473425,
+      "upstream_inference_prompt_cost": 0.0301425,
+      "upstream_inference_completions_cost": 0.4172
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7768,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

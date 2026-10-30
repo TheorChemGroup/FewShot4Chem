@@ -1,0 +1,6 @@
+type: grover
+name: grover_base
+hyperparams:
+  model_size: base
+  fingerprint_source: both
+batch_size: 32

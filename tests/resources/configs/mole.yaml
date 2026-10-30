@@ -1,0 +1,8 @@
+type: mole
+name: mole
+version: 1.0.0
+hyperparams:
+  mode: embedding
+  upstream_source_path: Pretrained MolE/source
+  checkpoint_path: Pretrained MolE/checkpoint
+batch_size: 32

@@ -1,0 +1,157 @@
+panel,model,support,configuration,cohort,test_repeats,mean_validation_R2,mean_test_R2,plotted_R2,status,validation_note
+frozen,gin-pretrained,60,tabpfn,original_small100_50fit_10val_40query,5,0.239593577381718,0.31738808545886693,0.31738808545886693,plotted,actual_saved_model
+frozen,gin-pretrained,100,tabpfn,new_small125_90_10_25,5,0.5146945408003049,0.49441795302025393,0.49441795302025393,plotted,actual saved-model validation
+frozen,gin-pretrained,1000,tabicl,uniform_random1250_900_100_250,5,0.650255560874939,0.6873908519744873,0.6873908519744873,plotted,actual saved-model validation
+frozen,gin-pretrained,10000,tabpfn,new_random12500_9000_1000_2500,5,0.8427143164936519,0.8300706234517304,0.8300706234517304,plotted,actual saved-model validation
+frozen,grover-base,60,linear,original_small100_50fit_10val_40query,5,0.5765125246160512,0.4174024443633383,0.41740244436333834,plotted,actual_saved_model
+frozen,grover-base,100,tabpfn,new_small125_90_10_25,5,0.5638196056852445,0.47256517738156845,0.47256517738156845,plotted,actual saved-model validation
+frozen,grover-base,1000,gp-rbf,uniform_random1250_900_100_250,5,0.7045408487319946,0.7331164956092835,0.7331164956092835,plotted,actual saved-model validation
+frozen,grover-base,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9623364448164414,0.9559932436524253,0.9559932436524253,plotted,actual saved-model validation
+frozen,molformer,60,mlp,original_small100_50fit_10val_40query,5,0.5190026222733013,0.47907018724493644,0.47907018724493644,plotted,actual_saved_model
+frozen,molformer,100,gp-rbf,new_small125_90_10_25,5,0.5662654995918274,0.6352464437484742,0.6352464437484742,plotted,actual saved-model validation
+frozen,molformer,1000,tabicl,uniform_random1250_900_100_250,5,0.8131353855133057,0.8209966897964478,0.8209966897964478,plotted,actual saved-model validation
+frozen,molformer,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9369422359245185,0.9351832223575842,0.9351832223575842,plotted,actual saved-model validation
+frozen,molformer-xl,60,tabicl,original_small100_50fit_10val_40query,5,0.6015541006696024,0.47999280964450897,0.47999280964450897,plotted,actual_saved_model
+frozen,molformer-xl,100,tabicl,new_small125_90_10_25,5,0.6729122853687493,0.7249867880508561,0.7249867880508561,plotted,actual saved-model validation
+frozen,molformer-xl,1000,tabicl,uniform_random1250_900_100_250,5,0.8535045862197876,0.8485762357711792,0.8485762357711792,plotted,actual saved-model validation
+frozen,molformer-xl,10000,tabpfn,new_random12500_9000_1000_2500,5,0.951104812295952,0.9507730006975955,0.9507730006975955,plotted,actual saved-model validation
+frozen,ChemBERTa-2-77M-MTR,60,linear,original_small100_50fit_10val_40query,5,0.5671826240235908,0.488679646595831,0.4886796465958311,plotted,actual_saved_model
+frozen,ChemBERTa-2-77M-MTR,100,tabicl,new_small125_90_10_25,5,0.6436564994309655,0.6204204978424513,0.6204204978424513,plotted,actual saved-model validation
+frozen,ChemBERTa-2-77M-MTR,1000,tabicl,uniform_random1250_900_100_250,5,0.8619763374328613,0.8594754695892334,0.8594754695892334,plotted,actual saved-model validation
+frozen,ChemBERTa-2-77M-MTR,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9447008620691241,0.9426698448417681,0.9426698448417681,plotted,actual saved-model validation
+frozen,selformer,60,tabpfn,original_small100_50fit_10val_40query,5,0.5056236595609501,0.39930960155187784,0.39930960155187784,plotted,actual_saved_model
+frozen,selformer,100,gp-rbf,new_small125_90_10_25,5,0.6492960810661316,0.5454861760139466,0.5454861760139466,plotted,actual saved-model validation
+frozen,selformer,1000,tabicl,uniform_random1250_900_100_250,5,0.7683239340782165,0.7786949157714844,0.7786949157714844,plotted,actual saved-model validation
+frozen,selformer,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9296813218362822,0.9304199271605943,0.9304199271605943,plotted,actual saved-model validation
+frozen,clamp,60,mlp,original_small100_50fit_10val_40query,5,0.427603151171254,0.3537311407979788,0.35373114079797874,plotted,actual_saved_model
+frozen,clamp,100,mlp,new_small125_90_10_25,5,0.4052774548530579,0.4823792099952698,0.4823792099952698,plotted,actual saved-model validation
+frozen,clamp,1000,tabicl,uniform_random1250_900_100_250,5,0.7081395626068115,0.6853330850601196,0.6853330850601196,plotted,actual saved-model validation
+frozen,clamp,10000,tabpfn,new_random12500_9000_1000_2500,5,0.8876889427351428,0.8810687582668684,0.8810687582668684,plotted,actual saved-model validation
+frozen,chemfm-1b,60,linear,original_small100_50fit_10val_40query,5,0.6693841295270535,0.37852102858123904,0.3785210285812391,plotted,actual_saved_model
+frozen,chemfm-1b,100,tabicl,new_small125_90_10_25,5,0.6302441064961789,0.6603530632176932,0.6603530632176932,plotted,actual saved-model validation
+frozen,chemfm-1b,1000,tabicl,uniform_random1250_900_100_250,5,0.7766526341438293,0.7986151695251464,0.7986151695251464,plotted,actual saved-model validation
+frozen,chemfm-1b,10000,tabpfn,new_random12500_9000_1000_2500,5,0.93905801167688,0.9403556040102162,0.9403556040102162,plotted,actual saved-model validation
+frozen,MoLFormer-c3-1.1B,60,linear,original_small100_50fit_10val_40query,5,0.5150571161007668,0.4518067823724061,0.4518067823724062,plotted,actual_saved_model
+frozen,MoLFormer-c3-1.1B,100,tabpfn,new_small125_90_10_25,5,0.6109523554375739,0.5718844895163475,0.5718844895163475,plotted,actual saved-model validation
+frozen,MoLFormer-c3-1.1B,1000,tabicl,uniform_random1250_900_100_250,5,0.7700591087341309,0.7903403997421264,0.7903403997421264,plotted,actual saved-model validation
+frozen,MoLFormer-c3-1.1B,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9234305249438091,0.9240428748178243,0.9240428748178243,plotted,actual saved-model validation
+frozen,ChemBERTa-3-100M-MLM,60,tabicl,original_small100_50fit_10val_40query,5,0.6192275162219342,0.31840113509697354,0.3184011350969736,plotted,actual_saved_model
+frozen,ChemBERTa-3-100M-MLM,100,gp-rbf,new_small125_90_10_25,5,0.5712380064891077,0.5453772257831918,0.5453772257831918,plotted,actual saved-model validation
+frozen,ChemBERTa-3-100M-MLM,1000,tabicl,uniform_random1250_900_100_250,5,0.707181739807129,0.7210201263427735,0.7210201263427735,plotted,actual saved-model validation
+frozen,ChemBERTa-3-100M-MLM,10000,tabpfn,new_random12500_9000_1000_2500,5,0.880634612536128,0.8714316216016923,0.8714316216016923,plotted,actual saved-model validation
+frozen,rdkit,60,tabpfn,original_small100_50fit_10val_40query,5,0.8001615561457054,0.714185426794747,0.714185426794747,plotted,actual_saved_model
+frozen,rdkit,100,tabicl,new_small125_90_10_25,5,0.8240748548821072,0.8287425518042401,0.8287425518042401,plotted,actual saved-model validation
+frozen,rdkit,1000,tabicl,uniform_random1250_900_100_250,5,0.8802260994911194,0.8913521766662598,0.8913521766662598,plotted,actual saved-model validation
+frozen,rdkit,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9598980863166331,0.9560882310048077,0.9560882310048077,plotted,actual saved-model validation
+frozen,gemini,60,linear,original_small100_50fit_10val_40query,5,0.7776463192584911,0.5125870251724725,0.5125870251724725,plotted,actual_saved_model
+frozen,gemini,100,,,0,,,,unavailable,
+frozen,gemini,1000,tabpfn,uniform_random1250_900_100_250,5,0.8511694486831086,0.8591993420110408,0.8591993420110408,plotted,actual saved-model validation
+frozen,gemini,10000,tabpfn,new_random12500_9000_1000_2500,5,0.931565626464638,0.9285884003849908,0.9285884003849908,plotted,actual saved-model validation
+frozen,astra,60,none,original_small100_50fit_10val_40query,5,,0.8460154054527963,0.8460154054527963,plotted,unavailable
+frozen,astra,100,,,0,,,,unavailable,
+frozen,astra,1000,none,uniform_random1250_72_8_20,5,,0.9334833558485746,0.9334833558485746,plotted,unavailable
+frozen,astra,10000,,,0,,,,unavailable,
+fullft,gin-pretrained,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,-0.46585127011366384,-0.11742945373309843,-0.11742945373309843,plotted,actual_saved_model
+fullft,gin-pretrained,100,r0,new_small125_90_10_25,5,-0.06208942435339617,-0.10254759658543708,-0.10254759658543708,plotted,actual saved-model validation
+fullft,gin-pretrained,1000,r0,uniform_random1250_900_100_250,5,0.11990379095077515,0.12154817581176758,0.12154817581176758,plotted,training epoch peak R2; final scored state not replayed
+fullft,gin-pretrained,10000,r0,new_random12500_9000_1000_2500,5,0.7091981573474502,0.6961866553752337,0.6961866553752337,plotted,actual saved-model validation
+fullft,grover-base,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,0.2340692197892401,0.07948156023850632,0.07948156023850632,plotted,actual_saved_model
+fullft,grover-base,100,r0,new_small125_90_10_25,5,0.35229550615817246,0.15966015365739128,0.15966015365739128,plotted,actual saved-model validation
+fullft,grover-base,1000,r0,uniform_random1250_900_100_250,5,0.6507297039031983,0.6842381596565247,0.6842381596565247,plotted,training epoch peak R2; final scored state not replayed
+fullft,grover-base,10000,r0,new_random12500_9000_1000_2500,5,0.9227151597712726,0.9171481714848159,0.9171481714848159,plotted,actual saved-model validation
+fullft,molformer,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,0.2928367882595146,0.2541647704954555,0.25416477049545544,plotted,training_checkpoint_R2
+fullft,molformer,100,r0,new_small125_90_10_25,5,0.33358363669170393,0.33552095443195523,0.33552095443195523,plotted,actual saved-model validation
+fullft,molformer,1000,r0,uniform_random1250_900_100_250,5,0.8586186528205871,0.862373697757721,0.862373697757721,plotted,training epoch peak R2; final scored state not replayed
+fullft,molformer,10000,r0,new_random12500_9000_1000_2500,5,0.9521296784490302,0.9527081623106213,0.9527081623106213,plotted,actual saved-model validation
+fullft,molformer-xl,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,0.25765861328618334,0.259029721653112,0.259029721653112,plotted,training_checkpoint_R2
+fullft,molformer-xl,100,r0,new_small125_90_10_25,5,0.32685200892711896,0.3150868160961551,0.3150868160961551,plotted,actual saved-model validation
+fullft,molformer-xl,1000,r0,uniform_random1250_900_100_250,5,0.8752482414245606,0.8589690089225769,0.8589690089225769,plotted,training epoch peak R2; final scored state not replayed
+fullft,molformer-xl,10000,r0,new_random12500_9000_1000_2500,5,0.956244068587598,0.955466807156482,0.955466807156482,plotted,actual saved-model validation
+fullft,ChemBERTa-2-77M-MTR,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,-0.45913515404087957,-0.07859687279880481,-0.07859687279880481,plotted,training_checkpoint_R2
+fullft,ChemBERTa-2-77M-MTR,100,r0,new_small125_90_10_25,5,-0.054540745299120744,-0.061091921300343556,-0.061091921300343556,plotted,actual saved-model validation
+fullft,ChemBERTa-2-77M-MTR,1000,r0,uniform_random1250_900_100_250,5,0.7120023488998413,0.6827889204025268,0.6827889204025268,plotted,training epoch peak R2; final scored state not replayed
+fullft,ChemBERTa-2-77M-MTR,10000,r0,new_random12500_9000_1000_2500,5,0.8978285939917163,0.8919579241441291,0.8919579241441291,plotted,actual saved-model validation
+fullft,selformer,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,0.1614654224482448,0.2133403575282534,0.2133403575282534,plotted,training_checkpoint_R2
+fullft,selformer,100,r0,new_small125_90_10_25,5,0.2872509587731544,0.2974007168675006,0.2974007168675006,plotted,actual saved-model validation
+fullft,selformer,1000,r0,uniform_random1250_900_100_250,5,0.8833142638206481,0.8986090302467347,0.8986090302467347,plotted,training epoch peak R2; final scored state not replayed
+fullft,selformer,10000,r0,new_random12500_9000_1000_2500,5,0.9602308589542041,0.9597378189581799,0.9597378189581799,plotted,actual saved-model validation
+fullft,clamp,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,-0.3241403294025255,-0.04012039749428118,-0.04012039749428118,plotted,training_checkpoint_R2
+fullft,clamp,100,r0,new_small125_90_10_25,5,-0.022664521540516524,-0.028626931980360572,-0.028626931980360572,plotted,actual saved-model validation
+fullft,clamp,1000,r0,uniform_random1250_900_100_250,5,0.6102615714073181,0.6389233946800232,0.6389233946800232,plotted,training epoch peak R2; final scored state not replayed
+fullft,clamp,10000,r0,new_random12500_9000_1000_2500,5,0.8882680875594654,0.8831786637691614,0.8831786637691614,plotted,actual saved-model validation
+fullft,MoLFormer-c3-1.1B,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,0.4422582672799725,0.4082370921383164,0.4082370921383164,plotted,training_checkpoint_R2
+fullft,MoLFormer-c3-1.1B,100,r0,new_small125_90_10_25,5,0.5504779988898159,0.40583521824410757,0.40583521824410757,plotted,actual saved-model validation
+fullft,MoLFormer-c3-1.1B,1000,r0,uniform_random1250_900_100_250,5,0.8883686661720276,0.8896230816841125,0.8896230816841125,plotted,training epoch peak R2; final scored state not replayed
+fullft,MoLFormer-c3-1.1B,10000,r0,new_random12500_9000_1000_2500,5,0.9586025226179425,0.9569669135552555,0.9569669135552555,plotted,actual saved-model validation
+fullft,ChemBERTa-3-100M-MLM,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,0.28156550776116807,0.3064112849683427,0.30641128496834275,plotted,training_checkpoint_R2
+fullft,ChemBERTa-3-100M-MLM,100,r0,new_small125_90_10_25,5,0.4925476396856486,0.4143608175343127,0.4143608175343127,plotted,actual saved-model validation
+fullft,ChemBERTa-3-100M-MLM,1000,r0,uniform_random1250_900_100_250,5,0.814394187927246,0.8360847949981689,0.8360847949981689,plotted,training epoch peak R2; final scored state not replayed
+fullft,ChemBERTa-3-100M-MLM,10000,r0,new_random12500_9000_1000_2500,5,0.9501369741831183,0.9501907265254692,0.9501907265254692,plotted,actual saved-model validation
+fullft,rdkit,60,tabpfn,original_small100_50fit_10val_40query,5,0.8001615561457054,0.714185426794747,0.714185426794747,plotted,actual_saved_model
+fullft,rdkit,100,tabicl,new_small125_90_10_25,5,0.8240748548821072,0.8287425518042401,0.8287425518042401,plotted,actual saved-model validation
+fullft,rdkit,1000,tabicl,uniform_random1250_900_100_250,5,0.8802260994911194,0.8913521766662598,0.8913521766662598,plotted,actual saved-model validation
+fullft,rdkit,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9598980863166331,0.9560882310048077,0.9560882310048077,plotted,actual saved-model validation
+fullft,gemini,60,linear,original_small100_50fit_10val_40query,5,0.7776463192584911,0.5125870251724725,0.5125870251724725,plotted,actual_saved_model
+fullft,gemini,100,,,0,,,,unavailable,
+fullft,gemini,1000,tabpfn,uniform_random1250_900_100_250,5,0.8511694486831086,0.8591993420110408,0.8591993420110408,plotted,actual saved-model validation
+fullft,gemini,10000,tabpfn,new_random12500_9000_1000_2500,5,0.931565626464638,0.9285884003849908,0.9285884003849908,plotted,actual saved-model validation
+fullft,astra,60,none,original_small100_50fit_10val_40query,5,,0.8460154054527963,0.8460154054527963,plotted,unavailable
+fullft,astra,100,,,0,,,,unavailable,
+fullft,astra,1000,none,uniform_random1250_72_8_20,5,,0.9334833558485746,0.9334833558485746,plotted,unavailable
+fullft,astra,10000,,,0,,,,unavailable,
+lora,gin-pretrained,60,"native MLP (256,256) 16",original_small100_50fit_10val_40query,5,0.34507379617138373,0.11530230268908404,0.11530230268908404,plotted,actual_saved_model
+lora,gin-pretrained,100,r16,new_small125_90_10_25,5,0.4632314916525805,0.30710726747972694,0.30710726747972694,plotted,actual saved-model validation
+lora,gin-pretrained,1000,r16,uniform_random1250_900_100_250,5,0.8284486786218649,0.8389343489002082,0.8389343489002082,plotted,training epoch peak R2; final scored state not replayed
+lora,gin-pretrained,10000,r8,new_random12500_9000_1000_2500,5,0.9045640495307361,0.8959567410561703,0.8959567410561703,plotted,actual saved-model validation
+lora,grover-base,60,"native MLP (256,256) 8",original_small100_50fit_10val_40query,5,0.30536016973769764,0.09197374575914388,0.09197374575914388,plotted,actual_saved_model
+lora,grover-base,100,r8,new_small125_90_10_25,5,0.3644173862491727,0.25957190539895525,0.25957190539895525,plotted,actual saved-model validation
+lora,grover-base,1000,r4,uniform_random1250_900_100_250,5,0.6914607116377839,0.7158560009879138,0.7158560009879138,plotted,training epoch peak R2; final scored state not replayed
+lora,grover-base,10000,r4,new_random12500_9000_1000_2500,5,0.8799086420482345,0.8731687944729214,0.8731687944729214,plotted,actual saved-model validation
+lora,molformer,60,"native MLP (256,256) 8",original_small100_50fit_10val_40query,5,0.7213611321838229,0.37859542987707007,0.37859542987707007,plotted,training_checkpoint_R2
+lora,molformer,100,r8,new_small125_90_10_25,5,0.7073301291809434,0.4968695239052571,0.4968695239052571,plotted,actual saved-model validation
+lora,molformer,1000,r4,uniform_random1250_900_100_250,5,0.9151764631271362,0.9007386088371276,0.9007386088371276,plotted,training epoch peak R2; final scored state not replayed
+lora,molformer,10000,r16,new_random12500_9000_1000_2500,5,0.9589804014101821,0.9569779361278156,0.9569779361278156,plotted,actual saved-model validation
+lora,molformer-xl,60,"native MLP (256,256) 16",original_small100_50fit_10val_40query,5,0.7400455941848278,0.49103192013192887,0.49103192013192887,plotted,training_checkpoint_R2
+lora,molformer-xl,100,r16,new_small125_90_10_25,5,0.7039393271026276,0.5946192261429756,0.5946192261429756,plotted,actual saved-model validation
+lora,molformer-xl,1000,r8,uniform_random1250_900_100_250,5,0.922316563129425,0.9079044938087464,0.9079044938087464,plotted,training epoch peak R2; final scored state not replayed
+lora,molformer-xl,10000,r16,new_random12500_9000_1000_2500,5,0.9621619426480938,0.960184576208534,0.960184576208534,plotted,actual saved-model validation
+lora,ChemBERTa-2-77M-MTR,60,"native MLP (256,256) 16",original_small100_50fit_10val_40query,5,0.590045717069891,0.40650949842515194,0.40650949842515194,plotted,training_checkpoint_R2
+lora,ChemBERTa-2-77M-MTR,100,r8,new_small125_90_10_25,5,0.4281196776264141,0.36725683893983174,0.36725683893983174,plotted,actual saved-model validation
+lora,ChemBERTa-2-77M-MTR,1000,r16,uniform_random1250_900_100_250,5,0.8873703956604004,0.8766249060630799,0.8766249060630799,plotted,training epoch peak R2; final scored state not replayed
+lora,ChemBERTa-2-77M-MTR,10000,r16,new_random12500_9000_1000_2500,5,0.9569900674448296,0.9547276513974498,0.9547276513974498,plotted,actual saved-model validation
+lora,selformer,60,"native MLP (256,256) 16",original_small100_50fit_10val_40query,5,0.6560508948809313,0.46052351173399425,0.46052351173399425,plotted,training_checkpoint_R2
+lora,selformer,100,r16,new_small125_90_10_25,5,0.6881969635138736,0.54981511720803,0.54981511720803,plotted,actual saved-model validation
+lora,selformer,1000,r16,uniform_random1250_900_100_250,5,0.9156847119331359,0.9099933266639709,0.9099933266639709,plotted,training epoch peak R2; final scored state not replayed
+lora,selformer,10000,r8,new_random12500_9000_1000_2500,5,0.9639261544652985,0.9629858658180567,0.9629858658180567,plotted,actual saved-model validation
+lora,clamp,60,"native MLP (256,256) 8",original_small100_50fit_10val_40query,5,0.6018106419970974,0.4249046363297688,0.4249046363297689,plotted,training_checkpoint_R2
+lora,clamp,100,r16,new_small125_90_10_25,5,0.45933917451038747,0.4112887616005471,0.4112887616005471,plotted,actual saved-model validation
+lora,clamp,1000,r16,uniform_random1250_900_100_250,5,0.8391863093946857,0.826921159640933,0.826921159640933,plotted,training epoch peak R2; final scored state not replayed
+lora,clamp,10000,r8,new_random12500_9000_1000_2500,5,0.9519048163039706,0.9491345975296965,0.9491345975296965,plotted,actual saved-model validation
+lora,chemfm-1b,60,"native MLP (256,256) 16",original_small100_50fit_10val_40query,5,0.5875925239178842,0.25333425016437877,0.2533342501643788,plotted,training_checkpoint_R2
+lora,chemfm-1b,100,r16,new_small125_90_10_25,5,0.7695311715185494,0.5147828018885282,0.5147828018885282,plotted,actual saved-model validation
+lora,chemfm-1b,1000,r8,uniform_random1250_900_100_250,5,0.8760323882102966,0.8825420379638672,0.8825420379638672,plotted,training epoch peak R2; final scored state not replayed
+lora,chemfm-1b,10000,r4,new_random12500_9000_1000_2500,5,0.9725270608261443,0.9711043043695577,0.9711043043695577,plotted,actual saved-model validation
+lora,MoLFormer-c3-1.1B,60,"native MLP (256,256) 8",original_small100_50fit_10val_40query,5,0.6472452206745078,0.4700439925815264,0.4700439925815264,plotted,training_checkpoint_R2
+lora,MoLFormer-c3-1.1B,100,r16,new_small125_90_10_25,5,0.7140170742267792,0.5508699472371473,0.5508699472371473,plotted,actual saved-model validation
+lora,MoLFormer-c3-1.1B,1000,r16,uniform_random1250_900_100_250,5,0.9065634369850158,0.8984592080116272,0.8984592080116272,plotted,training epoch peak R2; final scored state not replayed
+lora,MoLFormer-c3-1.1B,10000,r4,new_random12500_9000_1000_2500,5,0.9606578220825116,0.9599118172975781,0.9599118172975781,plotted,actual saved-model validation
+lora,ChemBERTa-3-100M-MLM,60,"native MLP (256,256) 16",original_small100_50fit_10val_40query,5,0.5943936607919222,0.22418079361741763,0.2241807936174176,plotted,training_checkpoint_R2
+lora,ChemBERTa-3-100M-MLM,100,r8,new_small125_90_10_25,5,0.6639391807013578,0.4318632247371538,0.4318632247371538,plotted,actual saved-model validation
+lora,ChemBERTa-3-100M-MLM,1000,r16,uniform_random1250_900_100_250,5,0.8693885564804077,0.8739179968833923,0.8739179968833923,plotted,training epoch peak R2; final scored state not replayed
+lora,ChemBERTa-3-100M-MLM,10000,r4,new_random12500_9000_1000_2500,5,0.9514294550334356,0.9489942379992913,0.9489942379992913,plotted,actual saved-model validation
+lora,rdkit,60,tabpfn,original_small100_50fit_10val_40query,5,0.8001615561457054,0.714185426794747,0.714185426794747,plotted,actual_saved_model
+lora,rdkit,100,tabicl,new_small125_90_10_25,5,0.8240748548821072,0.8287425518042401,0.8287425518042401,plotted,actual saved-model validation
+lora,rdkit,1000,tabicl,uniform_random1250_900_100_250,5,0.8802260994911194,0.8913521766662598,0.8913521766662598,plotted,actual saved-model validation
+lora,rdkit,10000,tabpfn,new_random12500_9000_1000_2500,5,0.9598980863166331,0.9560882310048077,0.9560882310048077,plotted,actual saved-model validation
+lora,gemini,60,linear,original_small100_50fit_10val_40query,5,0.7776463192584911,0.5125870251724725,0.5125870251724725,plotted,actual_saved_model
+lora,gemini,100,,,0,,,,unavailable,
+lora,gemini,1000,tabpfn,uniform_random1250_900_100_250,5,0.8511694486831086,0.8591993420110408,0.8591993420110408,plotted,actual saved-model validation
+lora,gemini,10000,tabpfn,new_random12500_9000_1000_2500,5,0.931565626464638,0.9285884003849908,0.9285884003849908,plotted,actual saved-model validation
+lora,astra,60,none,original_small100_50fit_10val_40query,5,,0.8460154054527963,0.8460154054527963,plotted,unavailable
+lora,astra,100,,,0,,,,unavailable,
+lora,astra,1000,none,uniform_random1250_72_8_20,5,,0.9334833558485746,0.9334833558485746,plotted,unavailable
+lora,astra,10000,,,0,,,,unavailable,
+fullft,chemfm-1b,60,"native MLP (256,256)",original_small100_50fit_10val_40query,5,0.09162573515008157,0.08281072188060275,0.08281072188060275,plotted,actual_saved_model
+fullft,chemfm-1b,100,,,0,,,,unavailable,
+fullft,chemfm-1b,1000,,,0,,,,unavailable,
+fullft,chemfm-1b,10000,,,0,,,,unavailable,

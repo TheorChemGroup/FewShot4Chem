@@ -1,0 +1,7 @@
+type: simple_conv
+name: simple_conv
+hyperparams:
+  orthogonal_init: true
+  n_features: 120
+  vocab_size: 21
+train_batch_size: 1024

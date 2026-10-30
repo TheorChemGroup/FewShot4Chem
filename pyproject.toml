@@ -1,0 +1,95 @@
+[project]
+name = "chembertoid"
+version = "1.0.0"
+description = "Are chemical foundation models really foundational? Code, splits and results."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "nn/grover/LICENSE", "nn/molformer/LICENSE", "nn/gin_pretrained/LICENSE"]
+requires-python = ">=3.10,<3.11"
+# Versions recorded by the runs that produced the paper's numbers.
+dependencies = [
+    "numpy==1.26.4",
+    "scipy==1.15.3",
+    "pandas<=2.0",
+    "scikit-learn==1.7.2",
+    "xgboost==2.1.4",
+    "gpytorch==1.15.2",
+    "tabpfn==9.2.0",
+    "tabicl==2.2.0",
+    "torch-geometric==2.7.0",
+    "lightning==2.5.6",
+    "transformers==4.57.1",
+    "tokenizers>=0.22.0,<0.23",
+    "peft==0.19.1",
+    "sentence-transformers",
+    "rdkit==2024.3.2",
+    "selfies>=2.1.2",
+    "regex",
+    "omegaconf==2.3.0",
+    "click>=8.1.8,<9",
+    "pyyaml",
+    "tqdm",
+    "rich",
+    "umap-learn>=0.5.7,<0.6",
+    "deeplake>=3.1.17,<4",
+    "plotly==6.9.0",
+    "kaleido==1.3.0",
+    "python-dotenv",
+    "pytest>=8.4.2,<9",
+    "clamp @ git+https://github.com/OstarkovSN/clamp.git",
+    "pytorch-fast-transformers @ git+https://github.com/idiap/fast-transformers",
+]
+
+[tool.pixi.workspace]
+channels = ["nvidia/label/cuda-11.8.0", "main", "conda-forge"]
+platforms = ["linux-64"]
+
+[tool.pixi.dependencies]
+python = "==3.10"
+cmake = ">=3.22"
+gcc = { channel = "conda-forge", version = ">=9.0" }
+gxx = { channel = "conda-forge", version = ">=9.0" }
+setuptools = "*"
+
+[tool.pixi.feature.gpu.dependencies]
+cuda = "11.8.0*"
+
+[tool.pixi.feature.gpu.pypi-dependencies]
+torch = { version = "==2.6.0+cu118", index = "https://download.pytorch.org/whl/cu118" }
+
+[tool.pixi.feature.cpu.pypi-dependencies]
+torch = { version = "==2.6.0+cpu", index = "https://download.pytorch.org/whl/cpu" }
+
+[tool.pixi.pypi-options]
+# pytorch-fast-transformers (legacy MoLFormer) builds against the installed torch.
+no-build-isolation = ["pytorch-fast-transformers"]
+
+# CheMeleon only: chemprop >= 2.2 needs Python >= 3.11, so it gets its own environment.
+[tool.pixi.feature.chemeleon.dependencies]
+python = "==3.11"
+xorg-libxrender = "*"
+xorg-libxext = "*"
+xorg-libx11 = "*"
+xorg-libsm = "*"
+xorg-libice = "*"
+
+[tool.pixi.feature.chemeleon.pypi-dependencies]
+chemprop = ">=2.2.0"
+rdkit = "==2024.3.2"
+torch-geometric = ">=2.6.1,<3.0.0"
+omegaconf = ">=2.3.0,<3"
+click = ">=8.1.8,<9.0.0"
+numpy = "*"
+pandas = ">=2.2"
+scikit-learn = ">=1.6.1,<2.0.0"
+tqdm = "*"
+pyyaml = "*"
+
+[tool.pixi.environments]
+default = ["gpu"]
+cpu = ["cpu"]
+chemeleon = { features = ["chemeleon"], no-default-feature = true }
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

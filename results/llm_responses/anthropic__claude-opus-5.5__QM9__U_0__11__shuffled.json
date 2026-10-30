@@ -1,0 +1,54 @@
+{
+  "id": "gen-1792970310-2DOAJ3U4MCJM2rSq0M0l",
+  "object": "chat.completion",
+  "created": 1792970310,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Anthropic",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-9521.8},{\"id\":\"Q0001\",\"value\":-10500.0},{\"id\":\"Q0002\",\"value\":-9554.4},{\"id\":\"Q0003\",\"value\":-11980.6},{\"id\":\"Q0004\",\"value\":-11302.7},{\"id\":\"Q0005\",\"value\":-12489.1},{\"id\":\"Q0006\",\"value\":-10937.1},{\"id\":\"Q0007\",\"value\":-10937.1},{\"id\":\"Q0008\",\"value\":-12685.4},{\"id\":\"Q0009\",\"value\":-12521.8},{\"id\":\"Q0010\",\"value\":-11302.7},{\"id\":\"Q0011\",\"value\":-12958.9},{\"id\":\"Q0012\",\"value\":-11478.2},{\"id\":\"Q0013\",\"value\":-11374.1},{\"id\":\"Q0014\",\"value\":-12456.5},{\"id\":\"Q0015\",\"value\":-9619.8},{\"id\":\"Q0016\",\"value\":-12521.8},{\"id\":\"Q0017\",\"value\":-9926.2},{\"id\":\"Q0018\",\"value\":-10442.0},{\"id\":\"Q0019\",\"value\":-10500.0},{\"id\":\"Q0020\",\"value\":-12456.5},{\"id\":\"Q0021\",\"value\":-11543.6},{\"id\":\"Q0022\",\"value\":-10565.3},{\"id\":\"Q0023\",\"value\":-10565.3},{\"id\":\"Q0024\",\"value\":-11018.5},{\"id\":\"Q0025\",\"value\":-11641.8},{\"id\":\"Q0026\",\"value\":-10532.7},{\"id\":\"Q0027\",\"value\":-10565.3},{\"id\":\"Q0028\",\"value\":-11843.9},{\"id\":\"Q0029\",\"value\":-9982.5},{\"id\":\"Q0030\",\"value\":-11811.2},{\"id\":\"Q0031\",\"value\":-10507.4},{\"id\":\"Q0032\",\"value\":-9958.8},{\"id\":\"Q0033\",\"value\":-11980.6},{\"id\":\"Q0034\",\"value\":-10532.7},{\"id\":\"Q0035\",\"value\":-11478.2},{\"id\":\"Q0036\",\"value\":-11915.3},{\"id\":\"Q0037\",\"value\":-10953.4},{\"id\":\"Q0038\",\"value\":-9463.8},{\"id\":\"Q0039\",\"value\":-10565.3}]}",
+        "refusal": null,
+        "reasoning": "I'm trying to estimate U0 by summing per-atom contributions using known B3LYP atomic reference energies, trying to recall or approximate the right calibration values for each element.\n\nTesting this against actual molecule values shows my estimates are off by tens of eV, so I'm trying to recalibrate the per-atom coefficients by cross-checking with specific examples like C7H14O2 and C7H10O, but the discrepancies suggest my baseline atomic energies need refinement.\n\nTesting more examples against composition-based predictions keeps producing inconsistent errors, with computed values sometimes matching other molecules' actual values instead—suggesting the labels might be shuffled or noisy rather than cleanly derivable from atomic composition. If that's the case, predicting near the overall mean might be safer than trying to fit a precise formula.\n\nI'm uncertain whether query labels follow the same shuffled pattern as training or represent true values, so I'll hedge by sticking with composition-based predictions, since they'd hold up reasonably either way. To calibrate, I'm checking my atom-value scheme against a known case like ethanol's QM9 U0, and the match comes out close, which is reassuring.\n\nThen I verify against benzene, where unsaturation seems to pull the real value slightly lower than my scheme predicts, but it's close enough to proceed. I then start computing predicted energies for each query molecule by parsing its formula and summing atom contributions.\n\nContinuing through the pentazole-containing structure, I work out its formula and energy total at -12685.4, then move to the dioxolane-fused compound at -12521.8, the triazole-diethyl structure matching the earlier -11302.7 value, and begin analyzing the carbamate compound's formula.\n\nContinuing through the molecule list, I'm computing formation energies for Q0016 through Q0020, tracking formulas like C6H10O3, C8H9N, C6H8O2, C8H10O, and C6H6O3 against their respective bond contributions.\n\nContinuing through Q0026-Q0030, computing molecular energy estimates for the acetyl-cyclopentene, methylcyclohexenol-ethanol, aminopyrazole-pyrimidinone, azetidinium, and imidazole-carboxamide structures.\n\nMoving on to Q0031-Q0035, calculating energies for the cyclopropane-ether, bicyclic amine, cyclopropanecarboxamide-ethanol, and bicyclic ketal-oxide compounds, continuing into the complex polycyclic structure.\n\nStill computing molecular energies...\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm trying to estimate U0 by summing per-atom contributions using known B3LYP atomic reference energies, trying to recall or approximate the right calibration values for each element.\n\nTesting this against actual molecule values shows my estimates are off by tens of eV, so I'm trying to recalibrate the per-atom coefficients by cross-checking with specific examples like C7H14O2 and C7H10O, but the discrepancies suggest my baseline atomic energies need refinement.\n\nTesting more examples against composition-based predictions keeps producing inconsistent errors, with computed values sometimes matching other molecules' actual values instead—suggesting the labels might be shuffled or noisy rather than cleanly derivable from atomic composition. If that's the case, predicting near the overall mean might be safer than trying to fit a precise formula.\n\nI'm uncertain whether query labels follow the same shuffled pattern as training or represent true values, so I'll hedge by sticking with composition-based predictions, since they'd hold up reasonably either way. To calibrate, I'm checking my atom-value scheme against a known case like ethanol's QM9 U0, and the match comes out close, which is reassuring.\n\nThen I verify against benzene, where unsaturation seems to pull the real value slightly lower than my scheme predicts, but it's close enough to proceed. I then start computing predicted energies for each query molecule by parsing its formula and summing atom contributions.\n\nContinuing through the pentazole-containing structure, I work out its formula and energy total at -12685.4, then move to the dioxolane-fused compound at -12521.8, the triazole-diethyl structure matching the earlier -11302.7 value, and begin analyzing the carbamate compound's formula.\n\nContinuing through the molecule list, I'm computing formation energies for Q0016 through Q0020, tracking formulas like C6H10O3, C8H9N, C6H8O2, C8H10O, and C6H6O3 against their respective bond contributions.\n\nContinuing through Q0026-Q0030, computing molecular energy estimates for the acetyl-cyclopentene, methylcyclohexenol-ethanol, aminopyrazole-pyrimidinone, azetidinium, and imidazole-carboxamide structures.\n\nMoving on to Q0031-Q0035, calculating energies for the cyclopropane-ether, bicyclic amine, cyclopropanecarboxamide-ethanol, and bicyclic ketal-oxide compounds, continuing into the complex polycyclic structure.\n\nStill computing molecular energies...\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 4651,
+    "total_tokens": 7965,
+    "cost": 0.106276,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.106276,
+      "upstream_inference_prompt_cost": 0.013256,
+      "upstream_inference_completions_cost": 0.09302
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3920,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

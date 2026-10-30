@@ -1,0 +1,78 @@
+{
+  "id": "gen-1792955748-Py4xnHW7KNhAc6Y7gbrl",
+  "object": "chat.completion",
+  "created": 1792955748,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":-5.85},{\"id\":\"Q0001\",\"value\":-4.4},{\"id\":\"Q0002\",\"value\":-2.65},{\"id\":\"Q0003\",\"value\":-2.3},{\"id\":\"Q0004\",\"value\":-4.8},{\"id\":\"Q0005\",\"value\":-2.63},{\"id\":\"Q0006\",\"value\":-2.73},{\"id\":\"Q0007\",\"value\":-2.45},{\"id\":\"Q0008\",\"value\":-5.55},{\"id\":\"Q0009\",\"value\":-0.89},{\"id\":\"Q0010\",\"value\":-10.5},{\"id\":\"Q0011\",\"value\":-8.7},{\"id\":\"Q0012\",\"value\":-4.1},{\"id\":\"Q0013\",\"value\":-6.4},{\"id\":\"Q0014\",\"value\":-2.3},{\"id\":\"Q0015\",\"value\":-4.55},{\"id\":\"Q0016\",\"value\":-3.9},{\"id\":\"Q0017\",\"value\":-3.7},{\"id\":\"Q0018\",\"value\":-0.9},{\"id\":\"Q0019\",\"value\":-3.3},{\"id\":\"Q0020\",\"value\":-2.45},{\"id\":\"Q0021\",\"value\":-8.4},{\"id\":\"Q0022\",\"value\":2.2},{\"id\":\"Q0023\",\"value\":-1.25},{\"id\":\"Q0024\",\"value\":-5.3},{\"id\":\"Q0025\",\"value\":0.52},{\"id\":\"Q0026\",\"value\":-2.83},{\"id\":\"Q0027\",\"value\":-4.15},{\"id\":\"Q0028\",\"value\":-13.43},{\"id\":\"Q0029\",\"value\":-3.12},{\"id\":\"Q0030\",\"value\":-0.52},{\"id\":\"Q0031\",\"value\":-2.2},{\"id\":\"Q0032\",\"value\":-7.05},{\"id\":\"Q0033\",\"value\":1.38},{\"id\":\"Q0034\",\"value\":-3.55},{\"id\":\"Q0035\",\"value\":1.28},{\"id\":\"Q0036\",\"value\":2.65},{\"id\":\"Q0037\",\"value\":-3.15},{\"id\":\"Q0038\",\"value\":-2.33},{\"id\":\"Q0039\",\"value\":1.25}]}",
+        "refusal": null,
+        "reasoning": "**Estimating hydration values**\n\nI need to estimate the hydration values using FreeSolv, focusing on providing direct estimates. For Q0, propoxyethanol is around -5.9, while hexanol is about -4.4. For Q2, isobutyraldehyde sits at -2.5, and bromoform is likely around -2.3. TCDD is estimated between -4 and -3.7. I need plausible hydration estimates for other compounds like ethyl valerate and thioanisole, comparing known values. Overall, I'm piecing together various hydration data.**Comparing hydration values**\n\nI'm comparing the hydration values of different compounds. For phosphorothioate training, it's around -4.37, and adding the heteroaromatic carbonyl from triazine gives a total of -10.7. Q11 involves dichloro syringol phenol, where two methoxy groups contribute to an intramolecular H-bond, estimating around -8.4 and -7.8, while phenol itself is -6.6. Basically, with dichlorophenol and two methoxy groups, I'm estimating a value of about -8.7. For Q12, profluralin typically relates to a value of around -3.3.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.summary",
+            "summary": "**Estimating hydration values**\n\nI need to estimate the hydration values using FreeSolv, focusing on providing direct estimates. For Q0, propoxyethanol is around -5.9, while hexanol is about -4.4. For Q2, isobutyraldehyde sits at -2.5, and bromoform is likely around -2.3. TCDD is estimated between -4 and -3.7. I need plausible hydration estimates for other compounds like ethyl valerate and thioanisole, comparing known values. Overall, I'm piecing together various hydration data.**Comparing hydration values**\n\nI'm comparing the hydration values of different compounds. For phosphorothioate training, it's around -4.37, and adding the heteroaromatic carbonyl from triazine gives a total of -10.7. Q11 involves dichloro syringol phenol, where two methoxy groups contribute to an intramolecular H-bond, estimating around -8.4 and -7.8, while phenol itself is -6.6. Basically, with dichlorophenol and two methoxy groups, I'm estimating a value of about -8.7. For Q12, profluralin typically relates to a value of around -3.3.",
+            "format": "openai-responses-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d34ede8c1b43c7b016ade55650c0487d19280f8910687a124",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d34ede8c1b43c7b016ade5574a4a487d1b256d60c43704c50",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d34ede8c1b43c7b016ade557fbb4487d18203f208bc55b09a",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0d34ede8c1b43c7b016ade558c4b1887d1a7a4d3899daea5af",
+            "index": 4
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 2334,
+    "total_tokens": 4012,
+    "cost": 0.1376675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 1675,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1376675,
+      "upstream_inference_prompt_cost": 0.0209675,
+      "upstream_inference_completions_cost": 0.1167
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1804,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

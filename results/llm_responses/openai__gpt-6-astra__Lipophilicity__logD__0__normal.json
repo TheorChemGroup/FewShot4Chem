@@ -1,0 +1,84 @@
+{
+  "id": "gen-1792945243-rQGPR73n4H1eSqlYtxpx",
+  "object": "chat.completion",
+  "created": 1792945243,
+  "model": "openai/gpt-6-astra",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\":[{\"id\":\"Q0000\",\"value\":2.5},{\"id\":\"Q0001\",\"value\":2.25},{\"id\":\"Q0002\",\"value\":1.5},{\"id\":\"Q0003\",\"value\":1.1},{\"id\":\"Q0004\",\"value\":0.85},{\"id\":\"Q0005\",\"value\":2.2},{\"id\":\"Q0006\",\"value\":0.65},{\"id\":\"Q0007\",\"value\":1.7},{\"id\":\"Q0008\",\"value\":1.3},{\"id\":\"Q0009\",\"value\":-0.6},{\"id\":\"Q0010\",\"value\":3.1},{\"id\":\"Q0011\",\"value\":1.55},{\"id\":\"Q0012\",\"value\":1.05},{\"id\":\"Q0013\",\"value\":0.4},{\"id\":\"Q0014\",\"value\":1.5},{\"id\":\"Q0015\",\"value\":1.6},{\"id\":\"Q0016\",\"value\":3.5},{\"id\":\"Q0017\",\"value\":2.7},{\"id\":\"Q0018\",\"value\":1.7},{\"id\":\"Q0019\",\"value\":1.7},{\"id\":\"Q0020\",\"value\":2.6},{\"id\":\"Q0021\",\"value\":0.65},{\"id\":\"Q0022\",\"value\":2.65},{\"id\":\"Q0023\",\"value\":2.7},{\"id\":\"Q0024\",\"value\":3.55},{\"id\":\"Q0025\",\"value\":0.75},{\"id\":\"Q0026\",\"value\":1.75},{\"id\":\"Q0027\",\"value\":3.4},{\"id\":\"Q0028\",\"value\":1.9},{\"id\":\"Q0029\",\"value\":2.2},{\"id\":\"Q0030\",\"value\":1.25},{\"id\":\"Q0031\",\"value\":3.8},{\"id\":\"Q0032\",\"value\":2.35},{\"id\":\"Q0033\",\"value\":1.5},{\"id\":\"Q0034\",\"value\":1.85},{\"id\":\"Q0035\",\"value\":2.1},{\"id\":\"Q0036\",\"value\":4.0},{\"id\":\"Q0037\",\"value\":1.4},{\"id\":\"Q0038\",\"value\":3.15},{\"id\":\"Q0039\",\"value\":0.15}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0c0aa511240f6df2016ade2c5c2f2c87d1a1e4b943162ab089",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0c0aa511240f6df2016ade2c67df3c87d1a9c541ab9f311c4b",
+            "index": 1
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0c0aa511240f6df2016ade2c72dd5887d1a8e47e9962d9c20a",
+            "index": 2
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0c0aa511240f6df2016ade2c7c34cc87d1ad6dc6efadd51a55",
+            "index": 3
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0c0aa511240f6df2016ade2c86b02087d187fb32cd36b810f7",
+            "index": 4
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "openai-responses-v1",
+            "id": "rs_0c0aa511240f6df2016ade2c91683887d1a0a6fb8e6af7f640",
+            "index": 5
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3838,
+    "completion_tokens": 3191,
+    "total_tokens": 7029,
+    "cost": 0.2075175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 3835,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.2075175,
+      "upstream_inference_prompt_cost": 0.0479675,
+      "upstream_inference_completions_cost": 0.15955
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2694,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792955437-ZsjkOzWYmdHJT9Aj1MJN",
+  "object": "chat.completion",
+  "created": 1792955437,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"predictions\": [\n    {\n      \"id\": \"Q0000\",\n      \"value\": 2.6\n    },\n    {\n      \"id\": \"Q0001\",\n      \"value\": -0.85\n    },\n    {\n      \"id\": \"Q0002\",\n      \"value\": -6.5\n    },\n    {\n      \"id\": \"Q0003\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0004\",\n      \"value\": -1.9\n    },\n    {\n      \"id\": \"Q0005\",\n      \"value\": -16.0\n    },\n    {\n      \"id\": \"Q0006\",\n      \"value\": -4.2\n    },\n    {\n      \"id\": \"Q0007\",\n      \"value\": -5.8\n    },\n    {\n      \"id\": \"Q0008\",\n      \"value\": -0.3\n    },\n    {\n      \"id\": \"Q0009\",\n      \"value\": -5.8\n    },\n    {\n      \"id\": \"Q0010\",\n      \"value\": -0.1\n    },\n    {\n      \"id\": \"Q0011\",\n      \"value\": -3.0\n    },\n    {\n      \"id\": \"Q0012\",\n      \"value\": -7.5\n    },\n    {\n      \"id\": \"Q0013\",\n      \"value\": -2.5\n    },\n    {\n      \"id\": \"Q0014\",\n      \"value\": -11.0\n    },\n    {\n      \"id\": \"Q0015\",\n      \"value\": -7.0\n    },\n    {\n      \"id\": \"Q0016\",\n      \"value\": 2.6\n    },\n    {\n      \"id\": \"Q0017\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0018\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0019\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0020\",\n      \"value\": -0.8\n    },\n    {\n      \"id\": \"Q0021\",\n      \"value\": -4.7\n    },\n    {\n      \"id\": \"Q0022\",\n      \"value\": -1.0\n    },\n    {\n      \"id\": \"Q0023\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0024\",\n      \"value\": -4.3\n    },\n    {\n      \"id\": \"Q0025\",\n      \"value\": -3.8\n    },\n    {\n      \"id\": \"Q0026\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0027\",\n      \"value\": -8.5\n    },\n    {\n      \"id\": \"Q0028\",\n      \"value\": -13.0\n    },\n    {\n      \"id\": \"Q0029\",\n      \"value\": -0.8\n    },\n    {\n      \"id\": \"Q0030\",\n      \"value\": 1.8\n    },\n    {\n      \"id\": \"Q0031\",\n      \"value\": -4.5\n    },\n    {\n      \"id\": \"Q0032\",\n      \"value\": -1.5\n    },\n    {\n      \"id\": \"Q0033\",\n      \"value\": -9.5\n    },\n    {\n      \"id\": \"Q0034\",\n      \"value\": -3.5\n    },\n    {\n      \"id\": \"Q0035\",\n      \"value\": -2.0\n    },\n    {\n      \"id\": \"Q0036\",\n      \"value\": -4.0\n    },\n    {\n      \"id\": \"Q0037\",\n      \"value\": -1.2\n    },\n    {\n      \"id\": \"Q0038\",\n      \"value\": -2.4\n    },\n    {\n      \"id\": \"Q0039\",\n      \"value\": -4.5\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Training Data**\n\nI'm currently examining the training set, seeking correlations between molecular structures and their hydration free energies. My focus is on identifying relevant features within these molecules that might predict the target property.\n\n**Predicting Hydration Energies**\n\nI'm refining my predictions for Q0000 (branched alkane) to 2.40. For Q0001 (Toluene), I'm aiming for -0.85, and for Q0002 (Diethyl malonate), -6.5. I'm currently evaluating Q0003, a chlorinated polycyclic molecule, and expect its hydration energy to be negative.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine my hydration energy predictions. For Q0003, I'm now estimating -1.50. I've also set predictions for Q0004 (1-Methylnaphthalene) at -1.90, Q0005 (5-Fluorouracil) at -17.50, and Q0006 (Pebulate) at -4.20. Further, I've estimated Q0007 (2-Aminonaphthalene) at -5.80, Q0008 (Bromoethane) at -0.30, and Q0009 (2-Methylpyrazine) at -5.80.\n\n**Refining Hydration Energy Estimates**\n\nI'm continuing my refinement process, now estimating Q0010 (2-Chlorobutane) at -0.10. For Q0011 (TCDD), I'm predicting -3.0. I estimate Q0012 (Butylparaben) around -7.5, and Q0013 (2-Nonanone) at -2.5. For Q0014 (Ametryn), I'm targeting -11.0, and for Q0015 (1-Methylpiperazine), I expect -3.88.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine my hydration energy predictions, now focusing on a new set of molecules. My estimates are progressing for Q0016 (alkane), Q0017 (benzyl bromide), and Q0018 (diisopropyl ether), with initial values around 2.6, -1.2, and -1.2 respectively. I'm also evaluating Q0019 (propylene glycol dinitrate) and expect -4.5.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration energies, now evaluating Q0025 (2-Ethylpyridine) and Q0026 (Ethanethiol). My current predictions for Q0027 (Ethylene glycol) and Q0028 (Glycerol) reflect their increasing hydrophilicity. I am also processing Q0029 (p-Xylene), Q0030 (1-Octene), Q0031 (Chrysene), and Q0032 (Hexachlorobenzene), with ongoing evaluation for Q0033 (Propanamide).\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration energies, now evaluating molecules Q0034 through Q0039. I expect Q0034 to be around -3.5, Q0035 at -2.0, and Q0036 at -4.0. For Q0037, I estimate -1.2, and for Q0038, -2.4. Finally, Q0039 is estimated at -4.5.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Training Data**\n\nI'm currently examining the training set, seeking correlations between molecular structures and their hydration free energies. My focus is on identifying relevant features within these molecules that might predict the target property.\n\n**Predicting Hydration Energies**\n\nI'm refining my predictions for Q0000 (branched alkane) to 2.40. For Q0001 (Toluene), I'm aiming for -0.85, and for Q0002 (Diethyl malonate), -6.5. I'm currently evaluating Q0003, a chlorinated polycyclic molecule, and expect its hydration energy to be negative.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine my hydration energy predictions. For Q0003, I'm now estimating -1.50. I've also set predictions for Q0004 (1-Methylnaphthalene) at -1.90, Q0005 (5-Fluorouracil) at -17.50, and Q0006 (Pebulate) at -4.20. Further, I've estimated Q0007 (2-Aminonaphthalene) at -5.80, Q0008 (Bromoethane) at -0.30, and Q0009 (2-Methylpyrazine) at -5.80.\n\n**Refining Hydration Energy Estimates**\n\nI'm continuing my refinement process, now estimating Q0010 (2-Chlorobutane) at -0.10. For Q0011 (TCDD), I'm predicting -3.0. I estimate Q0012 (Butylparaben) around -7.5, and Q0013 (2-Nonanone) at -2.5. For Q0014 (Ametryn), I'm targeting -11.0, and for Q0015 (1-Methylpiperazine), I expect -3.88.\n\n**Estimating Hydration Energies**\n\nI'm continuing to refine my hydration energy predictions, now focusing on a new set of molecules. My estimates are progressing for Q0016 (alkane), Q0017 (benzyl bromide), and Q0018 (diisopropyl ether), with initial values around 2.6, -1.2, and -1.2 respectively. I'm also evaluating Q0019 (propylene glycol dinitrate) and expect -4.5.\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration energies, now evaluating Q0025 (2-Ethylpyridine) and Q0026 (Ethanethiol). My current predictions for Q0027 (Ethylene glycol) and Q0028 (Glycerol) reflect their increasing hydrophilicity. I am also processing Q0029 (p-Xylene), Q0030 (1-Octene), Q0031 (Chrysene), and Q0032 (Hexachlorobenzene), with ongoing evaluation for Q0033 (Propanamide).\n\n**Estimating Hydration Energies**\n\nI'm continuing to estimate hydration energies, now evaluating molecules Q0034 through Q0039. I expect Q0034 to be around -3.5, Q0035 at -2.0, and Q0036 at -4.0. For Q0037, I estimate -1.2, and for Q0038, -2.4. Finally, Q0039 is estimated at -4.5.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1949,
+    "completion_tokens": 4638,
+    "total_tokens": 6587,
+    "cost": 0.0446655,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0446655,
+      "upstream_inference_prompt_cost": 0.0029235,
+      "upstream_inference_completions_cost": 0.041742
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3542,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

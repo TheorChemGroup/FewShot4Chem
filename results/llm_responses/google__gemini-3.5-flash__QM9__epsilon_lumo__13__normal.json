@@ -1,0 +1,59 @@
+{
+  "id": "gen-1792971612-gvyogrU7dVjBI6fP7UI6",
+  "object": "chat.completion",
+  "created": 1792971612,
+  "model": "google/gemini-3.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"predictions\": [{\"id\": \"Q0000\", \"value\": -0.55}, {\"id\": \"Q0001\", \"value\": -0.35}, {\"id\": \"Q0002\", \"value\": -0.3}, {\"id\": \"Q0003\", \"value\": -0.15}, {\"id\": \"Q0004\", \"value\": 1.15}, {\"id\": \"Q0005\", \"value\": -0.2}, {\"id\": \"Q0006\", \"value\": -1.35}, {\"id\": \"Q0007\", \"value\": 1.25}, {\"id\": \"Q0008\", \"value\": 0.95}, {\"id\": \"Q0009\", \"value\": 2.3}, {\"id\": \"Q0010\", \"value\": 0.85}, {\"id\": \"Q0011\", \"value\": -0.45}, {\"id\": \"Q0012\", \"value\": 1.1}, {\"id\": \"Q0013\", \"value\": -0.5}, {\"id\": \"Q0014\", \"value\": 0.15}, {\"id\": \"Q0015\", \"value\": 0.8}, {\"id\": \"Q0016\", \"value\": -1.2}, {\"id\": \"Q0017\", \"value\": 0.45}, {\"id\": \"Q0018\", \"value\": -0.3}, {\"id\": \"Q0019\", \"value\": 1.4}, {\"id\": \"Q0020\", \"value\": 2.7}, {\"id\": \"Q0021\", \"value\": 0.1}, {\"id\": \"Q0022\", \"value\": 0.6}, {\"id\": \"Q0023\", \"value\": 0.35}, {\"id\": \"Q0024\", \"value\": -0.35}, {\"id\": \"Q0025\", \"value\": 1.1}, {\"id\": \"Q0026\", \"value\": -0.3}, {\"id\": \"Q0027\", \"value\": 2.35}, {\"id\": \"Q0028\", \"value\": 0.5}, {\"id\": \"Q0029\", \"value\": -0.15}, {\"id\": \"Q0030\", \"value\": 2.15}, {\"id\": \"Q0031\", \"value\": -0.1}, {\"id\": \"Q0032\", \"value\": 2.1}, {\"id\": \"Q0033\", \"value\": 2.2}, {\"id\": \"Q0034\", \"value\": -0.55}, {\"id\": \"Q0035\", \"value\": 2.25}, {\"id\": \"Q0036\", \"value\": -0.75}, {\"id\": \"Q0037\", \"value\": 0.55}, {\"id\": \"Q0038\", \"value\": 1.05}, {\"id\": \"Q0039\", \"value\": 1.95}]}",
+        "refusal": null,
+        "reasoning": "**Analyzing Molecular Representations**\n\nMy focus is on exploring effective molecular representations to predict LUMO energies. I'm evaluating various featurization strategies for the 60 training molecules, aiming to identify those that best capture the electronic properties relevant to LUMO prediction, before generating the JSON output for the 40 query molecules.\n\n**Correlating Features and LUMO**\n\nI'm now analyzing the LUMO energy values and identifying patterns. It appears molecules with electron-deficient groups like nitriles and carbonyls tend to have lower LUMO energies, while those with isolated single bonds and fewer heteroatoms exhibit higher LUMO values.\n\n**Predicting LUMO Values**\n\nI'm now predicting the LUMO energies for the query molecules based on the established correlations. For Q0000, the presence of formyl and ester groups suggests a lower LUMO, around -0.55 eV. Q0001, a pyrazole diol, shows a higher LUMO, influenced by its conjugated heteroaromatic structure.\n\n**Refining LUMO Predictions**\n\nI'm refining my LUMO energy predictions for the query molecules. Q0002, an epoxide linked to a tetrazole, is estimated at -0.30 eV. Q0003, a bicyclic system with an alkyne and carbonyl, is predicted at -0.15 eV. For Q0004, an alkyne-epoxide bicyclic ether, I'm forecasting 1.15 eV.\n\n**Forecasting LUMO Values**\n\nI'm continuing to forecast LUMO values. Q0005 is predicted at -0.20 eV, and Q0006, with its highly conjugated dione system, is estimated at a very low -1.35 eV. Q0007, an alkyne-cyclopropane, is forecast high at 1.25 eV, while Q0008, a dihydrofuran derivative, is predicted at 0.95 eV.\n\n**Estimating LUMO Values**\n\nI'm continuing my estimations for the query molecules. For Q0009, a saturated bicyclic alcohol, I'm predicting a LUMO of 2.30 eV. Q0010, a cyclopentene derivative with an alcohol, is estimated at 0.85 eV. Q0011, featuring an alkyne, hydroxyl, and ketone within a tetrahydrofuranone ring, is predicted to have a LUMO of -0.45 eV. Q0012, a carbamate ring, is forecast at 1.10 eV.\n\n**Estimating LUMO Values**\n\nI'm continuing my estimations for the query molecules. For Q0009, a saturated bicyclic alcohol, I'm predicting a LUMO of 2.30 eV. Q0010, a cyclopentene derivative with an alcohol, is estimated at 0.85 eV. Q0011, featuring an alkyne, hydroxyl, and ketone within a tetrahydrofuranone ring, is predicted to have a LUMO of -0.45 eV. Q0012, a carbamate ring, is forecast at 1.10 eV.\n\n**Predicting LUMO Further**\n\nI'm now predicting further LUMO values. Q0013, a conjugated amide/imine system, is estimated low at -0.50 eV. Q0014, an imidazo-fused ring, is predicted at 0.15 eV. Q0015, a cyclopentenediol, is estimated at 0.80 eV, and Q0016, with a furazan ring, is forecast very low at -1.20 eV. Q0017, an imidazole derivative, is predicted at 0.45 eV, and Q0018, a pyrazole, is estimated at -0.30 eV.\n\n**Forecasting LUMO Values**\n\nI'm continuing to forecast LUMO values. For Q0019, featuring an imine and cyclopropanes, I'm predicting 1.40 eV. Q0020, a saturated hydrocarbon, is estimated high at 2.70 eV. Q0021, a furan with an alkyne, is predicted at 0.10 eV. Q0022 is a cationic system, and I'm still evaluating its LUMO.\n\n**Finalizing LUMO Predictions**\n\nI've now finalized LUMO energy predictions for all query molecules. Q0022 is estimated at 0.60 eV, Q0023 at 0.35 eV, Q0024 at -0.35 eV, Q0025 at 1.10 eV, and Q0026 at -0.30 eV. I am still evaluating Q0027.\n\n**Processing Remaining Molecules**\n\nI am continuing to process the remaining query molecules to finalize LUMO energy predictions. For Q0027, I'm forecasting 2.35 eV. Q0028, a spiro-cyclopropane oxazolidinone, is estimated at 0.50 eV. Q0029, a ketone with a nitrile, is predicted at -0.15 eV, and Q0030, a saturated ether, at 2.15 eV. Q0031, a triazole derivative, is forecast at -0.10 eV.\n\n**Forecasting LUMO Values**\n\nI'm continuing to forecast LUMO values for the remaining molecules. Q0032, a protonated aziridine, is predicted at 2.10 eV. Q0033, an isopropoxy cyclopropanecarboxaldehyde, is estimated at -0.55 eV. Q0034, a protonated tricyclic amine/ether, is predicted at 2.25 eV. For Q0035, an alkynyl imidazopyridine, I'm forecasting -0.75 eV, and Q0036, a nitrile/ether/alcohol on cyclopropane, is estimated at 0.55 eV.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Molecular Representations**\n\nMy focus is on exploring effective molecular representations to predict LUMO energies. I'm evaluating various featurization strategies for the 60 training molecules, aiming to identify those that best capture the electronic properties relevant to LUMO prediction, before generating the JSON output for the 40 query molecules.\n\n**Correlating Features and LUMO**\n\nI'm now analyzing the LUMO energy values and identifying patterns. It appears molecules with electron-deficient groups like nitriles and carbonyls tend to have lower LUMO energies, while those with isolated single bonds and fewer heteroatoms exhibit higher LUMO values.\n\n**Predicting LUMO Values**\n\nI'm now predicting the LUMO energies for the query molecules based on the established correlations. For Q0000, the presence of formyl and ester groups suggests a lower LUMO, around -0.55 eV. Q0001, a pyrazole diol, shows a higher LUMO, influenced by its conjugated heteroaromatic structure.\n\n**Refining LUMO Predictions**\n\nI'm refining my LUMO energy predictions for the query molecules. Q0002, an epoxide linked to a tetrazole, is estimated at -0.30 eV. Q0003, a bicyclic system with an alkyne and carbonyl, is predicted at -0.15 eV. For Q0004, an alkyne-epoxide bicyclic ether, I'm forecasting 1.15 eV.\n\n**Forecasting LUMO Values**\n\nI'm continuing to forecast LUMO values. Q0005 is predicted at -0.20 eV, and Q0006, with its highly conjugated dione system, is estimated at a very low -1.35 eV. Q0007, an alkyne-cyclopropane, is forecast high at 1.25 eV, while Q0008, a dihydrofuran derivative, is predicted at 0.95 eV.\n\n**Estimating LUMO Values**\n\nI'm continuing my estimations for the query molecules. For Q0009, a saturated bicyclic alcohol, I'm predicting a LUMO of 2.30 eV. Q0010, a cyclopentene derivative with an alcohol, is estimated at 0.85 eV. Q0011, featuring an alkyne, hydroxyl, and ketone within a tetrahydrofuranone ring, is predicted to have a LUMO of -0.45 eV. Q0012, a carbamate ring, is forecast at 1.10 eV.\n\n**Estimating LUMO Values**\n\nI'm continuing my estimations for the query molecules. For Q0009, a saturated bicyclic alcohol, I'm predicting a LUMO of 2.30 eV. Q0010, a cyclopentene derivative with an alcohol, is estimated at 0.85 eV. Q0011, featuring an alkyne, hydroxyl, and ketone within a tetrahydrofuranone ring, is predicted to have a LUMO of -0.45 eV. Q0012, a carbamate ring, is forecast at 1.10 eV.\n\n**Predicting LUMO Further**\n\nI'm now predicting further LUMO values. Q0013, a conjugated amide/imine system, is estimated low at -0.50 eV. Q0014, an imidazo-fused ring, is predicted at 0.15 eV. Q0015, a cyclopentenediol, is estimated at 0.80 eV, and Q0016, with a furazan ring, is forecast very low at -1.20 eV. Q0017, an imidazole derivative, is predicted at 0.45 eV, and Q0018, a pyrazole, is estimated at -0.30 eV.\n\n**Forecasting LUMO Values**\n\nI'm continuing to forecast LUMO values. For Q0019, featuring an imine and cyclopropanes, I'm predicting 1.40 eV. Q0020, a saturated hydrocarbon, is estimated high at 2.70 eV. Q0021, a furan with an alkyne, is predicted at 0.10 eV. Q0022 is a cationic system, and I'm still evaluating its LUMO.\n\n**Finalizing LUMO Predictions**\n\nI've now finalized LUMO energy predictions for all query molecules. Q0022 is estimated at 0.60 eV, Q0023 at 0.35 eV, Q0024 at -0.35 eV, Q0025 at 1.10 eV, and Q0026 at -0.30 eV. I am still evaluating Q0027.\n\n**Processing Remaining Molecules**\n\nI am continuing to process the remaining query molecules to finalize LUMO energy predictions. For Q0027, I'm forecasting 2.35 eV. Q0028, a spiro-cyclopropane oxazolidinone, is estimated at 0.50 eV. Q0029, a ketone with a nitrile, is predicted at -0.15 eV, and Q0030, a saturated ether, at 2.15 eV. Q0031, a triazole derivative, is forecast at -0.10 eV.\n\n**Forecasting LUMO Values**\n\nI'm continuing to forecast LUMO values for the remaining molecules. Q0032, a protonated aziridine, is predicted at 2.10 eV. Q0033, an isopropoxy cyclopropanecarboxaldehyde, is estimated at -0.55 eV. Q0034, a protonated tricyclic amine/ether, is predicted at 2.25 eV. For Q0035, an alkynyl imidazopyridine, I'm forecasting -0.75 eV, and Q0036, a nitrile/ether/alcohol on cyclopropane, is estimated at 0.55 eV.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2831,
+    "completion_tokens": 7228,
+    "total_tokens": 10059,
+    "cost": 0.0692985,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0692985,
+      "upstream_inference_prompt_cost": 0.0042465,
+      "upstream_inference_completions_cost": 0.065052
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6483,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}
