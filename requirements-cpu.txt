@@ -1,10 +1,12 @@
 # CPU environment for the tables, figures, RDKit/Morgan features and the classical heads.
-# pip install -r requirements-cpu.txt --extra-index-url https://download.pytorch.org/whl/cpu
+# Install as described in README.md ("CPU only"). CLAMP and pytorch-fast-transformers are installed
+# separately (README), because they build from Git.
 torch==2.6.0+cpu
+torchvision==0.21.0+cpu  # needed by CLAMP
 numpy==1.26.4
 scipy==1.15.3
 scikit-learn==1.7.2
-xgboost==2.1.4
+xgboost-cpu==2.1.4  # the CPU-only build of xgboost 2.1.4 (import name `xgboost`)
 gpytorch==1.15.2
 rdkit==2024.3.2
 torch-geometric==2.7.0
@@ -22,4 +24,5 @@ selfies
 umap-learn
 plotly==6.9.0
 kaleido==1.3.0  # needs Chrome: run `plotly_get_chrome` once if none is installed
-pytest
+pytest==8.4.2
+setuptools==84.2.1  # builds pytorch-fast-transformers (README); uv venvs have none

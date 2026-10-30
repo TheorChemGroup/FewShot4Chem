@@ -22,42 +22,78 @@ general-purpose LLMs on BACE, Lipophilicity, ESOL, FreeSolv and QM9 (ε_LUMO, U�
 
 ## Installation
 
-GPU (the environment used for the paper; CUDA 11.8):
+GPU (the environment used for the paper; CUDA 11.8, Linux):
 
 ```sh
-pixi install            # environment "default"; see pyproject.toml
+pixi install                                  # environment "default"; see pyproject.toml
+pixi run install-fast-transformers            # only for the original MoLFormer (config `molformer`)
 pixi shell
 ```
 
-CPU only (enough for the tables, figures, featurising RDKit/Morgan, and the classical heads):
+CPU only (enough for everything under "Reproducing the tables and figures", featurising with
+RDKit/Morgan, and the classical heads). With [uv](https://docs.astral.sh/uv/), which also provides
+Python 3.10 if it is not installed:
+
+```sh
+uv venv --python 3.10 .venv && . .venv/bin/activate
+uv pip install -r requirements-cpu.txt \
+    --extra-index-url https://download.pytorch.org/whl/cpu --index-strategy unsafe-best-match
+```
+
+or with pip and an existing Python 3.10:
 
 ```sh
 python3.10 -m venv .venv && . .venv/bin/activate
 pip install -r requirements-cpu.txt --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
+Use uv or pip for the CPU environment: without a lock file pixi resolves every environment in
+`pyproject.toml`, including the CUDA one, so it downloads the CUDA toolkit even for `-e cpu`.
+Rendering figures needs Chrome or Chromium for kaleido; run `plotly_get_chrome` once if neither
+is installed.
+
+Two models need packages that build from Git, installed after the environment:
+
+```sh
+# CLAMP (GPL-3.0); -c keeps the versions above
+pip install "clamp @ git+https://github.com/OstarkovSN/clamp.git" -c requirements-cpu.txt \
+    --extra-index-url https://download.pytorch.org/whl/cpu
+# the original MoLFormer: compiles against the installed torch (needs a C++ compiler)
+pip install --no-build-isolation \
+    "pytorch-fast-transformers @ git+https://github.com/idiap/fast-transformers@2ad36b97e64cb93862937bd21fcc9568d989561f"
+```
+
+(with uv, prefix both with `uv`). In the pixi environments CLAMP is already included.
+
 Model weights download on first use from their public sources (Hugging Face, Zenodo). Two models
 need files placed by hand:
 
 * GIN: `supervised_contextpred.pth` from <https://github.com/snap-stanford/pretrain-gnns> into
   `models/weights/gin/` (SHA-256 `107197f159e9a26ed9a026b655560ac341d2d7ddec4a8d2540e83c9f87e256ac`).
-* The original MoLFormer (config `molformer`; MoLFormer-XL and -c3 load from Hugging Face): IBM's
-  released checkpoint and tokenizer files in `models/weights/molformer/`.
-  `nn/molformer/wrapper.py` downloads the checkpoint and encoder file from the release links;
-  `vocab.json` must be added by hand. Files used for the paper (SHA-256):
-  `N-Step-Checkpoint_3_30000.ckpt` `60f0acac8e3cf7c6b521ab52e1e09756b81b48c977b97426be0f695961a38be5`,
-  `vocab.json` `61e31e6eb0448d2e…` (46,364 bytes),
-  `encoder/pubchem_canon_zinc_final_vocab_sorted.pth` `8fe7334da673dc3b…` (42,927 bytes). CheMeleon needs the
-separate `chemeleon` pixi environment (chemprop requires Python ≥ 3.11). TabPFN 9.2.0 (v3.5
-weights) and TabICL 2.2.0 (v2 weights) were used with local checkpoints; pass them to
-`scripts/fit_head.py` with `--tabpfn-weights` / `--tabicl-weights`.
+* The original MoLFormer (config `molformer`; MoLFormer-XL and -c3 load from Hugging Face):
+  `nn/molformer/wrapper.py` downloads IBM's released checkpoint and encoder file; the tokenizer
+  vocabulary comes from IBM's Hugging Face tokenizer:
+
+  ```sh
+  python scripts/get_molformer_vocab.py     # writes models/weights/molformer/vocab.json
+  ```
+
+  Files used for the paper (SHA-256): `N-Step-Checkpoint_3_30000.ckpt`
+  `60f0acac8e3cf7c6b521ab52e1e09756b81b48c977b97426be0f695961a38be5`, `vocab.json`
+  `61e31e6eb0448d2e7bb442d562f20df9be818a20294d0a70dd395783e095abcd` (the script checks the
+  content, which is independent of key order), `encoder/pubchem_canon_zinc_final_vocab_sorted.pth`
+  `8fe7334da673dc3b4cb1df34b6ca29638eae00a3cfbd71d638a86a379523fd38`.
+
+CheMeleon needs the separate `chemeleon` pixi environment (chemprop requires Python ≥ 3.11).
+TabPFN 9.2.0 (v3.5 weights) and TabICL 2.2.0 (v2 weights) were used with local checkpoints; pass
+them to `scripts/fit_head.py` with `--tabpfn-weights` / `--tabicl-weights`.
 
 Datasets (MoleculeNet BACE, Lipophilicity, ESOL, FreeSolv; QM9) download automatically into
 `datasets/` the first time a script loads them.
 
 ## Reproducing the tables and figures
 
-From the shipped per-repeat results (seconds, CPU, standard library + plotly):
+From the shipped per-repeat results (seconds, in the CPU environment):
 
 ```sh
 python scripts/build_tables.py           # tables/*.xlsx from results/*.csv

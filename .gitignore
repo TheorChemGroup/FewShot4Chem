@@ -16,3 +16,6 @@ finetune/
 data/cohorts/qm9_random12500.json
 figures/*.png
 figures/*.pdf
+# CLAMP downloads its weights to ./data/models/; example outputs
+/data/models/
+/results/*.jsonl
