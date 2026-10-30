@@ -127,12 +127,20 @@ python scripts/qm9_curve.py cohort
 python scripts/qm9_curve.py featurize --model-config models/configs/descriptors/rdkit.yaml
 python scripts/qm9_curve.py head --support 10000 --model rdkit-descriptors --head xgboost
 python scripts/qm9_curve.py finetune --support 10000 --model-config models/configs/selformer/selformer.yaml --lora-rank 8 --repeat 0
-# ... and at support 1,000 (uniform 1,250 sample)
-python runners/run_one_eval.py --protocol uniform --dataset QM9 --seed 0 \
+# ... and at support 1,000 (uniform 1,250 sample); about 20 min on CPU, see below
+python runners/run_one_eval.py --protocol uniform --dataset QM9 --seed 0 -vv \
     --model-config models/configs/descriptors/rdkit.yaml --head-config models/configs/heads/gp-rbf.yaml
 python runners/finetune_one.py --split grid --regime full-data --lr-schedule none \
     --target QM9.eps_lumo --seed 0 --model-config models/configs/selformer/selformer.yaml
 ```
+
+The `run_one_eval.py` example took 20 minutes on an 8-core CPU (2.4 GB peak memory): about
+6 minutes to download and process QM9 and compute the descriptors, 4 minutes to fit the GP on all
+16 QM9 targets, and 10 minutes to draw the per-target plots under `results_uniform/`. Without `-v`
+it prints only the QM9 processing bar; `-vv` adds a log line at each stage (and the plotting
+library's own messages). Its ε_LUMO test R² should be close to the paper's repeat 0 (0.697,
+`results/figure2_candidate_repeats.csv`); our CPU run gave 0.698 (the GP fit is not bit-identical
+across hardware).
 
 `scripts/featurize.py --model-config` takes any config in `models/configs/` (chemical FMs need a
 GPU for reasonable speed; Gemini embeddings need a paid API).
